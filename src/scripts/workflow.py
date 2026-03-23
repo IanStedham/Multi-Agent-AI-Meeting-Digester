@@ -1,7 +1,7 @@
 import anthropic
 from pathlib import Path
 import subprocess
-import workflow
+from memory_management import store_memory, retrieve_memory
 
 def main():
     # 1. Initialize the Ruflo swarm at the start of the workflow
@@ -17,7 +17,7 @@ def main():
     pass
 
 def load_agent(agent_filename: str) -> str:
-    agent_path = Path(f"src/agents/{agent_filename}")
+    agent_path = Path(f"src/agents_layer/{agent_filename}")
     if not agent_path.exists():
         raise FileNotFoundError(
             f"File not found: {agent_path}"
@@ -28,7 +28,7 @@ def initialise_swarm():
     try:
         result = subprocess.run(
             [
-                "npx", "@claude-flow/cli@latest",
+                "ruflo",
                 "swarm", "init",
                 "--topology", "hierarchical",
                 "--max-agents", "5",
@@ -51,8 +51,8 @@ def run_planner_agent(client: anthropic.Anthropic):
     # load files
     instructions = load_agent("planner_agent.md")
 
-    transcript   = workflow.retrieve_memory("meeting:transcript")
-    roster       = workflow.retrieve_memory("employees:roster")
+    transcript   = retrieve_memory("meeting:transcript")
+    roster       = retrieve_memory("employees:roster")
 
     # create user message
     user_message = f"""
@@ -78,8 +78,8 @@ def run_planner_agent(client: anthropic.Anthropic):
 
     # set memory in mcp
     plan = response.content[0].text
-    workflow.store_memory("workflow:plan", plan)
-    workflow.store_memory("workflow:status", "dissect transcript")
+    store_memory("workflow:plan", plan)
+    store_memory("workflow:status", "dissect transcript")
 
 
 def run_transcript_agent(client: anthropic.Anthropic):

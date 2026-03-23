@@ -4,8 +4,7 @@ import shutil
 
 CLAUDE_FLOW = shutil.which("ruflo")
 
-# this is gonna be a wrapper function for interacting with mcp server, i saw a lot of projects have something like this
-def _run_memory_command(args: list[str]) -> tuple[bool, str]:
+def _run_memory_command(args: list[str], timeout: int = 60, input_text: str = None) -> tuple[bool, str]:
     if CLAUDE_FLOW is None:
         return False, (
             "ruflo binary not found. "
@@ -17,20 +16,35 @@ def _run_memory_command(args: list[str]) -> tuple[bool, str]:
     try:
         result = subprocess.run(
             command,
+            input=input_text,
             capture_output=True,
             text=True,
-            timeout=15
+            timeout=timeout
         )
 
-        if result.returncode != 0:
-            error_msg = result.stderr.strip() or result.stdout.strip()
-            return False, f"Ruflo memory command failed: {error_msg}"
+        stdout = result.stdout.strip()
+        stderr = result.stderr.strip()
 
-        return True, result.stdout.strip()
+        if result.returncode != 0:
+            if "[OK]" in stdout or "stored successfully" in stdout.lower():
+                return True, stdout
+
+            error_msg = stderr or stdout
+            real_errors = [
+                line for line in error_msg.splitlines()
+                if "EACCES" not in line
+                and "@xenova" not in line
+                and "async" not in line
+                and line.strip()
+            ]
+            clean_error = "\n".join(real_errors[:3])
+            return False, f"Ruflo memory command failed: {clean_error}"
+
+        return True, stdout
 
     except subprocess.TimeoutExpired:
         return False, (
-            f"Ruflo memory command timed out after 15 seconds.\n"
+            f"Ruflo memory command timed out after {timeout} seconds.\n"
             f"Command was: {' '.join(command)}"
         )
 
@@ -43,7 +57,10 @@ def _run_memory_command(args: list[str]) -> tuple[bool, str]:
     except Exception as e:
         return False, f"Unexpected error running Ruflo CLI: {e}"
 
+
 def store_memory(key: str, value: str, namespace: str) -> bool:
+    import time
+
     if not key or not key.strip():
         print("[MEMORY ERROR] store_memory called with an empty key.")
         return False
@@ -52,18 +69,36 @@ def store_memory(key: str, value: str, namespace: str) -> bool:
         print(f"[MEMORY ERROR] store_memory called with None value for key: {key}")
         return False
 
-    success, output = _run_memory_command([
-        "store",
-        "--key",       key,
-        "--value",     value,
-        "--namespace", namespace
-    ])
+    _run_memory_command(
+        ["delete", "--key", key, "--namespace", namespace],
+        input_text="Yes\n"
+    )
 
-    if not success:
+    time.sleep(1.0)
+
+    retries = 3
+    for attempt in range(retries):
+        success, output = _run_memory_command([
+            "store",
+            "--key",       key,
+            "--value",     value,
+            "--namespace", namespace
+        ])
+
+        if success:
+            return True
+
+        if "UNIQUE constraint" in output:
+            if attempt < retries - 1:
+                time.sleep(1.0 * (attempt + 1))
+                continue
+
         print(f"[MEMORY ERROR] Failed to store key '{key}': {output}")
         return False
 
-    return True
+    print(f"[MEMORY ERROR] Failed to store key '{key}' after {retries} attempts")
+    return False
+
 
 def retrieve_memory(key: str, namespace: str) -> Optional[str]:
     if not key or not key.strip():
@@ -77,29 +112,47 @@ def retrieve_memory(key: str, namespace: str) -> Optional[str]:
     ])
 
     if not success:
-        # Not necessarily an error — key might just not exist yet
         return None
 
-    if not output:
-        return None
+    lines = output.splitlines()
+    value_lines = []
+    capturing = False
 
-    return output
+    for line in lines:
+        if "| Value:" in line:
+            capturing = True
+            continue
+        if capturing:
+            if line.startswith("+"):
+                break
+            cleaned = line.strip().strip("|").strip()
+            if cleaned:
+                value_lines.append(cleaned)
+
+    if value_lines:
+        return "\n".join(value_lines)
+
+    return None
+
 
 def validate_memory_key(key: str, namespace: str) -> bool:
     value = retrieve_memory(key, namespace)
     return value is not None and value.strip() != ""
+
 
 def delete_memory(key: str, namespace: str) -> bool:
     if not key or not key.strip():
         print("[MEMORY ERROR] delete_memory called with an empty key.")
         return False
 
-    success, output = _run_memory_command([
-        "delete",
-        "--key",       key,
-        "--namespace", namespace
-    ])
-    
+    success, output = _run_memory_command(
+        [
+            "delete",
+            "--key",       key,
+            "--namespace", namespace
+        ],
+        input_text="Yes\n"
+    )
 
     if not success:
         print(f"[MEMORY WARNING] Could not delete key '{key}': {output}")
@@ -107,19 +160,39 @@ def delete_memory(key: str, namespace: str) -> bool:
 
     return True
 
-# maybe a function like this isnt needed, just saw a lot of projects with it
-def list_memory_keys(namespace: str) -> list[str]:
-   success, output = _run_memory_command(["list", "--namespace", namespace])
-   
-   if not success or not output:
+
+def list_memory_keys(namespace: str = "workflow") -> list[str]:
+    success, output = _run_memory_command([
+        "list",
+        "--namespace", namespace
+    ])
+
+    if not success or not output:
         return []
-   
-   keys = [line.strip() for line in output.splitlines() if line.strip()]
-   return keys
+
+    keys = []
+    lines = output.splitlines()
+    
+    for line in lines:
+        if not line.startswith("|"):
+            continue
+        
+        columns = line.split("|")
+        
+        if len(columns) < 3:
+            continue
+        
+        key = columns[1].strip()
+
+        if key == "Key" or not key:
+            continue
+        
+        keys.append(key)
+    
+    return keys
 
 
 def clear_workflow_memory():
-    # might need to edit
     keys_to_clear = [
         "meeting:transcript",
         "employees:roster",
@@ -133,9 +206,9 @@ def clear_workflow_memory():
     print("Clearing previous workflow memory...")
     cleared = 0
     for key in keys_to_clear:
-        if validate_memory_key(key):
-            success = delete_memory(key)
+        if validate_memory_key(key, "workflow"):
+            success = delete_memory(key, "workflow")
             if success:
                 cleared += 1
 
-    print(f"      Cleared {cleared} key(s) from shared memory.")
+    print(f"Successfully cleared {cleared}/7 key from shared memory.")
