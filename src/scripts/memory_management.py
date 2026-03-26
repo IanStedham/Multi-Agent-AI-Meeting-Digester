@@ -6,10 +6,7 @@ CLAUDE_FLOW = shutil.which("ruflo")
 
 def _run_memory_command(args: list[str], timeout: int = 60, input_text: str = None) -> tuple[bool, str]:
     if CLAUDE_FLOW is None:
-        return False, (
-            "ruflo binary not found. "
-            "Make sure it is installed with: npm install -g ruflo"
-        )
+        return False, "Ruflo is not installed"
 
     command = [CLAUDE_FLOW, "memory"] + args
 
@@ -42,6 +39,7 @@ def _run_memory_command(args: list[str], timeout: int = 60, input_text: str = No
 
         return True, stdout
 
+    # below is claude generated code to help with error catching i was struggling with
     except subprocess.TimeoutExpired:
         return False, (
             f"Ruflo memory command timed out after {timeout} seconds.\n"
