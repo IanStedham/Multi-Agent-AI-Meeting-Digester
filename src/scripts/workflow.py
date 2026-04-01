@@ -53,7 +53,7 @@ def run_planner_agent(client: anthropic.Anthropic):
     instructions = load_agent("planner_agent.md")
 
     transcript = retrieve_memory("meeting:transcript")
-    roster = retrieve_memory("employees:roster")
+    roster = retrieve_memory("meeting:employees")
 
     # create user message, might need to alter these signals for consistency
     # also i am yet to test if the agent is able to write to the mcp server itself, might be reductive to have in prompt
@@ -62,7 +62,7 @@ def run_planner_agent(client: anthropic.Anthropic):
         TRANSCRIPT (memory key: meeting:transcript):
         {transcript}
 
-        EMPLOYEE ROSTER (memory key: employees:roster):
+        EMPLOYEE ROSTER (memory key: meeting:employees):
         {roster}
 
         Please review both and confirm they are valid.
@@ -128,11 +128,11 @@ def run_task_agent(client: anthropic.Anthropic):
     and employee info from shared memory, then assigns tasks with deadlines.
     """
     # 1. Load agent instructions from Task_agent.md
-    agent_instructions = load_agent("Task_agent.md")
+    agent_instructions = load_agent("task_agent.md")
  
     # 2. Pull required inputs from shared memory
-    transcript_tasks = retrieve_memory("transcript_tasks")
-    employee_information = retrieve_memory("employee_information")
+    transcript_tasks = retrieve_memory("transcript:tasks")
+    employee_information = retrieve_memory("meeting:employees")
  
     # 3. Validate inputs before proceeding
     if not transcript_tasks or not employee_information:
@@ -155,17 +155,19 @@ def run_task_agent(client: anthropic.Anthropic):
     # 5. Call the Claude API
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=1000,
+        max_tokens=1024,
         messages=[{"role": "user", "content": prompt}]
     )
  
     # 6. Extract and store the result
     task_assignments = response.content[0].text
-    store_memory("task_assignments", task_assignments)
-    store_memory("workflow_status", "task_agent_complete")
+    store_memory("task:assignments", task_assignments)
+    store_memory("workflow:status", "email")
  
     print("Task Agent complete — assignments written to memory.")
-    return task_assignments
+
+    # i dont think this return is needed since we are only accessing info through the mcp server
+    # return task_assignments
 
 
 # this is going to need to be updated to check if the planner agent determined a follow up email needs to be sent
@@ -175,11 +177,11 @@ def run_email_agent(client: anthropic.Anthropic):
     and transcript summary from shared memory, then drafts emails.
     """
     # 1. Load agent instructions from Email_agent.md
-    agent_instructions = load_agent("Email_agent.md")
+    agent_instructions = load_agent("email_agent.md")
  
     # 2. Pull required inputs from shared memory
-    task_assignments = retrieve_memory("task_assignments")
-    transcript_summary = retrieve_memory("transcript_summary")
+    task_assignments = retrieve_memory("task:assignments")
+    transcript_summary = retrieve_memory("transcript:summary")
  
     # 3. Validate inputs before proceeding
     if not task_assignments or not transcript_summary:
@@ -202,17 +204,19 @@ def run_email_agent(client: anthropic.Anthropic):
     # 5. Call the Claude API
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=1000,
+        max_tokens=1024,
         messages=[{"role": "user", "content": prompt}]
     )
  
     # 6. Extract and store the result
+    # how will this be structured? is it multiple emails in the one json or several elements for all the drafts?
     draft_emails = response.content[0].text
-    store_memory("draft_emails", draft_emails)
-    store_memory("workflow_status", "email_agent_complete")
+    store_memory("email:drafts", draft_emails)
+    store_memory("workflow:status", "tool")
  
     print("Email Agent complete — draft emails written to memory.")
-    return draft_emails
+    # i dont think this return is needed since we are only accessing info through the mcp server
+    #return draft_emails
 
 
 # NOT YET TESTED, NEED ALL AGENTS READY BEFORE TEST
@@ -229,14 +233,17 @@ def start_workflow(
 
     # validate the transcript and the employee roster are ready
     validate_memory_key("meeting:transcript", "Initialize")
-    validate_memory_key("employees:roster",   "Initialize")
+    validate_memory_key("meeting:employees",   "Initialize")
     
     run_planner_agent(client)
     validate_memory_key("workflow:plan",   "Planner Agent")
     validate_memory_key("workflow:status", "Planner Agent")
     
     run_transcript_agent(client)
-    tasks_json = validate_memory_key("meeting:raw_tasks", "Transcript Agent")
+    validate_memory_key("transcript:summary", "Transcript Agent")
+
+    # loading this into a json object for testing, wont need this in the end
+    tasks_json = validate_memory_key("transcript:tasks", "Transcript Agent")
     tasks = json.loads(tasks_json)
 
     print("TASKS")
@@ -245,7 +252,8 @@ def start_workflow(
 
 
     run_task_agent(client)
-    assigned_json  = validate_memory_key("meeting:assigned_tasks", "Task Agent")
+    # also just loading this for testing
+    assigned_json  = validate_memory_key("task:assignments", "Task Agent")
     assigned_tasks = json.loads(assigned_json)
     
     print("ASSIGNED TASKS")
@@ -254,7 +262,8 @@ def start_workflow(
 
 
     run_email_agent(client)
-    emails_json = validate_memory_key("emails:drafted", "Email Agent")
+    # this is just for testing, this will need to be corrected when i know how emails are structured
+    emails_json = validate_memory_key("email:drafts", "Email Agent")
     emails      = json.loads(emails_json)
     email_count = len(emails.get("individual_emails", []))
 
