@@ -1,0 +1,56 @@
+Meeting Title: Project Sync
+Date: 2026-03-30
+Duration: 00:18:42
+
+Transcript:
+
+Sarah Mitchell	0:00:02
+Alright everyone, let's get started. We have a lot to cover today. First, James, can you give us an update on the backend API?
+
+James Carter	0:00:15
+Yeah so the authentication endpoints are done but I still need to finish the data validation layer. I'd say I need about two more days on that.
+
+Sarah Mitchell	0:00:28
+Okay, so James you need to complete the data validation layer by end of Wednesday. Make sure you write unit tests for it too.
+
+James Carter	0:00:38
+Got it, I'll have the validation layer and unit tests done by Wednesday.
+
+Sarah Mitchell	0:00:45
+Great. Lisa, where are we on the new dashboard designs?
+
+Lisa Nguyen	0:00:52
+I finished the wireframes last week. I need to update the color scheme based on the client feedback we got on Friday and then send the final mockups over to James so he can start implementing.
+
+Sarah Mitchell	0:01:08
+So Lisa, you need to update the dashboard color scheme and deliver final mockups to James by Tuesday. Can you do that?
+
+Lisa Nguyen	0:01:15
+Yes, Tuesday works for me.
+
+Sarah Mitchell	0:01:18
+Perfect. Tom, we need to make sure QA is ready once James finishes the API. Can you prepare the test cases?
+
+Tom Harris	0:01:26
+Sure. I'll put together a full test plan for the authentication and validation endpoints. I can have that ready by Thursday.
+
+Sarah Mitchell	0:01:35
+Great, so Tom your deliverable is the complete test plan for the API endpoints by Thursday. Also Tom, can you look into that bug that was reported last week with the login timeout?
+
+Tom Harris	0:01:48
+Oh right, yeah I'll investigate that today and have a fix or at least a root cause by tomorrow.
+
+Sarah Mitchell	0:01:55
+Perfect. One last thing — I need everyone to update their progress in the project tracker by end of day Friday. That's on all of you.
+
+James Carter	0:02:04
+Got it.
+
+Lisa Nguyen	0:02:06
+Sure.
+
+Tom Harris	0:02:07
+Will do.
+
+Sarah Mitchell	0:02:10
+Great, that's everything. Talk soon everyone.
