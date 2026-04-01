@@ -3,6 +3,12 @@ from typing import Optional
 import shutil
 
 CLAUDE_FLOW = shutil.which("ruflo")
+NAMESPACE = "meeting-digester"
+
+"""
+Things to consider:
+1. Might need to alter storing method in order to handle jsons and txt files
+"""
 
 def _run_memory_command(args: list[str], timeout: int = 60, input_text: str = None) -> tuple[bool, str]:
     if CLAUDE_FLOW is None:
@@ -193,20 +199,21 @@ def list_memory_keys(namespace: str = "workflow") -> list[str]:
 def clear_workflow_memory():
     keys_to_clear = [
         "meeting:transcript",
-        "employees:roster",
+        "meeting:employees",
         "workflow:plan",
         "workflow:status",
-        "meeting:raw_tasks",
-        "meeting:assigned_tasks",
-        "emails:drafted",
+        "transcript:summary",
+        "transcript:tasks",
+        "task:assignments",
+        "email:drafts",
     ]
 
     print("Clearing previous workflow memory...")
     cleared = 0
     for key in keys_to_clear:
-        if validate_memory_key(key, "workflow"):
-            success = delete_memory(key, "workflow")
+        if validate_memory_key(key, NAMESPACE):
+            success = delete_memory(key, NAMESPACE)
             if success:
                 cleared += 1
 
-    print(f"Successfully cleared {cleared}/7 key from shared memory.")
+    print(f"Successfully cleared {cleared}/8 key from shared memory.")

@@ -1,34 +1,22 @@
 import anthropic
-import json
-import re
-import subprocess
 from pathlib import Path
-
-from memory_management import retrieve_memory, store_memory
-
-MEMORY_NS = "workflow"
-
-
-def _require_memory(key: str, stage: str) -> str:
-    val = retrieve_memory(key, MEMORY_NS)
-    if not val or not val.strip():
-        raise ValueError(f"{stage}: Missing or empty memory key '{key}'")
-    return val
+import subprocess
+from memory_management import store_memory, retrieve_memory, validate_memory_key
+import json
 
 
-def main():
-    # 1. Initialize the Ruflo swarm at the start of the workflow
-    # 2. Call the Tools Agent to load inputs into shared memory
-    # 3. Call the Planner Agent to set up the workflow plan
-    # 4. Call the Dissector Agent to extract tasks from the transcript
-    # 5. Call the Assigner Agent to match tasks to employees
-    # 6. Call the Emailer Agent to draft follow-up emails
-    # 7. Call the Tools Agent again to write final outputs to disk
-    # 8. Validate memory between each step so nothing proceeds on bad data
-    # 9. Update workflow status in shared memory at each stage
-    # 10. Handle agent-level errors and report them clearly
-    pass
+"""
+Some current problems with this script we should talk through and fix:
+1. Parsing the result into summary and transcript in Transcript Agent correctly, can do during testing
+2. Email and Task agent currently insert their instructions into the user prompt, I do not think this is needed
+    since it is doubling the instructions already given to the agent.
+3. Validate the task format in the Task Agent.
+4. We may need to adjust token amounts per agent, I am specifically thinking of Email and Transcript Agents
 
+"""
+
+
+NAMESPACE = "meeting-digester"
 
 def load_agent(agent_filename: str) -> str:
     agent_path = Path(f"src/agents_layer/{agent_filename}")
@@ -37,7 +25,6 @@ def load_agent(agent_filename: str) -> str:
             f"File not found: {agent_path}"
         )
     return agent_path.read_text(encoding="utf-8")
-
 
 def initialise_swarm():
     try:
@@ -61,18 +48,16 @@ def initialise_swarm():
     except FileNotFoundError:
         print("[WARNING] Ruflo CLI not found. Continuing without swarm init.")
 
-
+# kinda a wrapper for calling agents with passed in markdown file as input
 def run_planner_agent(client: anthropic.Anthropic):
+    # load files
     instructions = load_agent("planner_agent.md")
 
-<<<<<<< HEAD
-    transcript = retrieve_memory("meeting:transcript", MEMORY_NS)
-    roster = retrieve_memory("employees:roster", MEMORY_NS)
-=======
-    transcript = retrieve_memory("meeting:transcript")
-    roster = retrieve_memory("meeting:employees")
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
+    transcript = retrieve_memory("meeting:transcript", NAMESPACE)
+    roster = retrieve_memory("meeting:employees", NAMESPACE)
 
+    # create user message, might need to alter these signals for consistency
+    # also i am yet to test if the agent is able to write to the mcp server itself, might be reductive to have in prompt
     user_message = f"""
         The following data is now available in shared memory:
         TRANSCRIPT (memory key: meeting:transcript):
@@ -86,6 +71,7 @@ def run_planner_agent(client: anthropic.Anthropic):
         Then set 'workflow:status' to "transcript" to signal the pipeline is ready to proceed.
     """
 
+    # get response
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=1024,
@@ -93,39 +79,19 @@ def run_planner_agent(client: anthropic.Anthropic):
         messages=[{"role": "user", "content": user_message}]
     )
 
+    # set memory in mcp
     plan = response.content[0].text
-    store_memory("workflow:plan", plan, MEMORY_NS)
-    store_memory("workflow:status", "transcript", MEMORY_NS)
-
-
-def _extract_tasks_json(assistant_text: str) -> tuple[str, str]:
-    """Best-effort: summary text and JSON array string for transcript:tasks."""
-    summary = assistant_text.split("```")[0].strip() or assistant_text.strip()
-    tasks_json = "[]"
-    block = re.search(r"```(?:json)?\s*(\[[\s\S]*?\])\s*```", assistant_text)
-    if block:
-        try:
-            data = json.loads(block.group(1))
-            if isinstance(data, list):
-                return summary, json.dumps(data)
-        except json.JSONDecodeError:
-            pass
-    bracket = re.search(r"(\[[\s\S]*\])", assistant_text)
-    if bracket:
-        try:
-            data = json.loads(bracket.group(1))
-            if isinstance(data, list):
-                return summary, json.dumps(data)
-        except json.JSONDecodeError:
-            pass
-    return summary, tasks_json
+    store_memory("workflow:plan", plan, NAMESPACE)
+    store_memory("workflow:status", "transcript", NAMESPACE)
 
 
 def run_transcript_agent(client: anthropic.Anthropic):
+    # load files
     instructions = load_agent("transcript_agent.md")
 
-    transcript = retrieve_memory("meeting:transcript", MEMORY_NS)
+    transcript = retrieve_memory("meeting:transcript", NAMESPACE)
 
+    # create user message
     user_message = f"""
         The following data is now available in shared memory:
         TRANSCRIPT (memory key: meeting:transcript):
@@ -137,6 +103,7 @@ def run_transcript_agent(client: anthropic.Anthropic):
         Finally set 'workflow:status' to "task" to signal the pipeline is ready to proceed.
     """
 
+    # get response
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=1024,
@@ -144,206 +111,154 @@ def run_transcript_agent(client: anthropic.Anthropic):
         messages=[{"role": "user", "content": user_message}]
     )
 
-    assistant_text = response.content[0].text.strip()
-    summary, tasks_json = _extract_tasks_json(assistant_text)
+    # set memory in mcp
+    response = response.content[0].text.strip()
+    parsed_response = json.loads(response)
 
-    store_memory("transcript:summary", summary, MEMORY_NS)
-    store_memory("transcript:tasks", tasks_json, MEMORY_NS)
-    store_memory("workflow:status", "task", MEMORY_NS)
+    # may need to validate these are not empty and strings
+    summary = parsed_response.get("summary", "")
+    tasks   = parsed_response.get("tasks",   [])
 
+    store_memory("transcript:summary", summary, NAMESPACE)
+    store_memory("transcript:tasks", tasks, NAMESPACE)
+    store_memory("workflow:status", "task", NAMESPACE)
 
 def run_task_agent(client: anthropic.Anthropic):
     """
-    Loads the Task Assigning Agent instructions, retrieves task list
+    Loads the Task Assigning Agen
+    
+    t instructions, retrieves task list
     and employee info from shared memory, then assigns tasks with deadlines.
     """
-<<<<<<< HEAD
-    agent_instructions = load_agent("task_agent.md")
-
-    transcript_tasks = retrieve_memory("transcript:tasks", MEMORY_NS)
-    employee_information = retrieve_memory("employees:roster", MEMORY_NS)
-
-=======
     # 1. Load agent instructions from Task_agent.md
     agent_instructions = load_agent("task_agent.md")
  
     # 2. Pull required inputs from shared memory
-    transcript_tasks = retrieve_memory("transcript:tasks")
-    employee_information = retrieve_memory("meeting:employees")
+    transcript_tasks = retrieve_memory("transcript:tasks", NAMESPACE)
+    employee_information = retrieve_memory("meeting:employees", NAMESPACE)
  
     # 3. Validate inputs before proceeding
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
     if not transcript_tasks or not employee_information:
         raise ValueError("Task Agent: Missing required memory keys — aborting.")
-
+ 
+    # 4. Build the prompt for the agent
+    # same for email agent, is there a reason the instructions are put here?
     prompt = f"""
     {agent_instructions}
-
+ 
     Here are the tasks extracted from the transcript:
     {transcript_tasks}
-
+ 
     Here is the employee information:
     {employee_information}
-
+ 
     Assign each task to the appropriate employee with a deadline.
     Return only valid JSON matching the output format in your instructions.
     """
-
+ 
+    # 5. Call the Claude API
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=1024,
         messages=[{"role": "user", "content": prompt}]
     )
-
-    task_assignments = response.content[0].text
-<<<<<<< HEAD
-    store_memory("meeting:assigned_tasks", task_assignments, MEMORY_NS)
-    store_memory("workflow:status", "task_agent_complete", MEMORY_NS)
-
-=======
-    store_memory("task:assignments", task_assignments)
-    store_memory("workflow:status", "email")
  
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
+    # 6. Extract and store the result
+    task_assignments = response.content[0].text
+    store_memory("task:assignments", task_assignments, NAMESPACE)
+    store_memory("workflow:status", "email", NAMESPACE)
+ 
     print("Task Agent complete — assignments written to memory.")
 
     # i dont think this return is needed since we are only accessing info through the mcp server
     # return task_assignments
 
 
+# this is going to need to be updated to check if the planner agent determined a follow up email needs to be sent
 def run_email_agent(client: anthropic.Anthropic):
     """
     Loads the Email Agent instructions, retrieves task assignments
     and transcript summary from shared memory, then drafts emails.
     """
-<<<<<<< HEAD
-    agent_instructions = load_agent("email_agent.md")
-
-    task_assignments = retrieve_memory("meeting:assigned_tasks", MEMORY_NS)
-    transcript_summary = retrieve_memory("transcript:summary", MEMORY_NS)
-
-=======
     # 1. Load agent instructions from Email_agent.md
     agent_instructions = load_agent("email_agent.md")
  
     # 2. Pull required inputs from shared memory
-    task_assignments = retrieve_memory("task:assignments")
-    transcript_summary = retrieve_memory("transcript:summary")
+    task_assignments = retrieve_memory("task:assignments", NAMESPACE)
+    transcript_summary = retrieve_memory("transcript:summary", NAMESPACE)
  
     # 3. Validate inputs before proceeding
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
     if not task_assignments or not transcript_summary:
         raise ValueError("Email Agent: Missing required memory keys — aborting.")
-
+ 
+    # 4. Build the prompt for the agent
     prompt = f"""
     {agent_instructions}
-
+ 
     Here are the task assignments:
     {task_assignments}
-
+ 
     Here is the meeting summary:
     {transcript_summary}
-
+ 
     Draft a professional follow-up email for each employee based on their assigned tasks.
     Return the emails in plain text, clearly separated by employee name.
     """
-
+ 
+    # 5. Call the Claude API
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=1024,
         messages=[{"role": "user", "content": prompt}]
     )
-<<<<<<< HEAD
-
-    draft_emails = response.content[0].text
-    store_memory("emails:drafted", draft_emails, MEMORY_NS)
-    store_memory("workflow:status", "email_agent_complete", MEMORY_NS)
-
-=======
  
     # 6. Extract and store the result
     # how will this be structured? is it multiple emails in the one json or several elements for all the drafts?
     draft_emails = response.content[0].text
-    store_memory("email:drafts", draft_emails)
-    store_memory("workflow:status", "tool")
+    store_memory("email:drafts", draft_emails, NAMESPACE)
+    store_memory("workflow:status", "tool", NAMESPACE)
  
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
     print("Email Agent complete — draft emails written to memory.")
     # i dont think this return is needed since we are only accessing info through the mcp server
     #return draft_emails
 
 
+# NOT YET TESTED, NEED ALL AGENTS READY BEFORE TEST
 def start_workflow(
     client: anthropic.Anthropic,
-    transcript_path: Path,
-    employee_path: Path
+    transcript_path: Path=None,
+    employee_path: Path=None
 ):
     initialise_swarm()
 
-    _require_memory("meeting:transcript", "Initialize")
-    _require_memory("employees:roster", "Initialize")
+    # will need this when ready
+    # run_tools_agent()
 
-<<<<<<< HEAD
-=======
-    # validate the transcript and the employee roster are ready
-    validate_memory_key("meeting:transcript", "Initialize")
-    validate_memory_key("meeting:employees",   "Initialize")
+    # will edit these 2 for testing to add the files to the mcp if needed on error
+    if not validate_memory_key("meeting:transcript", NAMESPACE):
+        raise ValueError("meeting:transcript not found in memory")
+    if not validate_memory_key("meeting:employees", NAMESPACE):
+        raise ValueError("meeting:employees not found in memory")
     
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
     run_planner_agent(client)
-    _require_memory("workflow:plan", "Planner Agent")
-    _require_memory("workflow:status", "Planner Agent")
-
+    if not validate_memory_key("workflow:plan", NAMESPACE):
+        raise ValueError("workflow:plan not found in memory")
+    if not validate_memory_key("workflow:status", NAMESPACE):
+        raise ValueError("workflow:status not found in memory")
+    
     run_transcript_agent(client)
-<<<<<<< HEAD
-    tasks_json = _require_memory("transcript:tasks", "Transcript Agent")
-=======
-    validate_memory_key("transcript:summary", "Transcript Agent")
-
-    # loading this into a json object for testing, wont need this in the end
-    tasks_json = validate_memory_key("transcript:tasks", "Transcript Agent")
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
-    tasks = json.loads(tasks_json)
-
-    print("TASKS")
-    print("tasks_json: ", tasks_json)
-    print("tasks: ", tasks)
+    if not validate_memory_key("transcript:summary", NAMESPACE):
+        raise ValueError("transcript:summary not found in memory")
+    if not validate_memory_key("transcript:tasks", NAMESPACE):
+        raise ValueError("transcript:tasks not found in memory")
 
     run_task_agent(client)
-<<<<<<< HEAD
-    assigned_json = _require_memory("meeting:assigned_tasks", "Task Agent")
-    try:
-        assigned_tasks = json.loads(assigned_json)
-    except json.JSONDecodeError:
-        assigned_tasks = {"raw": assigned_json}
-
-=======
-    # also just loading this for testing
-    assigned_json  = validate_memory_key("task:assignments", "Task Agent")
-    assigned_tasks = json.loads(assigned_json)
-    
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
-    print("ASSIGNED TASKS")
-    print("assigned_json: ", assigned_json)
-    print("assigned_tasks: ", assigned_tasks)
+    if not validate_memory_key("task:assignments", NAMESPACE):
+        raise ValueError("task:assignments not found in memory")
 
     run_email_agent(client)
-<<<<<<< HEAD
-    emails_text = _require_memory("emails:drafted", "Email Agent")
-    try:
-        emails = json.loads(emails_text)
-        email_count = len(emails.get("individual_emails", []))
-    except json.JSONDecodeError:
-        emails = {"raw_plain_text": emails_text}
-        email_count = 1 if emails_text.strip() else 0
-=======
-    # this is just for testing, this will need to be corrected when i know how emails are structured
-    emails_json = validate_memory_key("email:drafts", "Email Agent")
-    emails      = json.loads(emails_json)
-    email_count = len(emails.get("individual_emails", []))
->>>>>>> 24f62eb252bb7a84448103402c5157fe5ef18b52
-
-    print("EMAILS")
-    print("emails_json: ", emails_text)
-    print("emails: ", emails)
-    print("email_count: ", email_count)
+    if not validate_memory_key("email:drafts", NAMESPACE):
+        raise ValueError("email:drafts not found in memory")
+    
+    # will need this
+    # run_tools_agent()
