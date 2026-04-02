@@ -12,7 +12,6 @@ Some current problems with this script we should talk through and fix:
     since it is doubling the instructions already given to the agent.
 3. Validate the task format in the Task Agent.
 4. We may need to adjust token amounts per agent, I am specifically thinking of Email and Transcript Agents
-
 """
 
 
@@ -117,19 +116,13 @@ def run_transcript_agent(client: anthropic.Anthropic):
 
     # may need to validate these are not empty and strings
     summary = parsed_response.get("summary", "")
-    tasks   = parsed_response.get("tasks",   [])
+    tasks = parsed_response.get("tasks",   [])
 
     store_memory("transcript:summary", summary, NAMESPACE)
     store_memory("transcript:tasks", tasks, NAMESPACE)
     store_memory("workflow:status", "task", NAMESPACE)
 
 def run_task_agent(client: anthropic.Anthropic):
-    """
-    Loads the Task Assigning Agen
-    
-    t instructions, retrieves task list
-    and employee info from shared memory, then assigns tasks with deadlines.
-    """
     # 1. Load agent instructions from Task_agent.md
     agent_instructions = load_agent("task_agent.md")
  
@@ -144,8 +137,6 @@ def run_task_agent(client: anthropic.Anthropic):
     # 4. Build the prompt for the agent
     # same for email agent, is there a reason the instructions are put here?
     prompt = f"""
-    {agent_instructions}
- 
     Here are the tasks extracted from the transcript:
     {transcript_tasks}
  
@@ -160,6 +151,7 @@ def run_task_agent(client: anthropic.Anthropic):
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=1024,
+        system=agent_instructions,
         messages=[{"role": "user", "content": prompt}]
     )
  
@@ -176,10 +168,6 @@ def run_task_agent(client: anthropic.Anthropic):
 
 # this is going to need to be updated to check if the planner agent determined a follow up email needs to be sent
 def run_email_agent(client: anthropic.Anthropic):
-    """
-    Loads the Email Agent instructions, retrieves task assignments
-    and transcript summary from shared memory, then drafts emails.
-    """
     # 1. Load agent instructions from Email_agent.md
     agent_instructions = load_agent("email_agent.md")
  
@@ -193,8 +181,6 @@ def run_email_agent(client: anthropic.Anthropic):
  
     # 4. Build the prompt for the agent
     prompt = f"""
-    {agent_instructions}
- 
     Here are the task assignments:
     {task_assignments}
  
@@ -209,6 +195,7 @@ def run_email_agent(client: anthropic.Anthropic):
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=1024,
+        system=agent_instructions,
         messages=[{"role": "user", "content": prompt}]
     )
  
@@ -233,7 +220,7 @@ def start_workflow(
 
     # will need this when ready
     # run_tools_agent()
-
+ 
     # will edit these 2 for testing to add the files to the mcp if needed on error
     if not validate_memory_key("meeting:transcript", NAMESPACE):
         raise ValueError("meeting:transcript not found in memory")
