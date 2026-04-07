@@ -204,16 +204,27 @@ def clear_workflow_memory():
         "workflow:status",
         "transcript:summary",
         "transcript:tasks",
+<<<<<<< Updated upstream
         "task:assignments",
         "email:drafts",
+=======
+        "meeting:raw_tasks",
+        "meeting:assigned_tasks",
+        "emails:drafted",
+>>>>>>> Stashed changes
     ]
 
     print("Clearing previous workflow memory...")
     cleared = 0
+    total = len(keys_to_clear)
     for key in keys_to_clear:
         if validate_memory_key(key, NAMESPACE):
             success = delete_memory(key, NAMESPACE)
             if success:
                 cleared += 1
 
+<<<<<<< Updated upstream
     print(f"Successfully cleared {cleared}/8 key from shared memory.")
+=======
+    print(f"Successfully cleared {cleared}/{total} key(s) from shared memory.")
+>>>>>>> Stashed changes
