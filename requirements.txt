@@ -1,1 +1,2 @@
-update with the correct python package and api version requriements
+anthropic>=0.40.0
+python-dotenv>=1.0.0
