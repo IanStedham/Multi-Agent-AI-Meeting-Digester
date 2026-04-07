@@ -1,0 +1,303 @@
+Meeting: TS3008d
+============================================================
+
+ProjectManager: Okay, welcome to the detailed design meeting. Oh, we're gonna have a prototype presentation first.
+
+IndustrialDesigner: 'Kay, we've made a prototype. especially we looked at the form, material and the colour. The logo is is is pretty obvious to see on the on the remote control,
+
+UserInterface: I think the most of the functions are obvious. then the the the nine channels. the volume at the side, and the other side is the programmes. And then we had just two buttons, we place them in the middle, the menu, and for the teletext
+
+ProjectManager: Did we want to have a mute button?
+
+MarketingExpert: Alright, and you gotta point out which is the volume button and which is the programme button. Yeah, but you you gotta make it clear on the on. Next to that I kinda miss a zero actually.
+
+ProjectManager: There are different ways for remote controls to do like. I call it teens and twenties.
+
+MarketingExpert: All no, that's kinda dependent on the television.
+
+ProjectManager: But do we have do we need extra buttons,
+
+MarketingExpert: I think you should add. A cross, or whatever. Yeah, line.
+
+ProjectManager: Yeah, but you don't you don't actually need them,. becau l a lot of remote controls work that when that you when you fir you push the one first, then you have a couple of seconds
+
+MarketingExpert: No, that's dependent on the television.
+
+ProjectManager: I know some remote controls that don't have these buttons, but you still can, know, obviously you can still select the twenty a number in the twenty or in the ten.
+
+MarketingExpert: Yes, but no remote control nowadays are they come with the television.
+
+ProjectManager: When when you put a button on it with like one and then a dash, it's the same thing as when you just push the one,
+
+IndustrialDesigner: Some televisions don't accept that that
+
+ProjectManager: When you push the button, the remote control gives a signal. and when whe when you don't push another button on the remote control within five seconds, then the remote control gives a signal for channel one.
+
+MarketingExpert: It it it works if you haven't got a special button for it, if you push a one, then on your television there will appear a one and a a line, which is an empty space.
+
+ProjectManager: Yeah, but it's exact the same that would appear when you put a separate button push a separate button.
+
+IndustrialDesigner: Yes, but some some old televisions you have to click on a special button, then you go to a a next level, you can push two buttons.
+
+ProjectManager: Yeah, but you don't underst you don't understand my point. that special but button you're talking about, eh? That's just a signal to recei ju they send a signal to the tv TV that they have to put a one in on your screen and a dash, which you can pu so you can still put another number on it. When you don't have that separate button, and you push one, it's exactly the same thing.
+
+MarketingExpert: No, some some televisions need the input first and and you c
+
+ProjectManager: That's the same thing as the button with the one and it
+
+MarketingExpert: It's simply not true. It's simply not true.
+
+ProjectManager: I I know for sure that some televisions that th th the remote control supplied, only ha has the these buttons with a one and a dash and a two and a dash, but when you use a bu a remote control that doesn't sport these buttons, it still works.
+
+UserInterface: We'll discuss them in the usability lab.
+
+ProjectManager: We'll apply them then for now.
+
+UserInterface: I don't know I don't know if if it's it's necessary.
+
+ProjectManager: Yeah, app just apply them next to the zero, the one and the two. but I still think i it it all T_V_s in some ways support it,. I think it's more is maybe we don't we both don't really understand how it i how it really works,. but I think there's more to in than wha than what you just said.
+
+IndustrialDesigner: No, you have to you have to give the television two or more signals.
+
+UserInterface: I think it's pretty basic,. there's one there's one button,
+
+IndustrialDesigner: But maybe we can maybe we can make the docking station a bit standard for for the other products we sell,. because Real Real Reaction sells more products than only remote controls. So maybe we can use the docking station, for example, MP three players or or
+
+MarketingExpert: I think that's very difficult, because of different shapes of devices.
+
+IndustrialDesigner: Yes, but when you put that same volt voltages on it, you can put. when the when the when the the the lowest part of it, when it's the same as the other products, you can put it all on the same
+
+MarketingExpert: The technology and the voltage can be the same. That's that's true.
+
+IndustrialDesigner: When when the the recharger has a has a bit what points out, we can place all on top of it.
+
+MarketingExpert: Shouldn't it fall then? It isn't going to fall down?
+
+IndustrialDesigner: No, when you make it large enough no it it will not. But it's just an idea.
+
+UserInterface: It's leaning. It's leaning backwards, I think, in the in the docking station.
+
+MarketingExpert: You could make like a hole in it, you know, of in in the
+
+ProjectManager: Well let's ha let's talk about the docking station later,. because maybe we have we have to consider the docking station anyway, because we have some cost issues still to come.
+
+IndustrialDesigner: The the look and feel would be great on this remote control,. because you always will pick up the remote control in the in the smallest area. Then your left thumb of your right thumb is near the programme button,. which is the most common used function,. Yes, on the side there will be a strip of rubber,. and in the middle there is a hard a hard material, a bit hard plastic with a light behind it. Yes, we can make also neon lights on it, or or the buttons that can make light on it.
+
+ProjectManager: Because we're gonna use one colour for the the plastic enclosure and one colour for the rubber,. Then we're gonna do the buttons in the i are we're gonna have rubber buttons.
+
+MarketingExpert: In the same colour as the side.
+
+ProjectManager: But, and we have to agree upon the exact colours,
+
+MarketingExpert: Right, we're gonna evaluate that design according to a few points. we the four of us are going to do that together. we we gotta give points to to all of these to evaluate that design,. The remote control is not ugly. How do you feel?
+
+ProjectManager: Yeah, maybe it really depends on taste.
+
+IndustrialDesigner: I think I think the the fronts will give it a more less uglier side, because you can make it in your own
+
+ProjectManager: Yeah, but we we didn't we're we're not planning to use fronts, I believe.
+
+MarketingExpert: No, not not fronts, but different designs. The remote control's that makes zapping easy.
+
+ProjectManager: Yeah well, let that let's make that a one.
+
+MarketingExpert: The remote control the remote control's relevant buttons are prominently visible.
+
+ProjectManager: It's something we really put work into.
+
+MarketingExpert: I would say a one because every button is relevant. The remote control hasn't got too much redundant or unneeded buttons. I think we totally succeeded there.
+
+ProjectManager: Well maybe a two, because of the menu button or something.
+
+IndustrialDesigner: Also, the the the buttons of the one, the two, the the digits,
+
+MarketingExpert: The remote control has got a really trendy look.
+
+ProjectManager: Yeah, a I think a two.
+
+IndustrialDesigner: We've tried to make it the the best trendy look ever.
+
+ProjectManager: But I do think that it's more trendy than beautiful.
+
+MarketingExpert: You agree on the two? Remote control has got innovative technology implanted.
+
+IndustrialDesigner: No, not LCD, so.
+
+ProjectManager: You mean the rubber stuff?
+
+IndustrialDesigner: But that that's not innovative.
+
+ProjectManager: Or seven maybe, yeah.
+
+IndustrialDesigner: With the lights it it's it's kind of future. Yes. The docking station is a is a little bit innovative.
+
+ProjectManager: Well, let's leave it open for for us later to see what, because we have to reevaluate anyway.
+
+MarketingExpert: No, well, the agenda says evaluate now, so I think we
+
+IndustrialDesigner: How would you innovate a remote control more?
+
+ProjectManager: Yeah, more through like function TV functionalities and
+
+MarketingExpert: But I I definitely don't think it's a five,
+
+ProjectManager: Think about it la later on
+
+MarketingExpert: Remote control is easy to use.
+
+UserInterface: Yeah, a two.
+
+MarketingExpert: It will be bought by people under the age of forty.
+
+ProjectManager: Yeah, a two.
+
+MarketingExpert: The remote control has recognisable corporate image, colour, logo or slogan.
+
+ProjectManager: Yeah, you can put that on the side if if we would like to. Yeah, and I will I th still think it's gonna be a two or a three.
+
+MarketingExpert: Remote control's got a basic design intended for novice users.
+
+ProjectManager: Yeah, make it a two.
+
+MarketingExpert: It's a two point six.
+
+ProjectManager: Which is quite a great score.
+
+IndustrialDesigner: Is there something after this meeting? Or
+
+MarketingExpert: Well, I think we gotta fill out another questionnaire.
+
+ProjectManager: I received a spreadsheet. I'm gonna open the spreadsheet and we're gonna work this out together,. First of all, the all the docking station and costs and such are not included in this list. We include one battery. we we indicate the amount of components of the specif specific component, how much we need of them. we should know how many simple chips, regular chips
+
+IndustrialDesigner: The simple chip is enough I I think,
+
+MarketingExpert: I haven't got an idea on on which we need to use, really.
+
+IndustrialDesigner: The the email I got said simple chip, but when we put in the speaker and the retriever device, it will cost a a bit more, like I think the advanced chip maybe.
+
+ProjectManager: Maybe you can look it up right now.
+
+MarketingExpert: Well, point out the advanced chip for now, I guess.
+
+ProjectManager: Yeah, but it will it will it will be cause a lot of problems. Okay, we went for the double-curved case. made out of plastic and rubber. And with a special colour.
+
+IndustrialDesigner: Otherwise, you get a standard plastic colour.
+
+ProjectManager: Yeah, I think we we have special colours. Okay, then the push-button, I was just counting them. I think you have to indicate the amount of push-buttons we want to use,. Well that's bit of a problem,. because I re but I really don't understand that, because I can imagine a remote control with far more push-buttons, and it wouldn't be possible according to this sheet.
+
+IndustrialDesigner: It's only when you use push-buttons, it will cost that much. Maybe it's the kind of push-buttons. You can have four kind of push-buttons.
+
+ProjectManager: And plus these two, plus the mute button, and it's will be eighteen.
+
+IndustrialDesigner: Why is that so expensive.
+
+ProjectManager: Yeah, I don't understand. Well, okay, well well let's make it just one.
+
+MarketingExpert: I I I couldn't understand it if it was fifty cents per per button. Really.
+
+IndustrialDesigner: I've seen one one remote control with only the pu yeah, only with page up, page down and volume,
+
+MarketingExpert: Yeah, but I I wouldn't want to own that. Really.
+
+IndustrialDesigner: It's it's still for little children.
+
+ProjectManager: But then still, when we there's no room for a docking station or something. We'll give the buttons special colour. We'll give them a special form.
+
+UserInterface: A special colour, why a special colour?
+
+ProjectManager: Because the buttons will be will be matching colour between the buttons and the rubber surroundings.
+
+MarketingExpert: I don't think the special form is really true.
+
+ProjectManager: I think all the special colour things have to be marked over here, because that's what we were planning to do,. 'Kay, but the problem now is that the There's no such thing as a docking station in this list,. but we can all imagine that it would be impossible to make a docking station for thirty cents.
+
+IndustrialDesigner: But we can sell the remote control and sell the docking station
+
+ProjectManager: Then the docking station isn't relevant for this project anymore,
+
+IndustrialDesigner: No, but you otherwise you can't retrieve it.
+
+MarketingExpert: I mean if it's a simple chip, then we suddenly got two Euros and thirty cents.
+
+IndustrialDesigner: But for two Euros and thirty cents, we we don't get a docking station.
+
+MarketingExpert: If it would cost two Euros, that had a total a total thing, it would be nice too,
+
+ProjectManager: Or we can ki do the kinetic cells.
+
+UserInterface: But what can we do with the simple chip and what's difference with a regular chip and a advanced chip?
+
+ProjectManager: Maybe you can find it in your email right now,. yeah, but when we skip when we when we don't use the do we're not gonna make the docking station, then we still yeah, we need something else maybe to make it kind of special,
+
+MarketingExpert: We can make a plain docking station for two Euros. Wi wi without recharge
+
+IndustrialDesigner: I've got a schematic view of the remote control, but nothing about advanced chips or
+
+ProjectManager: You can look at it for presentation. I don't think here it's in here already.
+
+UserInterface: Was it working design or components design?
+
+ProjectManager: You know that a push-button requires a simple chip, but a scroll-wheel, it it me requires. Okay, so we only need a simple chip. it only states that a scroll-wheel requires a regular chip, and that a display requires an advanced chip. And what's the sample sensor slash sample speaker?
+
+IndustrialDesigner: Maybe you can say against the remote page page up, page down.
+
+ProjectManager: So we're gonna use the simple chip. Nah, there is some money left to be spent.
+
+MarketingExpert: I think we can make a docking station. Yeah.
+
+ProjectManager: We aren't gonna apply any innovated innovative te technology anyway, I think. maybe I think maybe the kinetic thing is something. Instead of the rechargeable
+
+IndustrialDesigner: Kinetics aren't nowadays only used in watches and that's because you're always walking.
+
+ProjectManager: The target group are people who zap regularly and throw with their remote control as a matter of speaking. Hey that maybe that's cool that's a cool thing about it, you know. You don't use batteries.
+
+MarketingExpert: We can make a docking station for two thirty.
+
+ProjectManager: Yeah, but be serious, then the docking station will be a fifth of the price of the remote control. but we we don't inc we haven't looked at the these costs of the speaker and other stuff.
+
+MarketingExpert: Well then it's a useless project.
+
+UserInterface: Yeah, then we don't have any innovation things.
+
+ProjectManager: Maybe it with the kinetic thing, I think we could do do a compromise with the kim kinetic thing.
+
+MarketingExpert: Can't we say fifteen Euros?
+
+IndustrialDesigner: No, then we have to sell it for thirty Euros.
+
+MarketingExpert: You can sell for twenty seven and a half.
+
+IndustrialDesigner: Maybe we can do it both in the in the in the remote. Battery and kinetic.
+
+MarketingExpert: You you gotta throw throw it through the room like twenty times an hour, really.
+
+IndustrialDesigner: A watch is kinetic because you walk all the time.
+
+ProjectManager: Because I think the whole dynamic part, do you know, appeals to me qui thinking of our design philosophy, you know,. with the rubber parts and sturdiness of the thing, and when you move it around a lot, then people find the idea funny that when I move my remote control around and
+
+MarketingExpert: Yeah, it's funny for a week.
+
+ProjectManager: Okay, then we Okay, well we don't have to do it, but what that would just have a lack of key features, you know. We can really can do the docking thing,
+
+IndustrialDesigner: Then we have one Euro thirty for the whole docking station.
+
+ProjectManager: No no, it's not possible.
+
+UserInterface: It it won't tell, but
+
+MarketingExpert: No, this not gonna sell. No.
+
+UserInterface: Yeah, we just have to go all what we did today again. You have to do it over.
+
+ProjectManager: No no there's still there's still someth concept and something special left. Yeah, and I would li I would have liked a kinetic part as well, to give it some just to give it some extra special feature,
+
+MarketingExpert: Warning, finish meeting now.
+
+ProjectManager: Well, we were gonna what look take a look at the last sheet.
+
+MarketingExpert: No, we can't.
+
+ProjectManager: Yeah, we have to Yeah, it's
+
+MarketingExpert: Yes, yes. Celebration. I think we gotta fill out another questionnaire, to be honest.
+

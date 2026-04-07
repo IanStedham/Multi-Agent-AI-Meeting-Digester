@@ -1,0 +1,103 @@
+Meeting: TS3011b
+============================================================
+
+ProjectManager: The top goal of this meeting is to reach a decision on the product, on the target group and and the functions of the remote control,. the new project requirements,. but we should not support teletext in the remote,. the remote control should only be used for television,. the third requirement is that we should focus on customers that are younger than forty,. then for Roo, as well important, the corporate image should be recognisable in our product.
+
+UserInterface: The function of remote control is basically to send messages to the television set. Then I found two different kind of remote controls,. the multi-function remote control with many possibilities, but the lack of the feeling I already mentioned in the previous discussion. And the ease-of-use remote control with the less possibilities but a great feeling in in touching the buttons. But my in my opinion, the the easy to use RC is the best possi possibility for us.
+
+IndustrialDesigner: And the most easy way to do this is by sending pulses of infrared light to a TV set. there's a energy source here. The user interface connected to a chip,. which is connected to the sender,. which generates messages using infrared light,. It's almost every piece of equipment every piece of every TV set is controlled infrared. And the more luxury remote controls have lithium buttons.
+
+UserInterface: The glow in the dark concept we discussed.
+
+IndustrialDesigner: So maybe we should consider that. personally I think we should infra use infrared,. because otherwise our device cannot communicate with almost every TV set. another important point is we really should use energy sparse, friendly components. for cost-effectiveness, we should really use a very low-cost circuit board,. And the money we save on using this we can use for elaborate fancy lighting techniques, blinking LEDs and all that kind of fancy stuff.
+
+UserInterface: If we use the LEDs, i does it use much more energy
+
+IndustrialDesigner: They're f power friendly LEDs also. no, they're they're a little bit more expensive,
+
+UserInterface: I think it's the same as in the cell phone, just light in in the device that that shines on all the buttons,. Yeah, but not for each button one LED, I think.
+
+MarketingExpert: The buttons to zap are used the about fifteen hundred times,. when the power button is only used one time. And the volume button's only four times. So they're obv obviously the most important buttons. And lots of people complained they kin can't find their remote control. So we might want to build in a feature to support them. Some audio signal. Like home phones.
+
+IndustrialDesigner: There's no elaborate technique used in this kind of equipment.
+
+UserInterface: I'm just wondering, the sound signal, from where do you execute th the sound? Another device is not a solution.
+
+ProjectManager: Maybe maybe like clapping in your hands,
+
+IndustrialDesigner: And your TV set starts to make a kind of weird sound,
+
+UserInterface: But but T_V_s don't have all buttons.
+
+MarketingExpert: And even if the TV set would have such a button, you would have to walk to your TV,
+
+IndustrialDesigner: Because how can you separate the clapping sound from other sounds.
+
+UserInterface: But we can have just a home stat a base station next to the TV. Just a little antenna or something. I don't think people would bother walking to the TV and press that button because they lost the their remote.
+
+IndustrialDesigner: The most important thing for people is that there's a central point to which they can go and perform a a some kind of. And then the remote control reports itself,
+
+UserInterface: Just a base station next to the TV is the best possibility.
+
+IndustrialDesigner: But that will be very costly, I think.
+
+ProjectManager: M maybe we we do agree on on the thing that the remote should have such a function, if it's possible within the costs and all that kind of things. maybe Sebastian should have a detailed look later on and come up with a solution,
+
+IndustrialDesigner: But before I do that I I want to warn you that by implementing this kind of a function the technical design will become more complicated
+
+UserInterface: And do we even prefer the sound above the the LEDs, the lightning function?
+
+IndustrialDesigner: I I think so,
+
+ProjectManager: According to Ruud, people do not use all the extra features very very often.
+
+UserInterface: Just through the easy design. We can make a nice design when when there's not mu much buttons in it.
+
+IndustrialDesigner: We should save costs by not implementing a lot of functions
+
+ProjectManager: Do you think the market would would respond to a simple
+
+MarketingExpert: If we include other innovative functions then they might,. 'cause young people like new features.
+
+IndustrialDesigner: Maybe it's more important to make the make it look like a very friendly, easy to catch piece of equipment,. I was more thinking about a more elaborate way of controlling, by by these kinds of sticks or something like that. I don't know if if it's user-friendly.
+
+MarketingExpert: And if you use that stick for volume control and channel selection, you have the two most important functions in one button.
+
+ProjectManager: Draw draw it on the board.
+
+UserInterface: It's just an easy way of of a round button what which can be pushed in four directions. Instead of a stick. just a round button should be the trick, I think.
+
+ProjectManager: We need to find a balance between the advanced techniques and and the user-friendliness. it's not necessary to to have a full list,. but I want the kind of functions, for example th the most important are volume and programme selecting. Dual channel watch. And and do we want the ten digits?
+
+UserInterface: I wouldn't buy it personally. A remote control without the ten digits.
+
+IndustrialDesigner: But if you're a regular TV user, and you just want to watch the the Dutch television networks, well, you can you can use about ten buttons. That's enough.
+
+MarketingExpert: And if we are targeting at the younger audience, they will probably watch more channels than the older people.
+
+IndustrialDesigner: But I think these ten buttons look a bit dull.
+
+ProjectManager: You you can make them very fancy
+
+IndustrialDesigner: So you can experiment by with with shape or with size or with colour, that kind of thing. maybe it can be combined with the find the remote control. when you add speech recognition to your remote control, it's very easy to change the channel. That's one thing. but I'm afraid it will be a bit costly.
+
+ProjectManager: If if we would drop the ten digits. but keep the programme and the volume,
+
+IndustrialDesigner: So we can expect that there will be a less longer life to the batteries. There are some hybrid hybrid devices which incorporate a solar panel and rechargeable batteries.
+
+MarketingExpert: And if we if we could inc include a a cradle in which it could recharge, then there wouldn't be a big problem.
+
+IndustrialDesigner: It's very cheap. It's just a a case with two metal contacts.
+
+ProjectManager: Although we are focussing on younger people to make it profitable Profitable. We we yeah, we still need to take in account the the bit older people.
+
+IndustrialDesigner: We've decided to implement a seemingly easy design. but we can make it easy on the inside or elaborate on the inside. But I think there's a big advantage in making it more elaborate by implementing speech techniques, voice recognition, that these kinds of things. If we just add a chip which does the voice recognition, our circuit board will become even more cheap.
+
+UserInterface: Then we should just take a look at the costs and especially for the voice recognition.
+
+ProjectManager: I will put the minutes I just made in the project documents folder. the Interface Designer, I would like to the next meeting I would like to receive the components concept. User Interface Designer, Roo, I would like to see the user interface concept. It should be an easy interface with not so much buttons. just a a a a volume and a programme one. And yeah, some some fancy lights.
+
+IndustrialDesigner: So we drop the voice recognition?
+
+ProjectManager: We can decide the next meeting. Yep. I'm sure the marketing expert will receive you will do some trend watching.
+

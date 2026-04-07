@@ -1,0 +1,55 @@
+Meeting: IS1005b
+============================================================
+
+ProjectManager: Tod for this meeting I will take the notes and do the minutes. so we will see our three presentations. we will start with the Manager Expert wi who will talk about user re requirements, whats user needs and what it desire for this devi device.
+
+MarketingExpert: Okay, so basically I'm gonna present some findings of a study we conducted into what users want in this remote control. So basically the major things we found out was that basically users don't like the look and feel of of most remote controls that are currently on the market. seventy five percent of the people we we did the experiments on, found that rem remote the remote controls that they'd used in the past were ugly. they they didn't match the operating behaviour of the user,. and thirdly they say that half of the users that we tested said that they only used ten percent of the buttons that are on remote controls. And from this we basically came up with the figure that the channel buttons, the channel selection buttons are the most by far the most used buttons on the remote control. And basically they came they said the channel, volume, and power buttons had the highest relevance to users,. And fifty percent of the users said that what frustrates them is losing the remote control somewhere in the room and not being able to find it. In particular, do they want an LCD display,. and secondly, do they think speech recognition is a useful feature to have on a remote control. basically our findings are that amongst a younger age groups the answer is umv overwhelmingly yes. So I guess it depends on where we're focusing our our market.
+
+IndustrialDesigner: And speech recognition in remote unit, it will be very expensive.
+
+MarketingExpert: And our production cost of twelve fifty Euros per per unit is fairly high I think,. so I think we can afford to to add these sort of features into our remote.
+
+UserInterface: Okay, so here is my presentation about technical function design. first is remote control have sh ha should have some electric circuits making interface with keyboard and reading keyboard and reading the keyboard commands. And then there should be an electronic circuit making electronic signals according to these commands. and finally there is a transmitter which is a cord or a a diode making making waves to transmit through the air. Okay, about what I found about different these different blocks are, usually there are two different methods to for designing a remote control. They are based on infra-red waves or radio waves. certainly a remote control with working with radio waves is preferred because you can pr you can take it in any direction and you don't need to tune it any way. And again, using bigger buttons and less number of buttons are also preferred, as I see.
+
+MarketingExpert: Do you think radio waves will interfere with other appliances in the home?
+
+UserInterface: I don't think so,
+
+ProjectManager: And what happen with radio waves when two neighbours have the same have our remote control, for example?
+
+UserInterface: But one solution can be something like putting password or something inside the wave, so the only your TV can understand it
+
+IndustrialDesigner: I have only a couple of things because I had I struggled a bit with the software that I'm supposed to use in this in this company. so I have to look what what is a a available on the market for for the communication for the IR circuits and so on,. And I wanted to ask you maybe afterwards, after after our discussion, if we have some contacts in some companies, so, which can report on what is going on there,. So, I know that the user interface people and these speak about radio frequency waves. but you know, when you are not close to the TV you probably won't need to to change the program and so on. and so I am I am voting for to stick to the infra-red control instead of RW. well, LCD it's okay because it's common nowadays to use LCD,. But the speech recognition we have to compare whether the price and the what does it offer, you know. If we decide to use the speech recognition, then we probably could struggle. And my personal preference is yes, I would like also preferably to use RW circuit,. but from the point of view of the design and price, I would stick to I_R_s. And the price is fairly cheap for this.
+
+MarketingExpert: Because I mean all the other remote controls on the market have infra-red, so people don't expect anything other than infra-red. But I think, based on my usability studies I th I feel that users are prioritise the look and the feel and the trendiness above, you know, the difference between infra-red or radio waves.
+
+ProjectManager: So I have to inform you I receive an email from the management bon board today and they have new requirements for the for the remote control. Because of the internet popularity and everybody has internet at home, and actually it's not useful to have teletext. the second thing is they suggest that that we should use the remote control only for TV, not for DVD and other devices,. the third one is about the the the image of the company. So we should we should keep The the product should be recognisable. It's That mean we should use the colour of our company. and maybe put somewhere the the slogan of the company, which is, we put fashion of in electronics. So now we we should take the decision what we are going to what function we will have on this on this remote control.
+
+MarketingExpert: Well, should we start with just the core, the basic functions that we need. And then we can move on to the more advanced features.
+
+ProjectManager: I think we should stick on very useful functions, because we want less button. So, turning channel, of course. Volume setting.
+
+IndustrialDesigner: Will we use only two buttons, or or like numbered buttons? Because it's many buttons and we were speaking about lowering the number. so so we keep all these all these buttons.
+
+ProjectManager: Maybe we could have key buttons, like discovery channe like documentary channel, and movies channel and. If you want to see a movie you click on the movie button so you have all the movie channels and after you've you plus plus plus.
+
+IndustrialDesigner: So it requires the use of LCD probably, to to tell you
+
+MarketingExpert: We could maybe also incorporate Petre's idea of the slider for the volume, with the channel. So we've got channel and volume.. I mean there's always we can always have these less often used functions hidden somewhere,
+
+ProjectManager: We should hide them somewhere.
+
+MarketingExpert: I mean a power button's obviously
+
+IndustrialDesigner: This I was thinking. Do we need a power button at all? Should should shouldn't we do it like sleep mode after five minutes of not using it?
+
+MarketingExpert: Well I think when they say power button they mean to turn the TV on and off.
+
+IndustrialDesigner: Okay, so we should keep this button. so we we could what we could probably do is to keep also to keep keep the LCD and all the buttons and stuff,. Should we make it a button, or some some something which would be
+
+UserInterface: A button is better.
+
+MarketingExpert: What about things like the clock and timers?
+
+ProjectManager: If we if we add the time, we have to have maybe a bigger display or something like that,. I mean, are users wants to have the time on the on the remote? W In my opinion we should have only useful thing. So,. So now we are going for for a small lunch. And after we have thirteen minutes to to do indevel individual works. And you are going to work on your individual works. And you will receive as usual your specific instruction and so on.
+

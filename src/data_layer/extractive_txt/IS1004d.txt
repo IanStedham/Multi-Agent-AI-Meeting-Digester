@@ -1,0 +1,143 @@
+Meeting: IS1004d
+============================================================
+
+ProjectManager: So we should have our final meeting about the detail designed of detail design of the product of the remote control. just going to go quickly through the minutes of the last last meeting. then we have a presentation of prototype of you two,. And we'll have presentation of evaluation crit criteria by ou our Marketing Experts. Then we'll have to go through finance evaluation of the of the cost of the thing. and hopefully we should fit the target tw of twelve point five Euro. No LCD, no speech recognition technology, okay,. we went through a to a banana look and feel for the remote control. And also the use of a basis station for battery ch charging and also to call the to call the mot mote remote control when it is lost.
+
+IndustrialDesigner: So final design. Final design.
+
+UserInterface: Well first first of all we made a an attractive base station with a banana leaf look and feel and. the banana sits in there you know nicely weighted so that it's not gonna tip over. We've got the two scroll wheels here. which you know one on the the left for the volume and the one on the right for for the channel. and underneath we have the the turbo button
+
+ProjectManager: What's the use of the turbo button already?
+
+UserInterface: This is when you when you are scrolling the through the channels you can tell it to to skip th past channels that you quickly rather th. Well when you stop scrolling the wheel it stops.
+
+IndustrialDesigner: If you take the banana as such and you press the turbo button, so it switch ons the switch ons the TV.
+
+UserInterface: This is a teletext button.
+
+IndustrialDesigner: Once you press the teletext button then the scroll buttons they are more for teletext, they are no more for channel or vol volume.
+
+UserInterface: And this is the the infrared port. in the in the base station we have the the button at the front for for calling the the banana.
+
+ProjectManager: And the the leaves plays the roles of of antennas?
+
+IndustrialDesigner: And for the power source we are having solar cells and rechargeable batteries. and this and the basis station is going to have the input from the power line for for charging the batteries.
+
+UserInterface: It's it's it's about the weight of a banana.
+
+IndustrialDesigner: And we have put these different colours so that people don't mistake them mistake it as a banana.
+
+UserInterface: I don't really know if the solar cells are actually necessary any more if you have a recharging base station.
+
+ProjectManager: I mean how long does i how how how long can it be held off a station?
+
+IndustrialDesigner: No eight or eight or ten hours of working. If you are just leaving like that it'll be much longer. Pricing is was a factor so that's why we have gone for a regular chip only not the advanced chip.
+
+MarketingExpert: And what about people who want to use digits?
+
+IndustrialDesigner: Yeah. So there was there was a constraint that the surface area which we have on this banana on one side because of the shape.
+
+ProjectManager: So we have to go through now evaluations.
+
+MarketingExpert: I constructed a a list of criteria based on the on the general user requirements. so we must users must say i if it's true or is or if it's false in a in a scale ranging from zero to seven.
+
+IndustrialDesigner: Why this strange factor of seven?
+
+MarketingExpert: Because it should be an even it should be an even scale,. I think I sh I I could write the criteria in the on the whiteboard? Okay let's let's evaluate if it's fancy or
+
+IndustrialDesigner: Yeah, it's fancy, according to me. Seven. Seven by me.
+
+UserInterface: Like I'd I think it's probably more handy than my current remote, 'cause of the scroll wheels. but maybe loses the point for not having you know the extra buttons when you reall if you do need them for some reason
+
+IndustrialDesigner: I'll give five.
+
+UserInterface: Well it depends when you say functional, do you mean it does what we want it to do, or does what it does, you know, can it make you coffee?
+
+MarketingExpert: Actually I don't know what are the the real specification of a of a universal remote contro
+
+UserInterface: Well it's not a universal remote.
+
+ProjectManager: Okay cool? Cool device.
+
+IndustrialDesigner: There I'll give it seven. For a TV the most important feature which I felt was the locator which is a cool feature.
+
+MarketingExpert: I would say five.
+
+ProjectManager: I say I said seven. Of course I'll buy the banana.
+
+IndustrialDesigner: I'll say five.
+
+MarketingExpert: I find it quite cheap actually. I dunno. If i i it depends, if you live in in Switzerland or you live in. Wha the initial specifications were for the whole all Europe or
+
+UserInterface: I don't want a banana on my living room table, a banana remote.
+
+IndustrialDesigner: Anyb anybody who comes here anybody who comes to your home he'll at least ask once what is this.
+
+ProjectManager: Don't forget who we're targeting also
+
+UserInterface: No, it's I. I would buy. I don't think I at any stage in my life I would want a banana remote control, really.
+
+ProjectManager: So you say two.
+
+IndustrialDesigner: I say five.
+
+UserInterface: If I had if I had to spend twenty five Euro, if that was like my limit, maybe I would buy it.
+
+ProjectManager: I stick to five. will I change my rem change my remote control from Mando banana. No let's say I'll put two.
+
+UserInterface: If it was change my remote control of my DVD player for a Mando banana then I would be more inclined to. I'd say a three.
+
+IndustrialDesigner: So it's somewhere three point five I think.
+
+ProjectManager: So maybe maybe we can we should stick to general feeling. We can had have a out of these numbers, which which is that well we should go for it. well we are going to calculate the production costs. We should we should be below twelve point five.
+
+UserInterface: Well we decided against the solar cells so
+
+IndustrialDesigner: I think rechargeable batteries will take care of the power thing.
+
+ProjectManager: No kinetic also.
+
+IndustrialDesigner: So we have the regular chip on the print, which is one. And we have sample speaker.
+
+UserInterface: Well actually that that no that sample speaker is not we we're not using that,. we're just using the the very beep simple beep,
+
+ProjectManager: Oh there is no listing for radio frequency thing.
+
+IndustrialDesigner: So we we'll put some extras, if there is something.
+
+ProjectManager: I put single curved.
+
+IndustrialDesigner: To reduce the cost, it's okay.
+
+ProjectManager: So we stick to plastic, it cost nothing.
+
+UserInterface: Well no didn't we say we wanted to do a rubber
+
+ProjectManager: Okay so special colour, yellow.
+
+IndustrialDesigner: We don't have any push buttons.
+
+ProjectManager: We have three. We have two scroll, and we have three push buttons.
+
+UserInterface: Okay it's gonna have to be plastic. but you know the turbo button does add that extra class. So I mean if we're if we're over budget then maybe we could we could rethink that. Make it plastic instead of rubber. Yeah well pl the base station is made out of many units of plastic.
+
+IndustrialDesigner: So might be ninety centimes for the the remaining things which the cord and everything which'll go
+
+ProjectManager: So we have margin for that stuff.
+
+UserInterface: So what do we do with the extra profits?
+
+ProjectManager: We'll invest in and. So we can go to through to project evaluation.
+
+UserInterface: No we have a product which none of us would buy. Okay so project process.
+
+ProjectManager: Well in fact I I did not know I didn't know really what to say here. Yeah well in fact we we use a little bit the white board and the digital pen, not that much.
+
+UserInterface: I dunno I think we had a fair bit of creativity. And but I think one thing we missed out of this whole process was a like a focus group with the actual people we're targeting.
+
+ProjectManager: Yeah maybe we should go through, yeah an evaluation.
+
+UserInterface: Because yeah the evaluation for us is is kind of. So but I think that's something we need to to work on next time is really finding out more about the target market. I think that's actually something that should be in version two, is the ability to you know to control things other than the TV
+
+ProjectManager: I think we we can go. Okay so thanks very much.
+

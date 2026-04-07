@@ -1,0 +1,77 @@
+Meeting: ES2016d
+============================================================
+
+ProjectManager: This is our last meeting. I'll go ahead and go through the minutes from the previous meeting. and then we'll have a, the prototype presentation. Then we'll go through the finance and see if we fall within the budget. then we'll do the evaluation,. and then we can finish up after that with any changes that we'll need to make,. We had the fashion trends that people want a fancy look-and-feel. they liked fruit and vegetables in the new styles. and a spongy feel. they wanted limited buttons and simplicity. the iPod, we really liked the look of that. the materials for the case, the different energy sources, the different types of chips,. and made a decision on what we were going to use to make our remote.
+
+UserInterface: Basically we we st went with the colour yellow. working on the principle of a fruit which was mentioned, it's basically designed around a banana. These would be like the rubber, the rubber grips. but all the controlling would be done with this scroll wheel. And the the simplest functions would be almost identical to an iPod,. And then to access the more complicated functions you'd you sorta go, you press that and go through the menus. we could use the voice. It's as simple as you, we could make it really.
+
+IndustrialDesigner: Plastic covered with rubber.
+
+UserInterface: T the actual thing might be smaller.
+
+IndustrialDesigner: It's a quick on-off button.
+
+MarketingExpert: You guys are gonna help me do an evaluation of the criteria. we're gonna be doing it based on a seven point scale. And one is going to mean true, that we did actually achieve that. With seven being false, we did not achieve that. So for the first one, we need to decide, did we solved the problem of the users who complained about an ugly remote?
+
+ProjectManager: I think it's definitely different than anything else out there.
+
+IndustrialDesigner: I'd say, when it comes to the ergonomics, the form and stuff, yes that's definitely more beautiful than your average. So to answer that honestly I would rather say like, we have not solved the problem completely with the ugly remote because the colour is ugly, definitely. I mean I much prefer something like brushed chrome with that form.
+
+MarketingExpert: Four is fair. Did we make it simple for new users?
+
+IndustrialDesigner: It's very intuitive, I think yeah.
+
+MarketingExpert: Do the controls now match the operating behaviour of the users?
+
+UserInterface: 'Cause we've we've brought it down to basically four controls most common, which are channel and volume.
+
+IndustrialDesigner: So that's a one.
+
+MarketingExpert: How about the problem of a remote being easily lost?
+
+IndustrialDesigner: Something that big and that yellow you just don't lose anymore.
+
+UserInterface: But if we were to, if we were, that, the speech recognition. That, we could maybe just use that solely for the the finding thing.
+
+IndustrialDesigner: Y you could add an extra feature actually. Which makes this thing raise hell when you remove it too far from the television. That can't cost much. Let's add one of those features and say yes.
+
+MarketingExpert: Are we technologically innovative?
+
+IndustrialDesigner: It's all just stolen technology when it comes down to
+
+ProjectManager: I don't know that we are that innovative, to tell you the truth. I would say we're probably at four. We have some spongy, yeah.
+
+IndustrialDesigner: It's not a one though.
+
+ProjectManager: Probably a four at most.
+
+MarketingExpert: Did we put the fashion in electronics? I'd say we did.
+
+IndustrialDesigner: Well the recent fashion is rather displayed in the in the LCD and the way you operate it than the form and the colour,
+
+MarketingExpert: Now we just gotta calculate. Okay we'll say two point four two.
+
+ProjectManager: Now we get to do the budget numbers. We want a fifty percent profit on this. and how many batteries do we think this will probably take?
+
+IndustrialDesigner: That's the advanced chip-on-print, yeah.
+
+ProjectManager: 'Kay then the case is a Probably it's double curved. Case materials are
+
+IndustrialDesigner: That's not a special colour. It's a specially ugly colour, but it's not special.
+
+ProjectManager: Well we only have one button so really we shouldn't be charged,. we shouldn't be charged anything for the the button supplements. So our total is fifteen point five. by three Euros over.
+
+UserInterface: What if we completely took out the the one single button we've got on. I suppose the LCD display's the one that's pushing it up a bit though. you could maybe take out the LCD dis display even,
+
+IndustrialDesigner: Right. We may not need it.
+
+ProjectManager: I think that perhaps the project evaluation's just supposed to be completed by me. But I'd like to hear your thoughts. what did you think of our project process?
+
+UserInterface: Yeah I think we did quite well.
+
+ProjectManager: Our leadership was quite weak in the beginning. But as the day went along we had more idea of what we were doing. and I think it was interesting as you guys brought up more information and studies that we were right on with a lot of those things. I had some problem with the pen I think,
+
+MarketingExpert: Minus your PowerPoint fiasco.
+
+ProjectManager: Complete the final questionnaire and meeting summary. And I still have to do my minutes for the last meeting. so there will probably be another questionnaire coming up. And then we'll have to check with the main boss whether we can, what goes on after that.
+

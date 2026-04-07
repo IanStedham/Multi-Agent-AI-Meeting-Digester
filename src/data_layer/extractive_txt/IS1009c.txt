@@ -1,0 +1,39 @@
+Meeting: IS1009c
+============================================================
+
+ProjectManager: First we going over the minutes of the last meeting, more or less. in the last meeting the marketing manager had presented her method of working,. Our technical manager has then said that she feels it should have a chip. are we all in agreement that that's about what we discussed last time?
+
+UserInterface: Now as an interface designer, I would give more emphasis on the interface, how the remote looks like. Okay. Now the function of a remote is to send messages to the television. Then it should have a next button,. Then, there should be a button which can give subtitles for a particular program which is going on a television. Then there should there should be some buttons which can control features like the colour, colour of the picture, the contrast, sharpness, brightness of the picture. Now there should be a memory switch. Now the most important feature I would like to have in my remote would be the speech recognition feature. for example, if you want to see we if you want to see the ninth channel if you say just say ninth channel, th now the the yeah, the remote will automatically it will switch to the ninth channel. So this is one one of the interface which can be created. A very simple interface which has all the important features. Then, these are some of the remotes which are different in shape and colour, but they have many buttons. So you can you can design an interface which is very simple, and which is user-friendly. Yeah, so this is one of the interface or one of the remote which has this vi voice recogniser. Yeah, now this is an interface for a chil for a remote which a child can use. And this comes with different colours, different shapes. Now this is a big over-sized remote which cannot be misplaced or it's impossible to misplace. And the personal preference would be a spe to incorporate speech recognisers which will respond to user's voice for a particular function.
+
+ProjectManager: Any comments on her presentation?
+
+MarketingExpert: Well, looks like we still have quite a choice of things out there. But we're gonna have to narrow it down a little more. No, I think her presentation was good, and she really explored all the options. Yeah.
+
+IndustrialDesigner: This time I'm I'm going to concentrate more on the components and the technical side of the remote controller design. I have just brief down few components which we require for the remote control construction. the first one is case to keep all the components like integrated circuit, battery, etcetera, etcetera,. So it should be strong. And it should be recyclable. like if we want to have different colours, blue, red, green, so we have to use some colouring compone compone components. And the second important thing is integrated circuit. which we can use a highly sophisticated one because it's like the it's like the heart of the remote controller. And the other component we should we have in the remote controller is a resistor. if we will be able to make a res rechargeable battery then we sh we need not go for a high performance battery,. this is a normal remote controller. like you can see a chip there which is having eighteen pins,. you can see the TA double one eight three five labelled chip. you can also see the the green two green things are these are they are they are resistors,. Actually, building a circuit bo board is pretty pretty easy and also it's a it's a l inexpensive. but a a push-button requires a simple chip underneath it, but whereas a scroll wheel requires normally a regular chip which is a higher price range. Like for scrolls we have to go for a sophisticated and and full a complete chip. and a as energy source we offer a basic battery, a more ingenious hard dynamo, a kinetic provision of energy,. or we can use solar sells. Like we can have a ma material such as plastic, rubber, wood, titanium,
+
+MarketingExpert: Yeah, on the scroll and the push-button, ca you can achieve scrolling by repeatedly pushing a button?
+
+IndustrialDesigner: No, no, no, th the the the scrolling wheels are different,. like you can go for a sw switches like buttons or scrolls, which which we used to do before ten ten years before, I think. Now, nobody uses that because you need you need a a sophisticated chip and all. So I think it's better we go for ordinary buttons.
+
+ProjectManager: We don't have a lot of time left. and we will still have to make a decision,
+
+MarketingExpert: Alright, my method is I'm interested in what the competition is doing, and wanna see how we can make ourselves different from the competition,. and my findings from this is that, you know, small is beautiful. Simple is beautiful. And eye-catching is important. And in my research this year I found out that fruit and vegetable shapes are really popular. They are more back into soft feel, spongy feeling things, things with maybe a little cloth on them.
+
+ProjectManager: And what we really have to decide in this meeting is the concept of the remote.
+
+UserInterface: I would like to include this feature which is called as voice recogniser. This could be one feature which could be sellable.
+
+IndustrialDesigner: Yeah, but but I what I'm very very much doubtful how how far it will work,. because a speech recogniser like i it it has its own problems, issues. So to get a good recogni recognising system, it's a costly thing, I think.
+
+UserInterface: It it's like your recording of all a question already, and then you're expecting an answer from th
+
+ProjectManager: What kind of energy do we foresee?
+
+MarketingExpert: I think I think battery,. and I think we all agreed on that. That that's that's gonna be most cost-effective and the best thing. Bright, colourful, trendy trendy design, and strong.
+
+ProjectManager: Trendy design, compact and strong. Not sure what they mean by supplements.
+
+MarketingExpert: Her speech recognition feature would be a supplement. Okay, so why don't we put down speech recognition if possible pending some more research from our industrial engineer on how expensive that is.
+
+ProjectManager: And the UID is supposed to come up with the user interface design,. and the marketing expert with the product evaluation. In this phase, the two of you, Jana and Francine, have to work together on a prototype using modelling clay, it says here. You will receive specific instructions will be sent to you by your coaches.
+

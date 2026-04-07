@@ -1,0 +1,93 @@
+Meeting: TS3011a
+============================================================
+
+ProjectManager: Okay, the waiting is for our Marketing Expert, Ruud.
+
+IndustrialDesigner: Is there a schedule for this meeting?
+
+ProjectManager: Yes, there is actually. I will li list the agenda for today. For this meeting. It's important that the laptops are exactly on the square, for the cameras. we're here to develop a new product. this is the first meeting to to generate some some ideas about it. you are here in a specific role. Ruud is here as the Marketing Expert,. Roo is here as the User Interface Designer. and Sebastian is here in the role of Industrial Designer. we're going to do a little tool training for the tools we are going to use during the meetings we are going to have here. then I will tell you a little bit about my idea of the project plan,. and we will have a discussion. this meeting should take no more than twenty five minutes,
+
+IndustrialDesigner: Is there any room for a little presentation? maybe during the discussion section?
+
+ProjectManager: This new product we are are are going to develop,. it's a remote control,. and first of all it should be original, it should be trendy and user-friendly. we will discuss later on more ideas about how the remote should look and how it sh it should function and all those kind of things. we are going to use a a pred a project method during this development,. the functional design, the conceptual design and the detailed design,. all of these stages mean that we do some individual work, prepare, and then meet to discuss our the. the first stage, the functional design we are going to search for the user requirements,. the second is the technical functional design,. what effect should the remote have? and the last one is the working design. How exactly does it work in the technical sense. Okay, before we think about remote control we will work with some of the tools we have here. You can display pr two presentations if you want to. to presentate, to show us a file you'll need to place it in your project documents folder,. then we have this electronic white-board system. you can draw on the board using this pen. There are little. it's on the eraser now,. so we click the pen button. you can insert a new slide or or white-board file by either using the insert function or by clicking the next button or the blank button. all our whi SMARTboard notes should be kept in the same file. So do not make a new file.
+
+UserInterface: But we all use the same white-board file
+
+ProjectManager: Current colour, you can choose another colour. so now I have a different line width and colour. I wrote down the documents should be in the project documents folder. as a little training I will ask Ruud first to draw your own animal on a new slide with a different colour and a different line width than the one now selected.
+
+MarketingExpert: A wee rabbit.
+
+ProjectManager: Roo, could you do the same please? But a different animal with a different colour and a different line width. It it should be a cat. Okay, so you can use this at any time during the presentation if you want to. the remote control we are going to develop will have a selling price of about twenty five Euros. the profit we are looking for for this product is fifty million Euros,. we we will focus this internationally,. And the production costs should not be more than twelve Euro fifty,. maybe the time for Sebastian to show his presentation.
+
+IndustrialDesigner: Yes, I have some technical issues which I would like to present to you before we start the discussion,. I would like to think about the implementation of of things,. and the technical possibilities and impossibilities. So if someone of you comes up with ideas, I'll try to translate them in technical functions,. but there might be some impossibilities. and I also will remind people of some new technical possibilities which are available. I have some initial ideas about some things. One thing about interopera operability. I think a modern remote control should control a device diverse subset of equipment. for instance, DVD players, cell phones, video and audio equipment. Well, there should be some interoperabi interoperability between them. and we should think about the way how these things should communicate with each other. We're not living in the nineteen eighties anymore, so infrared is not. is not really hot technical stuff anymore. But you should think about the things like Bluetooth.
+
+UserInterface: Yeah, but the infrared, it's, well, a little bit old-fashioned, if you would call it like that. But all the T_V_s are equipped with infrared, so. you should equip infrared and Bluetooth together in one remote.
+
+IndustrialDesigner: But that's something we should discuss. but take these things into account when you start the discussion.
+
+ProjectManager: I I do think it's time now to to discuss some things. Sebastian told us a few things about the technical implemen implications. there are other things like how to make it trendy,. which is I think most Ru Ruud's role. the way how it should be controlled by the user,. which is Roo during this part. H how do you think the remote should function for the user?
+
+UserInterface: Well, the interoperability, just like Sebastian said,. the remote should work on different T_V_s or even different. I think it's a universal remote control for customers to buy just new in a store.
+
+IndustrialDesigner: Yes, I think it should be something like that.
+
+UserInterface: It's not for for for Philips or whatever to buy our remote for their own product,
+
+ProjectManager: Okay, so we're we're going business to consumer,
+
+UserInterface: Yeah, I do I don't know that.
+
+IndustrialDesigner: We're not developing this product for a specific vendor, are we?
+
+UserInterface: Don't have the information for it.
+
+IndustrialDesigner: We're just developing this product, and we want to sell it to a very broad public,. And you you see the buttons as a as a means of doing this? Or are there any other controls?
+
+UserInterface: Yeah, or maybe you want a touch-screen or
+
+IndustrialDesigner: I I've seen these remote controls with this little stick which you can move forward, sidewords. And it's very easy for a user to to switch. to to switch between channels. or change between tracks on a on a CD,
+
+UserInterface: And for other user interface I had, well, it's more industrial thing. point at a TV, I think it's it's quite disturbing when you always have to point directly to the TV,. so you must point everywhere,
+
+ProjectManager: Maybe not even pointed.
+
+UserInterface: So in that case infrared should maybe be restriction to that.
+
+IndustrialDesigner: So when you're not able to point at the device the range is very limited.
+
+UserInterface: For TV, you're always in in the neighbourhood of a TV,. so I don't think think the range should be a problem to that,. but if you want to get it working with a radio, and you're in outside your garden with just one speaker, then maybe the range should be. You should able to feel the buttons without it mis. you have to know what you do without looking at the buttons,. so it should be as user interface for feeling should be good to understand. And of course you don't always know where all buttons are,. so it should be visible al in dark too.
+
+ProjectManager: I'll write down glow in the dark. Okay, I just want to hear Ruud's input for this meeting. do you have anything already ab idea about how the market will respond to the such a product? Or what we should take in account when developing such a product?
+
+MarketingExpert: I think most most things have already been said,. like control multiple devices. And, yeah, infrared might be an issue. But lots of devices already use infrared. we'll probably have to implement that.
+
+IndustrialDesigner: You said something about visibility in the dark. would it be nice for a user to have display on this remote control, on which you can see functions?
+
+UserInterface: But it it can be quite simple,. you can just have white buttons with a black mark on it. The the the digits in black. then it's already visible in dark. So it it don't have to be a lightning or or a fancy. well, it can be for design, of course.
+
+ProjectManager: Because because we wa we want to develop a trendy product.
+
+IndustrialDesigner: Yes, but there's a cost limitation too.
+
+ProjectManager: Twelve Euro fifty, yeah.
+
+IndustrialDesigner: So that's a big problem, I think. I think the the financial part of this project implicates that it's not going to be a high high-end product. The cost price is very low.
+
+UserInterface: The digits of the the painting on the buttons should not fade. Always have the soft buttons, always clear the the the paint on it.
+
+ProjectManager: I think the device should either be rechargeable very easily. or it should not consume too much power. Because it's very annoying if you need to change the batteries every every other week. maybe we could for example only light the buttons that are applicable at that moment or
+
+UserInterface: But then Bluetooth might be problem.
+
+IndustrialDesigner: It's use a lot of
+
+ProjectManager: Well does it?
+
+UserInterface: I know it from the cell phone.
+
+IndustrialDesigner: Well, cell phones have integrated Bluetooth also and, well, it's it seems to work quite okay.
+
+UserInterface: But you can't you can't use Bluetooth all the time, twenty four hours a day.
+
+ProjectManager: Okay. Gentlemen, I'm afraid we do not have any more time. so we will go back to our own work. next meeting starts in thirty minutes. and, well, you know your your individual actions. or your personal coach will probably email you about th it. See you in thirty minutes.
+

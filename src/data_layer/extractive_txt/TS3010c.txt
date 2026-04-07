@@ -1,0 +1,131 @@
+Meeting: TS3010c
+============================================================
+
+UserInterface: Let's talk about the interface concept. first I'll I'll discuss the buttons we just chose,. show you some samples,. discuss some colours and design maybe, already. And my personal preferences. Well we chose the power button to switch the television on and off. the mute button to switch the volume on and on and off. The channels buttons, one to nine,. zero to nine,. and the button to choose higher channels than nine. the volume and channel quadrants,. left and right, up and down arrows, to do the volume and channel. And the menu menu button to man manipulate the LCD display. I found some interesting samples. Examples. well what's pretty standard is that it's that they're all pretty high
+
+MarketingExpert: A lot a lot of buttons buttons.
+
+UserInterface: Large and and and pretty thin and and long. power buttons are mostly at the top. left or right. Yeah, well arrow buttons can be blue. And what's interesting is the the the icons on the buttons. Some buttons have icons like the play and stop,. but we don't use that. But, these we we have to choose the right icons, or or letters. this is the for volume, but they're both a. So it's it's not really very clear what's the function of that.
+
+ProjectManager: For the menu, what do we use for that? We don't have buttons for the menu. Or we may have to use channel of the volume and channel.
+
+UserInterface: I thought that was our idea. And that the menu button is okay.
+
+ProjectManager: Yeah but, has to be clear that you can use the arrows.
+
+UserInterface: The icons on the arrows, as well, you mean. well I don't I don't know if we have to discuss this already, or in the next meeting. But, as we have to to to design the the case and the whole remote control in our our our corporate company colours and the logo, I would recommend a yellow case. The logo at the bottom. And, well maybe each each set of buttons has has his own colour.
+
+ProjectManager: Not too much colours.
+
+UserInterface: No. Not too much. But this has to be has to be trendy. yeah so good good icons on the buttons, and and big buttons is my personal opinion.
+
+IndustrialDesigner: At first we will I will say something about what younger people want,. our group w we want to sell our remote controls to. And then, I'll discuss what my opinion is about the costs, about what battery is in it, what kind of buttons also. First, the younger people, they want like soft mat materials and primary colours. Like, totally yellow, totally red. the shapes are curved and round,. Maybe it's nice to get a remote control not like all the other ones, straight and flat and long. But to give him the shape of your hand, so you it's easier to use or something like that. The battery, there are few options. I think the best option is to use the basic battery. the the form of the remote control, I think it's also nice have it curved. And maybe like it's hand-shaped. material, you use plastic. Hard plastic. And also rubber. We have one new thing discovered. It's a scroll push thing like a mouse. Maybe it's easy to use for the channels. When you want to go move up, you just scroll up. and click on the button, if you wanna see the next, if you wanna see that channel. You can do it with your thumb. And with your left hand you can push the buttons. The electrics with a scroll push button, we must use regular chips. There are also simple chips. They are cheaper. but then we have just a basic remote control,. And you have also advanced chips. But that's with the LCD screen. And I think our budget is too low to use and an LCD,. And maybe it's also then thoughtful if we use as different kind of shapes for the for remote control,. that we then use the primary colours.
+
+MarketingExpert: This is with an LCD? No,
+
+IndustrialDesigner: Not with an LCD.
+
+ProjectManager: But the LCD is easy when you use the scroll buttons. But then it's not easy to use scroll wheel.
+
+IndustrialDesigner: But when you see a menu on the television, it's like you see one to twenty, you go scroll up, and push number tw twenty.
+
+ProjectManager: But like we said before, it has to be used on every television.
+
+IndustrialDesigner: Yeah, I think the younger people will have newer televisions, which can provide our remote control. but then we'll get to the regular remote controls. And I think, what I said, everybody has them has them already. And I think we must look further to to devel develop something news.
+
+MarketingExpert: Can you give an indication in in the cost difference between the chip with LCD or without?
+
+IndustrialDesigner: I got it on my screen and it was higher. But I don't know how much higher.
+
+MarketingExpert: I think if we have an LCD, it will also sell a lot better. And that might bring back the costs
+
+IndustrialDesigner: I think we must discuss who what will be better. If we have a better shape of the remote control, or better options on it. With a scroll menu, a scroll thing, and a LCD. And then a flat remote control. Or, a more hand-shaped remote control, with scroll, without LCD.
+
+ProjectManager: Maybe you can look how how much it is for the LCD.
+
+IndustrialDesigner: Note that the push-button requires a simple chip chip. A scroll wheel requires minimally a regular chip, which is a higher price range. The display requires a advanced chip, which is which in turn is more expensive than the regular chip.
+
+MarketingExpert: So, my presentation is about trend-watching. well we made an investigation of the market, by Trendwatchers. They watch in cities like Paris and Milan. we have two groups, young and trendy, and the old and rich. Well th and the young and trendy, they they starting to like fruit and vegetables as a theme for clothes, shoes, and also products. And, material? That should feel have a spongy feeling. Then the old and rich. They like dark colours, and simple, recognisable shapes. Well, then already come to my personal preferences. We aim at the younger market. However, with trends it's always if there's it's now. It it it might last one year, and next year it be can be totally different.
+
+ProjectManager: Well, we have to decide on the concept. Maybe one of you can paint it on the board.
+
+MarketingExpert: Can make several concepts. We have this, and we had the idea of an a more like sh in the shape of your hand.
+
+IndustrialDesigner: This is the remote control. And then you have something like th this under it.
+
+ProjectManager: So, it has to be soft?
+
+IndustrialDesigner: And it has to be soft, yeah. Buttons on top of it. The scrolling. You can do it with your thumb. But now we use one scroll button and the other one is here.
+
+MarketingExpert: If we have a menu, how do we choose other options?
+
+IndustrialDesigner: With the menu button. And then you also can scroll scroll in it.
+
+ProjectManager: But if we don't have a LCD we don't have a menu.
+
+IndustrialDesigner: Then we have it on the TV, the menu.
+
+ProjectManager: Yeah, but again maybe th How do we know the TV can handle it?
+
+IndustrialDesigner: And if we put an LCD thing on it, then the costs will be much higher.
+
+ProjectManager: We make two concepts. One with LCD. One without LCD.
+
+IndustrialDesigner: And and this one has to be soft. And this has to be harder,. Or some kind of rubber around it.
+
+UserInterface: And you can and you can make the the power button as a trigger.
+
+ProjectManager: It's not good to use. One with two scroll buttons and one with without. one with a with a menu, and one without a menu. And the one with with a menu has an LCD.
+
+UserInterface: Yes, but you don't know which of the scroll buttons you have to choose.
+
+ProjectManager: Then it depends on the cost.
+
+MarketingExpert: M yeah, maybe it's better if the scroll-wheels are. more separate, yeah. Like, you have the menu button in between
+
+ProjectManager: When you the menu, you have to go there there there there.
+
+IndustrialDesigner: I also think this concept is not what the young people were looking for.
+
+MarketingExpert: We have two buttons missing. The mute button.
+
+ProjectManager: Mute. And the other.
+
+IndustrialDesigner: Personally, I think two scroll buttons aren't easy to handle.
+
+ProjectManager: But how do you wanna solve it?
+
+IndustrialDesigner: With the switch button.
+
+ProjectManager: Yeah but on the menu that's not easy.
+
+IndustrialDesigner: Then you can also have like th. Yeah, and joystick, I think.
+
+ProjectManager: Does that break, a joystick? Or a small one just like in a laptop. But how expensive it is? For the young peoples I think scroll button's good. That's not expensive than Joystick is better.
+
+IndustrialDesigner: I mean the the shape of the remote control. Just like a Playstation thing.
+
+ProjectManager: Maybe, if it's possible, it's not too expensive, I think a joystick is better.
+
+MarketingExpert: And on the LCD, how much it costs?
+
+IndustrialDesigner: They're not in details. It's more expensive or less expensive, huh?
+
+ProjectManager: So, after this meeting you have half an hour to fix it. Then for the components, we use a normal battery. Then it's Ch cheapest way, I think. Kinetic is ch makes it more expensive. Chip. Depends on the LCD.
+
+IndustrialDesigner: If we use a scroll, then we have the regular chip. If we don't use a scroll, then we can use the simple chip.
+
+ProjectManager: And, we If you use the LCD, we have to
+
+IndustrialDesigner: The most expensive.
+
+ProjectManager: So, the shapes of the design depends on the LCD
+
+IndustrialDesigner: Or shall we just put it on the pistol thing?
+
+ProjectManager: If you have pistol, it LCD's not easy.
+
+IndustrialDesigner: If you have like an a ni a Playstation game controller. Now we put rubber around it. Hard plastic, the shape, and around it hard around it rubber.
+
+ProjectManager: Then this is the design. And the buttons are on the next page. So, depends on the cost. Next meeting. Thirty minutes. You two stay here. Check your mail. It has to be ready in the next meeting. Next meeting is called the detailed design.
+

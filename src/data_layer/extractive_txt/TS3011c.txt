@@ -1,0 +1,141 @@
+Meeting: TS3011c
+============================================================
+
+ProjectManager: First of all, if you make minutes yourself as well, like Sebastian does, could you put them on the shared folder?
+
+MarketingExpert: Ease of use is important,. but innovation is more important,. and a fancy look and feel is even more important. And some fashion watchers have found out that the young target group likes fruit and vegetables in their clothes, shoes and furniture,. and that they want spongy material. I assume they just want something colourful. Not specifically an apple as a remote control or something.
+
+UserInterface: The corporate colours are grey and yellow.
+
+MarketingExpert: Maybe soft material or something. But not a real sponge.
+
+ProjectManager: Maybe it rubber
+
+MarketingExpert: Or like cell phones, exch exchangeable covers.
+
+ProjectManager: You could make a few very colourful ones, and a very traditional co cover.
+
+UserInterface: A few interface I I found on the internet are are these. but they're very advanced and very high-tech and just, well, a weird shape. But we could make a round an oval remote control. yellow.
+
+ProjectManager: And what I'm thinking about, maybe we should make very light but a grip. I mean this is how you hold a remote control.
+
+IndustrialDesigner: There are there are also remote controls who have a little shape underneath where you can put your fingers in,
+
+UserInterface: In this interface we can have high-tech with the voice recognition and, well, the the fancy colours and and so on,. and still have the ease of use,
+
+IndustrialDesigner: We have the uncurved or flat case. that's the most common remote con control form. We have a curved one. and we have an even more advanced shape,. which is curved in three dimension. We can use plastic,. which is the same for rubber,. We can use wood and titanium. we cannot use the titanium on the double curve cases. And these latex cases, there's there's just the plastic ones won't allow the use of solar cells as an energy source source. we even seem to have hand dyn dynamos for powering our remote controls. there's there's also a kinetic energy supply.
+
+ProjectManager: I think, if if I can hook on to that, the kinetic thing is very funny.
+
+UserInterface: But if you're watching a movie, how many times you take the the remote control and and
+
+IndustrialDesigner: But the problem here is that it it supplies a a very little amount of kinetic energy. but maybe maybe there's a possibility com to combine it with traditional batteries,
+
+ProjectManager: Because I guess the voice recognition feature consumes quite a a lot of power.
+
+IndustrialDesigner: And we of course have the traditional solar power,. of course we have the push-buttons. and we also have scroll-wheels. And these scroll-wheels can also be integrated with buttons. in the indicators we have the LCD displays,
+
+UserInterface: We can just make four push-buttons in a form of a round.
+
+IndustrialDesigner: Yes. That is possible too. Yes.
+
+UserInterface: I can't see any scenario where you would use a scroll-wheel with a button on it.
+
+ProjectManager: With maybe a channel selector. What about integrating a scroll-bar on this side?
+
+UserInterface: Yeah, that's a possibility,
+
+IndustrialDesigner: There's no scenario where you use the button in the scroll-wheel.
+
+ProjectManager: This is my volume button. And I can either on this side or this side. And click it to muten the device.
+
+MarketingExpert: So it might attract the young customers.
+
+IndustrialDesigner: It's it's been done years ago. and I don't see it anywhere now.
+
+UserInterface: So in that case the volume button on the side of the remote control would be perfect.
+
+IndustrialDesigner: Yeah, yeah. Okay. we have a simple, regular and advanced chip. And there is something like a sample sensor and sample speaker,
+
+UserInterface: In the voice recognition you say a word you can programme words like volume up. Of mute, let's say mute. and when you speak in the the remote control, it repeats your saying.
+
+ProjectManager: It performs the action. d did we already decide on the display?
+
+UserInterface: Especially when when we have to look at a cost, I don't think
+
+IndustrialDesigner: No. I don't think you need it. I thought the market would like a sort sort of titanium casing,. but they seem to like natural stuff. I've chosen the more battery with solar cell solution for the energy. The kinetic thing it it's it's a possibility. but I'm I think you should combine it with batteries.
+
+ProjectManager: It's maybe a bit too too flashy,
+
+IndustrialDesigner: So it it needs to be rubber.
+
+MarketingExpert: The younger people liked soft material.
+
+IndustrialDesigner: But they really need the regular chip,
+
+ProjectManager: But but do we want the curved design,
+
+IndustrialDesigner: If you if you stick with the the simple straight-forward not curve design, i it's too dull. And if you take the double-curved, then you cannot you can only use the rubber buttons and you cannot use the scroll-wheels. So I think this is the best of two worlds.
+
+ProjectManager: What about the issue I addressed at the beginning of the meeting? the voice function with the infrared issue.
+
+IndustrialDesigner: It's it's I I can imagine it's very dull to talk to a device if you have to point to another device.
+
+UserInterface: But most infrared remote controls don't have to be pointed at all.
+
+ProjectManager: It depends on your walls actually.
+
+IndustrialDesigner: I suggest we use the the sensor sample. the sample sensor and sample speaker. with a with a regular chip.
+
+UserInterface: And and the scroll scroll-wheels.
+
+IndustrialDesigner: And skip and skip the LCD part.
+
+ProjectManager: According to Ruud, the the the market likes new flashy technology,. Because if we do have enough space in in our finance, I would say do integrate it,
+
+UserInterface: But we already have the scroll-wheels, the sp the speaker the speak recognition, the rubber, the fancy colours.
+
+IndustrialDesigner: I think our customers will go insane.
+
+ProjectManager: Yeah. Okay, I I agree. then the corporate identity should be in the product. I guess that is something for Roo and Sebastian. you talked about it before, the colours, grey and yellow. The next phase, Sebastian, is the design of the look and feel. The user interface design. And for you, the product evaluation. and the ID and the UID need to work together on the prototype drawing on the SMARTboard.
+
+IndustrialDesigner: Can you give us a summary of all decisions we've made?
+
+ProjectManager: The casing is curved, single-curved. Traditional batteries and solar.
+
+IndustrialDesigner: What about the finishing of the case?
+
+ProjectManager: Yeah, with colourful rubber. if it's possible with different covers,
+
+IndustrialDesigner: And I think we should use the company colours. Something like black and red. black and yellow.
+
+ProjectManager: Yeah, although I don't think that's very colourful. Except for the yellow of course,
+
+IndustrialDesigner: It's quite modern actually.
+
+ProjectManager: I was more thinking about the fruit colours that the Ruud showed us before.
+
+UserInterface: You must have a red on and off button.
+
+ProjectManager: So maybe it shouldn't even be two colours,. it should be a full colour cover with such an image
+
+IndustrialDesigner: But I'm afraid it's not possible to print a picture on the device.
+
+ProjectManager: The scroll-heel. Yes,. the voice recognition we already decided.
+
+IndustrialDesigner: But there will be some additional buttons, I guess. because they're they're rubber too.
+
+UserInterface: What I said in the in the first discussion, the digit six on the button, it will disappear when it's from rubber.
+
+MarketingExpert: Didn't did we inc include the digi digits. or leave them to the speech recognition? 'Cause things like volume could be placed next to the button.
+
+UserInterface: So still then, if you feel li if you feel your remote control, you just rub on the cover, so you rub on the painting.
+
+ProjectManager: What about making this rubber and making this plastic? we should have it the other way around, I guess. A plastic cover with rubber finishing.
+
+IndustrialDesigner: I'm I'm not so sure,. I have to ask with manufacturing,. So if you want the spongy feel, you need to make these buttons all all of rubber.
+
+ProjectManager: I guess you two have to figure that out.
+
+IndustrialDesigner: We use the regular chip?
+

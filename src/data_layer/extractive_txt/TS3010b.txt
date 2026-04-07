@@ -1,0 +1,97 @@
+Meeting: TS3010b
+============================================================
+
+ProjectManager: So welcome back. first. I want to say I'm the secretary,. so I make the minutes. You find them in your in the map in the From the group. There's the minutes from the first meeting. You'll find the next minutes also there. I wanna hear from you, what you've done. And after that I have some new product requirements. So. And after that we have to make decisions, what we will do. We have forty minutes for this meeting. After that we'll have lunch. So first I wanna ask the Industrial Designer to tell what he did. So
+
+IndustrialDesigner: Where have I put it? I've save it on my computer, my presentation. But now I don't know where it is. Okay here it is. It's a little difficult what I'm gonna tell you. It's about the working of the remote control. I just had an half an hour to study it. and I don't get it. First I will tell you something about the findings,. what I discovered about the remote control. then I'll have some kind of map,. and it's the top of the remote control. The remote control is a very difficult thing to to explain to just all of you wh who haven't seen a remote control inside. there's a lot of plastic on it,. because its not so expensive. And there are a lot of wires,. which connect the components in it,. and there are switches and things like that. There's a lot of small electronics. So it won't be too expensive to build it. Only twelve Euro fifty I think we will make it. And here I have the top of the remote control. here's some kind of chip. on top of this, there are the numbers. you have all on your remote control. And the teletext button. And here's the battery. And when you push the button, it will will be sent to the chip. And the chip will send it to all kind of sub-components. We shouldn't make it too big. also for the cost, we should only put one battery on it. A long-lasting battery. also for the cost, use only plastic. Also because of the cost, not too much buttons on it. We can also make a button with a menu button. And then that that you will see it on the TV. And the bleep signal, you told us. but we can also use it a bleep like something, when the battery's empty, then there is a bleep. And also the bleep, when what I told you about when you lost it,. and you push a button, and then you hear bleep bleep, and we will find it.
+
+ProjectManager: You say one battery is cheaper.
+
+IndustrialDesigner: If we if we use only just one small pen-light, then it will be cheaper than when we use two.
+
+ProjectManager: When you use two, you can use it two times longer.
+
+IndustrialDesigner: Then we'll have to make the remote control long lasting.
+
+ProjectManager: Okay and the buttons. When you use it on the television, you've you need the television, wh which can use it.
+
+IndustrialDesigner: But I think this our remote control is for the televisions we we sell in our company? Or is it also for other company for other televisions?
+
+ProjectManager: I think we have to use it also on other televisions though.
+
+IndustrialDesigner: Maybe just a menu button to use it on our televisions.
+
+ProjectManager: They are two different things though. We have to choose one. It has to work on all televisions.
+
+IndustrialDesigner: Then I think the menu button will only work on the newer televisions. And I just have one more idea. But, to have a trendy remote control, we can also make something like the Nokia mobile phones. To change covers. So if you have a trendy half with all red, yellow and something. And then you can put a red cover on it.
+
+MarketingExpert: Will this will this add to the cost?
+
+IndustrialDesigner: Then it won't be will have just one cover on the original one. And then you can buy the covers.
+
+MarketingExpert: But you have to be able to change it. D does it make it more difficult to design?
+
+IndustrialDesigner: I think it will be a little more difficult,. but not too much. Just like with the Nokia mobile phones.
+
+ProjectManager: Yeah but there are much more Nokia telephones than these ones.
+
+IndustrialDesigner: If it won't works then we'll get something else. Then we won't go further with it.
+
+ProjectManager: Yeah but are their profits bigger than their cost?
+
+IndustrialDesigner: A a a cover made in in China, it it won't be I guess so expensive I think.
+
+ProjectManager: Yeah but there are also design cost. Would you change the cover?
+
+IndustrialDesigner: I wi I won't. But maybe I think trendy people. or like children where you can paint on it,
+
+ProjectManager: I think that too less people would change it for good profit. So
+
+UserInterface: I'm not sure if it will make profit enough to. But it's yeah it's original idea.
+
+ProjectManager: But I don't think we have to do it.
+
+UserInterface: Yes well I shall give a short talk about the the technical function design. I thought the the the technical function design was to for a remote control to to to have some influence on the TV set. And well, it all by pushing a button on the remote. I find some some interesting quotes on the web. message to the television. And and and and well basic operations like on and off, and switching channels, and and maybe teletext or something like that. well these are two remotes,. and that's our our dilemma I think. But shall we make a basic remote control, just swapping channels and volume and power button and well nothing much more. Or more functions on the remote. maybe more devices you can influence. a radio or a a video recorder, VCR. any ideas about that? Basic or multifunctional?
+
+ProjectManager: We'll got back on that later.
+
+UserInterface: So I didn't know what what way we would go.
+
+ProjectManager: Then it's your turn, the marketing expert.
+
+MarketingExpert: So I'm gonna have a presentation about the market,. we did a usability lab-test with a hundred persons. And we looked at several things. among them design,. what frustrations they had while using remote controls. our users, they disliked the look and feel of current remote controls. they especially found found them very ugly. And th they also found them hard to to learn how to use it. well they also zap a lot. And fifty percent of the users only use ten percent of the buttons. So a lot of unused buttons. Well the most used button is the channel selection. The power, volume and channel selections are very relevant. teletext is less relevant but also important. not important they found the audio,. that's not the volume but specific the the pitch, or the left or right. the screen and the brightness. And channel settings. th and they also are not used very often. Then we have a few graphs about the market. here we can see what the market share is of several groups. as you can see, most users are between thirty six and forty five. the the the younger group between sixteen and twenty five is not very big. And to come back on the the swapping things, I don't think, I I think the younger will be most interest in it. in the we asked them, how would you like a a new feature. If you have an LCD on the remote control, what would you think of it. Now you can clearly see young users say. I will that would very nice. And older user think they will be scared of change I think. And another thing, how would you like to have a speech recognition on it. Young users think that's an interesting idea. And old users not. well we found out that there are two several markets at which we can aim. the first are the younger,. the age between sixteen and forty five. they are highly interested in the features, as you can see here. the second group is the older group. Aged between forty six and sixty five. They are less interested in new features. But they spend their money more easily. Well then I come to my personal preferences. yeah the first question is also we have to ask is at the which market do we aim at. of course saying we aim at the young group doesn't say that old people won't buy it. What I thought, even young people say it's hard to use, remote control. So if you make a remote control that is very easy to use, that's especially aimed at this group, even the young group will also be more interested. But when use it, I don't know what's good thing of speech recognition. less important functions should be discarded from the remote control. You can find most functions on a TV set. So you don't have to have a lot of audio options, or screen options to change the brightness. And such things. One thing I did not say I think, is that a lot of users also said then I would buy a good looking remote control if there will be one. So the design of our remote control is very important.
+
+IndustrialDesigner: If we aim for the younger people, and there will be a lot of features like LCD or the the the speech recognising, the cost will be a lot of a lot higher. I think we don't have that in our budget.
+
+UserInterface: And I don't I don't think twenty five Euros for a remote is really cheap or something. So it's Yeah, it's hard to get the younger group.
+
+ProjectManager: I think the LCD is cheaper than speech recognition. So I think that can be an good option. LCD. we go back on the decisions later. Now we have a few new product requirements. We have internet now so we don't need the teletext anymore. So not necessary. Only for the television. So we don't look at the other things like the radio or something. We look at the age group of forty plus. no, younger than forty. Our corporate colour and slogan must be used. So you can see it on our site. Now we have to decide what controls do we need.
+
+MarketingExpert: Yeah maybe we can first have a discussion on the the product requirements you just said. I personally think teletext is a good option.
+
+ProjectManager: Yeah but we don't use it. It's a new requirement.
+
+IndustrialDesigner: No discussion about it.
+
+UserInterface: Well a power button? the well I think separate channels. So. So so zero to nine or something.
+
+IndustrialDesigner: To move up, move down.
+
+MarketingExpert: Do we make a menu? I think it will be quite easy to use, to have four arrows. Up-down for channel selection,. and left-right for volume. And if you press the menu button you get into the menu,
+
+ProjectManager: On the LCD screen, you mean?
+
+MarketingExpert: Well yeah that depends on if you have the menu on the TV. Or you get the menu on the LCD screen on the remote control.
+
+ProjectManager: Think it's better to have it on the remote control,
+
+IndustrialDesigner: But then we come to the costs.
+
+MarketingExpert: But well if you aim at the younger market, a as they as as we seen in the usability lab, they will buy a nice looking remote control. So if we have a LCD sh screen, and not too many buttons, I think that will incre even when it's a bit more cost, it will still sell.
+
+ProjectManager: Is this enough? I think that's enough for the next phase.
+
+IndustrialDesigner: And we don't yet have to decide what the remote control would look like? Or
+
+ProjectManager: That's for the next phase. Phase two is the conceptual design. And you can find the minutes in the Project Documents folder inclusive the buttons. Your individual action, you can find them in the email.
+

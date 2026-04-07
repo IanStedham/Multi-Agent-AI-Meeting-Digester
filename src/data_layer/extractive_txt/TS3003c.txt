@@ -1,0 +1,99 @@
+Meeting: TS3003c
+============================================================
+
+ProjectManager: It's the conceptual design meeting. And a few points of interest in this meeting are the conceptual specification of components. conceptual specification of design. And also trend-watching. but first I'll show you the agenda. first the opening. Then we have three presentations. after that we have to come to a decision on remote control concepts. Then a little thing about the last meeting. these are the points we agreed on. The requirements and the target market. requirements are teletext, docking station, audio signal, small screen, with some extras that button information. And we are going to use default materials. And we're going to target sixty to to eighty year old customers. I suggest let's get started with the presentations.
+
+MarketingExpert: I'm gonna inform you about the trend-watching I've done over the past few days. we've done some market research. We distributed some more enquetes, questionnaires. And besides that I deployed some trend-watchers to Milan and Paris to well get all of the newest trends. most important thing is the fancy design. the research indicated that that was by far the most important factor. innovativeness was about half as important as the fancy design. By innovativeness this means functions which are not featured in other remote controls. about half of, half as important as the innovativeness was the was easy to use. for our group, we're focusing on the people of sixty to eighty years old, this is, these factors are slightly more equal. the older people prefer dark colours. they like recognisable shapes, and familiar material. And our surveys have indicated that especially wood is pretty much the material for older people. this leads us to some personal preferences. the remote control and the docking station should blend in in the in the room. so this would mean no eye-catching designs. Just keep it simple. the docking station and small screen would be our main points of interest,. because this would be the These would be the innovativeness in the remote control. well the trend-watchers I consulted advised that it should be, the remote control and the docking station should be telephone-shaped. So you could imagine that the remote control will be standing up straight in the docking station. This is pretty much a new shape to older people. So they would prefer a design where the remote control just lies flat in the docking station. besides that we would advise to bring two editions, one with a wood-like colour and maybe feel, and one with a grey-black colour. The wood-like for the more exclusive people. People with more money.
+
+UserInterface: Some research a about designing of an interface. the last meeting we had a about using a few buttons. that's what I what I want to to do in our design. finding an attractive way to control the remote control. the I found some something about speech recognition. just we have just to focus on the primary functions. only buttons for sound, for on-off, shifting up sa ca channel or down shifting down. we need some new a attractive functions. it's like a speak speech recognition and a special button for selecting subtitles. using large large buttons. It's possible to to make quite cheap system for speech recognition. you can think about when you lost your remote control, you can call it and it gives an sig signal. And and for shifting up a sen ch channel or for putting out sound or something, you can just give a sign say sound off. Television put the sound off put the sound off. I was thinking about the special button for subtitles,. just one button to keep it simple. one push on the button you get small subtitles. double push push, if double click, so you get big subtitles, for people which f who can't read small subtitles. we've got the buttons we have to use. The on-off, sound on-off, sound higher or lower, the numbers, zero to nine. the general buttons more general one button for shifting up and shifting down channel. also we want to use a little display for for displaying the the functions of the buttons. And we can build in a function which shows the channel or some which the television is on. made a little picture of it. Just we can put the on-off button over in this corner,. D display of it, it's just a small display. you can put it on top. and a special button for shifting up and shifting down channel, it's on place where the thumb of of the
+
+IndustrialDesigner: About the components design. for the energy source we can use a basic battery. or, a as an optional thing, a kinetic energy, like in a watch,. But if we choose for that option, the docking station would become obsolete. So I don't think it's really an option. for the casing, the manufacturing department can deliver a flat casing, single or double curved casing. It's really up the the design that we're gonna use. as a case supplement, we could, I thought of that later, a rubber belt, like a anti-slip. for the buttons, we can use plastic or rubber. And the chip-set, it says simple here,. but it should be advanced,. because we're using an LCD screen. And as the trend-watcher presentation showed, people like wood,. but it raises the price. and it doesn't really fit the image, unless we would start two product lines. well the kinetic energy source is rather fancy. But depends on what we want. for the case, the supplement and the buttons, it really depends on the designer.
+
+ProjectManager: That brings us to the discussion about our concepts. first I think we can talk about the energy source,. I think first of all we have to see it is possible to introduce kinetic energy in our budget, I think.
+
+IndustrialDesigner: There there are four options. We could use the basic normal battery. a hand dynamo. But I don't think that's really an option. But not every room is very light. Or the kinetic energy.
+
+MarketingExpert: And how exactly does the kinetic energy work?
+
+IndustrialDesigner: Y you basically shake your remote, and then it powers up.
+
+MarketingExpert: Personally I don't think that older people like to shake their remote control before they use it. And besides that you mentioned it would make the docking station obsolete. And I think our docking station could be one of the marketing issues with which we can. get great popularity for our product. you could insert the find the lost remote control function in there.
+
+UserInterface: It's just a small display. so I believe it will run on one battery for six months or or or more.
+
+ProjectManager: I think elderly people just like to have everything in place. And I don't think they they like remotes just laying everywhere in their rooms. So maybe a docking station will help them give the remote a place. And also what you said. you can introduce voice recognition by finding back your remote. But I think it's more efficient and cheaper to put it in the docking station. So you have a but button on your docking station which you can push, and then it starts beeping. And then we can we can still use the voice recognition, but maybe then for only the the channels.
+
+MarketingExpert: I'm wondering what will the voice recognition mean for the production price?
+
+IndustrialDesigner: I don't have any information on pricing.
+
+MarketingExpert: We also asked if they would, if people would pay more for speech recognition in a remote control. you can see here, our target group would not do that. So if that would increase the price for which we're selling our remote control. I would greatly advise not to do it.
+
+IndustrialDesigner: But that would also go for the LCD screen then I guess. It's a bit higher percentage,
+
+MarketingExpert: Here the question was, would you prefer it. And on top of that the LCD screen would help in making the remote control easier to use. And I think a voice recognition function would not make the remote control much easier to use.
+
+ProjectManager: I personally think the LCD screen we wanna use, with the extra information, I think nobody has anything against it. Because it's just some extra information,. Maybe we have to discard the voice recognition. If we don't have the voice recognition, it will it won't use a lot of energy to use. in that case we could use kinetic energy,. but I think just a simple battery which you can reload on a docking station is just as good. And much cheaper as well.
+
+IndustrialDesigner: And that's the best choice.
+
+ProjectManager: Let me just choose for the battery. That brings us to the chip.
+
+IndustrialDesigner: There isn't any choice there. because we're using the the the the display. So it's gotta be advanced.
+
+ProjectManager: And then we get to the point of the case. if we wanna choose for wood or the black and grey. Or both? wood is a lot more expensive to produce. but I think it will attract elderly people who wanna have something exclusive,
+
+MarketingExpert: And I think most important factor there is the wooden colour.
+
+ProjectManager: But with colour was a lot more expensive? Or?
+
+IndustrialDesigner: I'll have to research.
+
+ProjectManager: It's a lot more difficult to to handle and to to get in the right shape.
+
+UserInterface: Is it possible to make changeable case. with mobile phones so like the Nokia mobile phones, when you can change the case of it. you have just to make one standard remote control,
+
+ProjectManager: You can sell the cases. I think that's a very good option. and then you can make them with colour. Black and grey, other colours as well.
+
+MarketingExpert: We would have to look carefully into the design though. I think we should just, we should then just design one. but it would have to be fancy with either the wood cover or the plastic one.
+
+ProjectManager: Everybody's okay with the changing covers? I think that's a good good option.
+
+MarketingExpert: I heard our Industrial Designer talk about flat, single and double curved.
+
+IndustrialDesigner: The the general like most older remotes are flat, just straight.
+
+MarketingExpert: And what would single curved and double curved mean?
+
+IndustrialDesigner: It would just only affect the form, for as far as I know.
+
+ProjectManager: It's has to be possible to stand up? Or just only to lie down?
+
+MarketingExpert: Just to lie down.
+
+ProjectManager: The interface. What type of interface do we want to use?
+
+UserInterface: We can just use the regular form of it,
+
+MarketingExpert: You said you wanted to put the changing channels button on the right side,. so you could, so your thumb would be easily. I thought maybe we could just make one of those buttons on both the left and the right side. For left-handed users also.
+
+UserInterface: Is it possible to program it so you got on the left side or on the right side buttons for for shifting up and shifting up? And on the other other side buttons for shifting, for for the sound?
+
+MarketingExpert: But I'm not sure if that would be very good for the easy, ease of use.
+
+ProjectManager: Can't we make Can't we make a remote which you can flip over and use on the same. No that's not gonna work. I guess. But is it a problem that left-handed persons use a different hand? I think the functions are. that basic that nobody should have any problems with choosing a channel. I think we could just leave it a normal shape.
+
+IndustrialDesigner: Let's look at the flat case. The the single curved so I'm not really sure what they're gonna look like, but I think it's something like this. this type should be better for you. or better Should prevent repetitive strain injury a bit.
+
+ProjectManager: I suggest the single curved,. because maybe the curve is pretty good to put the the screen in.
+
+UserInterface: Bit like so in the form of your hand. the remote control have to lay in your hand. And to put the the buttons for changing the channel over here
+
+ProjectManager: But I think it's better to put the screen on top.
+
+UserInterface: But the on-off button, still on the top
+
+MarketingExpert: And I'd prefer the corners to be round.
+
+ProjectManager: Then We've got a general idea of the concepts and the materials we're going to use. for the next meeting we'll have to look at the look-and-feel design. It's important that the corporate design image is going to be in the remote. So check out the corporate website maybe. The user interface design, it's the same story. And product evaluation. So the Industrial Designer and User Interface Designer are going to work together on this one. But you're going to get your instructions I think sended by the coach. just I will put these minutes on the in the folder. I'm not sure if you're going to start right away to work together. I think you're going to fill in the questionnaires first. And then you'll get a message. Then we can save this one in the folders group. if you wanna have a look at it, it's over there in the projects folder.
+

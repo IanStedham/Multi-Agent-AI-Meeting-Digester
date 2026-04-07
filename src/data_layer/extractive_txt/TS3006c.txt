@@ -1,0 +1,109 @@
+Meeting: TS3006c
+============================================================
+
+IndustrialDesigner: I did get a bit more done than the last time,. 'cause I knew that I didn't have time so I just copy and paste everything into the. Sometimes I have these pop-ups or these sounds and there's nothing there,. and also with I don't know how to use PowerPoint, so it takes me forever to get something done with it.
+
+ProjectManager: We have again three presentations and then we have to decide on what concepts the mobile phone has to the remote control has to support.
+
+MarketingExpert: So welcome to the marketing presentation once again. fashion watch watchers have detected the trends for young public, because that's our public. fruit and vegetables will be will be the most important theme for clothing, shoes and furniture. And the feel of the material is expected to be spongey. oh yeah well this is the fruit and vegetables looks of fresh bright colours. most important aspect for remote control happens to be a fancy look-and-feel. Instead of the current functional look-and-feel. And the second most important aspect is that a remote control should be technological innovative. I think we pretty much covered that with our screen and and speech recognition,. And the third development is that the remote control should be easy to use. Well the first aspect was twice as important as the second aspect,w which was twice as important as the third aspect. nothing about the buttons but just sponge kind of thing, and and some fruit and colours. Just made a quick design.
+
+IndustrialDesigner: I'm dealing with the components design. I used some design examples we had from similar products. for example the energy source. we have four types. The basic battery. we have a hand dynamo,. the kinetic provision of energy which means if you move the thing, if you shake it. And of course solar cells. for the a case, there's the traditional uncurved flat hard case. Single curved, which means that it has curves in one dimension. Or the double curved. but well you know that we will have to go for the double curved 'cause it's daring and different from what we have now. Well we have all kinds of hard materials like the the hard plastic, the wood and the titanium. I would definitely go for rubber. We have yeah several interface designs. we can use a scroll buttons for the menus,. but we already kind of decided to go for the for the pushbuttons, for the the arrow buttons. the advanced chip I think is easiest to implement for the production, 'cause they they can print it better. I first chose for the battery, 'cause yeah I'm traditional and that's the most obvious, easiest choice to go to. But I really think that we should maybe think about the kinetic energy,. I can imagine that the kinetic type energy source would be more expensive to make. But it is more longlasting, that the people don't have to ever buy batteries again.
+
+MarketingExpert: And especially when the material's rubber. It can be done, I mean, you can't harm it,. So double curved is like this, this, this, or
+
+IndustrialDesigner: No it means curved in two dimensions. So single curved? let's say would be a square box, but then with curves on one dimension.
+
+UserInterface: One one very important thing I was yeah thinking about is the speech option.
+
+ProjectManager: I think you can just match the speech commands with the functions that are already present.
+
+UserInterface: But do do we do the speech just for the basic options, for the simple buttons? For for everything,. in the in the last meeting we we were yeah putting the the simple and the advanced options separated. Pressing the the menu option will disable all other options on your remote control. And only the the LCD panel will light up and then you can only change the yeah the options. but this is the the the simple layout. display on the upper side with the the menu button and maybe a some sort of cancel button or save button. And if there are older people they wanted more yeah more luxurous so that's an a also an option.
+
+ProjectManager: So we only, we already decided that kinetic would be the choice for energy. the case would be doubly curved. So. Advanced chip. Okay.
+
+IndustrialDesigner: I'm just thinking, this is not my department, but I I'm not sure what this is gonna cost,
+
+ProjectManager: I didn't get any information about that so. do you have a picture of doubly curved case?
+
+UserInterface: This is the the menu I was looking at.
+
+IndustrialDesigner: S see this is the the the standard traditional type, where the form yeah serves the function, you know. But this is more appealing to old people and we don't want that. And th that means curved in both dire dire dimensions. where your thumbs would be laying in the instrument and it has to be nice to hold. And
+
+UserInterface: Th this looks a little bit like like for only for children. So
+
+IndustrialDesigner: Yeah but that's that's the the problem yeah the dilemma actually,. 'cause we wanna appeal to the to the young public with fancy with flashy colours, and with a lot of shape. Yeah, and the and the rubber, it it will look cheap always,
+
+UserInterface: Okay but the the colours, you you can make it make the colours with LEDs beneath the the buttons. If you press a button and you can disable the the colour LEDs for for people that don't like it.
+
+IndustrialDesigner: And this is, this is with the curved that I mean.
+
+ProjectManager: Well we could make a compromise between that. instead of doubly curved we take a single curved. So to appeal a little more to the all the public.
+
+MarketingExpert: Yeah so we keep it singly single curved then?
+
+IndustrialDesigner: I mean our aim is to make something different right? I would go for the double curved. And I I'm I'm thinking you know a drawing palette, where you have the shape for your thumb.
+
+UserInterface: But if you if you make it more curved we we can make more and more options for buttons.
+
+IndustrialDesigner: You can make a trigger button or something like that. and we need something that well that that you can able to use in one hand I think.
+
+MarketingExpert: But from the side you you can have it also in a kind of shape. A little upwards. So that the screen is more. So then you have double double curved in some way.
+
+IndustrialDesigner: How about we do a a pop-up screen, like the laptop.
+
+ProjectManager: If you can flip.
+
+MarketingExpert: But I dunno if that's too expensive.
+
+ProjectManager: Okay so the buttons are on top here, and you flip it over that way. and you can maybe even drop the menu button because maybe if you flip it open it will auto activate amauto automatically.
+
+MarketingExpert: So okay but you have you need some button to flip this open.
+
+IndustrialDesigner: Well yeah the the idea of it was, is that because you close it, you cover the LCD screen and it won't be vulnerable to scratches or whatever. We just have to make sure that the closing mechanism won't break.
+
+ProjectManager: And ergonomical shape. Yeah.
+
+IndustrialDesigner: I would give it a female shape
+
+MarketingExpert: Yeah so okay we should better choose one sh one shape.
+
+ProjectManager: So the keywords are primary co colours, spongey? I think that it's a nice design.
+
+IndustrialDesigner: Or do we wanna make its shape look like a banana or something?
+
+MarketingExpert: I don't know what what colours should the basic print be like? Like some soft green or something?
+
+ProjectManager: Orange or something.
+
+MarketingExpert: And then and then very bright, a yellow banana, an orange, a green apple, stuff like that,
+
+IndustrialDesigner: Yeah we need very primary colours, like bright red, bright yellow.
+
+UserInterface: Yeah but the primary colours we can create with the with the LEDs on the on the remote control. If you make it just a yeah bl give it a blue colour, then it's just a neutral colour,
+
+MarketingExpert: That doesn't really work. To draw, I guess. So that's that's a dark blue basic colour I guess. Yeah with some some yellow banana
+
+IndustrialDesigner: 'cause I remember from one of our first meetings that people lose their remote controls often. So it not not only in in the colours of the LEDs, that we want something to keep it visible at all times,
+
+MarketingExpert: I mean, the the colour of the background of the display? So just just a a blue blue backlight or something like that.
+
+UserInterface: Maybe a maybe a white a white backlight?
+
+IndustrialDesigner: But don't we wanna make the background the the bright colo colours? So th the total of the thing is very bright?
+
+MarketingExpert: But then then again, which colour should the buttons be? But maybe the buttons, all buttons in red is maybe a bad contrast for colourblind people.
+
+IndustrialDesigner: Red and green are actually the the easiest to discriminate. Even for colourblind.
+
+MarketingExpert: So red buttons are okay? You better bet better better keep the LED and the button itself in the same colour I guess.
+
+IndustrialDesigner: What we should do I think is is make kind of a see-through plastic button, with one coloured LED behind it.
+
+ProjectManager: But basically you two are going to work on the smartboard. Next thirty minutes to design something so. You will do the evaluation. You probably get a mail. Yeah but maybe you can do the evaluation you don't have to evaluate yet but you can make a procedure which to follow.
+
+IndustrialDesigner: So we're gonna work here? On this sketchboard?
+
+UserInterface: But we have to do it at this moment, after th this meeting?
+
+ProjectManager: Yeah you have
+

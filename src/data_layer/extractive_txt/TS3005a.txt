@@ -1,0 +1,67 @@
+Meeting: TS3005a
+============================================================
+
+ProjectManager: I'd like to welcome you to our first meeting. I'm the Project Manager of this project,. This is the agenda for our first meeting. I will hope we will get acquainted to each other. We'll do a little tool training with these two things. We'll take a look at the project plan. there will be time for discussion. as you probably have noticed there are little black fields on the table. you have to put your laptop exactly in that field. so the little cameras can see your face. and there are microphones here also. and I'd like to hear who you are and what your functions are on this project.
+
+UserInterface: And my function is User Interface Design, I think.
+
+IndustrialDesigner: I'm the Industrial Designer
+
+MarketingExpert: I'm Marketing Expert. My job is in the company to promote company or promote products to the customers.
+
+ProjectManager: I said we're working on a project. and the aim for the project is to to create a to design a new remote control. which has to be original, trendy and of course, user friendly. It consists of three phases, namely the functional design, conceptual design and detailed design. As you can see, all of these phases consists of two parts, namely individual work part and a meeting. But first I will tell you something about the tools we have here. They are smart boards. As you can see, you can give a presentation on them. And this one here is a white board. as you also noticed this presentation document is in our project folder. and every document you put in this folder is it is possible to show that here in our meeting room. As you can see, this is the same tool bar as is located here. the most functions we will use will be to to add a new page,. to go back and forward between pages,. and this is the pen with which you can draw on the board, for instance. and then you can write things like test or whatever you want. it's not such a fast board,. and of course you can also, when you click here, erase things,. And you can also delete an entire page,. but we ask you not to do that. because we want to save all the results. And you can also let's see I think it's here change the colour of your pen,. that's what you will need for our first exercise,. because I'm going to ask you to draw your favourite animal. to do it on a blank sheet,. with different colours. and also with different pen widths. and a favourite characteristic can be just one word. Or maybe you should guess what I'm drawing, eh. it could be a turtle, or a snail,
+
+UserInterface: It's a giraffe.
+
+MarketingExpert: It can reach everything. And I hope I can also reach a lot with this project.
+
+ProjectManager: Could you write the words, underneath it?
+
+IndustrialDesigner: I've drawn a dolphin because of its intelligence.
+
+UserInterface: You can try out the eraser now.
+
+ProjectManager: From the finance department I have learned that we are aiming for a selling price of twenty five Euros. And we're hoping for a aim of fifty million Euros. and we are hoping to achieve that by aiming for an international market. And the production cost will be twelve Euro fifty max. it's time for some discussion. What's your experience with remote control?
+
+UserInterface: I always lose them.
+
+IndustrialDesigner: A lot of buttons which you don't use. Not user friendly.
+
+MarketingExpert: Black, all black.
+
+ProjectManager: Maybe we should try to make it fun.
+
+MarketingExpert: You had different remote controls for different devices.
+
+UserInterface: Perhaps you can integrate them or something.
+
+MarketingExpert: But then again you you still have a lot of buttons,
+
+IndustrialDesigner: There's a possibility to to to put those buttons behind some kind of protection. but the usual buttons such as zapping as you call it in Dutch. and the volume control are only the only possible buttons to use directly.
+
+ProjectManager: Maybe a a minimalist design, the least possible amount of buttons.
+
+UserInterface: But you should make sure that you have every button they need on it. Because things for teletext, I dunno, w
+
+ProjectManager: You don't want to bother people with loads of buttons,. but on the other hand they need many buttons
+
+MarketingExpert: Because I think a market will be all kind of people. Elderly el elderly, young people, so. I think the aim is better to use the whole world and Britain, yeah.
+
+IndustrialDesigner: I think when when the customers will buy this remote control, they already have the remote control which companies with the the standards remote control with which comes with the television. but it is impossible to to accommodate accommodate all the buttons on the on the difference different televisions sets on one remote control. It's impossible. Because for example Sony television has the opportunity to to make to make it possible for to see on one side of the screen teletext, and on the other side just regular television. Because you can't use a Panasonic remote control on a on a Philips television.
+
+MarketingExpert: Always with universal remotes you have to choose the code.
+
+ProjectManager: Our next meeting will start well we're a little bit early, but our next meeting will start in in thirty minutes. In the meantime there's time for some individual actions.
+
+UserInterface: Meeting will close in five minutes.
+
+ProjectManager: The Marketing Expert will will take a look at the user requirement specification. The User Interface Designer will work out the technical functions design.
+
+IndustrialDesigner: The Industrial Designer will take a look at the working design,
+
+ProjectManager: And of course specific instructions will be sent to you through your personal coach. I think then we have to head back to our offices and start working.
+
+MarketingExpert: Where does it says we have to make a remote,
+
+ProjectManager: I expect everything will be much clearer with the instructions we will receive shortly. see you all in about thirty minutes, then.
+

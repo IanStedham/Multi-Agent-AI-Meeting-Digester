@@ -1,0 +1,173 @@
+Meeting: TS3004d
+============================================================
+
+ProjectManager: F You're going to show your pr prototype presentation after me. So these are the last notes we I made. If anything doesn't look right, just say it to me then.
+
+UserInterface: Are we doing the the speech recognition?
+
+ProjectManager: Okay, but it's still possible financially.
+
+UserInterface: Okay yeah. Well then then we're gonna put it in.
+
+IndustrialDesigner: Or are we making a slide open, like underneath?
+
+ProjectManager: Slide open is quite usable for remote controls.
+
+UserInterface: It's may maybe a bit stronger as well. Yeah, we're gonna use the advanced chip then.
+
+ProjectManager: No, you have a different chip for speech recognition. So. So I already calculated that and it's still in the budget.
+
+IndustrialDesigner: Yeah, we just made a Word file with the basic elements. Simply a square with round corners. the material should be hard plastic. colour changeable, and also transparent. The functions are just basic. Mute function, on-off function, text functions. And the logo is over here, and the mic.
+
+ProjectManager: So how many functions do you need for for the microphone? Yeah, speech recognition.
+
+UserInterface: I didn't have a specification of that. But I can imagine that you have to input your voice or something.
+
+ProjectManager: Only one button to say it's on or off.
+
+UserInterface: Yes, you need options to configure it, and after that you don't need 'em anymore.
+
+IndustrialDesigner: Well we haven't had time to design that, the slide pad.
+
+UserInterface: I can imagine you need at least four buttons or something. So. on-off buttons, text buttons, mute buttons are together and at a place they easily are, easy to find. the on-off button is a bit bigger, so it stands out. It's basically the be standard place for scrollwheel, as far as I know. It's twelve buttons. F the form well, we've taken that from the iPod, other popular technical device. we'll use hard plastic. Since that allows us to use two buttons, non-rubber buttons. We have decided in the the channel buttons, there's a little colour around it. And also in the num-pads, there's also colour light behind it.
+
+MarketingExpert: Okay, there is one function I use daily, and it's not on the basic functions. It's to switch to your Scart.
+
+IndustrialDesigner: Okay, maybe we use this button for the
+
+ProjectManager: Just just draw a second level one and say all options that are still left or something.
+
+MarketingExpert: And how does the second level come out? it slides along?
+
+UserInterface: Right, the video channel, Play Station, etcetera. That's used pretty often.
+
+IndustrialDesigner: So here are multiple speech buttons,. I don't know how many.
+
+UserInterface: Menu buttons with arrows.
+
+MarketingExpert: Maybe one button to switch the colour of your LEDs?
+
+UserInterface: Yeah, maybe some some text next to the scroll wheel, that it is volume.
+
+MarketingExpert: There's one text button I prefer. That's the one that you use if you search for a page, like seven hundred, and it's counting from one hundred to two hundred, you will switch to your television and back to text. If you if you turn teletext on, you you set the seven hundred, and you turn it off, then the next time you turn it on, it still stays on seven hundred?
+
+ProjectManager: That's a functionality for the television.
+
+IndustrialDesigner: The remote can send like the the code for seven hundred, page seven hundred to the television. Th th th if you switch it on.
+
+MarketingExpert: The buttons? from which material are they now? Because if you use it a couple of years, some sometimes the numbers on the on the buttons are slide away,. And maybe we can write the numbers below or above?
+
+IndustrialDesigner: I think you have that problem more often with rubber buttons.
+
+MarketingExpert: Yeah, I made some criteria, so we can ev evaluate our model. and we have to test the criteria from one to zero. We sh we we we can give it a number, and then we can give ourself an average for our. And we have to discuss about, if we give it a one or a seven.
+
+UserInterface: If it's really, if you can if you can get the iPod look, then it's beautiful, I think.
+
+MarketingExpert: The basic colours are black or green or yellow?
+
+UserInterface: Maybe company colours? A bit a bit of yellow. Yeah, grey. Just dark grey I think.
+
+MarketingExpert: Changeable fronts, so ev for everyone for everyone it's something beautiful.
+
+ProjectManager: Okay, just give it a two.
+
+MarketingExpert: The fancy look-and-feel. And we can change the colours, so that's really fancy I think. It's pretty cool. If you slide it open, it lights up.
+
+IndustrialDesigner: And th and the the normal backlights also not the buttons, but behind the buttons.
+
+MarketingExpert: I think it's one. Learnable? Easy to use?
+
+ProjectManager: It's it's very easy to use, but the second layer is not easy to use.
+
+IndustrialDesigner: And you on don't have to pay attention to that second layer.
+
+MarketingExpert: Because because I think I think the scroll wheel, it's very handy, but the first time you get this thing in your hands, it's not to use the scroll wheel.
+
+UserInterface: Then a two.
+
+MarketingExpert: New features. Techno technological innovative? The speech function is new.
+
+UserInterface: And the scrollwheel, backlights, slide.
+
+MarketingExpert: And the slide. I think the slide is pretty new.
+
+UserInterface: But then we also have the the home station. We are forgetting about that now, but
+
+IndustrialDesigner: Yeah, we didn't draw that too, but
+
+ProjectManager: Okay. And new features, so we give it a two or also again a one? No, just so it's still a two.
+
+MarketingExpert: Yeah, but did we reach, with our style, the targeted audience?
+
+ProjectManager: You get the fancy things for younger people. And you get the the aesthetic things for older people.
+
+MarketingExpert: But we didn't follow the latest trends.
+
+IndustrialDesigner: Yeah, you could make a a front. Like a a banana kind of front.
+
+MarketingExpert: So we give ourself a three or something.
+
+ProjectManager: Yeah, it is one point eight three.
+
+MarketingExpert: A perfect score.
+
+ProjectManager: Okay, let's have a look at this one here, the production cost of it. Yeah, there are some that they didn't mention, because recharge is not on the list. So I think we are pretty much in the right direction, because it's twelve point three Euros.
+
+IndustrialDesigner: But but is it inc Does it include a a homestation or. Can we make that for twenty cents?
+
+ProjectManager: The the button supplements, I didn't I I was wondering if this special colour maybe was. But this is expensive, the sample speaker.
+
+UserInterface: Is that included? In the twelve Euro or
+
+IndustrialDesigner: It's kind of weird that we we get this information now, afterwards.
+
+ProjectManager: So we can do the project evalu evaluation now for for everything together. Was there room for creativity?
+
+UserInterface: I Yeah, I think so.
+
+IndustrialDesigner: Yeah If we got a high mark for innovativeness or innovativity
+
+UserInterface: I think we discussed a lot of things about it. So
+
+ProjectManager: Okay, so the leadership
+
+IndustrialDesigner: Just normal discussion, I think. Not. one leader or something.
+
+ProjectManager: The third meeting I think that one was pretty hard. We were not all We were not agree with every not agree with.
+
+UserInterface: I think we we got wrong information at the wrong time. I think that was the biggest problem. Like the prices. If we knew that before, we could have had discussion really really quicker.
+
+ProjectManager: But the teamwork was okay.
+
+MarketingExpert: Yeah, everybody could speak their opinion.
+
+UserInterface: I think everyone listen to each other.
+
+ProjectManager: The smart board is okay. Digital pen is horrible. But if you want to download it to your computer, it's doesn't work.
+
+UserInterface: Well smart board would be very nice to work with, if it worked really well.
+
+IndustrialDesigner: Yeah, i if if it would be faster, it would be great.
+
+MarketingExpert: Yeah, the drawings are are hard to make, I think.
+
+IndustrialDesigner: Just old fashioned kinda blackboard style. But you might as well do it in normal computer style.
+
+ProjectManager: So we made it in time. And we made a remote control. In the budget, yeah.
+
+UserInterface: New ideas found.
+
+ProjectManager: I don't know what it mean.
+
+MarketingExpert: To gather, or to work together, or new ideas for
+
+IndustrialDesigner: Yeah, but still, you couldn't make a fancy a you couldn't make a a prototype out of this. Because we don't have any sizes and. Yeah, but it You can't possibly do that in such a short time, I think.
+
+UserInterface: Yeah, this this is just the idea phase,
+
+ProjectManager: I think just I just write a final report.
+
+UserInterface: Guys, I think we have to finish the meeting.
+
+IndustrialDesigner: Fill in the questionnaire.
+

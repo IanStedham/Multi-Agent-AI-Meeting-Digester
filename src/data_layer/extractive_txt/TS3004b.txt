@@ -1,0 +1,251 @@
+Meeting: TS3004b
+============================================================
+
+IndustrialDesigner: I was a little short on time,
+
+UserInterface: Yeah, same here.
+
+ProjectManager: We have forty minutes for this for this second meeting,. and we have to make sure that we going that we are sure, that we are,. that we know what we're going to make th what the product is going to like look like. first I have the notes of the last meeting,. so I showed show them to you. the the the points we had last meeting was the Should be a univ universal remote control. I just got a email from the from the personal coach. and it should be a TV remote control only. it still has to be a a remote control for kids and elderly. All these points we have to look at. The the main people of interest of this company are forty plus people. So we have to look at that as well. 'Specially old people, maybe bi bigger buttons or something,
+
+MarketingExpert: I've used a marketing report on the site. I think you've read it too. and and furthermore I surfed the the other site.
+
+ProjectManager: I didn't get it anyway.
+
+MarketingExpert: I I was the only one who get it. it was a report about an experiment with a lot of users. And they had a lot of findings in their report with statistical thing with statistical proof. I I had three pages with findings and sev a lot of a lot of findings. seventy five percent of the users find most remote controls ugly. so we have to make a beautiful remote control. eighty percent of users would spend when a remote control will look fancy. Older people will spend more money for something what's good. Because younger people are more critical about where they spend their money money at. seventy five percent seventy five percent of the users say they zap a lot. I think we we have to make good zap buttons.
+
+ProjectManager: The last point is quite an interesting
+
+MarketingExpert: Fifty percent of users say they only use ten percent of the buttons. And maybe our fold open system is is a good one,
+
+ProjectManager: We should have the ten percent on the on the top,
+
+MarketingExpert: Remote controls are often lost somewhere in the room. That's exactly what we said about maybe a home station for for it to recharge the batteries or something. I thought mo maybe we could make a clap system,. so when you clap your hands it will beep or something. you must find it quickly.
+
+UserInterface: Maybe just a button on the home station. So remote control beeps when you click that button on the home station.
+
+MarketingExpert: We can combine that. it takes too much time to learn how to use a new remote control. I think we must take a look at this. It's only th thirty four of the thirty four percent. But it's a tough one. Because if we make a ha whole new product, our own style, we we this is so difficult, a difficulty I think. next, remote controls are bad for RSI. Yeah, but only if they zap a lot, and they watch over five hours TV or something. we mustn't look too much at the last point. the last experiment was about gadgets, like speech recognition. We didn't think about that already. And an LCD on the remote control. they finally had a conclusion that younger people under an age of forty five are more interested in new features. but they're more critical. And older people want to spend more money.
+
+ProjectManager: We have a new age of forty plus.
+
+MarketingExpert: But But you but you already said that the company was about forty plus clients?
+
+ProjectManager: So we just can skip the LCD on the remote control,
+
+MarketingExpert: I I think we can speak, we can skip speech recognition directly,. because it's not reachable for twenty five Euros. I have my personal preference. that's not very good,. because I thought about television, DVD player, stereo and VCR. But it's already out of the question, this. my point is, well, I If we ma make a a remote control for only television, I think it's hard to sell it for twenty five Euros. On the market you can now buy for twenty Euros a remote control for everything. so we mi we must made it make it very special. I told about the home station. it must be simple,. And I I found a motto. And we put the fashion in electronics. The company is about our th th their own fashion, their own style.
+
+ProjectManager: But old people are not looking for that.
+
+IndustrialDesigner: I think the main thing is the usability, that's where we can make it a special product.
+
+UserInterface: 'cause there are already, like you said, so many controls out that support lot of stuff. But we have to make sure that we're better usability,. So make it just a different colour or different shape,. Technical functions design. But we have elderly people,. so we need to keep it simple. the way I want to keep it simple is to use the sen standard. So standardised methods like on all remote controls. Not too full,. like Jens already said, only ten percent is being used.
+
+ProjectManager: What do you think of only the numbers and the on-off button or
+
+UserInterface: But yes basic functions like numbers and that sort of stuff. the options that we put on there should be easy to use,. and 'cause you have more room then,. and for elderly people big buttons. an icon on it or text on it,. so it's very clear what that buttons does. a way to find out what people use is maybe just to use questionnaires on the internet. Of functions I could think of. volume, channels, the the basic according to. Just one two three etcetera. text service options. basic on-off. Could I think of favourites? I always look up the same pages on text. and always have to click the number. But if you could make a new option, that you just have to press one button
+
+IndustrialDesigner: But then you have to remember what favourite is what channel. So you might as well remember the number.
+
+ProjectManager: Maybe i maybe it's too complicated,
+
+UserInterface: I would find it handy, I think, when you just press one button and you get on six six six.
+
+IndustrialDesigner: But how can you remember what channel connects to what favourite button?
+
+ProjectManager: If I use my telephone, I never use those buttons to to to call. If I don't do it, maybe old people
+
+UserInterface: They don't like new features. play, pause. I dunno if that's usable. miss Did I miss any other buttons, basic buttons?
+
+ProjectManager: That's the only th the only thing you need.
+
+IndustrialDesigner: The next and previous. Li like a web browser,
+
+UserInterface: Six seven eight or five.
+
+IndustrialDesigner: But there's also a button to go to the channel you've been before. Like a web browser back button.
+
+ProjectManager: But I think it's all too difficult for old people.
+
+UserInterface: Just use when you wanna switch between channels all the time. I think Especially for older peo elderly people use standard buttons. Yeah, the ten plus button. Just one one pressing, or quickly after each other.
+
+IndustrialDesigner: W wouldn't it be a problem to Because you have to be fast enough.
+
+UserInterface: But I think that's in the TV as well. That's how the the TV TV handles it. So you have like a five seconds period to press those two buttons.
+
+MarketingExpert: It's the TV who depends that it must be two seconds or three seconds or one second that you must type one or two.
+
+UserInterface: So if you have a universal TV controller, you needed one button that has two stripes. Most things in modern T_V_s are also on the menu. So you also need a menu button. And then navigation. But we can integrate that with volume and previous and next,
+
+IndustrialDesigner: I I think you ha really have to divide between functions you often use, like maybe switch channels and volume and that kind of things, and the menu button. Because you almost never use menu button.
+
+ProjectManager: Maybe it's still still a good idea, I'm not sure. You'll also have to use a mute button. I don't know where where you have to put it.
+
+UserInterface: Now my personal preferences. using the standards, basic. I think that we should stand out unique, being unique with the design. So we have to, I dunno, make a different shape than usual.
+
+ProjectManager: Does it have to be it has to be with different colours
+
+MarketingExpert: Maybe we can give it out in different colours.
+
+ProjectManager: It's like a iMac or something.
+
+MarketingExpert: That's fa That's fancy. That's fashion.
+
+ProjectManager: But it looks cheap as well,. because it's a small thing.
+
+UserInterface: Maybe you can look at mobile phones. They they're designed very well. You think you can't make a TV controller too small, 'cause then you will always lo always lose it. But well, I think that's a good example.
+
+IndustrialDesigner: The working design. The method I used is search the web. Just the web page provided. basically what happens is you press a button,. then a circuit gets closed by pressing the button, like a switch. And by closing that certain circuit, the chip knows what bu button is pressed. Then the chip produces a pattern. Like a Morse code. And and sends that to the LED. and the light emitting diode is producing infrared light. And transmit that to the TV.
+
+ProjectManager: We we also have to have a LED li LED light on it?
+
+UserInterface: Ain't it just to to indicate that it's transmitting?
+
+ProjectManager: Red's shows up like something's wrong,. and green is like it's okay,
+
+IndustrialDesigner: On most remote controls it's red.
+
+ProjectManager: The whole the whole remote control becomes green if you press the buttons.
+
+IndustrialDesigner: I I think the batteries will be a little
+
+ProjectManager: We have a recharger in it,. If we can still make that then
+
+UserInterface: It's just to indicate something's on.
+
+IndustrialDesigner: That it's working. And the receptor in the TV senses the pattern. So we have to understand what patterns are used to, you know, to make it universal. So that it can be used with all the T_V_s. We have to really understand what patterns are used,. Otherwise it won't work.
+
+UserInterface: We have to make buttons for that as well,
+
+IndustrialDesigner: The chip is producing the pattern. So we have to make a chip that produces patterns to, you know, to
+
+MarketingExpert: An automatically search function for each television, or something.
+
+IndustrialDesigner: I dunno how it's exactly how it works.
+
+UserInterface: I I use a universal remote control,. And you have to put in a number,
+
+MarketingExpert: I have a modern one. And the modern one you you you type search,. And after a short time the television turns off. And then you know, oh it it's the right one.
+
+IndustrialDesigner: We have to make a a a bit more intelligent chip than the standard one. That's when the circuit is closed, it produces the pattern. But ma basically for brands of TV these patterns are different. what you have to do is get these patterns right. What he's doing when he's configuring this pattern, this chip, is trying to switch off the television. And when it's switched off, you can push a button as it's working now,. And then he saves that setting. the energy source is the battery, basically. that's connecting to all the components. the subcomponent is I I think it is the button pressed. when you press a button, a switch get closed. So the chip knows what button you pressed. And the chip sends out the pattern to the infrared bulb.
+
+ProjectManager: So that's the LED, LED. we can make the normal one also a normal light. Not a LED light, but as a normal one.
+
+MarketingExpert: If you if you use the buttons, both of them works.
+
+ProjectManager: Maybe you have to put a small light around the button you push. So you see green if you push that button.
+
+MarketingExpert: I think it's unnecessary power you use then.
+
+ProjectManager: But does it make any difference for the energy you use?
+
+UserInterface: I it it will look different,
+
+MarketingExpert: Is LEDs beneath the the buttons?
+
+UserInterface: Yeah, around the buttons, or in the buttons even.
+
+ProjectManager: The same as a telephone, or a mobile phone, or what do you mean? It it only takes a a little energy and it's not that much. Maybe that's a good idea for old people as well. It's only few LEDs. Only four or something. Four LED.
+
+UserInterface: But if we use a battery station,
+
+ProjectManager: Yeah, that's a good idea, okay.
+
+MarketingExpert: Maybe what Paul said, under the on the on the home station, a button to to call your remote control, that it beeps.
+
+ProjectManager: But you have to make a sound device in it then.
+
+IndustrialDesigner: Maybe it's that that's a little too hard to make. Especially for that kind of money.
+
+MarketingExpert: Twenty five Euros, I think we can make it.
+
+IndustrialDesigner: Production cost is twelve and a half.
+
+MarketingExpert: But but we only have to make it for television,. and we must have something special.
+
+UserInterface: I think you also have remote controls with a lot of options. But we lose about ninety percent of those options.
+
+MarketingExpert: We have to give our customers some extras.
+
+IndustrialDesigner: The the personal preference, I didn't fill it out. Because I was short on time. Basically what we could do too is have a Bluetooth integration.
+
+ProjectManager: We have some new project requirements. We have to have a look what they are. teletext has become outdated since the popularity of internet. So a teletext option, maybe we have to skip that one. I'm not sure. I don't think so,
+
+IndustrialDesigner: And I I think a lot of people use teletext, still use.
+
+ProjectManager: And it's it's on your comp it's on your television. It's only one button. We definitely should use it. The remote control should only be used for a television. And the the forty plus people, I already told you. Oh, this is a problem. Oh sorry about that. The new product should reach a new market with customers are the younger than forty. So it should be flashy or just more interesting.
+
+UserInterface: That's It changes things.
+
+ProjectManager: I just I just didn't read it well.
+
+IndustrialDesigner: That kinda changes the whole situation.
+
+UserInterface: Then we have to make some nice features. I think the thing in the dark is a good way,. to make it more like a mobile phone. More modern.
+
+MarketingExpert: LCD doesn't work for twelve and a half Euros I think.
+
+UserInterface: And I I don't don't think it's very usable in a remote control,
+
+IndustrialDesigner: I I don't you'll use it often,. because you can see on the television wh what channel you
+
+UserInterface: Yeah, I tho I think that's not usable.
+
+IndustrialDesigner: I think you you have to make it a bit flashy and and popular. because the Like in the mobile phones, usability is not that good I think.
+
+MarketingExpert: But some of you had something to read about speech recognition. That's very That's fancy. That's cool. Only the numbers, only numbers. furthermore nothing. But only the numbers, one to twenty or something.
+
+ProjectManager: Yeah, maybe we have to integrate that as well. If it's possible. I don't think it's very expensive actually.
+
+MarketingExpert: I didn't have information about that.
+
+IndustrialDesigner: And and and does it have to work only in English, or in Dutch too or
+
+MarketingExpert: That's a problem,. only in English. Only in English I think.
+
+IndustrialDesigner: It's probably my job to figure that out,
+
+UserInterface: Does it lie in the centre of the room and can you scream from wherever
+
+MarketingExpert: Then th we have to think about that.
+
+ProjectManager: Maybe maybe it's too hard to to realise that. We have short time to to put it on the market,
+
+MarketingExpert: In indeed the languages are a difficult thing.
+
+UserInterface: I don't think it's useful enough to take the effort to design something with speech recognition.
+
+MarketingExpert: A someone says that give me one Coke, and the TV turns to one.
+
+UserInterface: And then you have to say TV channel one, or something. Not just one,
+
+MarketingExpert: Okay, no speech recognition.
+
+ProjectManager: Do we, do we make a light under the under the under the numbers and everything?
+
+UserInterface: Yeah, I think so.
+
+ProjectManager: If you press something, it lights up for a few seconds,
+
+UserInterface: It lights up when it's dark?
+
+ProjectManager: If you push something, it it all lights up.
+
+MarketingExpert: It it mustn't work all the time. It it have to work only when you use it. if you use one button, it must turn on for twenty seconds, and then it must turn off.
+
+ProjectManager: It's the same as the telephone. Yeah.
+
+UserInterface: Maybe use even different fonts.
+
+ProjectManager: So you just make it th through You look through it? when you use teletec teletext, you can press a green or a red button to go to the next one, or to go to the previous one. but maybe you can put the the options of teletext on the second level of the remote control. Because you ne almost never use it.
+
+UserInterface: Teletext options are only four buttons or something.
+
+IndustrialDesigner: But younger people I think more often use the internet. and elderly people often use teletext.
+
+MarketingExpert: I use te teletext every day, I think.
+
+ProjectManager: We just keep it one level then?
+
+UserInterface: And I think, 'cause we don't have that many buttons,
+
+ProjectManager: We're going to have a lunch lunch break. you know what you have to do. we're finished for for this time.
+

@@ -1,0 +1,179 @@
+Meeting: IS1003d
+============================================================
+
+ProjectManager: We'll have first the project presentation by our User Interface Designer, David Jordan,. and our Industrial Designer, Baba.
+
+UserInterface: The basic colour is yellow and red. And the shape, there's two basic shape. The first is a circle and the second is a triangle piece. It's looks like some mushroom, so we call it mushroom design. So there are several key features of our pr prototype. The first is that it is fuzzy. I'm sure this would be the unique design the market. the second key feature is that circle channel selection. the third feature is a stable triangle base. So it's, you can put it in the table so you can turn the the ball to cha to select the channel
+
+IndustrialDesigner: Yeah but it's not like really mushroom because you have you know like lemon shape, you know,
+
+MarketingExpert: Yeah, because mushroom was not in the trends.
+
+ProjectManager: Fruits and vegetables.
+
+IndustrialDesigner: And inspired colour. and and very sophisticated material, so. the low level chips inside. The battery it is under. It is in th in in the base, yeah. In fact this this this this is a kind of you know revolutionary solar receptor that we can put outside and
+
+UserInterface: Yeah, the shape is unique,
+
+ProjectManager: Maybe if you change if you take the buttons out,
+
+MarketingExpert: I dunno, maybe improving the texture of like having it less smooth or
+
+ProjectManager: Looks like more fruit. It looks more like a pineapple.
+
+UserInterface: If you want to turn the ball, it's very it's very convenient for you to to to turn the ball to change the channel.
+
+ProjectManager: And where is the voice recognition?
+
+UserInterface: Ah, it's embedded, your microphone.
+
+MarketingExpert: First one is we have to judge the fancy look and feel.
+
+ProjectManager: Let's say it's a pineapple now.
+
+MarketingExpert: No, the colour is okay, that's fine. but I would say there is more too much red. Right. So, from one to seven? The other criterion is is it technologically technologically in innovative.
+
+UserInterface: There four microphone.
+
+ProjectManager: And you can turn it so maybe it's techno technologically innov innovative?
+
+UserInterface: Yeah, so you can capture voice from different directions. Yeah.
+
+IndustrialDesigner: And I think you you've never seen a rou a round remote control, so it is
+
+MarketingExpert: Yeah bu but when you say technologically it's more I dunno, in the core, or single.
+
+ProjectManager: We have tactile buttons.
+
+IndustrialDesigner: I see, you have microphone array embedded. I think technically it's acceptable, so
+
+ProjectManager: I would say two
+
+MarketingExpert: Is it easy to use?
+
+IndustrialDesigner: Eh, for th the vocal command yes, it's might be easy.
+
+MarketingExpert: Yeah but this this turning. Yeah but how how intuitive is it to turn things to change channels?
+
+ProjectManager: And you can turn like that to change the channel?
+
+MarketingExpert: Yeah I'm I'm no I'm not definitely convinced it's it's the best way to if you wanna jump from, I dunno, one to twenty?
+
+IndustrialDesigner: Oh yeah, that's difficult. That's dif that's difficult.
+
+UserInterface: Then the angle you stop is the angle you is the channel you
+
+MarketingExpert: How how do you know this angle is th is the correct one?
+
+UserInterface: It's it's very easy, because you kn you know how many channel are there in the
+
+IndustrialDesigner: I think but the the vocal command is easy too.
+
+UserInterface: So it's coarse to fine design.
+
+IndustrialDesigner: That's very technologic, so. Yeah.
+
+ProjectManager: Yeah it's a sleeping remote control.
+
+MarketingExpert: Ah, that's not the ecological part, yeah.
+
+ProjectManager: W that why we have the solar ti yeah.
+
+IndustrialDesigner: It's reasonable three.
+
+MarketingExpert: Those are sort of agreed but this one would be more five to me.
+
+UserInterface: I think it's easier than traditional controller. you have you just turn the turn the ball.
+
+MarketingExpert: But this this has to stay on the table, right?
+
+IndustrialDesigner: In fact on a flat place
+
+ProjectManager: You need to have everything in hand. If you want to turn, you can't use it and turn.
+
+MarketingExpert: You know tha that's the weak point,. Yeah, you would never you would never lose this one, yeah.
+
+IndustrialDesigner: Yeah, four it's more reasonable, so. It need maybe some wo further work, but it's
+
+MarketingExpert: Yeah, especially on the easy to use
+
+ProjectManager: But I m I think that it will be good to do some more work to transform this into a pineapple. we need to calculate the production cost. As I said in the first meeting we need to have so a remote control that would cost not more than twelve and point fifty Euros. but we have solar cells. how many do do you need, solar cells?
+
+IndustrialDesigner: I think in each ball you have three
+
+ProjectManager: Single simple chip on print? And sample sensor, sample speaker.
+
+IndustrialDesigner: One maybe, yeah.
+
+MarketingExpert: So we are all already nineteen.
+
+UserInterface: The solar cell is too expensive.
+
+IndustrialDesigner: There's no wood, so plastic just only, I think.
+
+ProjectManager: I think it's more like double curved. We have two special colours.
+
+UserInterface: Yeah, we have four.
+
+ProjectManager: Yeah, maybe two scroll wheel, as we have the coarse coarse to fine scroll wheel. Okay we I think we have problem. I think we if we keep on adding things
+
+MarketingExpert: Yeah one of the key point is solar cells.
+
+ProjectManager: Maybe if t if suppose if we change and we put just one?
+
+UserInterface: We have change the electronics to from from the the the sample sensor to regular chip. Oh.
+
+IndustrialDesigner: I think you can transform the wood into plastic, maybe.
+
+MarketingExpert: We could turn we could turn everything in either yellow or black.
+
+ProjectManager: An but we have integrated scroll wheel with push dut button.
+
+IndustrialDesigner: Double curve. We can transform the double curve into single yeah.
+
+ProjectManager: I think there's a problem with the push push button.
+
+MarketingExpert: So we have one button,
+
+IndustrialDesigner: One one scroll wheel, so
+
+ProjectManager: So, yeah. It think we we've done good job, as the cost is
+
+IndustrialDesigner: It's fine, twelve fifty
+
+ProjectManager: But it would i be interesting for our marketing team, to make a lot of advertisement concerning these solar cells to be
+
+IndustrialDesigner: It's it is really really really very very expensive, though.
+
+ProjectManager: Yeah but it will be technologically innova innovative, so. So did you enjoy your clay modelling?
+
+UserInterface: Yes. Of course. This is my job.
+
+IndustrialDesigner: Yeah, I think I find it really funny and amazing and interesting to go through all the process to from the beginning to the end. And designing, looking at the chips, the solar cells and and it was very informative for.
+
+MarketingExpert: Tha that was good but we should have more brainstorming like meetings, maybe. 'Cause we just presenting one is presenting his stuff. next one his stuff and then we try to combine afterwards, so it.
+
+UserInterface: Could we come up with new TV with such as this kind of TV?
+
+ProjectManager: You could we could do a kind of fruit collection of electronics things. Electronic device.
+
+MarketingExpert: 'Cause fruit and vegetables it won't last for ten years.
+
+IndustrialDesigner: But I think it's good to follow the flow and you know make it now and after, you know, if the people change their mind you change also the product. We can think about TV with you know where you can change you know the aspects like for the cell phones, you know.
+
+ProjectManager: So I think the costs are within the budget. do you think you can celebrate your creation?
+
+UserInterface: And you can celebrate your leadership.
+
+MarketingExpert: I'm not so happy about the fruit shape, you know. yeah, another thing is the logo is missing still. It's yeah but it I don't think it's such a problem just putting the logo somewhere.
+
+IndustrialDesigner: Like we can we can put some double
+
+ProjectManager: So maybe we can just integrate it on th on one side, the double.
+
+UserInterface: So we have give him give it a cute name.
+
+IndustrialDesigner: It's a pineapple remote controls.
+
+ProjectManager: And we have a nearly final product.
+

@@ -1,0 +1,79 @@
+Meeting: TS3006a
+============================================================
+
+ProjectManager: Let's get started. opening acquaintance, tool training, how to use the things here. project plan discussion, and yeah then the rest of the meeting. we're supposed to develop a new remote control,. that's both original, trendy and user-friendly. we're work we're working from top to bottom. functional design,. then we do some in individual work,. then we have a meeting to discuss the results, etcetera etcetera. And at the end of the day we should have a prototype drawn up. we have available the smart board and the whiteboard. we should take some practice. I have some instructions now to do that. you know how to the documents work. this for toolbar. You see it next. And we can use this pen to perform. It doesn't always work. and in the format menu you can select colour and line width, etcetera etcetera. Each of you can take some practice. and you should draw an animal. you should explain with different colours and with different pen widths. And you should explain why you draw that particular animal.
+
+IndustrialDesigner: Different pen widths, how do you do that?
+
+ProjectManager: With the format menu. And use different colours etcetera.
+
+UserInterface: It's a giraffe. Yeah.
+
+MarketingExpert: Can you use one blank sheet per drawing? Or. so you must save it at the end
+
+ProjectManager: You can press the next button,
+
+IndustrialDesigner: I in the file option menu. Is this part of our a acquai or introduction to each other?
+
+ProjectManager: Introduction and get acquainted
+
+IndustrialDesigner: I'm guessing a turtle.
+
+MarketingExpert: How to select the next or
+
+IndustrialDesigner: Colours were under format
+
+MarketingExpert: A fox yeah.
+
+IndustrialDesigner: It's a cat.
+
+ProjectManager: We have a financial aspect to this project. we can sell them at twenty five Euros. the aim is to reach to sell as much as fifty million Euros. that's quite a big amount of money. And the production cost should be the half of the selling price. now it's time for some discussion. I'm taking notes. we each have a specific task,. as I saw in my mail. I didn't know if you received the same mail. this industrati Industrial Designer should produce a working design. the User Interface Designer should specify the technical functions. And the Marketing Expert should come up with user requirements. did any of you already do some work on this part
+
+IndustrialDesigner: I started making an overview for myself, what I had to do,. 'cause we have three design steps. and in every step I have a specific task to perform or whatever.
+
+ProjectManager: And do you have any ideas about the product so far?
+
+IndustrialDesigner: I started I started with the first phase,. I had to focus on the working design, which you said. I basically had two points. according to the coffee machine example, I have batteries to supply energy,. and we ye use button presses to activate or deactivate certain functions on the TV.
+
+ProjectManager: I got another point. It uses infrared light to communicate the signal to the TV apparatus or stereo.
+
+UserInterface: It's some buttons for for the on off function. And for the changing up to the to all the channels and changing the volume. That are the the basic options for a remote control.
+
+IndustrialDesigner: I mean, you wanna ch ch flip the channel. but you might wanna use teletext also.
+
+ProjectManager: And what did the Marketing Expert do?
+
+MarketingExpert: From a marketing perspective, well the function des design phase consists out of the user requirements. what needs and desires are to be fulfilled? there are a few means to reach that by by doing research to see what existing products are there out in the market. I mean, what functions do they have. especially what are their shortcomings? Are there any new functions which can be added to our product? therefore we have to to do some internet search. For example for well what kind of applications do current remote controls support, and what are featur features of current and future televisions? and we can interview current users and future users. What what would they like to see on a new remote control? especially for future users,. I'm thinking of early adopters,. because they they use new technology first,
+
+ProjectManager: But have you any idea so far as what the user requirements are?
+
+MarketingExpert: No not specifically.
+
+UserInterface: I got some requirements. it has it has to be user-friendly. really easy to use buttons,. not not very small buttons,. but not the the also the big big buttons,. It has to be a small unit. you can take it with you everywhere in in your house. and a and a good zapping range. the distance from your television to your remote control has to be, yeah yeah, quite a big distance.
+
+ProjectManager: I don't think I have anything more to add at the moment. I think we can go ahead with what we have. I will summarise the things we discussed. and put it in the project folder. the use of the Industrial Designer can work on the working design, etcetera etcetera. And it seems you get more information by email.
+
+IndustrialDesigner: I'm just a bit wondering what we're gonna do the next session?
+
+UserInterface: Do we only have to to do phase one, the functional design? After that we are going to the conceptual
+
+ProjectManager: Y you do some individual work,. we have meeting,. individual work, meeting. And at the end of the day we have a final meeting.
+
+IndustrialDesigner: I mean, is it gonna be a multimedia control centre? Do we want to be able to use the video recorder with it?
+
+ProjectManager: I think that is the user requirements part. As to what they want. do they want all those functions on that small
+
+IndustrialDesigner: But but we need good communication about this stuff,. So if I don't know what components to put in, it's kind of hard.
+
+UserInterface: I I think we have first to start with the basic functions. and we can expand them.
+
+MarketingExpert: Like li like some like some some remotes who are out there, which I know, there's one button which is very easy to switch between devices. So you can switch to your video. and then the same buttons control your video. And another function I'll think of switch to your media centre,
+
+IndustrialDesigner: But you'll ne need several other buttons for a video player. You need a play and a forw fast forward and a stop function. And you you don't need that for a TV. And and for a teletext you need additional buttons as well,. so I kind of need to know what we need. and then we can discuss it with the next meeting.
+
+ProjectManager: We could just start with the assumption that's only for TV and video. And reserve the possibility to add other features. So we have a basic starting point. and you can always extend that. so make sure it's extendible. Yeah.
+
+UserInterface: It it has yeah it has to be user-friendly.
+
+ProjectManager: Th the least amount of functions possible. and I'll see you again when the computer tells us to. Let's see what we got to do.
+

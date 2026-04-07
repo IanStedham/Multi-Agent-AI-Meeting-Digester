@@ -1,0 +1,123 @@
+Meeting: TS3004a
+============================================================
+
+ProjectManager: You have to put it exactly on the on the
+
+IndustrialDesigner: My laptop is crashing.
+
+ProjectManager: Actually my laptop doesn't work,
+
+MarketingExpert: Okay. I think it works.
+
+ProjectManager: You all read what we are going to do or not?
+
+MarketingExpert: We're gonna make a remote control.
+
+ProjectManager: I just made a a simple presentation. How does this work? that's my name,. we're going to make a remote control,. are we going to this agenda of our meeting. You know, this is about twenty five minutes, this meeting. it has to be original, trendy, user-friendly. first we have three steps of making the the remote control. Fir the first thing is th the functional design,. We have to look what the needs are, the effects of the functional design, and and how the the the remote control works, so that's where we're going to look in the functional design,. The the second thing is the conceptual design,. that's the spe the specifications of the components and the properties and the specifications of the user interface. And we have to look what the market is doing for what kind of remote controls are in the market. And the third thing is the detailed design. it's exactly how it looks and whatever. these are two smartboards, with the s an introduction of that one. And you already saw you know all that that you here can put things in the the red project map. what we're going to do first is. You have to draw a favourite animal on the whiteboard. and and say why it's your favourite animal. and we have to use a different pen colours and different thickness of the pen. first have to show you,. maybe you can come here to have a look how it works. Use pen format. and a different colour can use here. line width ten. Just draw slowly,. because otherwise it won't work. It's a very nice elephant, you can see. It's a bit slow you can see,. this is a bit annoying.
+
+MarketingExpert: And then what's the colour? How do I do
+
+ProjectManager: It's in format. Just make a new blank new blank page.
+
+UserInterface: Let's make it a dog.
+
+ProjectManager: Maybe you should hold your pen a bit more to the back,
+
+UserInterface: I make a cat of it. I just draw too quick I think.
+
+ProjectManager: I thought these pens would be just you write it down and you download it to Word,
+
+UserInterface: But you actually got to write on the paper.
+
+ProjectManager: But I I I thought it would be just in in in typed words in Word,
+
+UserInterface: But it's just a picture.
+
+MarketingExpert: Y you can you can't edit in the edit it in Word.
+
+ProjectManager: It's not that cool as I th thought it would be. Now we just have to save everything,. what we know is that we have to sell this remote control for about twenty five Euros. And we have to make a profit of fifty million Euros,. so we have to use a big market in Europe. The production cost are about half the price of selling price,. can someone make a a calculation about how many we have to sell of these to make fifty million,. we're gonna have a little discussion about what experience are with a remote control the and everything,
+
+MarketingExpert: My first question was does it have to be a a universal remote control?
+
+ProjectManager: That's a good question.
+
+MarketingExpert: Because we sell it lonely from the and not with the television, we sell it apart.
+
+IndustrialDesigner: Yeah, it probably would be universal.
+
+ProjectManager: I don't think you can buy a a a universal remote control for twenty five Euros,
+
+MarketingExpert: I know you can buy a re a universal control for only twenty Euros
+
+ProjectManager: We we just say we just say that's universal remote control.
+
+IndustrialDesigner: And also for the VCR and DVD player
+
+ProjectManager: So a lot of buttons on the remote control. what what what's a remote control,. it's just a black thing with some buttons on it,
+
+UserInterface: We can try to make it special.
+
+MarketingExpert: If we control the VCR and the DVD player player with it it has to be clear,
+
+IndustrialDesigner: And how big should it be?
+
+UserInterface: It shouldn't be too big,. but I don't think we can make it too small,. We can't make it smaller than the things we see now I think. Or we have to make something like mobile phones that you can fold it opem. maybe more trendy. where you can see more options. I think. something on top, just dren general things like volume and TV channels and inside things you don't use that often.
+
+IndustrialDesigner: O or you could th think of an a small touch screen on the remote control.
+
+ProjectManager: Why should you use a touchscreen on a remote control?
+
+IndustrialDesigner: Or maybe to keep it easy and small.
+
+ProjectManager: But it's not t too expensive to put a touchscreen on it.
+
+MarketingExpert: And we have to care for the strength of the remote control,. because remote controls are most things in the house that falls down on the ground and it get often broken.
+
+ProjectManager: And if you have a touch screen in it, it's definitely too too fragile fragile. You can put games on your remote control. Whatever.
+
+IndustrialDesigner: And how about the batteries? should you put it in a recharger
+
+MarketingExpert: Ma maybe a home station.
+
+UserInterface: But yeah, we have to look at the price now I think. how much is your standards mobile phone recharger?
+
+IndustrialDesigner: If you buy it separately from your phone it's probably expensive,. but I don't know what the project projection costs are for such a thing.
+
+ProjectManager: If you th look at the market, it's probably it's still the best way just to put batteries in it,. because maybe it's too expensive.
+
+MarketingExpert: But a home station is a really good idea,. because lots of people are lose their remote control and don't know where it is,
+
+UserInterface: Maybe use it as a separate option. Sell it separately.
+
+IndustrialDesigner: And and you just have normal batteries that you can recharge and just put it in the station,. or you can change your batteries,
+
+ProjectManager: The option, just the option, that's cool.
+
+MarketingExpert: I I set something on paper already, size, looks, usable,. the buttons on usable places,. the the on off button must be on top,. it has to lay good in the hand,
+
+ProjectManager: Does it has to have to be like a different form than a normal remote control
+
+IndustrialDesigner: If if we want to make it special, we probably have to do a lot of testing, if it really works.
+
+UserInterface: You can have the basic things on the same place, like on off button on top and the TV channels one two three four as a block, and then the volume obviously on on top, so you can see. But the rest is you don't use that often,. so if you have a clear button with an good icon on it, it should be clear as well.
+
+IndustrialDesigner: And what we have to think about too is buttons that you use often are maybe like when you fold it open,
+
+MarketingExpert: On on top are the the basic options on top,
+
+IndustrialDesigner: Basically when I'm watching TV I'm just using like five buttons or so,
+
+ProjectManager: Maybe it's very hard to to make it fold open and to look like it's very
+
+MarketingExpert: If you if if you make to fold open it's or also an the strength is not as good as a normal remote control.
+
+ProjectManager: So maybe we have to to keep it like a square, just normal remote control. Just think about it. We have to close this to finish this meeting,. We have another thirty minutes,. so then we're going to meet again.
+
+MarketingExpert: For for me the Marketing Expert, the user requirements specification, do I need to think as a user,
+
+ProjectManager: I think this if you you have to know if it's for a TV, a DVD player, all that things. what's in the market,. what kind of buttons do you have.
+
+UserInterface: I already wrote some down, some ideas. There's already a document in the folder about it.
+
+ProjectManager: See you in thirty minutes.
+

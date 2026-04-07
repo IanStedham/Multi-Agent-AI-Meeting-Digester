@@ -1,0 +1,371 @@
+Meeting: TS3005d
+============================================================
+
+ProjectManager: As you may have noticed I. created separate folders. because it was tending to get a little busy in our shared project documents folder. I don't know if everybody put their own documents in the right folder,
+
+IndustrialDesigner: Save in the folder. Save as project.
+
+ProjectManager: I'm still going to take some minutes,. and if I'm right, you two are going to give a prototype presentation? And did you do something with evaluation criteria? And then we have to look at something which is less nice,. the finance aspect, whether we can afford what we have designed,. and if we can we can commence the final part which is the production or project evaluation,
+
+UserInterface: This is about the total remote control. We made it green.
+
+IndustrialDesigner: There's one of the colours we would like to see in our prototype.
+
+UserInterface: And the screen light blue. this the scroll button and the microphone on the on the sides here under. And the and logo,
+
+IndustrialDesigner: Just just an idea about how to th that could also be possible.
+
+UserInterface: Perhaps you should make it a bit big,. so people know it's there
+
+IndustrialDesigner: The microphone could be just a minor hole on the left button. we also made some ideas about how the options menu would work.
+
+UserInterface: You push the scroll button
+
+IndustrialDesigner: And a drop down menu or a pull out menu comes out. and you get you get the options becoming available. For example TV settings, remote settings, et cetera. So you can scroll down too with the scroll button,. it's also nice to see that we made a small menu, the options menu becoming available when pressing the scroll button,. and the opportunity to use the teletext,. and we think that it's very handy to put it not under the options menu, but in Yes. In an apart
+
+UserInterface: Perhaps we should use the teletext sign. this is the total interface that of the LCD screen. the numbers, which is pretty straight forward. but It's the button where you can switch channels. just when you are one and you go to two, you can or if you go to five, you can go back to one with that button. And in the middle the the mute. And this is the the on off knop, the stand by knop.
+
+IndustrialDesigner: You can see very clearly now that the teletext and options menu isn't taking much it's taking much part of the screen,
+
+ProjectManager: And I just missed when I was typing The RR stands for?
+
+UserInterface: That's the logo of the
+
+MarketingExpert: My task was this time to put up a questionnaire. by which we can evaluate the design of the remote control by the questions we requirements from the of the users. Questionnaire with seven point scale from one to seven, from true to false,. like question, is remote big enough, we can say it's true or it's false by steps. One means absolutely not true,. seven means true. is the remote control fancy enough,. is it in innovative enough,. and is it easy enough to use. Is the design fancy enough?
+
+ProjectManager: It's looks fancy, especially with the green colour. And the the curves which we decided,. Only what happened to the single curve we spoke about last meeting?
+
+UserInterface: It oh it's in the background. Oh. it would be something like this from the side, but with a bit of curve here,
+
+IndustrialDesigner: It's also very handy if you make a side curve way to make the the remote control very thin at the bottom at a bottom at a bottom. make it rather thick on the top,. because on the top it has the screen,
+
+MarketingExpert: Isn't going to be a little bit heavy at the top?
+
+UserInterface: I think yeah, the battery should be in here,
+
+MarketingExpert: Fancy enough means, does it comes to the younger people and the elder people.
+
+UserInterface: I if you don't make it green, then the elder people won't won't like it.
+
+MarketingExpert: All the colour colours don don doesn't matter that that much now,
+
+ProjectManager: I think especially because of the microphone and the LCD screen also.
+
+UserInterface: Alright, it's a one. Oh it's a one.
+
+MarketingExpert: Yeah, I think two.
+
+IndustrialDesigner: It's very fancy, I think.
+
+MarketingExpert: Is it innovative?
+
+UserInterface: I think it is,. because it has an LCD screen, a mi microphone.
+
+IndustrialDesigner: And the scroll is rubber,
+
+MarketingExpert: Also huh -huh the buttons, are they easy to find?
+
+UserInterface: Because they're right on your screen. The options are it little bit harder,
+
+IndustrialDesigner: It's easier than the regular remote control.
+
+MarketingExpert: I think th I think the options buttons are not the the easiest way to to
+
+IndustrialDesigner: Where you have to find out what which sign or icon means on every button. So you have you have to use the the the manual to understand most
+
+MarketingExpert: I personally think, because I I don't think i maybe it's easy to use,. I I think if you have the button at the right, I don't think you can find the option button that easy. but you have then you have here written option on here, the teletext button,
+
+ProjectManager: A two, okay,
+
+MarketingExpert: It's easy to use, as well for younger as elderl elderly people.
+
+UserInterface: For young people I think it's easy to use.
+
+IndustrialDesigner: I think it's the most useful remote control ever to be manufactured.
+
+ProjectManager: As well for the for the older people?
+
+MarketingExpert: Yeah, as well
+
+UserInterface: But they they don't want the extra options,
+
+ProjectManager: And would it be easy for them to use the speech recognition?
+
+UserInterface: I think it is. If they read a manual. You say you say record to to the to the speech recognition,. then you say the question and the answer. And that's everything it does, the speech recognition.
+
+ProjectManager: Maybe that would make it even more easy to use for them.
+
+MarketingExpert: Remotes overwhelmed with buttons. Tha that's a one, I think, that's definitely a one.
+
+ProjectManager: But I think you should make it one scale with with one being good and seven being bad,
+
+MarketingExpert: I think isn't, this has to be something like isn't overwhelmed.
+
+ProjectManager: Because otherwise we can't calculate anything from the results,
+
+MarketingExpert: Remote control has colours that different that meet different target groups.
+
+UserInterface: 'Cause we make them in different colours,
+
+ProjectManager: And I though we had about single colours,. but you can also make a wood colour, not just one single colour but a wood-like thing,
+
+MarketingExpert: Also with rubber?
+
+ProjectManager: You can make a print on rubber,
+
+MarketingExpert: The material used is spongy,. that that's that's a one,
+
+UserInterface: Yeah, yeah, it's very spongy. I think it's a three.
+
+IndustrialDesigner: Because you want to make it rather flexible but not too flexible,
+
+MarketingExpert: Remote control is hard to lose.
+
+IndustrialDesigner: Yeah it sh and it's easy to find.
+
+MarketingExpert: Y you can't you can't lose it if you're sixty years old. I think I think this is a two, personally.
+
+ProjectManager: So it should this question should be hard to lose. It's difficult to lose it.
+
+UserInterface: So then this is it is almost true,
+
+MarketingExpert: Remote control mainly be sold to younger people.
+
+UserInterface: I think it will,
+
+MarketingExpert: No, I don't think very true because the colours. I think it's a three.
+
+ProjectManager: Because we designed it for young people especially,
+
+MarketingExpert: Because younger peoples are cr critical. and they wanted a lot of features on this thing.
+
+IndustrialDesigner: N not exactly but if it had some games on it or something like that,
+
+UserInterface: I think they like the speech.
+
+MarketingExpert: LCD screen and scroll.
+
+ProjectManager: It has relatively few features,
+
+UserInterface: Those are features.
+
+MarketingExpert: The LCD touch screen is feature. The microphone is a feature.
+
+UserInterface: Aren't the features. and that you can change the channel's feature,
+
+MarketingExpert: I think it's it's it's a one. you have all buttons on it which you'd like, microphone extra, LCD screen extra, scroll thing extra. You can see the remote control is and.
+
+UserInterface: Yeah, there's and in front. it's not the colour,. so maybe you should make two,
+
+MarketingExpert: You have the black one. And we'll probably make also a yellow one.
+
+UserInterface: But not and yellow I think.
+
+ProjectManager: But the logo is on on the front,
+
+MarketingExpert: And the menu is avail that is available is easy to use.
+
+UserInterface: I think it is,
+
+IndustrialDesigner: Because when you push on the options menu, you get the the the various options entirely explained. Entirely explained.
+
+MarketingExpert: I'm not not convinc. I think it would be a yeah, two. So two, yeah. The average is a two.
+
+UserInterface: So it's pretty good.
+
+ProjectManager: The next part might be a little bit difficult to do in a group,. but I am willing to try it. Because we are going to look at the finance. and I have a nice Excel sheet to do that. and we're going to calculate the production costs,. and if they are under or at twelve Euro fifty,. and if they're not we're going to re-design,. but we have to do that very very quick I think,
+
+UserInterface: Perhaps we've got features that don't exist in the Excel sheet.
+
+ProjectManager: Maybe I could ask one of you to fill it in,. so that I can also take minutes,. count number of functions,. because for every button you have to pay. and there are different screen shots, so or different different screens,
+
+UserInterface: A battery. One battery,
+
+MarketingExpert: We have sample speaker. we already on nine.
+
+IndustrialDesigner: Single nee single curved.
+
+MarketingExpert: No, we don't have push button.
+
+UserInterface: But with special colour we have. A special form,
+
+IndustrialDesigner: We don't got the button supplements.
+
+MarketingExpert: Eighteen and a half,. We have to lower it with six points.
+
+UserInterface: We could lose the curve.
+
+IndustrialDesigner: We could lose the scroll wheel. You could make it just a regular scroll wheel. if you can't push it you have to tap the the options window button here and then scroll down with the with with the button. Normal scroll wheel.
+
+UserInterface: And I think we should lose the curve.
+
+MarketingExpert: I think we should scrap the sample speaker.
+
+UserInterface: Then it will won't stand up from the table. Could could we do it on a regular chip on print or something?
+
+MarketingExpert: Otherwise we don't have an LCD screen. Scrap sample speaker?
+
+ProjectManager: You should you should drop the speech recognition. And then you can keep the curve. Or make it on a hand dynamo,. but I don't think that will work.
+
+MarketingExpert: Ma make it with wood instead of rubber?
+
+UserInterface: We could make it titanium instead of rubber. What is special colour? Is that the wood wood
+
+MarketingExpert: I think it is.
+
+ProjectManager: But I think the only option is to drop the sample speaker.
+
+UserInterface: Th then we still have too much
+
+MarketingExpert: Three. Point three.
+
+IndustrialDesigner: Let's make it thirteen or fourteen.
+
+MarketingExpert: That's a scroll wheel.
+
+UserInterface: Don't make it wood.
+
+MarketingExpert: We can make it brown, dark brown, not wood.
+
+UserInterface: A all kind of colours?
+
+IndustrialDesigner: Special colours, fruity colours.
+
+UserInterface: But it's a special colour than just rubber colour. You have to add something to the rubber to make it green.
+
+MarketingExpert: Then we have to scrap everything we got
+
+IndustrialDesigner: If we lose the scroll wheel and make it totally depending dependent on the touch screen. then it's possible to make. You lose this one, you got eleven point five. How how many colours?
+
+MarketingExpert: But we we we are we have yellow, red, black, titanium.
+
+UserInterface: But I think when you use the colour that's not originally the rubber then you use special colour,
+
+MarketingExpert: But we're gonna make it yellow red,. and then you add you have two special colours on top of the one we have now. I then I think I I don I don't think they me mean they're special
+
+ProjectManager: I think you pay half per remote. So each remote with a special colour.
+
+IndustrialDesigner: You don't need four of those four of those special colours in one in one remote.
+
+ProjectManager: We have advanced chip on print.
+
+UserInterface: So it would be curved, single curve.
+
+ProjectManager: We we dropped the speech recognition together with the speaker.
+
+MarketingExpert: Y yea the scroll wheel is dropped.
+
+UserInterface: Perhaps you can save this one,. and then copy or something.
+
+ProjectManager: But this this new remote we can afford.
+
+IndustrialDesigner: When did you receive this list?
+
+ProjectManager: I just received it. They don't work so hard at the finance department. and did you try to make a new design,. or what were you trying to do?
+
+UserInterface: I tried to copy that one,. but it didn't work.
+
+ProjectManager: Because I think we have a prototype now. And I think we should then move on to the production evaluation because of the time. And you can't erase this? just leave it at this. and quickly save. and then we are going to the project or product evaluation. what did you think about the process? How satisfied are we?
+
+IndustrialDesigner: Deadlines were sometimes very short.
+
+UserInterface: Bu but stressful. You think, no, my presentation isn't ready.
+
+MarketingExpert: I think we it should be it would be better if we worked a little bit together. Now we worked through each other,
+
+UserInterface: You had information I didn't have
+
+MarketingExpert: And you had information I also had,. so some some things I had in my presentation, they already told,. I don't think that is the best way to work at for such project.
+
+ProjectManager: So you would say communicate during our individual work.
+
+MarketingExpert: Or maybe session of five minutes together or something,
+
+IndustrialDesigner: But but why not work here together, for example? Why should we be separated from each other in those difference different rooms?
+
+ProjectManager: Probably to simulate the whole working process,
+
+MarketingExpert: Like she told. Then you can work together too by mail or by, I dunno, chat, something,
+
+IndustrialDesigner: But the technology was fantastic.
+
+MarketingExpert: Yeah, the technology's okay.
+
+UserInterface: I I don't really like the board,. but sometimes it doesn't erase
+
+IndustrialDesigner: Perhaps it is easier to get one of those dig digital pens or so. and to and lay it next to that keyboard over there.
+
+ProjectManager: You don't think the SMARTboard is is really useful
+
+UserInterface: But it doesn't really work all the time.
+
+IndustrialDesigner: Because when you put this pen on the screen for exam and line is being drawn at at two or three centimetres below.
+
+ProjectManager: So it's maybe a bit unnatural also.
+
+IndustrialDesigner: The project because of the deadlines you didn't had the time to have, you didn't have time to to make a very qualitati qualitative presentation. So you used this the different PowerPoint presentations
+
+ProjectManager: And what about this digital pen?
+
+MarketingExpert: I didn't use it at all.
+
+UserInterface: It's quite handy I think. it did work pretty well.
+
+MarketingExpert: It is easy for to design something and then load it in your computer. It's bi little bit too big to write.
+
+ProjectManager: And what about the teamwork?
+
+MarketingExpert: Team work was okay.
+
+UserInterface: I think it was great,
+
+ProjectManager: Yeah, well I think so too.
+
+MarketingExpert: Only thing that we worked through, past each other.
+
+UserInterface: I thought it was good,
+
+MarketingExpert: Yeah, no prob. Ah.
+
+ProjectManager: When we look at this I'd say we have been creative,
+
+IndustrialDesigner: It was the idea to be creative,
+
+UserInterface: And you get get stuff from the from the computer,
+
+IndustrialDesigner: The information was sometimes a little bit too late
+
+MarketingExpert: It it it took a lot of time before you got your ema
+
+UserInterface: You just sit there for ten minutes.
+
+ProjectManager: At some times I Sometimes I received like like five emails at at one moment,
+
+MarketingExpert: No, I I never got that.
+
+UserInterface: I got like one email after ten minutes or something.
+
+MarketingExpert: I think lik oh and information was a bit low I think, sometimes,. and I never new we have we had to yeah made a made a rec a remote control.
+
+UserInterface: And I didn't know what to do for the first ten minutes before we got here,
+
+ProjectManager: But after all we can say we are satisfied,. but it it could've been better. we would have gotten more information.
+
+IndustrialDesigner: More information about the costs.
+
+ProjectManager: That was a bit mean to put it in the end.
+
+UserInterface: Less heavy laptops.
+
+MarketingExpert: And furthermore the the the network was okay.
+
+ProjectManager: And so more time might have improved the the quality of work,
+
+UserInterface: Five minutes in the meeting.
+
+ProjectManager: More time during the individual work phases. because we have to have a design,. and that is within the budget. And we evaluated. Maybe we should re-evaluate the product,. but we did that before,. and we also evaluated the project. And I think everybody's very happy. At least I am, with the results,. because I have to write the final report now.
+
+UserInterface: I I think we have to fill in a questionnaire again,
+
+ProjectManager: I think we also have to go to our own rooms again,. But maybe you can try to make a screen shot of this,. so I can try to include it in the final report. I hereby officially close the meeting
+

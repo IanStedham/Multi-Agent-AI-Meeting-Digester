@@ -1,0 +1,117 @@
+Meeting: TS3007b
+============================================================
+
+ProjectManager: Welcome back. At the functional design meeting. the plan is that each one of you, so not me but only you will present the the things you worked on the last half hour. and will put the minutes that I have at the end of the session in the shared folder. Also the minutes of the previous session are also in the shared folder now,. I had an email from the from the management board. but there were four points. which I think are very important. First one is they think that teletext teletext becomes outdated. second one is also important. the remote control shou should onl only be used for the television,. so it not gonna it's not gonna be a multi-purpose remote control,. second, and I think that's important for the Marketing Expert,. the current customers are in the age group group of forty years and older,. but with this new remote they will would like to reach a group younger than forty. I think to keep in mind, but not really for now. is that they want the the the slogan and the and the logo to to be recognised more in the remote. so I think not more than ten minutes per presentation each,. and please use all the the the facilities so that you have either SMARTboards, the the Word files, what you whatever you want.
+
+MarketingExpert: I have some new findings on Marketing Expert level,. The method I used was giving orders to our usability lab to do a questionnaire. one hundred respondents were involved. and my marketing department generated a report with a lot of results. the first one, this scale, from sixteen to forty five age. the second one is from sixty four forty six to sixty five. as you can see here, the market share for the first audience is about sixty percent sixty five. second audience audience is thirty five percent. it seems like the young users of remote controls really like the fancy new technology stuff, like an LCD screen on the remote control, speech recognition. I don't think that's really appropriate. and when you see the audience, the age is going up Yeah, they don't really want it anymore, at least the new technologies. Second findings out of the questionnaire are the opinion the opinions of the audience about current remote controls. First point is, seventy five percent of the users find the most repo remote controls very ugly,. and eighty percent of the users would spend more money when a remote control would look fancy. According to the frequency of use versus importance investigation, following buttons are most important. Switching channels, yeah,. the second, teletext,. and the third, volume controls.
+
+ProjectManager: But it's strange that the the manage board the management board said that the teletext will be outdated by the internet.
+
+MarketingExpert: But at the moment teletext is Yeah, th the best thing you can get on TV, like getting information. they use teletext and not the internet on a remote control. my personal preferences.,. I think we should aim at the audience from sixteen to forty five. first of all it's the biggest share, the biggest audience, sixty five percent. second, I think you will get the most revenue from i from it. we have to impro improve the most used functions, as I said here, switching channels, teletext and volume controls. people used to get lost off the remote controller,. so maybe it's an idea for us to design ex kind of placeholder on side of the, yeah, of the TV
+
+ProjectManager: That's a cool idea.
+
+IndustrialDesigner: When you mentioned improving functions, what what do you mean by that
+
+MarketingExpert: But it came out that a lot of buttons weren't even used on a remote control. So you can have a remote control full of buttons, a hundreds hundreds of buttons,. but if you don't use them, yeah it's
+
+IndustrialDesigner: So focusing more on the used buttons.
+
+MarketingExpert: But the most used buttons have to be bigger or
+
+IndustrialDesigner: Could you use perhaps one button for multiple functions,. like example pressing it in longer makes it switch to an different function for example. I'll be explaining a bit about working design about the project. what I did was I dissected current remote controls. and I viewed how how they looked,. what kind of components are involved,. And after that I put up a scheme about how these things are organised. and I'll show it to you in in a in a few seconds. And I'll explain a bit about how it works. what I did was I I checked remote controls. and the remote controls of today are all infrared,. And the thing about that is the remote controls have to act as a TV or a stereo or something,. and those have a transmitter. that's also focused on infrared,. so if we want to build a remote control with Bluetooth for instance then the TV should have Bluetooth too in order to communicate,. so that would mean extra cost for the user. So that's probably why most controls are still infrared. Furthermore they all have a a very simple structure,. 'cause well we we should be able to build a relatively cheap a cheap remote. because well my personal opinion is is not to do Bluetooth or or radio waves,
+
+MarketingExpert: What do you think about incorporating Bluetooth or a radio receiver in the place-holder next to the TV, connected to the TV?
+
+IndustrialDesigner: I actually I figured that would be that would be rather nice,. but then you'd still have the the infrared function. but what I did think about was when you mentioned about the the cup-holder, is why not introduce a speech function like where is the remote. If somebody says, where is the remote, then it goes beep beep beep beep or something,. maybe maybe something to look into,. I dunno what the cost that something like that would be. I'll I'll just explain a bit of the components. The energy source would be a battery, simple battery. I figured that would be best,. the energy source is connected to the infrared button,. but the infrared button works only via the chip and the subcomponent to the switch. when a button is prush pushed in, a electric current goes through here,. and in immediately, a a bulb lights up. displaying to the user that something has happened. That's that's so the user won't be thinking, well did the button be pressed, what happened. the signal goes via chip. that's translated into electric sig electronic signals. and then it's processed. and then it's sent to the infrared bulb. my personal preferences here,. we have to keep it simple. Not too many gadgets and functions,. I I think we should stick by with infrared transmitting and no receiving. I think we shouldn't be spending time on teletext and st things like that,. because when you want teletext on infrared you'd have to build in a receiver too,
+
+MarketingExpert: I think current T_V_s can even send infrared.
+
+IndustrialDesigner: But should we spend money or and time on building a receiver into the remote control? 'Cause that would be I mean extra components, extra designs, larger remote control. So I I my personal opinion is no no no receiver at all. we should look into the design and the functionability. Like I said, use one button for instance for multiple functions,. just hide the few buttons of switching it open or something, the usual stuff. we shouldn't make a big remote control for simple functions,. but we we should stick to the basics.
+
+UserInterface: I'm going to give a presentation abut some of the technical functions of these design and usability functions. what's my opinion about what's most important to combine the design, technical possibilities and the user friendliness in one,. so if you going to design a remote that looks good, that shouldn't weigh over the if it's possible to make, of course, but also the user friendliness,. And another one is the use of many functions will will make it more difficult,. so use as as little functions as possible. or at least don't display them all at once on the same remote. And well one of the ideas was maybe use touch screen,. but I don't know in how far that is possible,. since we are sticking to infrared. and and the remote cannot receive anything,. but we might consider that. So just keep it simple,. make clear buttons, easy to use. I prefer to use it only for TV. and and if possible, the buttons should give a dr direct action, not first select
+
+ProjectManager: You you just said you wanted to to combine more functions in one,
+
+UserInterface: And so that's where the difficulties lie. Do we want to use a few options and might not be so or original, or multi-purpose as we thought,. or do we want to use many buttons.
+
+MarketingExpert: It's maybe an option if you use an LCD or a touch screen,. that in the middle are the the main keys,. just in the middle the general functions, like play, channel switching,. and then at the top or at the bottom, some menus like settings or that you can drop down.
+
+UserInterface: Do we want to use a menu display on the TV? Or does have to everything be in remotes? 'Cause if you use a memory display on the TV, you can simply push a more menu and then select the options you want to have and press okay. if you use many options in one buttle button, display the menu on the TV. and don't use combination of of two buttons at the same time or pressing buttons three times for five seconds,. is too complicated for most users.
+
+MarketingExpert: And when you have a particular menu at your device, it could be that don't correspond to the menu what's actually on TV.
+
+IndustrialDesigner: You have to keep in mind that not all not. our remote won't be able to work on all televisions.
+
+UserInterface: Especially the important buttons, if you want to switch channel, change your volume, use teletext, it it has to work at once. and more advanced options may be put it somewhere away on the remote, behind a little little thing or a touch screen.
+
+IndustrialDesigner: But then with something like a touch screen could could make more menu up pop up or something.
+
+UserInterface: If the user is pushing a button he should know if the television or at least remote is reacting and not just that the batteries may be low. maybe we should just ease down on the functionality to to keep it accessible
+
+MarketingExpert: I think the idea about touch screen is very good. because recently I saw news item on TV about new telephones for elder people. they have like a touch screen with really big pictures on it like call hang-up,. because one the one hand you make the remote control compatible for elder users just by scaling up the pictures or something.
+
+UserInterface: Make a remote that fits easily in the hands
+
+MarketingExpert: Then what's gonna be displayed on the touch screen?
+
+IndustrialDesigner: The extra functions.
+
+UserInterface: You you just see a menu from system functions or teletext functions, and you just choose one,
+
+IndustrialDesigner: Wouldn't it be better to make just one big touch screen, one one small touch screen applet. and we have three of those, actually just menus with sub-menus, with or sub-items, sub-functions.
+
+UserInterface: Then I'd like to make a proposal. If you make one big touch screen,. keep the buttons always available. and use the lower part of the touch screen for the rest.
+
+ProjectManager: So you think it's will be better to have a kinda total touch screen.
+
+UserInterface: That they always make the same buttons accessible,. so use just for special options a part of the touch screen. an elder parents or grandparent picks up the remote from the little child and who's all in the systems functions, you'll have to have the possibility to turn off the TV or to switch the channel without well using all the menu structures to get back to the primary functions.
+
+MarketingExpert: I had another idea about maybe parental control.,. like building in some kind of PIN code. if children don't don't know the PIN code, they can't switch to violent channels or
+
+UserInterface: Is that possible to use or no?
+
+IndustrialDesigner: That actually depends on the television,. thing is when you buy a remote, you you set the channels,. the the channels are different on each te television,
+
+MarketingExpert: Th th those things are nice.
+
+ProjectManager: But I think that's we wel later in the stage. because I think elderly people may be not used to a touch screen,. so they want the the the normal functions like teletext, volume changing, to be, yeah, kinda traditionals. and the the the the other functions, the more difficult functions to be maybe on the touch screen,
+
+MarketingExpert: But but if you display it on LCD screen with r really big numbers
+
+UserInterface: You can display actual buttons on the touch screens.
+
+IndustrialDesigner: But well we have to look at what's our target audience. W we are aiming for younger people
+
+MarketingExpert: And th those young people, yeah. you saw it in my marketing report, they like the new fancy stuff,. A touch screen, like Microsoft al already developed something like that for multi-media applications. I th I think we can do that too.
+
+ProjectManager: As you can see the minutes from the second meeting, this one, are are done. each time I I had a sort of summary on what you told and what you personal think. th the the main points in this in this meeting is I think how it's going to look. we must keep it simple,. but have the opportunity to have more options. and have them hidden or something,. the functions, know, like the menus or the the parental control must be all by the done by the remote control and not by the television.
+
+UserInterface: Then there's always, there are always possibilities to change the colour and the brightness and the volume. and well maybe we can look out if there's options that the remote in its memory can see what kinda TV it is,. there are universal remotes. and they all have a functionality for all the T_V_s,
+
+ProjectManager: And it's not too complex to do it.
+
+IndustrialDesigner: They they all have to be programmed to fit your TV. and that that is bit of a tricky job.
+
+MarketingExpert: With the current remote controls, the universal ones, you have to press yeah, you have to press a code for TV.
+
+UserInterface: In codes, you you get a a book with codes. if you look at the manuals from universal remotes, there are maybe three four hundreds T_V_s at maximum. If you have all of them, all the old and new T_V_s summed up,
+
+MarketingExpert: But, on the other hand on the other hand, if you have a remote and buy a new TV that isn't incorporated in the remote
+
+UserInterface: Well then you have to buy a new one,. or an update, software update.
+
+MarketingExpert: Maybe we can incorporate some kind of USB or a firewire connection,. so that you can connect it to the PC
+
+IndustrialDesigner: Or you could well you could actually look at the place-holder you talked about earlier,. then then it's be back to the building a receiving well if it's actually worth it to build it in,. it it would be bringing more costs with with it
+
+UserInterface: For which one are we going?
+
+IndustrialDesigner: My vote goes out to the right.
+
+UserInterface: I was doubting about which one to take,. but you've convinced me. that if you di display buttons about the same as they would look on a normal remote all elderly people will know what to do.
+
+MarketingExpert: And also like a clapping li like device that pops open.
+
+ProjectManager: So we have now a lunch break, finally,. after the lunch break it's back to individual work, once again thirty minutes. I will put my minutes. so they're updated in the shared folder too. the specifi specific instructions for the next meeting you will all will receive at the the the email. You all have the the questionnaire again about the after work.
+

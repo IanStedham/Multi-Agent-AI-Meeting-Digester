@@ -1,0 +1,197 @@
+Meeting: IS1007d
+============================================================
+
+ProjectManager: So in last meeting we have discussed the conceptual design. and we asked you to prepare a prototype for the for the remote control. So let's see the what did you prepare.
+
+UserInterface: S so so I discussed with Guillaume. and we we are both agreed on some two versions of the prototypes,. because we were no not decided whether we wanted to have an LCD or not because it's too expensive. One with and one without L_C_D_s. but both comes with a charger. and then detachable and or control module. And detachable big buttons for all people.
+
+IndustrialDesigner: Okay so I'll show you the the two prototypes. Here we have the first one with the beautiful LCD display. And you can just browse into the the navigation menu by joystick joystick-like button. You can choose the direction. You have on the on the side here the microphone for the for the speech recognition system here. And here the the switch that control if you want
+
+UserInterface: The the microphone picks up the speeches from anywhere.
+
+MarketingExpert: Is it an only a single mic or a microphone array?
+
+IndustrialDesigner: Well so it's a microphone array.
+
+ProjectManager: Oh it's very costly, microphone array.
+
+IndustrialDesigner: It's just a single microphone,. I I think we we put it here because I think when you when you are browsing your LCD you will be close to. well it's better to to to place it here th than here, for instance. And here is a little switch that control if you want the the speaker recognition system to to be on or off. And so this remote control comes up with its charger.
+
+ProjectManager: How much does it cost this one?
+
+IndustrialDesigner: Well this this prototype is made for about well fi fi fifteen fifteen dollars
+
+ProjectManager: Ah it's above it's above the budget.
+
+IndustrialDesigner: But it's just a prototype. the and the the production costs we we can achieve about ten dollars.
+
+ProjectManager: How many battery is there?
+
+UserInterface: Is it the two A_A_s batteries in it. AA rechargeable batteries.
+
+MarketingExpert: Is that two or one?
+
+UserInterface: Actually it's a flexible thing.
+
+IndustrialDesigner: So and if you want to charge the battery you just put the remote control like that to plug in the the charger. and leave it alone, it's alright.
+
+UserInterface: I forgot to tell you there is only a single button there,. This button is like the mouse is like a joystick,. you can move in three hundred and sixty degrees of direction. and it the additi functions associated to all the actions. you ma you have a click you have a double click all in a single button. You can move up, down, left, right,. or you can do a swing. Here I present another version without the LCD.
+
+IndustrialDesigner: So we have the the second version also with the different button configuration. The second version is also simpler,. we we had just I have to put the microphone also.
+
+MarketingExpert: -huh and also the switch.
+
+IndustrialDesigner: Basically it's the same things as I presented before. But here we have we have four buttons for navigation. Press one button acting as a a enter button. So yeah according to what you said it's more robust to the user. And it's also cheaper to produce. We can produce such remote control for about four dollars.
+
+MarketingExpert: And I think you forgot a point here to have an button to find the charger,. and if you disable speech recognition system then?
+
+UserInterface: W I'll I'll come to that point later on. in either versions you they they ha they use the same charger yeah. It's that same charger that you can use for the hand-phone. but again depends on the types. I think we have to investigate more on that, but
+
+ProjectManager: The price should be below twelve and a half Euro.
+
+UserInterface: But as the Marketing Manager says, people is willing to people are willing to pay more for good design.
+
+MarketingExpert: But the company is not willing to invest more at the moment.
+
+ProjectManager: The price of selling is twenty five Euros.
+
+UserInterface: The the the thing that makes this the controller cheap is that it is modular. so you want more function you pay more. If you want less function i i if you want a reasonable price you pay for the functions that you add on to the system,
+
+MarketingExpert: Something like customised. Yeah
+
+UserInterface: For example the LCD, you can take it you can put it put it back in, or you can use the other one,. or the speech recogniser with the microphone yeah yeah. You want a microphone to put in the speech recogniser you don't wan you pay less for the system you see. It's pretty flexible in the yeah price.
+
+IndustrialDesigner: You also have the the the two other modules for the parental control. that that you ca you can add up to the to your remote control. i i if you if you want to to have more more power on what you do, and which channel you want to choose and so on. H here is just the the the module for the kids. and th if the parents want to watch TV, up they come up with their modules,. We also have this module for old people with big buttons, clearly labelled,. and it acts like the previous one,. you just plug in and it works.
+
+UserInterface: The i the idea the the conceptual idea is that simplicity and powerful. Simplicity meaning that we have few buttons,. powerful is that all the controls with the one you saw we saw earlier in the meetings with lots of buttons n. that's our an innovation i in this design here. Okay now we come to other important features that I did not tell you. The first one is the speech recogniser,. again it's detachable or add-on. And then we also have security feature. it's very robust,. and the material, what's the material again? Again and the battery life is is an is an endurable one,. again because this is AA batteries you can choose the types of battery you want. Lithium-ion may be a good one,. again you pay for what you get,. and then the other points are robust and misplacement reminder. So when you finish watching your TV and you the you you turn off the TV, and then there's this message coming out that please put that back to the charger,. And it also use a programmable channel and vocabulary,. so we didn't define the vocabulary. so it's up to the user to define. And then because of the chil because children are using the device so we have also a a of TV programmes by genre,. and this can be used by the adult or by the children.
+
+ProjectManager: What's the price to to produce?
+
+IndustrialDesigner: Well so the price to produce For the simplest one, say we start from four dollars to produce such a device. The without without the charger. it's about well two dollars to produce the microphone and speech recognition systems. Two dollars for the for the add-on modules,. and finally three dollars for the charger. So if you sum up everything wi with the LCD, which costs two dollar, you have two plus four plus four plus two plus two.
+
+ProjectManager: We don't have all the options.
+
+IndustrialDesigner: So the total cost if you if you want all the fuct functionalities will be about fifteen dollars.
+
+ProjectManager: It's below the the the budget.
+
+MarketingExpert: I think we will just have a rough look. and then we can make our statements,. and we can finalise the product based on this discu. So the marketing made an evaluation criteria. and these were some of the findings,. and in the market the people are not really interested with LCD, without LCD, with speech recognition interface, or without speech recognition interface,. but most of the people what they are interested is first thing is, they want to have an fancy look and feel,. it should be very fancy with colourful. and very handy to hold. And the second thing is it should be much more technologically innovative. Of course in that we could put LCD or recognition to be more technologically innovative. And the third one is easy to use.
+
+IndustrialDesigner: Well I think that the technical in innovation is is in the product itself. since we haven't yet a remote who are allowing to to choose interactively with the TV screen with just four buttons.
+
+MarketingExpert: Here you can find these are the latest fashion updates,. and so this in Paris and Milan they have detected this trends that the this year it's going to be an year of fruit and vegetable,. so people are really interested to see if they have an remote in the shape of the fruit or a vegetable, or whatever they like. So I think it should be much more customised to make a different shapes. And the second thing is, and if the material, they really do not want it to be very hard, as in the case of very pl plastic or titanium,. it should be somewhat spongy.
+
+UserInterface: You should find a material that is robust at the same time spongy.
+
+MarketingExpert: Yeah so so finally we have these three criterias. One is fancy look,. second is innovative,. and third is easy to use. So and we have an evaluation criteria for each one of these,. say that we have a seven point scale, from one to seven,. and for each of the product you could just give me the scale according to this. So now you have with LCD and without LCD,. so on this scale, if it is true, if it is if it has a fancy look you could just tell me one,. or if it is false, it doesn't it looks it doesn't look much fancy, then you could just tell me seven.
+
+UserInterface: But who will give the scoring we ourself or or a third party?
+
+MarketingExpert: According to you designers,. On on this scale the LCD remote control. How do you look how does it look? D is it very fancy or doesn't look much fancy?
+
+IndustrialDesigner: I'll I'll say three or four.
+
+UserInterface: I think we can improve on the design. Som someone commented this is like a the stone age design. we have been focused all all this time on the on the technical aspect, functional aspect, but also the simplicity.
+
+MarketingExpert: So I take three on with LCD? So without LCD how would you rate it?
+
+IndustrialDesigner: I think it's it's more easy to make fancy things when it's not complicated. so removing the LCD gives us a li more liberty to to have a fancy look.
+
+MarketingExpert: And in the sense of innovativeness, with LCD.
+
+IndustrialDesigner: Well it's it's the same for both. so I will give a five, six.
+
+UserInterface: From the innovation aspect I feel that what is most innovative of our prototype compared to the existing prototypes that we saw in the last meeting is that the retrieval of TV programmes by content,. and for now and another innovation we have is simplicity. and simplicity, few buttons, we've A lot of functionalities.
+
+MarketingExpert: So without LCD?
+
+IndustrialDesigner: For both it's the the same innovations.
+
+UserInterface: So maybe I can put six to seven.
+
+MarketingExpert: Actually to make it with LCD you make more efforts. then when it is without LCD there is not much innovativeness.
+
+UserInterface: There there was a there was a issue here is that what are what is the display on the LCD? We haven't really determined what are actually actually
+
+MarketingExpert: I mean on the LCD, according to what I understand from your model is, you have a joystick here, and you have LCD, you just press your joystick, you get here a programme.
+
+IndustrialDesigner: But you have the same programme on the TV screen.
+
+MarketingExpert: On the TV you don't it doesn't display on the TV now.
+
+IndustrialDesigner: If you have the LCD,
+
+MarketingExpert: Then there is no meaning in having it on the TV.
+
+UserInterface: But you cannot display all on a LCD. Anyway for for the users who who who opt for LCD we'll give them the give them the LCD,
+
+MarketingExpert: So without LCD you want to put it fi the same level of innovativeness?
+
+IndustrialDesigner: Well I think both are really easy to use. and well p the menu are clear, well-organised, so. so I will give a six for the easy to use.
+
+ProjectManager: No it's just if I I see the the the rate I think it's better to do it without LCD. Because that's with LCD just will increase the price,
+
+MarketingExpert: So I mean in the product design you could just amend it to make some few changes. according to fruit and vegetable. or a spongy touch. without LCD and without speech recognition.
+
+UserInterface: I have another thing to say about the easy to use aspect. I think the easy to use aspect is different for different people. For the young generation easy to use may be very complicated. because they they wants lot of controls with lots of buttons. For kids they want simply the similarit for the old people they want simplicity,. but but what I'm trying to say here is that the we have different sets of buttons for different kinds of people.
+
+MarketingExpert: So without LCD I just take it five? S oh I think it's better to have this without LCD. As our Programme Manager Pro Project Manager says that without LCD it is going to reduce the cost also,. and it's going to be much simpler to use.
+
+IndustrialDesigner: So let's go back to our laboratory and
+
+UserInterface: To improve on the design.
+
+ProjectManager: What about the integration of speech recognition?
+
+UserInterface: The speech recogniser is a add-on module.
+
+MarketingExpert: That's going to be an optional.
+
+ProjectManager: I think it will be better if we have all these modules in the same remote control,. because maybe parents will lose these
+
+MarketingExpert: But I mean if you have an add-ons, the kids may just hide the parental module
+
+ProjectManager: Or maybe parents they can for forget where they put it or,
+
+UserInterface: The problem is if i we are bla if a customer wants a certain component, and doesn't want the parental control because it's a couple who do not have children. when you sell the product in the market you could meet any kind of people,. and not all people will need all the functionalities we propose to them.
+
+ProjectManager: So you mean that even if these modules will be will be functional will be optional.
+
+UserInterface: But the the question is does those modularity increase the production cost or decrease the production cost?
+
+ProjectManager: I think it inc increase.
+
+IndustrialDesigner: Because it's three different pieces to to to build but. it's I think it's cheaper if you if you already built the all the functionalities on the same module, but
+
+UserInterface: Well well the other aspect is that if in the when they have the ar existing product you you gonna maintain the the you're gonna keep the same customer,. because the same customer will come back to buy other add-ons. i i so if don't don't buy now they can buy i in the future. attracting them to come back in again and again. Yeah well if the buyers can be up the th would be can be upgraded, it would be a good thing right?
+
+MarketingExpert: And what's the idea about the shape of the remote controls? can they be made into a fruit and vegetable types?
+
+IndustrialDesigner: But we are also the well the components will have to change. because we have to deal with the shape
+
+MarketingExpert: Or it could be like this the PCB would be the same for all, but only the exterior shape is different for all.
+
+UserInterface: What we can change is to propose the customers with skins. For example the i the mobile phones nowaday, they sell different kinds of skin. and then people just feel that oh I have a new skin and looks better.
+
+IndustrialDesigner: We can have the same global shape. and then add on skins and with with this tex spongy texture things like that.
+
+MarketingExpert: I think you need to look into the material. I think the Project Manager would be interested to look about the financial issues in making these models.
+
+ProjectManager: Project evaluation project satisfaction, for example. I don't know, we have to ask these question.
+
+UserInterface: Room for creativity. This room is a bit small, but. but I think it's okay for us to work with.
+
+MarketingExpert: This is fine for making a presentat for project presentations. And the leadership was excellent.
+
+ProjectManager: Yeah I think so. the teamwork was very very good.
+
+MarketingExpert: And new ideas found.
+
+IndustrialDesigner: Come up with new product. Yeah and also more well more seriously I think it's it's a good idea to have clear clear points whenever we do a meeting. prior to the meeting to have well a list with the points who will be discussed or things like that,. We achieved project goal I think.
+
+MarketingExpert: That is within the budget.
+
+IndustrialDesigner: Yes, more or less.
+
+ProjectManager: Without without LCD, without speech recognition, it will be simple. Yeah thank you for your work and
+

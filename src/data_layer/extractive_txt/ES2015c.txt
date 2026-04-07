@@ -1,0 +1,115 @@
+Meeting: ES2015c
+============================================================
+
+ProjectManager: Well, welcome to the third meeting of conceptual design. on the agenda for this,, for this particular meeting, we'll have your three presentations on what you've done since our last meeting, after we came up with some general ideas of our design. And,, then we have to make some key decisions on, on our remote control concept, and how we're gonna make it, what materials we're gonna use, and that sort of thing. The meeting will be forty minutes long. And we will once again have Poppy as our first presenter.
+
+IndustrialDesigner: First of all we have to look at how the remote control is actually made,. thes main internal feature is a circuit board, which contains all the elec electronics and also the contacts with the power source. there are several components of,, the circuit board that we need to consider, where we'll be getting them from, what they'll be made of. including the integrated circuit, which is also known as the chip.
+
+ProjectManager: Are they all included, like mandatorily, or are these different options?
+
+IndustrialDesigner: They're all separate, apart from the chip, which we will probable decide whether we buy a simple, a regular, advanced. so we've got flex flexibility with colours and things, with that as well. Okay, there are lots of different possibilities for the energy source. We could use a basic battery,. There's a hand-powered dynamo which is a sort of thing that was used for torches fifty years ago. Kinetic energy is something that's been recently developed. Whereas kinetic energy is a new idea that's being used by some watches and other devices, where you just shake the device and it gives it power. or there's solar power,. which we've been considering inside a building, which is where it's gonna be used, might not be quite so useful. lots of considerations for the case, like what sort of shape it would be, curved or flat. We don't want something that's huge and you can't pick up. we could use metal,. we could use rubber. which might be more ideal for the anti-RSI. titanium is not gonna be possible, even though it just it beyond our budget really. right our choice for buttons as well. with our research team have found some new multiple option scroll buttons. they're basically quite a flexible design, modern, you don't have to use individual buttons.
+
+ProjectManager: One thing with the scroll buttons though. we would have to have an LCD. and the glow in the dark thing might be difficult.
+
+IndustrialDesigner: Also we've got the integrated pushbutton, which is what we're most familiar with. My personal preferences? I think we could go for the kinetic energy source. It's not been seen before, so it could be quite a, a novelty factor,. And also energy saving 'cause you're producing the energy, you don't need an external sort of battery supply or solar panels. Rubber casing I thing would probably the best, if we're going for the anti-RSI and like more choice with aesthetics. And probably the regular chip as opposed to the simple,
+
+ProjectManager: Another thing is it might be more difficult if it's a rubber exterior talking about putting on interchangeable plates.
+
+IndustrialDesigner: Maybe if the,, if it was just kind of a, more of a rubber coating which was on to a case. So, it was kind of, the whole thing would be removable. you can get sort of outer casing for iPods and something, that's just it's protective as well.
+
+MarketingExpert: So the actual remote would be hard plastic and the casings rubber.
+
+ProjectManager: Is it possible to put designs onto this type of rubber?
+
+IndustrialDesigner: As far as I know. It should be.
+
+MarketingExpert: Or I dunno if you could have a battery pack.
+
+IndustrialDesigner: Like as a backup for something.
+
+UserInterface: You were saying about solar power ma maybe not working indoors,. but a lot of calculators, yeah, have solar power.
+
+IndustrialDesigner: May maybe that could be the backup.
+
+ProjectManager: I think that might be a little impractical though.
+
+IndustrialDesigner: Like if the kinetic thing, I think what's best about that is that it's instant energy.
+
+UserInterface: I'm just gonna go through the interface concept with yous now. first of all I'll explain what a user interface is. there are two types of user interfaces. There's the graphical user interface, which emphasises the use of pictures for output. and a pointing device, for example a mouse for input control. I'm not really sure about the pictures that. maybe that's on an LCD screen.
+
+ProjectManager: Because command interface requires you to type textual commands and input at a keyboard,. so the numbers are sort of like a keyboard.
+
+UserInterface: So you must, for the graphical user you must need some kind of presentation for the graphics. Like an LCD screen.
+
+IndustrialDesigner: But if we're having a simplified display anyway, that, we probably won't have to focus so much on that. It'll be more the on the numbers and the volume.
+
+ProjectManager: It'd be more a command interface,
+
+UserInterface: No I think it's to do with the actual symbols that are on the, that's on the buttons of the remote control,. I think we're gonna go with the command interface anyway,. to make it more simplistic. We, we also have to keep in mind when we're designing our,, more user-friendly remote control, that a lot of interfaces consist of a clutter of buttons,. that their functions, colours and forms aren't always helpful.
+
+IndustrialDesigner: It can be a bit, yeah, overwhelming.
+
+ProjectManager: But what about the lighting up effect? well,, I thought we had decided that we would if you touched one of the buttons they'd all light up.
+
+MarketingExpert: I kinda pictured it as kind of coming from the sides and lighting it up frontwards.
+
+IndustrialDesigner: I'd assume, like, an internal light, that comes through. So there would have to, have to be some parts maybe transparent around the buttons, or something.
+
+ProjectManager: And well rubber is a more translucent product too,. so we have that taken care of.
+
+UserInterface: Each face could have its own colour of buttons maybe?
+
+IndustrialDesigner: 'Cause if it's just like constructed in the same way as like the front cover of a mobile phone. You can like take off the hard cover and then there's the like say the buttons. I don't think it would matter that the buttons were bigger through the, the top casing.
+
+MarketingExpert: This report is about trend-watching. And the recent fashion update,, according to fashion-watchers in Paris and Milan, is that fruit and vegetables will be the most important theme for clothes, shoes and furniture. also, in contra in contrast to last year, the feel of the material is expected to be spongy. of course, as we, we've already talked about the personal face-plates in this meeting,. and I'd like to stick to that. The fruits and vegetable themes, I don't know if that's going to work for us. the temporary light-up idea, sounds like we're gonna stick to that.
+
+ProjectManager: Yeah, it's the fruits and vegetables is the only area that I find rather jarring.
+
+MarketingExpert: It's, it's a little but it, it's everywhere.
+
+IndustrialDesigner: I think we possibly could take a more abstract design. Like look at the basic shapes of different fruits and vegetables. I mean we don't have to make something in the shape of a strawberry, but it could have the curves of a strawberry, or something.
+
+MarketingExpert: I dunno if you all remember from our kickoff meeting, we talked about our favourite animals. So maybe there could be animal-based, you know.
+
+ProjectManager: Energy, we've decided on kinetic, right?
+
+IndustrialDesigner: I, I think we should just like take advantage of like using this to its full potential.
+
+ProjectManager: It could even be one of our selling points. I think we decided on the pushbuttons, right?
+
+IndustrialDesigner: So that's the simple.
+
+ProjectManager: Would we need a more advanced one for the lighting, the interior lighting system?
+
+IndustrialDesigner: So regular chip.
+
+MarketingExpert: Is regular not simple?
+
+IndustrialDesigner: Because of the lighting that we've decided to put in as well.
+
+ProjectManager: Well, I guess plastic and coated in rubber. yeah, interchangeable plates. What's that all about?
+
+UserInterface: What we're gonna do about the cluster of button functions, colours and forms, in the in consistent use. We haven't really decided what to do about that. just just the basic button functions.
+
+ProjectManager: Like we, I don't know if we can make a remote that would be universal to all the different kinds of
+
+IndustrialDesigner: So we're just going for power, channels, volume,
+
+ProjectManager: Should we have audio? it's a problem with the international appeal, I think., if we have audio. because we don't know how other televisions work.
+
+MarketingExpert: 'cause it, it is a good sales ploy to say, aren't you annoyed with remote controls that have all these buttons.
+
+IndustrialDesigner: We can just go for, make it a selling point that it is just the basic.
+
+ProjectManager: And, okay, in closing, 'cause we only have five minutes. you'll be working, Poppy will be working on the look-and-feel design. and the user interface design, so this is where the trendy stuff comes in. And you'll be evaluating the product. Poppy and Tara will have to work together, using modelling clay. And,, your personal coach will give you the rest of the information of what needs to happen.
+
+IndustrialDesigner: I just have one question about the whole fruit and vegetable aspect. seeing as that was the most popular thing that came up out of your market research, I thi I think we should keep to that rather than moving to animals or something,
+
+MarketingExpert: Are you gonna come up with casing ideas? Like five different
+
+UserInterface: What do yous think of this? having the numbers kind of like, not a bunch of grapes, but you know like purple and kind of in a triangle.
+
+MarketingExpert: Yeah you can have some fun with the buttons, it's true. I guess what you i ideally you'd kind of think of age markets as well. So it's a something that will, you know, appeal to the fifteen to twenty five year olds.
+
+ProjectManager: 'Kay we'll stick to the fruit and veggie theme then.
+

@@ -1,0 +1,99 @@
+Meeting: TS3009c
+============================================================
+
+ProjectManager: We'll get your presentations again on the conceptual design.
+
+MarketingExpert: It's very important that the control is fancy looking and good feeling. technological technological innovations, that's regarded very highly too. such as an LCD screen, speech acknowledgement, as we talked about earlier. the last point is easy to use.
+
+ProjectManager: Functional is not an issue, and then easy to use. Well we have to choose one of them.
+
+UserInterface: Well something fancy looking can be can be easy to use.
+
+MarketingExpert: So it must be very bright, very colourful. Fruit and vegetables are cool. furthermore material, that's your part, should be very strong. I was thinking of something like well iron plate over it,
+
+ProjectManager: Well the the handy thing about our fronts is that we can follow these trends ev every year.
+
+MarketingExpert: Yeah, that's great.
+
+IndustrialDesigner: Right, I am going to tell you something about the components design. Y Hard plastic i is of course pretty pretty tough,. but it doesn't have a really really tough look. So. the buttons of course rubber,. I think everyone agrees. under forty five years old. they like soft materials with primary colours. Soft materials is of course agai again a bit a contradiction with our material choice of what you said,. And also they like curved round shapes.
+
+ProjectManager: Maybe you should have some some coloured titanium or something. So it it looks pretty but it feels strong.
+
+IndustrialDesigner: I suggest the basic battery. But solar energy is not very practical inside a house,. And kinetic and and and dynamos are are not very practical, I think, for for a simple remote,. And I also suggest as a shape a double curved case. the disadvantage of that that you can use no titanium. as for the buttons, simple push buttons. No otherwi no difficult scroll things or some things like that,. But we do use an LCD screen,. so we we do have to consider of we have to use a more advanced chip,
+
+UserInterface: There are new developments in speech recognition systems,. it's not really speech recognition,. and then once you talk to the remote, then he will a answer with the the prerecorded message that you left. No it doesn't does not do anything. Well, as I said earlier I think the LCD screen should be positioned at the lower end of the remote. the buttons for screen width and general settings and and that kind of stuff. we can also do let that kind of functions be shown in the LCD screen, instead of extra buttons.
+
+IndustrialDesigner: Can you draw it now?
+
+MarketingExpert: So you have a menu button,. and then you can go up and down.
+
+ProjectManager: But then we should also have an an Okay button.
+
+IndustrialDesigner: I suggest a banana shape.
+
+ProjectManager: M Next year that's out.
+
+IndustrialDesigner: Those are the the cha the channel buttons of course? And then below is the LCD screen?
+
+UserInterface: The video button should be an apart button,
+
+ProjectManager: Or you can put in the LCD's window an option Get Out.
+
+MarketingExpert: But we need a we need a a recording recording button for the speech part.
+
+UserInterface: If we decide to to implement that, maybe we should. Well the speaker and the microphone, I think, are the same little hole thingy. This is my suggested design.
+
+ProjectManager: Then let's have a look at the decisions we are going to have to make.
+
+UserInterface: And oh I think as you can see so, the LCD screen does look better at the lower end, or at the bottom. I think we should, if it's possible, one with colours, but
+
+MarketingExpert: Nah th It's too expensive. You can make the the underside, you can make it more round, where the LCD is.
+
+ProjectManager: So it falls over the hand.
+
+IndustrialDesigner: I will design it, we design it later. Well a case? that's me. Yeah but the non-removable elements of the of the remote, so not the front, could be titanium,. And then the front is made of plastic. And you can put that on and off,
+
+MarketingExpert: But the feel of plastic isn't strong.
+
+ProjectManager: Titanium back, plastic front.
+
+MarketingExpert: When you want an other colour on the front, it doesn't match.
+
+IndustrialDesigner: But you know Titanium is very basic colour,. and it doesn't really matter if we have a purple front on it or a orange front.
+
+ProjectManager: All the all the inside work of our remote is standard work. the buttons are normal, etcetera. well we have our beautiful drawing. Well you can put that in into the shared folder,. and then I'll put it in our end report.
+
+MarketingExpert: I think we can launch a couple of packages.
+
+ProjectManager: We can also implement we can also implement fronts from movies that are very hot. Launch different lines at once.
+
+UserInterface: Well you can you can give them s three or so,. and that they want more.
+
+IndustrialDesigner: Yeah but you you can have some basic colours,
+
+ProjectManager: Yeah well I think we'll have to in the next half an hour, we'll have to s specify the different types we want to launch, when we well introduce our remote. Maybe a a cheap voice recording.
+
+IndustrialDesigner: We all agree on that. Yeah.
+
+ProjectManager: Industry designer,. User Interface, Mike. You're going to work together on a prototype drawing on the SMARTboard. I don't know what product evaluation exactly means,. but you'll get the specifications.
+
+UserInterface: Will we use round buttons or square ones for the for the numbers?
+
+IndustrialDesigner: Well yeah. I think a logo, our company logo, and the slogan should be or could be
+
+UserInterface: I I'd say only the logo.
+
+IndustrialDesigner: Well, our slogan is not very long. But you can put it on the back,
+
+UserInterface: Ah the logo should be on the top I think. Right corner, yes.
+
+MarketingExpert: But the logo the logo shouldn't be exchangeable, when you get off the front.
+
+UserInterface: The logo can be on on every front.
+
+ProjectManager: Yes, slogan from company on the back with logo. and logo also on the front
+
+MarketingExpert: So a little corner of titanium.
+
+ProjectManager: Yes, that also sounds pretty neat.
+
