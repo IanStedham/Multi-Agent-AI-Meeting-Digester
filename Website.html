@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meeting Digester</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0e0e0f;
+    --surface: #1a1a1c;
+    --border: #2e2e32;
+    --accent: #c8f060;
+    --accent-dim: #a8d040;
+    --text: #f0ede8;
+    --muted: #6b6b72;
+    --mono: 'DM Mono', monospace;
+    --sans: 'Syne', sans-serif;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .grain {
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    opacity: 0.4;
+  }
+
+  .wrap { position: relative; z-index: 1; width: 100%; max-width: 560px; }
+
+  header { margin-bottom: 3rem; }
+
+  .tag {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    margin-bottom: .75rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+  .tag::before {
+    content: '';
+    display: inline-block;
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+  h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -.02em;
+  }
+  h1 span { color: var(--accent); }
+
+  .sub {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: .75rem;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+
+  .drop-zone {
+    border: 1.5px dashed var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color .2s, background .2s;
+    position: relative;
+  }
+  .drop-zone:hover, .drop-zone.dragover {
+    border-color: var(--accent);
+    background: rgba(200,240,96,.04);
+  }
+  .drop-zone input[type="file"] {
+    position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+  }
+
+  .drop-icon {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    opacity: .4;
+  }
+
+  .drop-text {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .drop-text strong { color: var(--text); font-weight: 500; }
+
+  .file-name {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+    margin-top: .75rem;
+    min-height: 18px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 1rem;
+    background: var(--accent);
+    color: #0e0e0f;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--sans);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: .02em;
+    transition: background .15s, transform .1s;
+    margin-top: .5rem;
+  }
+  .btn:hover { background: var(--accent-dim); }
+  .btn:active { transform: scale(.99); }
+  .btn:disabled { opacity: .4; cursor: not-allowed; transform: none; }
+
+  .status {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: none;
+  }
+  .status.running {
+    display: block;
+    background: rgba(200,240,96,.08);
+    border: 1px solid rgba(200,240,96,.2);
+    color: var(--accent);
+  }
+  .status.error {
+    display: block;
+    background: rgba(255,80,80,.08);
+    border: 1px solid rgba(255,80,80,.2);
+    color: #ff8080;
+  }
+  .status.success {
+    display: block;
+    background: rgba(200,240,96,.08);
+    border: 1px solid rgba(200,240,96,.2);
+    color: var(--accent);
+  }
+
+  .results { display: none; margin-top: 1.5rem; }
+  .results.show { display: block; }
+
+  .result-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .result-block h3 {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--muted);
+    margin-bottom: .75rem;
+  }
+  .result-block pre {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 1.6;
+  }
+
+  .step-list {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-bottom: 1.5rem;
+  }
+  .step {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+  .step.active { color: var(--accent); }
+  .step.done { color: var(--muted); text-decoration: line-through; }
+  .step::before { content: '—'; }
+  .step.active::before { content: '▶'; }
+  .step.done::before { content: '✓'; }
+</style>
+</head>
+<body>
+<div class="grain"></div>
+<div class="wrap">
+  <header>
+    <div class="tag">Meeting Digester</div>
+    <h1>Upload<br><span>your data.</span></h1>
+    <p class="sub">transcript + employee roster → tasks + emails</p>
+  </header>
+
+  <div class="card">
+    <div class="card-label">01 — Meeting Transcript</div>
+    <div class="drop-zone" id="drop-transcript">
+      <input type="file" id="transcript-file" accept=".txt">
+      <div class="drop-icon">📄</div>
+      <div class="drop-text"><strong>Drop transcript here</strong><br>or click to browse — .txt file</div>
+    </div>
+    <div class="file-name" id="transcript-name"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-label">02 — Employee Roster</div>
+    <div class="drop-zone" id="drop-employees">
+      <input type="file" id="employees-file" accept=".json">
+      <div class="drop-icon">👥</div>
+      <div class="drop-text"><strong>Drop employee info here</strong><br>or click to browse — .json file</div>
+    </div>
+    <div class="file-name" id="employees-name"></div>
+  </div>
+
+  <button class="btn" id="run-btn" disabled>Run Workflow</button>
+
+  <div class="status" id="status">
+    <div class="step-list" id="steps">
+      <div class="step" id="step-1">Initializing swarm</div>
+      <div class="step" id="step-2">Loading inputs to memory</div>
+      <div class="step" id="step-3">Running planner agent</div>
+      <div class="step" id="step-4">Running transcript agent</div>
+      <div class="step" id="step-5">Running task agent</div>
+      <div class="step" id="step-6">Running email agent</div>
+    </div>
+  </div>
+
+  <div class="results" id="results">
+    <div class="result-block">
+      <h3>Task Assignments</h3>
+      <pre id="result-tasks"></pre>
+    </div>
+    <div class="result-block">
+      <h3>Draft Emails</h3>
+      <pre id="result-emails"></pre>
+    </div>
+  </div>
+</div>
+
+<script>
+  const transcriptInput = document.getElementById('transcript-file');
+  const employeesInput = document.getElementById('employees-file');
+  const transcriptName = document.getElementById('transcript-name');
+  const employeesName = document.getElementById('employees-name');
+  const runBtn = document.getElementById('run-btn');
+  const status = document.getElementById('status');
+  const results = document.getElementById('results');
+
+  function checkReady() {
+    runBtn.disabled = !(transcriptInput.files[0] && employeesInput.files[0]);
+  }
+
+  transcriptInput.addEventListener('change', () => {
+    transcriptName.textContent = transcriptInput.files[0]?.name || '';
+    checkReady();
+  });
+
+  employeesInput.addEventListener('change', () => {
+    employeesName.textContent = employeesInput.files[0]?.name || '';
+    checkReady();
+  });
+
+  ['drop-transcript', 'drop-employees'].forEach(id => {
+    const zone = document.getElementById(id);
+    zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('dragover'); });
+    zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
+    zone.addEventListener('drop', e => { e.preventDefault(); zone.classList.remove('dragover'); });
+  });
+
+  function setStep(n) {
+    document.querySelectorAll('.step').forEach((s, i) => {
+      s.className = 'step' + (i < n - 1 ? ' done' : i === n - 1 ? ' active' : '');
+    });
+  }
+
+  runBtn.addEventListener('click', async () => {
+    const formData = new FormData();
+    formData.append('transcript', transcriptInput.files[0]);
+    formData.append('employees', employeesInput.files[0]);
+
+    runBtn.disabled = true;
+    status.className = 'status running';
+    results.className = 'results';
+    setStep(1);
+
+    try {
+      const response = await fetch('http://localhost:8000/run', {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) throw new Error(await response.text());
+
+      const data = await response.json();
+      setStep(7);
+
+      document.getElementById('result-tasks').textContent =
+        typeof data.tasks === 'string' ? data.tasks : JSON.stringify(data.tasks, null, 2);
+      document.getElementById('result-emails').textContent = data.emails || '';
+
+      status.className = 'status success';
+      status.querySelector('.step-list').innerHTML = '<div style="color:var(--accent)">✓ Workflow complete</div>';
+      results.className = 'results show';
+
+    } catch (err) {
+      status.className = 'status error';
+      status.innerHTML = `Error: ${err.message}`;
+    }
+
+    runBtn.disabled = false;
+  });
+</script>
+</body>
+</html>
