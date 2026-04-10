@@ -112,6 +112,7 @@ def run_transcript_agent(client: anthropic.Anthropic):
 
     # set memory in mcp
     response = response.content[0].text.strip()
+    print("This is the transcript response: ", response)
     parsed_response = json.loads(response)
 
     # may need to validate these are not empty and strings
@@ -216,36 +217,48 @@ def start_workflow(
     transcript_path: Path=None,
     employee_path: Path=None
 ):
+    print("### Initializing swarm ###")
     initialise_swarm()
+    print("### Successfully initialized swarm ###")
 
     # will need this when ready
     # run_tools_agent()
  
     # will edit these 2 for testing to add the files to the mcp if needed on error
+    print("### Validating transcript and employee information ###")
     if not validate_memory_key("meeting:transcript", NAMESPACE):
         raise ValueError("meeting:transcript not found in memory")
     if not validate_memory_key("meeting:employees", NAMESPACE):
         raise ValueError("meeting:employees not found in memory")
+    print("### Successfully validated transcript and employee information ###")
     
+    print("### Running Planner agent ###")
     run_planner_agent(client)
     if not validate_memory_key("workflow:plan", NAMESPACE):
         raise ValueError("workflow:plan not found in memory")
     if not validate_memory_key("workflow:status", NAMESPACE):
         raise ValueError("workflow:status not found in memory")
+    print("### Completed Planner agent ###")
     
+    print("### Running Transcript agent ###")
     run_transcript_agent(client)
     if not validate_memory_key("transcript:summary", NAMESPACE):
         raise ValueError("transcript:summary not found in memory")
     if not validate_memory_key("transcript:tasks", NAMESPACE):
         raise ValueError("transcript:tasks not found in memory")
+    print("### Completed Transcript agent ###")
 
+    print("### Running Task agent ###")
     run_task_agent(client)
     if not validate_memory_key("task:assignments", NAMESPACE):
         raise ValueError("task:assignments not found in memory")
+    print("### Completed planner agent ###")
 
+    print("### Running email agent ###")
     run_email_agent(client)
     if not validate_memory_key("email:drafts", NAMESPACE):
         raise ValueError("email:drafts not found in memory")
+    print("### Completed Email agent ###")
     
     # will need this
     # run_tools_agent()

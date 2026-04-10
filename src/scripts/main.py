@@ -18,8 +18,11 @@ def validate_environment() -> str:
     return api_key
   
 def load_inputs_to_memory(transcript_path: Path, employee_path: Path):
-    transcript = transcript_path.read_text(encoding="utf-8").strip()
-    employees = employee_path.read_text(encoding="utf-8").strip()
+    with open(transcript_path, "r", encoding="utf-8") as f:
+        transcript = f.read().strip()
+
+    with open(employee_path, "r", encoding="utf-8") as f:
+        employees = f.read().strip()
 
     if not store_memory("meeting:transcript", transcript, NAMESPACE):
         print("Failed to store transcript in mcp server")
@@ -35,8 +38,8 @@ def main():
     client = anthropic.Anthropic(api_key=api_key)
     clear_workflow_memory()
 
-    transcript_path = "../data_layer/transcript.txt"
-    employee_path = "../data_layer/employee_information.json"
+    transcript_path = "src/data_layer/extractive_txt/ES2002a.txt"
+    employee_path = "src/data_layer/employee_json/employee_es.json"
     load_inputs_to_memory(transcript_path, employee_path)
 
     start_workflow(

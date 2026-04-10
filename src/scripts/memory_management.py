@@ -1,230 +1,142 @@
 import subprocess
-from typing import Optional
+from typing import Optional, Any, List, Tuple
 import shutil
+import json
+import time
+import os
 
-CLAUDE_FLOW = shutil.which("ruflo")
+# WSL PATH CLARIFICATION:
+CLAUDE_FLOW = "/usr/bin/ruflo" if os.path.exists("/usr/bin/ruflo") else shutil.which("ruflo")
 NAMESPACE = "meeting-digester"
 
-"""
-Things to consider:
-1. Might need to alter storing method in order to handle jsons and txt files
-"""
+def run_health_check():
+    print(f"\n--- RUFLO BINARY HEALTH CHECK ---")
+    if not CLAUDE_FLOW:
+        print("Binary not found.")
+        return
+    
+    if os.path.islink(CLAUDE_FLOW):
+        print(f"🔗 Symlink points to: {os.path.realpath(CLAUDE_FLOW)}")
+    
+    res = subprocess.run([CLAUDE_FLOW, "--version"], capture_output=True, text=True)
+    print(f"Version output: {res.stdout.strip() or res.stderr.strip()}")
+    print(f"----------------------------------\n")
 
-def _run_memory_command(args: list[str], timeout: int = 60, input_text: str = None) -> tuple[bool, str]:
-    if CLAUDE_FLOW is None:
-        return False, "Ruflo is not installed"
+def force_kill_ruflo():
+    try:
+        subprocess.run(["pkill", "-9", "-f", "ruflo"], capture_output=True)
+        subprocess.run(["pkill", "-9", "-f", "node"], capture_output=True)
+        time.sleep(0.5)
+    except:
+        pass
 
+def _ensure_directories():
+    paths = [
+        os.path.expanduser("~/.ruflo"),
+        os.path.join(os.getcwd(), ".swarm")
+    ]
+    for p in paths:
+        if not os.path.exists(p):
+            try:
+                os.makedirs(p, exist_ok=True)
+            except Exception as e:
+                print(f"   ⚠️ Could not create directory {p}: {e}")
+
+def _run_memory_command(args: List[str], input_text: str = None) -> Tuple[int, str, str]:
+    if not CLAUDE_FLOW:
+        return 1, "", "Ruflo binary not found"
+    
     command = [CLAUDE_FLOW, "memory"] + args
-
     try:
         result = subprocess.run(
             command,
             input=input_text,
             capture_output=True,
             text=True,
-            timeout=timeout
+            timeout=25
         )
-
-        stdout = result.stdout.strip()
-        stderr = result.stderr.strip()
-
-        if result.returncode != 0:
-            if "[OK]" in stdout or "stored successfully" in stdout.lower():
-                return True, stdout
-
-            error_msg = stderr or stdout
-            real_errors = [
-                line for line in error_msg.splitlines()
-                if "EACCES" not in line
-                and "@xenova" not in line
-                and "async" not in line
-                and line.strip()
-            ]
-            clean_error = "\n".join(real_errors[:3])
-            return False, f"Ruflo memory command failed: {clean_error}"
-
-        return True, stdout
-
-    # below is claude generated code to help with error catching i was struggling with
-    except subprocess.TimeoutExpired:
-        return False, (
-            f"Ruflo memory command timed out after {timeout} seconds.\n"
-            f"Command was: {' '.join(command)}"
-        )
-
-    except FileNotFoundError:
-        return False, (
-            f"Could not execute ruflo at: {CLAUDE_FLOW}\n"
-            f"Try running 'which ruflo' in your terminal to verify the path."
-        )
-
+        return result.returncode, result.stdout.strip(), result.stderr.strip()
     except Exception as e:
-        return False, f"Unexpected error running Ruflo CLI: {e}"
+        return 1, "", str(e)
 
+def clear_workflow_memory():
+    print(f"Initiating WSL Triple-Wipe for: {NAMESPACE}")
+    force_kill_ruflo()
+    
+    potential_dbs = [
+        os.path.expanduser("~/.ruflo/ruflo.db"),
+        os.path.join(os.getcwd(), ".swarm", "memory.db"),
+        os.path.join(os.getcwd(), "ruflo.db")
+    ]
+    
+    for db_path in potential_dbs:
+        if os.path.exists(db_path):
+            try: 
+                os.remove(db_path)
+                print(f"Physically Wiped DB: {db_path}")
+            except Exception as e:
+                print(f"Failed to remove {db_path}: {e}")
 
-def store_memory(key: str, value: str, namespace: str) -> bool:
-    import time
+    _ensure_directories()
+    print("Initializing fresh Ruflo memory...")
+    init_code, init_out, init_err = _run_memory_command(["init"])
+    if init_code != 0:
+        print(f"Memory init warning: {init_err or init_out}")
 
-    if not key or not key.strip():
-        print("[MEMORY ERROR] store_memory called with an empty key.")
+    _run_memory_command(["delete", "--namespace", NAMESPACE], input_text="Yes\n")
+    print("Cleanup phase finished.")
+
+def store_memory(key: str, value: Any, namespace: str = NAMESPACE) -> bool:
+    """Stores data with auto-initialization if the database is missing."""
+    _ensure_directories()
+    
+    _run_memory_command(["delete", "--key", key, "--namespace", namespace], input_text="Yes\n")
+    val_str = json.dumps(value) if not isinstance(value, str) else value
+    code, out, err = _run_memory_command(["store", "--key", key, "--value", val_str, "--namespace", namespace])
+    
+    if code != 0 and "Database not initialized" in err:
+        print(f"   [Diagnosis] Database not initialized. Running init...")
+        _run_memory_command(["init"])
+        code, out, err = _run_memory_command(["store", "--key", key, "--value", val_str, "--namespace", namespace])
+
+    if code != 0:
+        print(f"\nRUFLO STORE FAILURE for key '{key}':")
+        print(f"Exit Code: {code}")
+        print(f"Stderr: {err}")
+        print(f"Stdout: {out}")
+        
+        if "UNIQUE" in (err or out):
+            print(f"   [Diagnosis] Collision detected. Attempting emergency retry...")
+            time.sleep(1)
+            _run_memory_command(["delete", "--key", key, "--namespace", namespace], input_text="Yes\n")
+            code2, out2, err2 = _run_memory_command(["store", "--key", key, "--value", val_str, "--namespace", namespace])
+            return code2 == 0
+            
         return False
+    return True
 
-    if value is None:
-        print(f"[MEMORY ERROR] store_memory called with None value for key: {key}")
-        return False
-
-    _run_memory_command(
-        ["delete", "--key", key, "--namespace", namespace],
-        input_text="Yes\n"
-    )
-
-    time.sleep(1.0)
-
-    retries = 3
-    for attempt in range(retries):
-        success, output = _run_memory_command([
-            "store",
-            "--key",       key,
-            "--value",     value,
-            "--namespace", namespace
-        ])
-
-        if success:
-            return True
-
-        if "UNIQUE constraint" in output:
-            if attempt < retries - 1:
-                time.sleep(1.0 * (attempt + 1))
-                continue
-
-        print(f"[MEMORY ERROR] Failed to store key '{key}': {output}")
-        return False
-
-    print(f"[MEMORY ERROR] Failed to store key '{key}' after {retries} attempts")
-    return False
-
-
-def retrieve_memory(key: str, namespace: str) -> Optional[str]:
-    if not key or not key.strip():
-        print("[MEMORY ERROR] retrieve_memory called with an empty key.")
+def retrieve_memory(key: str, namespace: str = NAMESPACE) -> Optional[str]:
+    code, out, err = _run_memory_command(["retrieve", "--key", key, "--namespace", namespace])
+    if code != 0 or not out:
         return None
 
-    success, output = _run_memory_command([
-        "retrieve",
-        "--key",       key,
-        "--namespace", namespace
-    ])
-
-    if not success:
-        return None
-
-    lines = output.splitlines()
+    lines = out.splitlines()
     value_lines = []
     capturing = False
-
     for line in lines:
         if "| Value:" in line:
             capturing = True
             continue
         if capturing:
-            if line.startswith("+"):
-                break
+            if line.startswith("+"): break
             cleaned = line.strip().strip("|").strip()
             if cleaned:
                 value_lines.append(cleaned)
+    return "\n".join(value_lines) if value_lines else None
 
-    if value_lines:
-        return "\n".join(value_lines)
-
-    return None
-
-
-def validate_memory_key(key: str, namespace: str) -> bool:
+def validate_memory_key(key: str, namespace: str = NAMESPACE) -> bool:
     value = retrieve_memory(key, namespace)
     return value is not None and value.strip() != ""
 
-
-def delete_memory(key: str, namespace: str) -> bool:
-    if not key or not key.strip():
-        print("[MEMORY ERROR] delete_memory called with an empty key.")
-        return False
-
-    success, output = _run_memory_command(
-        [
-            "delete",
-            "--key",       key,
-            "--namespace", namespace
-        ],
-        input_text="Yes\n"
-    )
-
-    if not success:
-        print(f"[MEMORY WARNING] Could not delete key '{key}': {output}")
-        return False
-
-    return True
-
-
-def list_memory_keys(namespace: str = "workflow") -> list[str]:
-    success, output = _run_memory_command([
-        "list",
-        "--namespace", namespace
-    ])
-
-    if not success or not output:
-        return []
-
-    keys = []
-    lines = output.splitlines()
-    
-    for line in lines:
-        if not line.startswith("|"):
-            continue
-        
-        columns = line.split("|")
-        
-        if len(columns) < 3:
-            continue
-        
-        key = columns[1].strip()
-
-        if key == "Key" or not key:
-            continue
-        
-        keys.append(key)
-    
-    return keys
-
-
-def clear_workflow_memory():
-    keys_to_clear = [
-        "meeting:transcript",
-        "meeting:employees",
-        "workflow:plan",
-        "workflow:status",
-        "transcript:summary",
-        "transcript:tasks",
-<<<<<<< Updated upstream
-        "task:assignments",
-        "email:drafts",
-=======
-        "meeting:raw_tasks",
-        "meeting:assigned_tasks",
-        "emails:drafted",
->>>>>>> Stashed changes
-    ]
-
-    print("Clearing previous workflow memory...")
-    cleared = 0
-    total = len(keys_to_clear)
-    for key in keys_to_clear:
-        if validate_memory_key(key, NAMESPACE):
-            success = delete_memory(key, NAMESPACE)
-            if success:
-                cleared += 1
-
-<<<<<<< Updated upstream
-    print(f"Successfully cleared {cleared}/8 key from shared memory.")
-=======
-    print(f"Successfully cleared {cleared}/{total} key(s) from shared memory.")
->>>>>>> Stashed changes
+# Run health check on import
+run_health_check()
