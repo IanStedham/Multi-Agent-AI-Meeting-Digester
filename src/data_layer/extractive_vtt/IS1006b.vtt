@@ -1,0 +1,226 @@
+WEBVTT
+
+1
+00:00:27.840 --> 00:01:37.470
+<v ProjectManager>I hope you're ready for this functional design meeting. I will take the minutes. you you three are going to do presentation. we want to know to at the end to know the new project's requirement. we need to know the the user needs. we want to know how it going to work. third part I don't remember. let's go for the three presentations,. so first Marketing Expert.</v>
+
+2
+00:02:01.200 --> 00:05:54.520
+<v MarketingExpert>So as you know, you I think you already know me, Sammy Benjo. I am the expert in marketing. and I want to tell you about what people want and like and dislike in remote controls,. what I suggest is that instead of deciding ourself what what could be and what should be a good remote control, let's ask people who are users of remote controls. what they like,. what they don't like. So we've we've conducted a a survey on on the use of remote controls. what we found was that there are several things that the user don't like in remote controls. First of all, they find it very ugly. they're not nice colour, not nice shape,. I mean they're all the same,. what is interesting. is that in fact it seems that they were people are ready to pay for nice and look and fancy looking remote control,. so I think we should probably spend lots of time in and effort in that. And the other thing is that the the current remote controls are not so easy to use. and it it the the current facilities that they offer do not match what people really want to use their remote controls. For instance we see that they zap very often. so I think this is a very important functionality. And most of the buttons on current remote controls are not used,. so I think we should design something where some of the buttons which are those that are used should be easier to see and use than others that only a couple of people are using. people are very frustrated with their remote controls. and they for instance they don't even find it. it's it's often lost somewhere in the in the in your home. Maybe if we have something where we could ask the remote control please, where are you? Like something to to like I think phones. Some of the phones have some of this kind of functionality. And because of the fact that there are so many buttons in these remote controls. that nobody use,. so most of the the people say they they don't know how to they to use properly their remote controls. And they are bad for RSI. but I don't remember what is RSI.</v>
+
+3
+00:06:06.880 --> 00:06:11.520
+<v IndustrialDesigner>Yeah, it's electromagnetic waves or something kind of maybe effect.</v>
+
+4
+00:06:24.260 --> 00:08:21.980
+<v MarketingExpert>But we have to take this into account. So we've listed a couple of. that may be used by the user in the current available remote controls. but what is important. is to understand that the power button is not used often. because in general you use it only once per session,. but it is very relevant. People want to have a power button. Channel selection is often used very often used. now I remember what is RSI. it's repetitivity stress injury. Volume is not often used. but people want to have control on volume. And then you have things which are very much less often used like the settings. Audio settings, screen settings, even teletext and channel settings. All of them. they're not often used. and they are more or less relevant. It seems that people find teletext teletext relevant,. but seems that it's average relevant at least, so.</v>
+
+5
+00:08:21.900 --> 00:08:30.370
+<v ProjectManager>I have been told that we don't consider teletext,. that it's out of date now because of internet.</v>
+
+6
+00:08:51.390 --> 00:10:23.520
+<v MarketingExpert>If if there are good reason not to put teletext it's okay. One of the thing the trend that you are probably aware of is the possibility the eventual possibility of having speech recognition in your remote control,. so you wouldn't have to tap tap in your buttons. but just tell your remote control or whatever you need you have what you want. So we've conducted a survey about whether people would like or not to have this kind of functionality in their remote control. and as we can see it really depends on the age. Young people, probably because it's a buzz word, find it very relevant. And as the age goes up the the relevance goes down. So now it really depends on the kind of targeting wha who are we targeting with this remote control? I think if we are targeting young people then it's probably something we have to consider. If we are targeting you very old people this is something they really don't know why they this should be. so that's basically my findings.</v>
+
+7
+00:10:34.260 --> 00:10:36.910
+<v UserInterface>Should we aim at the young people or not?</v>
+
+8
+00:10:36.710 --> 00:11:02.440
+<v MarketingExpert>I think we should aim at the young people. But I think they are they are those who might be more interested in a in a new device. In general the the early adopters of a new device are young people,. Then teletext is useless for them I think,. Because they they have other means of finding their information. Yeah.</v>
+
+9
+00:12:02.590 --> 00:13:37.550
+<v UserInterface>My name is Mark Dwight,. and I am responsible for User Interface Design. However, Project Manager asked me to give you some presentation about technical functions design. that's gonna be less technical functions but more User Interface and current intentions and everything which is linked with this. And a general method which is seems to be very useful for our task. We should never complicate things too much. We should only make a remote control, nothing more. Nothing more than this, just a remote control. 'Cause current remote controls they are never easy enough to use. So here is this remote control. It's quite a standard one,. but it's not from a TV,. it's from a much easier device like air conditioning or something. But you know, we can use it for a TV easily. Only buttons we need is on off, volume, channels and maybe some options or something else,. compared to this one</v>
+
+10
+00:13:42.920 --> 00:13:48.470
+<v MarketingExpert>I would say the simplest one as long as there are the I find the buttons that I need every time I need a button.</v>
+
+11
+00:13:50.580 --> 00:13:53.490
+<v IndustrialDesigner>Maybe it can be yeah middle of like, between those two</v>
+
+12
+00:14:10.930 --> 00:16:34.610
+<v UserInterface>Our question of the style, we should remember that our company. puts fashion into electronics. For personal preferences I think that to make a baby-proof remote control it got to be a titanium. It is unbreakable. and it is very universal. W we'll have a screen with a back light. which can change colours,. and we can put all the options into this screen. We'll need only few buttons. All the other things can be controlled through the screen. And all these buttons should be easy to find and to click,. I would propose this concept for design, just few buttons, a screen with a back light which can change colours, titanium. We need power and volume. And let us include two nice features into this device,. first, power on and off can be made fully automatic. When you go to the sofa, take your control. and point it to the TV,. the TV turns on.</v>
+
+13
+00:16:35.310 --> 00:16:36.540
+<v MarketingExpert>And when does it turn off?</v>
+
+14
+00:16:37.560 --> 00:17:17.260
+<v UserInterface>When you don't touch the control. For for enough time. And another nice feature that I would like to implement is volume control. Suppose you set you set up some volume. and then you move out or you move to the other corner of the room. and take your control with you. Like, you want to to change the chair or you want to move to the armchair from the sofa or something, and then the volume changes.</v>
+
+15
+00:17:21.010 --> 00:17:34.030
+<v MarketingExpert>According to your distance to and the angle maybe, if you have a stereo system. I'm not sure about the screen,. wha what is the use usefulness of the screen? is it a touch screen by the way?</v>
+
+16
+00:17:35.070 --> 00:17:40.040
+<v UserInterface>I think it can be just a menu which can be controlled with a left, right, up, down and enter.</v>
+
+17
+00:17:41.520 --> 00:17:45.408
+<v MarketingExpert>But it has to be with an back light somehow.</v>
+
+18
+00:18:10.530 --> 00:18:11.870
+<v UserInterface>So basically that's it.</v>
+
+19
+00:18:12.592 --> 00:18:21.950
+<v ProjectManager>I see that you target several application not only TV. but i like we talk about universal remote control.</v>
+
+20
+00:18:22.320 --> 00:18:23.350
+<v UserInterface>Can be easily done,</v>
+
+21
+00:18:49.810 --> 00:19:06.560
+<v ProjectManager>Since we were targeting a really soon date for the the the i issuing of this remote control. I think we will only concentrate on TV for the moment. and then maybe make it more generalised yeah.</v>
+
+22
+00:19:04.550 --> 00:19:08.800
+<v UserInterface>But it's quite universal you know. We can just extend it to any device.</v>
+
+23
+00:19:08.580 --> 00:19:20.140
+<v MarketingExpert>For instance if I want to go to directly to channel twenty five, how would I do can I do that with this? You know these days we have hundreds of channels,</v>
+
+24
+00:19:24.464 --> 00:19:44.350
+<v UserInterface>In fact I would propose another solution. Basically you use just four or five channels,. set up your TV set like channels that you use they're one, two, three and five,. and you will never have to go to a twenty fives channel.</v>
+
+25
+00:20:04.270 --> 00:20:11.270
+<v IndustrialDesigner>But even we can have some LCD display,. like you can de you can just button the number</v>
+
+26
+00:20:11.400 --> 00:20:23.700
+<v MarketingExpert>One thing is that as I said in my presentation people really do like to zap. So even if they are only watching four or five channels, I think they want to zap out of the one hundred channels,</v>
+
+27
+00:20:26.700 --> 00:20:29.660
+<v ProjectManager>On zap it's only next next next next next, yeah.</v>
+
+28
+00:20:30.040 --> 00:20:34.710
+<v UserInterface>We got these buttons here. Next next.</v>
+
+29
+00:20:38.360 --> 00:20:41.310
+<v IndustrialDesigner>But otherwise like we can put some display on numbers</v>
+
+30
+00:20:47.330 --> 00:20:53.870
+<v ProjectManager>Maybe we can make different modes for each button. and you can change mode zapping mode or</v>
+
+31
+00:20:58.180 --> 00:21:09.730
+<v IndustrialDesigner>But since we are focusing only on TV remote controls. so we can have more functions for TV. if you want to go for a universal then we ought to limit for functions for each of our devices.</v>
+
+32
+00:21:11.600 --> 00:21:19.890
+<v UserInterface>Could we carry out some research if we really need this,. like how many people really need to go to channel number twenty five and then to sixty four?</v>
+
+33
+00:21:26.160 --> 00:21:29.712
+<v MarketingExpert>I'll check in my department if there's someone specialist in that.</v>
+
+34
+00:22:07.820 --> 00:24:43.700
+<v IndustrialDesigner>As you know, I am mister Ramaro. I am an expert in industrial design of all electronic devices. So now I'll briefly describe the working design of our remote control. as you know the basic function of remote control is sending some message to the the device, like TV or VCR or DVD player etcetera. So we need to have some energy source to do what to do the functions, what we want on this portable device. so to do these functions we need an interface,. which basically some kind of pressing buttons or keys or like moving jack or something like that. And then these messages these key buttons can be transferred into some kind of message. and then it will process by the chip. and then it will generate some information to the main device. since we are focusing on our interface device remote control. mainly the energy source like the battery. and then we have user interface like the keypad and you know buttons we want,. we ought to have some kind of processor. And then we'll have the infrared LED source. Then we'll have switch in our main device to do particular operations,. and we ought to do different codes for different T_V_s,</v>
+
+35
+00:24:51.360 --> 00:24:54.830
+<v ProjectManager>To make it quite an universal device.</v>
+
+36
+00:24:54.620 --> 00:25:52.160
+<v IndustrialDesigner>Because the people don't use one particular brand so. So we need to check their specifications. So we need to have particular encryption codes. so I'll input the connections to all this components. so if you want to add some more components we can incorporate them.</v>
+
+37
+00:25:49.820 --> 00:25:57.290
+<v ProjectManager>-. And from from the discussion we had do you can you make it on the whiteboard, or.</v>
+
+38
+00:26:05.850 --> 00:27:06.440
+<v IndustrialDesigner>And also Marketing Expert for the speech recognition is really handy,. we can have another, like simple speech recogniser on our DSB chip. and we can have some speech recognition and in our generally small digital signal processing chip. so that and we will put the small simple speech recogniser. you can find even simple mobile device like any mobile brand you can have these voice dialers or these things, yeah.</v>
+
+39
+00:27:04.820 --> 00:27:11.050
+<v MarketingExpert>Think of a all these young people who would love to say that this remote control only works for them,</v>
+
+40
+00:27:15.860 --> 00:27:18.010
+<v ProjectManager>And what about the price of this component?</v>
+
+41
+00:27:18.790 --> 00:27:39.140
+<v IndustrialDesigner>Maybe we can make it in five Euros and even less than that,. because we have only very few words like like power, switch on or some like</v>
+
+42
+00:27:51.220 --> 00:28:00.810
+<v MarketingExpert>The user will just be able to say please can you pump up the vo pump up the volume. or or it will be something like volume, up, down.</v>
+
+43
+00:28:09.480 --> 00:28:36.650
+<v IndustrialDesigner>So we try to only recognise those words. and and because we can't really say user to say same wording. And then we can have channel they can say, okay I want eight,. we don't want like BBC or CNN or something else. it will be complicated</v>
+
+44
+00:29:04.800 --> 00:29:11.020
+<v MarketingExpert>First of all I I think this is not functionality that it is going to be instead of using the buttons.</v>
+
+45
+00:29:17.960 --> 00:29:23.860
+<v IndustrialDesigner>Actually we we can have one switch to like switch on, on and off, this processor</v>
+
+46
+00:29:56.300 --> 00:30:07.710
+<v UserInterface>Did you consider the gest gesture recognition? Like, if I want to put volume up I like do I take my remote control do like something like. roll 'em up. or roll 'em down.</v>
+
+47
+00:30:16.130 --> 00:30:20.890
+<v ProjectManager>What about the idea of automatic on off on the button, yeah.</v>
+
+48
+00:30:20.070 --> 00:30:36.370
+<v IndustrialDesigner>Even automatic on off is also a bit problematic,. like so suppose people are really they just they don't touch the remote. and you don't know how much time you need to switch on or switch off</v>
+
+49
+00:30:42.230 --> 00:30:51.010
+<v MarketingExpert>So in in a given room there might be more than one remote control. We would have each one and with our own personal settings.</v>
+
+50
+00:30:51.320 --> 00:31:02.544
+<v IndustrialDesigner>Yeah that can be possible, especially for power settings,. so user can say okay, suppose they're watching a tennis match or something then they can say okay after one hour I</v>
+
+51
+00:31:55.370 --> 00:33:23.360
+<v ProjectManager>We're now going to have the lunch break. Then we will work again for thirty minutes individual work,. and we will meet again for the next meeting,. and in this one want to to be more focused on the individual actions the on the components. you will focus on the component concept. of course the UID Mark will be focused on the user interface concept. and our Market Expert Sammy Benjo on the trend watching. of course like before specific instruction will be sent to you by your personal personal coach. And we have maybe we have to we say, only for TV, not teletext? I think automatic on off control it's not possible.</v>
+
+52
+00:33:33.170 --> 00:33:35.670
+<v IndustrialDesigner>But speech recogniser can be possible.</v>
+
+53
+00:33:47.190 --> 00:34:05.728
+<v UserInterface>Should it be equipped with the, with speakers? Like, you want to find it, you shout. and it answers is I'm here? Or</v>
+
+54
+00:34:12.290 --> 00:34:36.270
+<v MarketingExpert>But that's ex that's expensive.. I I heard of devices where you just whistle them. because of the the frequency they they just answer to that. You can clap. Can you?</v>
+
+55
+00:34:51.860 --> 00:34:53.370
+<v IndustrialDesigner>But it's a good feature I guess yeah</v>
+
+56
+00:35:33.470 --> 00:35:34.570
+<v ProjectManager>Let's go to lunch.</v>
+

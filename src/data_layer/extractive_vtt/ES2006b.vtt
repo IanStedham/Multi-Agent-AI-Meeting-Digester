@@ -1,0 +1,194 @@
+WEBVTT
+
+1
+00:00:16.940 --> 00:01:58.110
+<v ProjectManager>Now we are here at the functional design meeting. hopefully this meeting I'll be doing a little bit less talking than I did last time. 'cause this is when you get to show us what you've been doing individually. The agenda for the meeting, I put it in the sh shared documents folder. I'll act as secretary for this meeting. and just take minutes as we go through,. The main the main focus of this meeting is your presentations that you've been preparing during the time,. then we need to briefly discuss the new project requirements that were sent to us. at the last minute,. then we need to, by the end of the meeting come to some kind of decision on who our target group's going to be. and what the functions of the remote control</v>
+
+2
+00:02:13.620 --> 00:02:16.820
+<v IndustrialDesigner>You said targ target groups,. what does that mean?</v>
+
+3
+00:02:17.190 --> 00:03:36.030
+<v ProjectManager>As who it is that we're going to be trying to sell this thing to,. yeah, we need to have a fairly defined group that that we want to focus on. Just before you start, to make it easier, would you three mind emailing me your presentations? Once we. you don't have to do it now but when once you go back,. just so that I don't have to scribble everything down.</v>
+
+4
+00:03:38.432 --> 00:08:48.250
+<v IndustrialDesigner>So with with regard to the working design of this remote control I've identified a few basic components of the remote. and se from the design, functional design perspective I we can now know wha what exactly the components are. the identification of the components,. and since since I'm dealing only with the technical aspects, I would need feedback from the marketing person and from the user interface person. we'll then integrate this into the product design at a technical level. these were the basic findings from today. The last three bullets have been integrated from the last minute email. as I told you the identification of how the remote control works and what are the various parts to it and what are the different processes and how the parts communicate with each other. also the remote control should be used only for television,. because incorporating other features makes it more comp complex. And the reason why teletext is outdated because of internet and the availability of internet over television. also the management wants that our design should be unique. so it should incorporate colour and the slogan that our company has it as its standard. Okay, so he he here is a functional overview of the remote control. there's basically an energy source at the heart which feeds into the chip and the user interface. The user interf interface communicates with the chip,. if if this is our energy source and this is a cell, it communicates it feeds energy into the into the chip, which basically finds out how how to do everything. There is a user interface here. So whe when the user presses a button, it feeds into the chip. and the chip then generates a response. and takes the response to an infrared terminal,. so the output of the chip is an infrared bit code,. the there can be a bulb here or something to indicate whether the remote is on or communicating. whatever new functions that we need to do, make the chip more complicated and bigger, basically. i in my personal preferences I'm hoping that we can ke keep the design as simple and clear as possible. This would help us to upgrade our technology at a future point of time. And also if we can incorporate the latest features in our chip design, so that our remote control does not become outdated soon and it's compatible with mot most televisions.</v>
+
+5
+00:08:53.430 --> 00:08:58.820
+<v ProjectManager>Do you have any i idea about costs at this point?</v>
+
+6
+00:08:57.920 --> 00:09:02.740
+<v IndustrialDesigner>No, I don't have any idea about what each component costs.</v>
+
+7
+00:09:07.970 --> 00:09:17.550
+<v ProjectManager>'Cause that's something to consider, I guess,. if we're if we're using more advanced technology, it might increase the price.</v>
+
+8
+00:09:17.010 --> 00:09:20.560
+<v IndustrialDesigner>We definitely need to operate within our constraints,</v>
+
+9
+00:09:42.990 --> 00:09:50.150
+<v UserInterface>I think since since we were discussing some design issues then I I I would like to continue</v>
+
+10
+00:10:23.910 --> 00:10:34.400
+<v ProjectManager>So the blue function key at the bottom and eight. computer no signal.</v>
+
+11
+00:10:51.110 --> 00:14:58.990
+<v UserInterface>I don't see anything on my computer now. Okay, that's fine, that's good. So I'm going to speak about technical functions design. my method was to look at other remote controls,. so mostly just by searching on the web. And then after having got this inspiration and having compared what I found on the web just to think about what the de what the user really needs and what what the user might desire as additional functionalities. so the findings were that the main function of the remote control is is just sending messages to the television set,. And some of the main functions would be switching on, switching off,. then the user would like to switch the channel. for example just changing to the next channel to to flip through all all of the possible channels,. or then the other possibility would be that she might just want to choose one particular channel,. so we would need the numbers. And and also the volume is very important. among the findings I found that m most of the curr presently available remote controls also include other functionalities in their design, like operating a VCR,. but they don't seem to be able to deal with DVD players,. but according to the last minute update actually we do not want to have all this complicated functions added to our design. So my personal preferences would be to keep the the whole remote control small just like the physical size. And then it must be easy to use,. so it must follow some conventions like whereabouts you find the on off button. and maybe the colour tends to be red or something. But then other functionalities could be just. there could be a menu button. and you could change things on the screen then,. for example brightness and similar functions could be just done through the menu. the last question I had about whether we wanted to incorporate more functionalities,. the answer was already no because of the last minute update.</v>
+
+12
+00:15:07.020 --> 00:15:14.580
+<v ProjectManager>But if we had a a decent case for that we really think it's important to include video and DVD, I could get back to them and see.</v>
+
+13
+00:15:18.330 --> 00:15:44.460
+<v UserInterface>And also it's it's other question is because there are so many different And there are so many different things that could possibly be included. because besides video and DVD there are the video C_D_s and whatever,. so it might be problematic to to choose between all these possible things.</v>
+
+14
+00:16:01.440 --> 00:16:28.880
+<v IndustrialDesigner>So in the user interface requirements we we have been able to identify what are the basic buttons that we do want. so so at this stage, how we go about implementing those button we will not identify. or I mean in we can completely do away with buttons. and have some kind of a fancy user interface or something like that.</v>
+
+15
+00:16:32.760 --> 00:17:00.940
+<v UserInterface>Well, I think the buttons are still kind of the most easy for the user to use,. I mean what other options would you have? A little screen or something,. but this would be really kind of I think a lot of learning for the user. and and I mean the user just wants to get get a result quickly,. not to spend time in like giving several orders I dunno. I think I th I would I would think the put the buttons,</v>
+
+16
+00:17:04.750 --> 00:17:23.210
+<v IndustrialDesigner>I think the co costs will also play a big role when we come to know about them. So well we can probably wait until we have more knowledge on that. i if the if the costs allow, we can have like an LCD display. because we do want something fancy and fashionable as well.</v>
+
+17
+00:18:44.710 --> 00:19:53.410
+<v MarketingExpert>So what I have, wh where I've got my information from is a survey where the usability lab observed remote control use with a hundred subjects. and then they gave them a questionnaire. What they found is that people don't like how current remote controls are,. seventy five percent of users find most remote controls ugly. eighty percent of users would spend more to get you know, a nice looking remote control. current remote controls, they don't match the user behaviour well,. I dunno what zapping is,</v>
+
+18
+00:19:53.670 --> 00:19:58.280
+<v ProjectManager>It's switching between channels, sort of randomly going through.</v>
+
+19
+00:20:00.250 --> 00:24:21.660
+<v MarketingExpert>But you have that little thing that comes up at the bottom and tells you what's on. okay, fifty percent of users say they only use ten percent of the buttons,. so that's going back to what, you know, we were saying earlier about, you know, do you need all the buttons on the remote control,. they just make it look ugly. so this is my little graph thing. what it shows is how much things are used relatively. and what you can clearly see from that is the thing that's used most is the channel selection. What you can't see is volume selection, it's a little bit higher than all the others. so what the graph shows is that, you know, power, channel selection and volume selection are important,. and the rest of them, you know, nobody really uses. and so that's the the numbers along the top represent their like their importance, you know,. and, you know, channel selection and volume selection are absolutely essential,. and the power, well it's not quite so essential, apparently,. and everything else, I think, you know, you can forget about having those buttons on the remote control,. so this is what people find annoying about remote controls. that they get lost,. that the you know, they're not intuitive. and that they're bad for repetitive strain injury. you want something with an ergonomic design that encourages good use of the remote control. but that shows how people whether they would pay more for voice recognition software. So you can see from that that, you know, younger people to the age of thirty five are quite likely to pay quite a lot more well quite are quite likely to pay more for voice recognition software,. whereas as people get older, they're a bit more sceptical about it. so clearly voice recognition is something to think about,. but you know I I do wonder how well that would work given that a TV, you know, tends to be people talking. and, you know, how are you going to stop it from just flipping channels whilst watching TV. so these are my personal preferences. So you have sleek, stylish, sophisticated, you know,. so something that's, you know, a bit cool. you know, functional, so it's useful, but minimalist. so things should either be functional or beautiful or preferably both,. okay, then a long battery life, like you were talking about earlier. and, you know, I was thinking that solar power would be quite cool. because, you know, your remote control just sits there,. and you could just sit it in the sunshine. and save the environment a bit. and then like a locator,. so you know, kind of like you have for a mobile phone or</v>
+
+20
+00:24:23.090 --> 00:24:24.150
+<v IndustrialDesigner>Some kind of a ring,</v>
+
+21
+00:24:25.860 --> 00:24:28.640
+<v ProjectManager>Whistle and it screams at you, yeah.</v>
+
+22
+00:24:34.230 --> 00:24:37.020
+<v MarketingExpert>So yeah, so maybe something where you clap and then it beeps,</v>
+
+23
+00:25:02.600 --> 00:25:07.430
+<v ProjectManager>So, we've got about ten, fifteen minutes to discuss</v>
+
+24
+00:25:07.680 --> 00:25:48.080
+<v IndustrialDesigner>I think one of the very interesting things that came up in Ka Kate Cat Cat's presentation was this this issue of like voice recognition being more popular with younger people. So if we need to have a target group then I think as far as the motto of our company is concerned, if we want to have something sleek and you know, good looking we are better off targeting a younger audience then you know, people who are comparatively elderly.</v>
+
+25
+00:25:49.910 --> 00:25:59.770
+<v MarketingExpert>I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control,</v>
+
+26
+00:26:02.480 --> 00:26:06.950
+<v IndustrialDesigner>Bu but but the survey did say that things like voice recognition are more popular with them,</v>
+
+27
+00:26:15.960 --> 00:26:40.800
+<v ProjectManager>Then again I guess the th where it was most popular was the fifteen to twenty five bracket. and the I don't know how often they're buying televisions. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and</v>
+
+28
+00:26:51.150 --> 00:26:57.350
+<v IndustrialDesigner>Wh people between twenty five to thirty five, how popular was</v>
+
+29
+00:26:56.170 --> 00:27:30.320
+<v MarketingExpert>Seventy six point three percent. but I mean it has been proven that that people of that age group have a higher disposable income. I mean like it is an age group to target, really, I think.</v>
+
+30
+00:27:30.580 --> 00:27:37.410
+<v ProjectManager>And if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.</v>
+
+31
+00:27:41.250 --> 00:27:46.191
+<v UserInterface>But the problem is whether people need it, whether they do have a TV to use its full</v>
+
+32
+00:27:57.310 --> 00:28:00.400
+<v ProjectManager>And be a bit strange to have a fancy rome remote.</v>
+
+33
+00:28:11.990 --> 00:28:22.630
+<v MarketingExpert>I think I think the fact that, you know, ninety one point two percent of fifteen to twenty five year olds are saying yes, I would pay more for a voice recognition remote control, does say quite a lot really.</v>
+
+34
+00:28:31.710 --> 00:28:40.550
+<v UserInterface>But at the same time I think maybe we can we can just decide to to have both of these groups as our target,. because actually I mean they're all still re young people.</v>
+
+35
+00:28:40.700 --> 00:28:51.190
+<v ProjectManager>Yeah, if we ta if we take fifteen to thirty five,. but that then does imply that we should try and incorporate voice recognition. Is that gonna have a an implication for the technical specs?</v>
+
+36
+00:28:54.760 --> 00:28:57.160
+<v IndustrialDesigner>But voice recognition itself I'm not very sure about,</v>
+
+37
+00:29:19.590 --> 00:29:34.120
+<v ProjectManager>With but with a TV remote it's gonna be quite limited if we're saying the main things people want to do is on off channel five,. tha that should be relatively simple.</v>
+
+38
+00:29:34.230 --> 00:29:57.290
+<v MarketingExpert>Y you'd maybe need a code word. but like so you'd just say remote five, you know, remote ten, remote one two nine.</v>
+
+39
+00:30:01.950 --> 00:30:06.210
+<v ProjectManager>But maybe if you wanna look into that just to just to check.</v>
+
+40
+00:30:29.690 --> 00:30:39.870
+<v UserInterface>W well now the the voice recognition if if it works wonderfully we could possibly do away with all buttons,. but I think this is not really the right moment yet,. because people are just so used to buttons</v>
+
+41
+00:30:50.650 --> 00:31:14.450
+<v IndustrialDesigner>What wh what I was thinking is that there is this separation between what the channels are on TV and how they are numbered on the remote control. If we can do with away with that, our product can be really popular. in the sense that a person can say, I want to watch ITV one instead of saying that I want to go onto channel number forty five.</v>
+
+42
+00:31:17.350 --> 00:31:20.770
+<v ProjectManager>So that if that was in the the voice recognition, that would be great.</v>
+
+43
+00:31:40.720 --> 00:31:47.880
+<v UserInterface>Yeah but but on the other hand, remote control isn't as close to you you probably might just just speak into it</v>
+
+44
+00:32:02.390 --> 00:32:09.040
+<v MarketingExpert>It's more like if you lost it and it's down the sofa sometime, you can yell at it and it'll just change it, you can look for it later, yeah.</v>
+
+45
+00:32:35.850 --> 00:32:44.630
+<v IndustrialDesigner>Yeah and it might become very difficult from a distance for the television to understand what you're saying because of the noise factor for the remote control</v>
+
+46
+00:32:44.820 --> 00:32:54.420
+<v UserInterface>No, but I I I was just defending the the fact why why we want to keep the remote control close to us, a and not to yell at it from the distance.</v>
+
+47
+00:32:54.930 --> 00:33:09.470
+<v IndustrialDesigner>So wh another thing that can be used is that there can be a beeper button on the TV,. so you can go and press that button and and the remote control, wherever it is, it'll beep,. so we we can probably come to know where it is.</v>
+
+48
+00:33:36.160 --> 00:36:07.360
+<v ProjectManager>But if we go away with that that kind of general specification in mind that we're looking at fifteen to thirty five year olds, we want it to look simple, but still have the buttons so it's easy to use, but only those key buttons, the major buttons and then one sort of menu one, and then voice recognition included as an option. but that obviously needs a little bit more working out as to whether it's really feasible and some of those problems we were mentioning. What we have to do now is to go back to our little places,. complete our questionnaire. and some sort of summarisation,. Send me your presentations so that I can use them to make the minutes,. and after lunch we go back to our own little stations and have thirty minutes more work. I'll put the minutes in that project documents folder,. but I'll send you an email when I do it, so that you know. as to where we're going from here, you're going to look at the components concept. You'll be looking you'll be looking at the user interface concept,. and you're watching trends to see how we go. w before lunch we just have to complete the questionnaire and some sort of summary.</v>
+

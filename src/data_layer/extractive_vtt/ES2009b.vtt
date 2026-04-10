@@ -1,0 +1,166 @@
+WEBVTT
+
+1
+00:00:07.770 --> 00:01:25.300
+<v ProjectManager>I'm just gonna go over real quickly some news I've just got from the board on how we're supposed to do with this remote control. And then I'm gonna turn over to you guys to make brief presentations on what you've found. and then we'll have a bit of discussion. what I've just found out from the board. but it needs to be television only. we're not doing DVD,. it also needs to have the company colours included in it. that's red and black. And it has to have the slogan, case you guys forget the slogan it's, we put fashion in electronics. and no teletext. I'm not sure what teletext is. so we don't wanna include that in this particular design. For reasons that I don't really know. but it's the board so there you go. given those guidelines which will have some effect on how we design. we'll discuss it later. I'm gonna turn over to the Industrial Designer to go ahead and make a presentation</v>
+
+2
+00:01:58.920 --> 00:04:18.060
+<v IndustrialDesigner>We're gonna have to understand how remote controls work and res successfully complete this project. remote control works as follows. sends message to another system,. there's an energy source involved in that like a battery or solar power, something along those lines,. there's an integrated circuit,. which is the microchip,. and usually the way a a remote control works is it sends infrared bits to another system. A user interface controls the chip,. basically that's the casing and the buttons and accordingly the messages as well. and I found that too much metal in remote design could potentially cause interference with the ability of the remote to send commands. And too much metal can cause remotes to behave unexpectedly by receiving false signals. too much metal is used sometimes. and there's also the possibility of the remote catching on fire. just think of those lawsuits, that'd be really bad. Therefore I suggest primarily plastic construction. components. Just some ideas that I had,. it's kinda hip to be eco friendly. so I thought maybe we could do something with solar power with an alkaline battery backup. the user interface,. since we can't use metal. I was thinking maybe a high grade recycled plastic. The chip,, silicon based chip I don't really see any way around that,. the sender well I'm thinking infrared. 'cause it is the industry standard,. PAL and NTSC compatible. and probably a two hundred foot range. I really think that we should use plastic as opposed to metal,. which adm admittedly is gonna come at the cost of a certain aesthetic value,</v>
+
+3
+00:04:17.818 --> 00:04:34.650
+<v ProjectManager>Is is there a way that we can use modern types of polymers, or mo modern types of plastics. that maybe do have some kind of aesthetic value. on the lapt on these laptops and other ones they use a a pretty nice,</v>
+
+4
+00:04:39.170 --> 00:04:40.510
+<v IndustrialDesigner>Yeah that shouldn't be a problem.</v>
+
+5
+00:04:53.780 --> 00:05:00.290
+<v ProjectManager>If next we can have the User Interface Developer go ahead and make a brief presentation that'd be great as well.</v>
+
+6
+00:05:50.850 --> 00:07:52.490
+<v UserInterface>Here we have a my technical functions design presentation. we basically need to operate an electronic device,. it needs to be universal. and possibly operate several different types of devices. although we now find that that that's no problem. basically wanna send messages to a television set. that would be any number of different things such as switch on the television, switch to the next channel, that sort of thing,. some of the other things I found is a a complicated remote control. sorry that we can't quite see my red there very well. but this remote control has many functions. but it it is quite complicated. and most users will find it find that they won't use most of the functions. because they don't know how to use them. and don't wanna take the time to learn how to do it. Another remote control, slightly different,. it's a simpler remote control many less buttons but has many fewer functions,. much easier for the user to manipulate and use. it also has a bit of a cheap look. and it's also quite boring. my personal preferences. Revolutionise the idea of a remote control. so attain the functionality of a complicated device. but use a simple formatted display for the user to to work with. Just incorporating some of the ideas that we had previously like having multiple face</v>
+
+7
+00:08:29.260 --> 00:10:05.810
+<v MarketingExpert>I was looking through some marketing reports that we've got. and we had a usability test. where we were actually sort like watching a hundred people use TV remotes. and see what it is that they're using. and then they filled out a questionnaire. about what they like and what they don't about their general TV remote control practices. pretty much through testing we were finding out that most of the time, everybody's used to using changing the channel, turning it on, using the volume,. the majority of the time that's all that's going on,. the other functions happen,. for some people they're important,. but the primary uses are really really basic. and so big complicated remotes like one we saw in the last presentation are really not the general public's use,. they even find it frustrating when there are all those buttons that they don't know what to do with. And we also found out that fifty percent of our people, their the worst thing about a remote is how often they lose it. And then they can't find it in the room. So I think what we were talking about with a pager or something, will really come into play with a lot of these people. there's also a survey about what they liked about remotes,. and pretty much they all think they're hideous and not very useful,. and the younger demographics are all really interested in voice recognition options. I don't know if that's something we're ready to look into technically,. but it is something worth thinking about,. especially since the younger demographic's obviously the one that's gonna keep growing,. but basically it really is the primary functions and getting it to look nice, which are</v>
+
+8
+00:10:35.380 --> 00:11:27.104
+<v ProjectManager>I think we've covered most of these important questions through this through you guys's presentations. we've got the Industrial Designer suggests or pretty much emphatically suggested that we need to go with plastic. Sarah, she's recommended that we go for simpler functions, so fewer functions. but we need to decide who are we selling this to,. you your stats suggested that seventy five percent of people under thirty five wanted, thought about voice control,. so do we wanna go for that,. or do we want to go for an older demographic,. if we're gonna go for a sleek look I mean we are putting the fashion in electronics.</v>
+
+9
+00:11:23.350 --> 00:11:29.660
+<v MarketingExpert>We're not catering to the pensioners of the world I don't think so.</v>
+
+10
+00:11:29.650 --> 00:12:20.650
+<v ProjectManager>So maybe this we should look into this younger demographic. we need to wonder ah about how we make it better and smaller and faster. think we're constrained to plastics. we've got this idea, Ron was saying we need to think about revolutionising the way it's looking,. this voice operation thing is I think is a good idea assuming that it's doable, at least for the basic controls,. you can't say record alias tonight at seven PM. but we might be able to say volume up.</v>
+
+11
+00:12:23.680 --> 00:12:39.490
+<v IndustrialDesigner>I think it would be possible to combine the locator device and the voice recognition technology. With a simple command like locate. And then it could start to beep</v>
+
+12
+00:12:46.890 --> 00:13:09.120
+<v ProjectManager>The difficulty wh would be in I think like i you couldn't speak into the remote that you're trying to find. but then again you have this wee this wee thing you know that's just a little chip or whatever that has the page button, maybe that could be voice activated too.</v>
+
+13
+00:13:09.320 --> 00:13:12.400
+<v UserInterface>A little sticky pad to stick on top of your television.</v>
+
+14
+00:13:21.650 --> 00:13:25.050
+<v ProjectManager>But yeah I like that, I like that, the voice recognition for the paging system.</v>
+
+15
+00:13:25.072 --> 00:13:50.560
+<v UserInterface>The other thing is we might be able to handle the simplicity of a remote control and kind of put the more complicated things into a voice control. So it could be sold to both the younger market and the older market. and might consider the older market could use the simpler design with the traditional buttons and what not.</v>
+
+16
+00:13:51.810 --> 00:14:01.670
+<v MarketingExpert>Are we still thinking about this screen. if we're gonna do this touch pad screen thing, it would be still, do we know if that's an option technically right now to that?</v>
+
+17
+00:14:00.360 --> 00:14:11.090
+<v UserInterface>'S definitely an option technically. I've looked into costs of touch screen methods and what not,. they seem to be you know almost as cheap as a button method at this point.</v>
+
+18
+00:14:12.760 --> 00:14:24.190
+<v MarketingExpert>Especially because then you could have like your primary screen just be these you know four or five basic functions,. menu options or something to have all these other complicated voice recognition, settings, things</v>
+
+19
+00:14:33.830 --> 00:14:49.820
+<v IndustrialDesigner>Gotta wonder though, if we're adding so much technology to this one remote, are we still gonna be able to meet out twelve pou our twelve fifty Euro you know goal for selling these things. It seems like, we're not gonna be able to handle all these functions with just one microchip.</v>
+
+20
+00:15:01.390 --> 00:16:11.520
+<v ProjectManager>I guess we'll cross that bridge in a la slightly later stages of development. I'm seeing that we're gonna just basically focus on this young demographic group, aim it at them,. but basically we'll make a sleek simple functioned remote control. I think this voice recognition thing is a we've got a market for it. I guess we've we've touched on most of this. The idea of a paging function, a touch screen, and face plates.. we'd have to maybe sacrifice the face plates for a touch screen?</v>
+
+21
+00:16:15.130 --> 00:16:28.740
+<v UserInterface>I think if you kind of take the example of a mobile phone that trying to pass a portion of the device is not interchangeable whereas the surrounding portions are interchangeable. We could have the casing, the the face plates.</v>
+
+22
+00:16:33.320 --> 00:17:00.980
+<v IndustrialDesigner>We have to ask whether we're going to include a certain number of face plates with the package? Off the top of my head it sounds kind of like a gimmick that wouldn't really go anywhere.</v>
+
+23
+00:17:12.920 --> 00:17:18.220
+<v MarketingExpert>In the publicity of a face plate on a phone is you have it out and around,. whereas you're just sit at home,</v>
+
+24
+00:17:28.050 --> 00:17:48.550
+<v ProjectManager>We can we can discuss that one further when we think about whether th when we do costs and so forth,. but yeah we will have to evaluate what's most important.</v>
+
+25
+00:17:55.910 --> 00:18:00.080
+<v UserInterface>Have we confirmed that we're gonna go ahead with a touch screen</v>
+
+26
+00:18:09.170 --> 00:19:03.070
+<v ProjectManager>Yeah I think that would be best. based on what sh on what you guys have all said to me let's go for a plastic built or plastic cased. try to look for some kind of high quality recycled plastic. With a touch screen for the basic functions. let's provisionally let's go for a touch screen one with several submenus for possible extra stuff. basically put the channel and the on and off switch on the touch screen. it occurs to me that if we have a touch screen people are going to have to recharge their remote controls. Yet at the same time that might help for this whole complaint of it being lost.</v>
+
+27
+00:19:04.450 --> 00:19:05.660
+<v MarketingExpert>'Cause it would have a docking base?</v>
+
+28
+00:19:06.890 --> 00:19:09.730
+<v ProjectManager>But then again that costs as well.</v>
+
+29
+00:19:11.560 --> 00:19:15.080
+<v UserInterface>These new lithium batteries they last twenty years even with the touch screen?</v>
+
+30
+00:19:23.230 --> 00:20:44.190
+<v ProjectManager>I can't see anybody buying a lap a remote control that they have to plug in. if not we can always default to just doing a a well presented plastic simple. it's th with this voice recognition option as well just as for the simple functions the the on off, channels, volume,. Even if you can't do voice recognition for the paging you know just some kind of simple button. that's just a I guess another infrared signal to the remote control. to emit some kind of paging. Just a beep.</v>
+
+31
+00:20:55.840 --> 00:21:21.320
+<v IndustrialDesigner>Since we're doing touch screen, do we wanna look into the possibility of people being able to input different types of skins for the you know the actual interface part of it and things like that? Or is it just gonna be one touch screen for everybody. What what would be on that touch screen? 'Cause you said earlier that we have to think about company colours and. logo or something or motto,</v>
+
+32
+00:21:29.490 --> 00:21:39.080
+<v ProjectManager>It's my understanding that if you were going to do a skin you'd need to have some way for people to download or import skins into the remote control.</v>
+
+33
+00:22:03.050 --> 00:22:07.460
+<v IndustrialDesigner>Think we just need to come up with a nice black and red interface on the touch screen.</v>
+
+34
+00:22:10.630 --> 00:22:15.970
+<v UserInterface>I'm wondering how we're gonna get we put fashion into electronics onto this device.</v>
+
+35
+00:22:18.040 --> 00:22:32.120
+<v MarketingExpert>It'll have your your carrier provider name come up first like while it's loading. Comes on every time you turn it on and then that's it. 'cause it is a bit much to have it like engraved on the back or something I think.</v>
+
+36
+00:22:39.770 --> 00:22:42.590
+<v ProjectManager>It seems like it would suffice to have just the RR on there.</v>
+
+37
+00:22:46.080 --> 00:22:53.320
+<v IndustrialDesigner>People aren't gonna want their remote to boot up and to see flashing things come on. They just want it to be on and ready to go.</v>
+
+38
+00:23:03.340 --> 00:23:06.060
+<v ProjectManager>But then again who wants to turn on a remote control.</v>
+
+39
+00:23:06.130 --> 00:23:09.050
+<v UserInterface>All you have to do is touch the screen. and it automatically goes on.</v>
+
+40
+00:23:09.100 --> 00:23:40.010
+<v ProjectManager>Or go into like a dormant mode. I'm gonna save th a copy of this in case you guys need any reminders. and the minutes that I'll do it in a second. and put them in the shared folder for later reference.</v>
+
+41
+00:23:40.560 --> 00:23:42.630
+<v UserInterface>I've put my files in the shared folder as well.</v>
+

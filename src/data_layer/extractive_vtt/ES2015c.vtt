@@ -1,0 +1,226 @@
+WEBVTT
+
+1
+00:00:43.600 --> 00:01:32.140
+<v ProjectManager>Well, welcome to the third meeting of conceptual design. on the agenda for this,, for this particular meeting, we'll have your three presentations on what you've done since our last meeting, after we came up with some general ideas of our design. And,, then we have to make some key decisions on, on our remote control concept, and how we're gonna make it, what materials we're gonna use, and that sort of thing. The meeting will be forty minutes long. And we will once again have Poppy as our first presenter.</v>
+
+2
+00:02:14.610 --> 00:02:49.410
+<v IndustrialDesigner>First of all we have to look at how the remote control is actually made,. thes main internal feature is a circuit board, which contains all the elec electronics and also the contacts with the power source. there are several components of,, the circuit board that we need to consider, where we'll be getting them from, what they'll be made of. including the integrated circuit, which is also known as the chip.</v>
+
+3
+00:03:03.290 --> 00:03:08.190
+<v ProjectManager>Are they all included, like mandatorily, or are these different options?</v>
+
+4
+00:03:10.200 --> 00:06:33.110
+<v IndustrialDesigner>They're all separate, apart from the chip, which we will probable decide whether we buy a simple, a regular, advanced. so we've got flex flexibility with colours and things, with that as well. Okay, there are lots of different possibilities for the energy source. We could use a basic battery,. There's a hand-powered dynamo which is a sort of thing that was used for torches fifty years ago. Kinetic energy is something that's been recently developed. Whereas kinetic energy is a new idea that's being used by some watches and other devices, where you just shake the device and it gives it power. or there's solar power,. which we've been considering inside a building, which is where it's gonna be used, might not be quite so useful. lots of considerations for the case, like what sort of shape it would be, curved or flat. We don't want something that's huge and you can't pick up. we could use metal,. we could use rubber. which might be more ideal for the anti-RSI. titanium is not gonna be possible, even though it just it beyond our budget really. right our choice for buttons as well. with our research team have found some new multiple option scroll buttons. they're basically quite a flexible design, modern, you don't have to use individual buttons.</v>
+
+5
+00:06:40.160 --> 00:06:52.050
+<v ProjectManager>One thing with the scroll buttons though. we would have to have an LCD. and the glow in the dark thing might be difficult.</v>
+
+6
+00:07:01.260 --> 00:08:20.320
+<v IndustrialDesigner>Also we've got the integrated pushbutton, which is what we're most familiar with. My personal preferences? I think we could go for the kinetic energy source. It's not been seen before, so it could be quite a, a novelty factor,. And also energy saving 'cause you're producing the energy, you don't need an external sort of battery supply or solar panels. Rubber casing I thing would probably the best, if we're going for the anti-RSI and like more choice with aesthetics. And probably the regular chip as opposed to the simple,</v>
+
+7
+00:08:54.200 --> 00:09:01.420
+<v ProjectManager>Another thing is it might be more difficult if it's a rubber exterior talking about putting on interchangeable plates.</v>
+
+8
+00:09:13.060 --> 00:09:39.230
+<v IndustrialDesigner>Maybe if the,, if it was just kind of a, more of a rubber coating which was on to a case. So, it was kind of, the whole thing would be removable. you can get sort of outer casing for iPods and something, that's just it's protective as well.</v>
+
+9
+00:09:50.060 --> 00:09:53.390
+<v MarketingExpert>So the actual remote would be hard plastic and the casings rubber.</v>
+
+10
+00:10:01.310 --> 00:10:05.490
+<v ProjectManager>Is it possible to put designs onto this type of rubber?</v>
+
+11
+00:10:06.640 --> 00:10:09.230
+<v IndustrialDesigner>As far as I know. It should be.</v>
+
+12
+00:10:42.390 --> 00:10:44.800
+<v MarketingExpert>Or I dunno if you could have a battery pack.</v>
+
+13
+00:10:45.020 --> 00:10:47.730
+<v IndustrialDesigner>Like as a backup for something.</v>
+
+14
+00:11:01.150 --> 00:11:09.210
+<v UserInterface>You were saying about solar power ma maybe not working indoors,. but a lot of calculators, yeah, have solar power.</v>
+
+15
+00:11:10.520 --> 00:11:13.190
+<v IndustrialDesigner>May maybe that could be the backup.</v>
+
+16
+00:11:34.950 --> 00:11:37.440
+<v ProjectManager>I think that might be a little impractical though.</v>
+
+17
+00:11:51.270 --> 00:11:55.080
+<v IndustrialDesigner>Like if the kinetic thing, I think what's best about that is that it's instant energy.</v>
+
+18
+00:12:56.550 --> 00:13:55.030
+<v UserInterface>I'm just gonna go through the interface concept with yous now. first of all I'll explain what a user interface is. there are two types of user interfaces. There's the graphical user interface, which emphasises the use of pictures for output. and a pointing device, for example a mouse for input control. I'm not really sure about the pictures that. maybe that's on an LCD screen.</v>
+
+19
+00:14:09.290 --> 00:14:16.670
+<v ProjectManager>Because command interface requires you to type textual commands and input at a keyboard,. so the numbers are sort of like a keyboard.</v>
+
+20
+00:14:19.680 --> 00:14:28.020
+<v UserInterface>So you must, for the graphical user you must need some kind of presentation for the graphics. Like an LCD screen.</v>
+
+21
+00:14:47.060 --> 00:14:56.270
+<v IndustrialDesigner>But if we're having a simplified display anyway, that, we probably won't have to focus so much on that. It'll be more the on the numbers and the volume.</v>
+
+22
+00:14:56.290 --> 00:14:57.860
+<v ProjectManager>It'd be more a command interface,</v>
+
+23
+00:15:08.690 --> 00:17:03.440
+<v UserInterface>No I think it's to do with the actual symbols that are on the, that's on the buttons of the remote control,. I think we're gonna go with the command interface anyway,. to make it more simplistic. We, we also have to keep in mind when we're designing our,, more user-friendly remote control, that a lot of interfaces consist of a clutter of buttons,. that their functions, colours and forms aren't always helpful.</v>
+
+24
+00:17:10.250 --> 00:17:14.624
+<v IndustrialDesigner>It can be a bit, yeah, overwhelming.</v>
+
+25
+00:18:05.150 --> 00:18:17.440
+<v ProjectManager>But what about the lighting up effect? well,, I thought we had decided that we would if you touched one of the buttons they'd all light up.</v>
+
+26
+00:18:29.450 --> 00:18:34.360
+<v MarketingExpert>I kinda pictured it as kind of coming from the sides and lighting it up frontwards.</v>
+
+27
+00:18:39.010 --> 00:18:49.380
+<v IndustrialDesigner>I'd assume, like, an internal light, that comes through. So there would have to, have to be some parts maybe transparent around the buttons, or something.</v>
+
+28
+00:18:49.390 --> 00:18:54.350
+<v ProjectManager>And well rubber is a more translucent product too,. so we have that taken care of.</v>
+
+29
+00:19:22.730 --> 00:19:26.250
+<v UserInterface>Each face could have its own colour of buttons maybe?</v>
+
+30
+00:20:04.780 --> 00:20:22.260
+<v IndustrialDesigner>'Cause if it's just like constructed in the same way as like the front cover of a mobile phone. You can like take off the hard cover and then there's the like say the buttons. I don't think it would matter that the buttons were bigger through the, the top casing.</v>
+
+31
+00:21:27.800 --> 00:23:16.560
+<v MarketingExpert>This report is about trend-watching. And the recent fashion update,, according to fashion-watchers in Paris and Milan, is that fruit and vegetables will be the most important theme for clothes, shoes and furniture. also, in contra in contrast to last year, the feel of the material is expected to be spongy. of course, as we, we've already talked about the personal face-plates in this meeting,. and I'd like to stick to that. The fruits and vegetable themes, I don't know if that's going to work for us. the temporary light-up idea, sounds like we're gonna stick to that.</v>
+
+32
+00:23:22.240 --> 00:23:29.530
+<v ProjectManager>Yeah, it's the fruits and vegetables is the only area that I find rather jarring.</v>
+
+33
+00:23:38.894 --> 00:23:41.810
+<v MarketingExpert>It's, it's a little but it, it's everywhere.</v>
+
+34
+00:23:55.680 --> 00:24:17.020
+<v IndustrialDesigner>I think we possibly could take a more abstract design. Like look at the basic shapes of different fruits and vegetables. I mean we don't have to make something in the shape of a strawberry, but it could have the curves of a strawberry, or something.</v>
+
+35
+00:24:52.320 --> 00:24:58.300
+<v MarketingExpert>I dunno if you all remember from our kickoff meeting, we talked about our favourite animals. So maybe there could be animal-based, you know.</v>
+
+36
+00:26:59.680 --> 00:27:03.490
+<v ProjectManager>Energy, we've decided on kinetic, right?</v>
+
+37
+00:27:37.240 --> 00:27:42.830
+<v IndustrialDesigner>I, I think we should just like take advantage of like using this to its full potential.</v>
+
+38
+00:27:42.740 --> 00:28:23.670
+<v ProjectManager>It could even be one of our selling points. I think we decided on the pushbuttons, right?</v>
+
+39
+00:28:23.610 --> 00:28:24.880
+<v IndustrialDesigner>So that's the simple.</v>
+
+40
+00:28:25.000 --> 00:28:29.210
+<v ProjectManager>Would we need a more advanced one for the lighting, the interior lighting system?</v>
+
+41
+00:28:35.640 --> 00:28:37.510
+<v IndustrialDesigner>So regular chip.</v>
+
+42
+00:28:42.020 --> 00:28:43.000
+<v MarketingExpert>Is regular not simple?</v>
+
+43
+00:28:45.500 --> 00:28:47.640
+<v IndustrialDesigner>Because of the lighting that we've decided to put in as well.</v>
+
+44
+00:29:02.700 --> 00:30:00.590
+<v ProjectManager>Well, I guess plastic and coated in rubber. yeah, interchangeable plates. What's that all about?</v>
+
+45
+00:30:08.450 --> 00:31:03.680
+<v UserInterface>What we're gonna do about the cluster of button functions, colours and forms, in the in consistent use. We haven't really decided what to do about that. just just the basic button functions.</v>
+
+46
+00:32:04.610 --> 00:32:08.100
+<v ProjectManager>Like we, I don't know if we can make a remote that would be universal to all the different kinds of</v>
+
+47
+00:32:08.840 --> 00:32:14.780
+<v IndustrialDesigner>So we're just going for power, channels, volume,</v>
+
+48
+00:32:43.690 --> 00:33:05.450
+<v ProjectManager>Should we have audio? it's a problem with the international appeal, I think., if we have audio. because we don't know how other televisions work.</v>
+
+49
+00:33:10.310 --> 00:33:14.820
+<v MarketingExpert>'cause it, it is a good sales ploy to say, aren't you annoyed with remote controls that have all these buttons.</v>
+
+50
+00:33:16.920 --> 00:33:21.440
+<v IndustrialDesigner>We can just go for, make it a selling point that it is just the basic.</v>
+
+51
+00:33:25.330 --> 00:34:00.530
+<v ProjectManager>And, okay, in closing, 'cause we only have five minutes. you'll be working, Poppy will be working on the look-and-feel design. and the user interface design, so this is where the trendy stuff comes in. And you'll be evaluating the product. Poppy and Tara will have to work together, using modelling clay. And,, your personal coach will give you the rest of the information of what needs to happen.</v>
+
+52
+00:34:03.590 --> 00:34:18.880
+<v IndustrialDesigner>I just have one question about the whole fruit and vegetable aspect. seeing as that was the most popular thing that came up out of your market research, I thi I think we should keep to that rather than moving to animals or something,</v>
+
+53
+00:34:36.050 --> 00:34:39.503
+<v MarketingExpert>Are you gonna come up with casing ideas? Like five different</v>
+
+54
+00:34:42.000 --> 00:34:50.730
+<v UserInterface>What do yous think of this? having the numbers kind of like, not a bunch of grapes, but you know like purple and kind of in a triangle.</v>
+
+55
+00:34:52.390 --> 00:35:04.930
+<v MarketingExpert>Yeah you can have some fun with the buttons, it's true. I guess what you i ideally you'd kind of think of age markets as well. So it's a something that will, you know, appeal to the fifteen to twenty five year olds.</v>
+
+56
+00:35:19.470 --> 00:35:22.340
+<v ProjectManager>'Kay we'll stick to the fruit and veggie theme then.</v>
+

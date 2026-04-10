@@ -1,0 +1,118 @@
+WEBVTT
+
+1
+00:00:44.380 --> 00:05:30.770
+<v ProjectManager>Like before we I have to redo the meetings from th the minutes from the last meeting. It should have nine channel buttons, a next button, volume buttons, subtitle buttons, switch to control features, colour contrast, sharpness etcetera. speech recognition is one of her very favourite personal features she would like see d to be integrated in this in this new remote. The industrial designer presented her thoughts on the issue. She would like a special case made out of plastic that is very strong, not using any harmful materials, should be recyclable and should be colourful. scrolling method is more expensive and not that practical anymore. The marketing expert who has to finally come up with to to to market this product has been watching the competition, has done some research on the internet and also has used her personal observations to come up with the fact that such a remote sh should be small, easy to use and it should be eye catching. And the decision that we took last time was that the special feature we would like to see is a speech recogniser,. should be trendy design, compact and strong,</v>
+
+2
+00:05:59.390 --> 00:07:16.670
+<v IndustrialDesigner>This is a model of the remote control which we are going to build. this is us in a snail shape so it it is attractive. it's blue in colour. bright and it has yellow buttons and all the different colour buttons. and also compact in shape. the material is plastic and for the buttons it is soft rubber. And then for the for the led, for the light emitting diode it is a fluorescent green</v>
+
+3
+00:07:45.640 --> 00:10:09.010
+<v UserInterface>Now we have included the switch on and off button. Now we have included another feature that is the mute button. Then we have included one to nine buttons. We have also included two buttons for increasing or decreasing the volume. Now our our model also contains a button which is called as the menu button. We have also included a button which is called as the swapping button. And at the end, it this remote has inbuilt voice recogniser which which will recognise the user's voice and then it'll act accordingly.</v>
+
+4
+00:10:31.450 --> 00:11:20.080
+<v MarketingExpert>What I really like a lot about it is that you can reach the whole thing with one thumb,. I like the idea that the on-off button is in a really prominent place. The colour's very attractive.</v>
+
+5
+00:12:13.840 --> 00:12:48.080
+<v UserInterface>Yes, it will have these buttons will have the numbers and all the rest of the buttons will have symbols. and one more feature is we we have a holder for this remote which is an oyster shape. A shell shape.</v>
+
+6
+00:13:16.320 --> 00:14:07.610
+<v MarketingExpert>I think voice recognition is our big selling point. I think we have to, we have to dwell on on on the appearance. I'm supposed to make a little presentation, aren't I?</v>
+
+7
+00:14:08.640 --> 00:14:12.970
+<v ProjectManager>No, now this was our evaluation criteria which we just have done.</v>
+
+8
+00:14:16.630 --> 00:14:22.590
+<v MarketingExpert>Ah, but in my instructions I think it said I was supposed to go to the board and do something.</v>
+
+9
+00:14:21.846 --> 00:15:42.260
+<v ProjectManager>Well, there is a production evaluation. But that's after the financing. Okay now on the financing we bring up the. kinetic source so that's in the energy source that's all we need. electronics, simple chip on print?</v>
+
+10
+00:16:05.330 --> 00:16:06.730
+<v MarketingExpert>I guess it's double curved.</v>
+
+11
+00:16:35.090 --> 00:18:41.650
+<v ProjectManager>And then we have to interface push buttons. Eight, eight point two. looks like we are well within budget. Now we would like to have a presentation by the marketing expert on production evaluation.</v>
+
+12
+00:19:17.170 --> 00:21:50.140
+<v MarketingExpert>And I think we should show this prototype to people from various age and socio-economic groups. And show the the prototype to consumer research groups,. Okay, now the things that I was thinking and th my wish list has really been realised in this prototype. And functionality I put last on my list because people aren't going to use it before they buy it. Okay, so the shape I think is a a one. And our colour I think is great. so I would say that we got to a five out of seven on on functionality.</v>
+
+13
+00:21:54.190 --> 00:22:26.160
+<v ProjectManager>I just realised one thing. In the financing there was no room for our voice recogniser. I mean maximum we have another four point three euros I mean four thirty.</v>
+
+14
+00:22:59.390 --> 00:24:39.450
+<v MarketingExpert>So we're just gonna have to settle for whatever quality that will buy us. and we're supposed to talk about those things as a team now,. one being good and seven being the worst.</v>
+
+15
+00:24:45.050 --> 00:24:46.640
+<v ProjectManager>Yes I think shape is one.</v>
+
+16
+00:24:50.600 --> 00:24:52.730
+<v MarketingExpert>And how about on size?</v>
+
+17
+00:25:05.160 --> 00:25:06.990
+<v ProjectManager>I think I would give it at least a two.</v>
+
+18
+00:25:26.680 --> 00:25:38.390
+<v MarketingExpert>Colour, I gave it a one. One, one, one, okay. And how about the feel?</v>
+
+19
+00:25:53.050 --> 00:25:53.810
+<v UserInterface>I'll give three.</v>
+
+20
+00:25:59.190 --> 00:26:02.660
+<v MarketingExpert>And the next is functionality</v>
+
+21
+00:26:20.880 --> 00:26:22.040
+<v ProjectManager>I'll give it a three.</v>
+
+22
+00:26:38.030 --> 00:26:41.560
+<v MarketingExpert>It looks like we've got got ourselves a pretty good product.</v>
+
+23
+00:27:17.650 --> 00:27:33.910
+<v ProjectManager>Here is what we looking at satisfaction on for example room for creativity. Is there more room for creativity or are we absolutely happy?</v>
+
+24
+00:27:35.360 --> 00:27:37.240
+<v UserInterface>We can always improve, yes.</v>
+
+25
+00:27:46.520 --> 00:27:54.600
+<v IndustrialDesigner>So I think I I mean we can just have small buttons and more buttons in that case. If we want to have more features than that.</v>
+
+26
+00:27:56.420 --> 00:28:15.980
+<v MarketingExpert>Well then again if we're gonna do the speech recognition thing we're gon there gonna be some buttons that are gonna have to be added for that for the recording of the the speech. maybe we can eliminate one of the mute buttons, instead of having two mute buttons.</v>
+
+27
+00:29:14.380 --> 00:29:42.160
+<v ProjectManager>Are we happy with the creativity that has passed here. personally I think I'm pretty happy. and then the next question is are we happy with the leadership of this project?</v>
+
+28
+00:29:42.131 --> 00:30:06.890
+<v MarketingExpert>I think you've done a good job, Miss leader. Yeah I I do too I think we worked well together as a team, yeah. -. Yeah maybe we could've used the whiteboard a little bit more, yeah,</v>
+
+29
+00:30:37.270 --> 00:31:07.760
+<v ProjectManager>I think we we did, in more than one respect and so I think we did very well here. So I I thank you all very much.</v>
+

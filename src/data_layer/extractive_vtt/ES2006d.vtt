@@ -1,0 +1,482 @@
+WEBVTT
+
+1
+00:00:06.250 --> 00:00:26.300
+<v ProjectManager>This is our final meeting, the detailed design meeting. what we have to get through in this meeting is firstly the prototype presentation from you two,. so you can show us what you've been working on so diligently.</v>
+
+2
+00:00:27.500 --> 00:00:29.000
+<v MarketingExpert>It does look very cool.</v>
+
+3
+00:00:28.960 --> 00:01:06.730
+<v ProjectManager>Then Cat's going to present the evaluation criteria that we're going to be evaluating this against. Then I need to say some st a few things about finance,. 'cause we have to check that it's within the finance criteria. and then we'll be making sure that our product fits both the evaluation criteria from Cat and the financial limits. and then we will have a brief evaluation of the whole process of production and design that we've been through.</v>
+
+4
+00:01:42.880 --> 00:01:53.988
+<v UserInterface>So will you maybe start with like the the shape and things. and and then I will explain the the user interface th things, like the buttons and the scrolling things and</v>
+
+5
+00:01:53.800 --> 00:02:06.710
+<v IndustrialDesigner>Okay. So basically going with our trend of vegetables and we selected the colour and approximate shape of banana.</v>
+
+6
+00:02:04.592 --> 00:02:10.190
+<v MarketingExpert>You think bananas are a safe thing to use? It's a bit phallic.</v>
+
+7
+00:02:10.896 --> 00:02:15.856
+<v UserInterface>Well, but it's it's just an a approximation.</v>
+
+8
+00:02:23.552 --> 00:02:51.180
+<v IndustrialDesigner>So basically it's the it's the flip open thing again. And it flips open on the side, so it opens like that. And we have the user interface in here. and the the LCD and and the scroll are inside.</v>
+
+9
+00:02:57.000 --> 00:03:00.361
+<v ProjectManager>And it's the whole thing's made of rubber, is that</v>
+
+10
+00:03:01.260 --> 00:03:03.690
+<v MarketingExpert>Is it to scale, or do you think you can make it a bit smaller?</v>
+
+11
+00:03:04.790 --> 00:03:15.920
+<v UserInterface>It could be made a bit smaller,. yeah, but one thing we actually kind of forgot while designing, that one side was supposed to be rounder,</v>
+
+12
+00:03:24.680 --> 00:03:29.360
+<v MarketingExpert>So I would say that this curvy does look quite like a vegetable.</v>
+
+13
+00:03:34.320 --> 00:04:49.270
+<v UserInterface>So so the user interface as as we discussed last time on on the on the cover we just have the very basic things. So we have that channels here starting from one two three. So it's four, up to four, up to seven, up to nine and zero, zero here. And then, well this is on off button. and and also the colour is quite often red,. And then these ones would be for flipping the channels back and. And and we would also have a little thing saying here, previous and ne prevon prevon next. The volume is is scrolling. On the side,. And and and it's it's on the back is cover or back lid, because if you flip it open, you can still do the scrolling here. and and you have the spinning wheel with options to choose.</v>
+
+14
+00:04:56.300 --> 00:04:58.360
+<v MarketingExpert>Oh, the thing we forgot was like a mute button.</v>
+
+15
+00:05:01.540 --> 00:05:04.510
+<v UserInterface>Well, we'll have this on the screen, on the display.</v>
+
+16
+00:05:07.380 --> 00:05:12.090
+<v MarketingExpert>On the wheel, like if you hold the wheel down then it will mute.</v>
+
+17
+00:05:11.110 --> 00:05:15.500
+<v IndustrialDesigner>On the LCD we you know, the main menu will have various options.</v>
+
+18
+00:05:14.760 --> 00:05:18.290
+<v UserInterface>Yeah, the scrolling is kind of you have to scroll all the way to make it mute, right?</v>
+
+19
+00:05:18.530 --> 00:05:22.700
+<v ProjectManager>But if you hold it in,. if it's a scroll and click so you hold it in?</v>
+
+20
+00:05:26.880 --> 00:05:32.830
+<v UserInterface>And okay, so i so the the voice recognition is also just part of it. You can't really see it in the interface.</v>
+
+21
+00:05:40.610 --> 00:05:44.700
+<v ProjectManager>And it's with the the black and yellow you're even in the right colours.</v>
+
+22
+00:05:46.950 --> 00:05:51.470
+<v UserInterface>Yeah, I think we could do the logo in grey, as it is on the website.</v>
+
+23
+00:06:27.860 --> 00:06:33.890
+<v ProjectManager>I suspect we're gonna have a couple of minor finance issues,. but we'll se I'm sure we can get around them somehow.</v>
+
+24
+00:07:22.340 --> 00:07:49.610
+<v MarketingExpert>So what we're gonna do is prefer prepare the evaluation of the new design. so we're gonna be using a seven point scale,. so one is, you know, yes, it totally meets with that requirement. and seven is, no, it really doesn't, we need to go back and start again. you know. Basically, what I did was I went through all the like user requirements and things that we've done and we've worked on and like made a list of them.</v>
+
+25
+00:08:02.750 --> 00:08:05.410
+<v ProjectManager>So for each of these we need to give it a one to seven.</v>
+
+26
+00:08:06.660 --> 00:09:50.720
+<v MarketingExpert>I did have A,,, and down here,. but it seems to have turned into like just bullet points. Okay. But if you can imagine that they say A,,, and, then that would be really good. Okay what I've done on the next page is I've set it up so we just put the marks in. If you take a note of them,. Does it match the operating behaviour of the user?</v>
+
+27
+00:09:51.810 --> 00:10:00.810
+<v IndustrialDesigner>The the only thing that we were considering was that this thing is kind of more for right-handed people than for left-handed people,</v>
+
+28
+00:10:03.310 --> 00:10:12.280
+<v UserInterface>So so we we might do we might want to do like a another model another another version, which is like exactly the mirror image of this one.</v>
+
+29
+00:10:28.910 --> 00:10:52.890
+<v MarketingExpert>Left-handed people can't normally write right-handed,. So maybe we need to put that needs a little bit of investigation,. maybe give it a five, I would say?</v>
+
+30
+00:10:55.030 --> 00:10:56.070
+<v UserInterface>Or maybe six,</v>
+
+31
+00:11:10.890 --> 00:11:13.900
+<v IndustrialDesigner>It might be a little clumsy when when it opens up, right,</v>
+
+32
+00:11:26.560 --> 00:11:29.010
+<v MarketingExpert>I th I think the alternative is flipping from the top.</v>
+
+33
+00:11:29.620 --> 00:11:33.780
+<v IndustrialDesigner>Yeah, but we which makes it kind of really big, yeah.</v>
+
+34
+00:12:03.830 --> 00:12:08.240
+<v MarketingExpert>Or are we saying we're gonna stick a locator on the TV?</v>
+
+35
+00:12:07.330 --> 00:12:09.260
+<v ProjectManager>Th there's the locator dot.</v>
+
+36
+00:12:09.250 --> 00:12:10.910
+<v UserInterface>That you stick on TV.</v>
+
+37
+00:12:09.350 --> 00:12:24.470
+<v MarketingExpert>So that means you need a that does mean you need a little speaker on it though,. To make it beep. so that's seven, yeah.</v>
+
+38
+00:12:32.410 --> 00:12:37.610
+<v UserInterface>If if this means intuitive, if it means the way people kind of are used to finding things</v>
+
+39
+00:12:39.900 --> 00:12:53.080
+<v ProjectManager>I'd say six,. 'cause the I mean the the standard layout for numbers is three three three and one, rather than the way you've got it. but it's not the immediate thing that you're used to.</v>
+
+40
+00:13:03.900 --> 00:13:06.490
+<v IndustrialDesigner>But it's a good technology, I mean once they get used to it.</v>
+
+41
+00:13:10.050 --> 00:14:01.370
+<v MarketingExpert>So, should we maybe say a five. so possibly for left-handed. Investigate.</v>
+
+42
+00:14:03.380 --> 00:14:05.230
+<v ProjectManager>But otherwise it's superb.</v>
+
+43
+00:14:05.640 --> 00:14:08.120
+<v MarketingExpert>So, should we give it a six?</v>
+
+44
+00:14:09.360 --> 00:14:23.950
+<v UserInterface>The ergonom ergonomic design. well I mean I I dunno, I mean the the repetitive stress things,. but then who would be really pushing the buttons so much on the on the remote control anyway,</v>
+
+45
+00:14:36.350 --> 00:14:42.660
+<v IndustrialDesigner>And moreover it it has LCD and everything,. so that you know we minimise the pressing of the buttons anyway.</v>
+
+46
+00:14:42.560 --> 00:14:44.160
+<v MarketingExpert>Okay, so we give that a six,</v>
+
+47
+00:15:09.860 --> 00:15:13.200
+<v ProjectManager>G technologically innovative.</v>
+
+48
+00:15:13.160 --> 00:15:17.360
+<v IndustrialDesigner>It's the most sophisticated remote that I ever seen.</v>
+
+49
+00:15:20.950 --> 00:15:26.510
+<v UserInterface>Well we have we have the sample speaker as well, which is yeah, it's kind of new.</v>
+
+50
+00:15:27.090 --> 00:15:31.510
+<v ProjectManager>All of the components have been used in other things before.</v>
+
+51
+00:15:31.030 --> 00:15:36.360
+<v MarketingExpert>They're never been used i they've never been using remote remote control before I don't think.</v>
+
+52
+00:15:38.110 --> 00:16:01.740
+<v ProjectManager>What do you reckon, five, six? Put fashion in electronics.</v>
+
+53
+00:16:07.230 --> 00:16:17.080
+<v UserInterface>Fruit fruit and vegetables are fashionable these days, so. So I think we've done very well,</v>
+
+54
+00:16:18.910 --> 00:16:20.330
+<v MarketingExpert>So, we need the average here,</v>
+
+55
+00:16:21.790 --> 00:16:48.700
+<v UserInterface>The average is about six and something. Six point five, yeah.</v>
+
+56
+00:16:50.300 --> 00:16:51.620
+<v MarketingExpert>That's pretty good, I think.</v>
+
+57
+00:18:25.270 --> 00:19:24.550
+<v ProjectManager>So we've looked at the prototype presentation and the evaluation criteria. And now we have to calculate the production costs. So I've got an Excel spreadsheet to help us do that. I started filling it in,. No hand dynamo, right? One simple battery. The chip, we're going for an advanced chip on print. We also said the sample sensor and sample speaker. single-curved surface, so that we can fold it. Case material we said rubber. I don't know what special colour means.</v>
+
+58
+00:19:28.940 --> 00:19:29.930
+<v UserInterface>I think something coloured,</v>
+
+59
+00:19:33.730 --> 00:19:36.120
+<v MarketingExpert>But rubber comes coloured, doesn't it? You know.</v>
+
+60
+00:19:36.790 --> 00:19:40.790
+<v ProjectManager>Maybe it's like if you want titanium coloured or wood coloured, it's different.</v>
+
+61
+00:19:39.590 --> 00:19:49.500
+<v UserInterface>Or maybe maybe if you want some kind of pattern thing on it,. We have pushbuttons,</v>
+
+62
+00:19:53.670 --> 00:19:56.740
+<v ProjectManager>Scroll wheel with pushbutton we had, no?</v>
+
+63
+00:19:59.810 --> 00:20:01.590
+<v UserInterface>And we have LC display</v>
+
+64
+00:20:01.970 --> 00:20:04.950
+<v ProjectManager>And button supplements.</v>
+
+65
+00:20:11.280 --> 00:20:17.723
+<v UserInterface>Yeah, but what do we ha we have LC display, but but the wh but the spinning wheel</v>
+
+66
+00:20:22.290 --> 00:20:33.470
+<v MarketingExpert>We've got more than one pushbutton though,. That means you can only have twenty five push buttons in total doesn't it?</v>
+
+67
+00:20:36.210 --> 00:20:47.180
+<v ProjectManager>That seems unlikely. whether whether pushbutton means that count by button or do we</v>
+
+68
+00:20:44.480 --> 00:20:45.620
+<v UserInterface>We have to count all of them,</v>
+
+69
+00:20:47.180 --> 00:20:48.990
+<v ProjectManager>I don't think that makes sense.</v>
+
+70
+00:20:52.580 --> 00:21:02.650
+<v IndustrialDesigner>If it is pushbutton then you got a zero point five,. it's a scroll wheel so we we've put it's pushbutton and scroll wheel and LCD display,</v>
+
+71
+00:21:07.650 --> 00:21:15.680
+<v ProjectManager>So, as we can see, that's way too expensive down here. Our budget's twelve point five.</v>
+
+72
+00:21:15.800 --> 00:21:19.450
+<v MarketingExpert>Yeah, the sample sensor will have to go,. 'cause that's the most expensive thing on there.</v>
+
+73
+00:21:19.890 --> 00:21:25.270
+<v ProjectManager>So that has implications though for the.</v>
+
+74
+00:21:24.330 --> 00:21:32.860
+<v IndustrialDesigner>It does not have for voice recognition,. but it does have for the feedback speaker. when you say when you press one it says one or it says hello.</v>
+
+75
+00:21:32.690 --> 00:21:34.870
+<v MarketingExpert>But that's a bit of a gimmick anyway really, isn't it?</v>
+
+76
+00:21:34.550 --> 00:21:37.030
+<v IndustrialDesigner>And the locator also goes away.</v>
+
+77
+00:21:47.060 --> 00:21:54.830
+<v UserInterface>Well the speaker the sample speaker is is expensive,. but we could just have some some very very easy device that just beeps.</v>
+
+78
+00:22:02.310 --> 00:22:11.280
+<v IndustrialDesigner>A also i in the case I'm not sure that you will evaluate this as a curved surface,. because it's just rubber, so it's probably a flat surface rubber.</v>
+
+79
+00:22:18.710 --> 00:22:28.270
+<v ProjectManager>Right, so we need one fifty off. Take it down to just a scroll wheel.</v>
+
+80
+00:22:32.800 --> 00:22:41.920
+<v IndustrialDesigner>How do we how do we make a selection in in the LCD? in the LCD we can scroll, right? But how do we make a selection if we cannot push the button.</v>
+
+81
+00:22:41.660 --> 00:22:47.870
+<v UserInterface>You can push this one,. but we don't have a pushbutton we ca we don't have this muting mechanism for this scrolling thing.</v>
+
+82
+00:22:54.160 --> 00:22:55.650
+<v MarketingExpert>So that's point three.</v>
+
+83
+00:22:57.050 --> 00:23:00.900
+<v IndustrialDesigner>And I thought we were referring to this as a scroll spinning wheel and pushbutton thing.</v>
+
+84
+00:23:19.680 --> 00:23:33.330
+<v ProjectManager>The scroll wheel is on the side. We're point three over at the moment.</v>
+
+85
+00:23:35.070 --> 00:23:39.080
+<v MarketingExpert>Unless we just take off the scroll wheel altogether. and just have pushbuttons for the volume.</v>
+
+86
+00:23:47.920 --> 00:23:52.230
+<v IndustrialDesigner>Instead of scrolling here we have two buttons here, up for up and down.</v>
+
+87
+00:23:59.860 --> 00:24:01.170
+<v ProjectManager>Oh look, we're way under budget</v>
+
+88
+00:24:04.200 --> 00:24:08.896
+<v MarketingExpert>Yeah, well we could admit to the single curve, couldn't we?</v>
+
+89
+00:24:07.087 --> 00:24:36.010
+<v ProjectManager>Or or that we have to have some sort of special colour. So did we lose on our evaluation criteria, as a result of doing that?</v>
+
+90
+00:24:36.240 --> 00:24:37.180
+<v MarketingExpert>No, I don't think so.</v>
+
+91
+00:24:38.350 --> 00:24:57.070
+<v IndustrialDesigner>Because we keep all the features,. we keep voice recognition,. we keep LCD display. instead of having scrolling we we just push the buttons. But we lose the locator.</v>
+
+92
+00:24:58.160 --> 00:24:59.100
+<v ProjectManager>We're gonna have a beep.</v>
+
+93
+00:25:05.120 --> 00:25:26.190
+<v UserInterface>So we still have the locate. It can come in the same colour as the the case.</v>
+
+94
+00:25:56.680 --> 00:26:09.710
+<v ProjectManager>So it would be good if we could just have a little talk about the project itself and how it went,. so that we can feed back to the management for next time they're designing a product.</v>
+
+95
+00:26:15.640 --> 00:26:26.390
+<v UserInterface>As far as creativity is concerned, yeah I think there was there was room for creativity. The only the only problem being that at the end we had to cut some things down because of the the budget we had.</v>
+
+96
+00:26:27.280 --> 00:26:34.330
+<v IndustrialDesigner>I think one thing that was lacking was that we did not know what the various things cost to begin with.</v>
+
+97
+00:26:38.050 --> 00:26:44.690
+<v MarketingExpert>If we'd had that sheet at the beginning should've been like, okay, so we can have that lot, let's just throw it together and do what we can.</v>
+
+98
+00:26:52.660 --> 00:27:02.040
+<v ProjectManager>But in terms of the process of going and working individually and then coming back to a meeting, that that worked in terms of.</v>
+
+99
+00:27:01.010 --> 00:27:03.190
+<v MarketingExpert>I think 'cause the meetings were so regular, you know.</v>
+
+100
+00:27:24.850 --> 00:27:27.890
+<v UserInterface>Yeah, the the means were very very good, the means we used.</v>
+
+101
+00:27:28.590 --> 00:28:00.640
+<v ProjectManager>The whiteboard digital pens. We like the pens. But that worked well having having a whiteboard that we could draw on as well as having the PowerPoint,</v>
+
+102
+00:28:07.780 --> 00:28:27.740
+<v UserInterface>Yeah, and and and this time also the time limits but actually preparing the. But yeah, but I mean already just just preparing the slides before before the meeting, yeah.</v>
+
+103
+00:28:27.030 --> 00:28:32.680
+<v MarketingExpert>I mean that was fairly tight anyway,. I mean especially with that last-minute alteration.</v>
+
+104
+00:28:46.840 --> 00:28:50.380
+<v UserInterface>I was I was satisfied with with the leadership, yeah.</v>
+
+105
+00:28:50.000 --> 00:28:53.150
+<v MarketingExpert>You weren't like a a dictating leader, so that was always good.</v>
+
+106
+00:29:01.800 --> 00:29:06.080
+<v UserInterface>And then the teamwork I think I think it worked quite quite nicely, yeah.</v>
+
+107
+00:29:06.020 --> 00:29:12.340
+<v ProjectManager>Did anyone feel that they were getting sort of covered up and not being able to say their bit?</v>
+
+108
+00:29:13.010 --> 00:29:18.360
+<v IndustrialDesigner>I guess it was a fairly small group,. so all of us got to express our opinions, yeah.</v>
+
+109
+00:29:29.920 --> 00:29:34.490
+<v ProjectManager>New ideas found. Not quite sure what about.</v>
+
+110
+00:29:32.600 --> 00:29:34.620
+<v UserInterface>Well it's it's it's pretty new,</v>
+
+111
+00:30:00.850 --> 00:30:02.530
+<v MarketingExpert>I think we'd like to think the ideas were new,</v>
+
+112
+00:30:27.030 --> 00:30:52.770
+<v ProjectManager>Costs are within budget,. One Euro left over for bits that we didn't foresee. we've evaluated the project. Can you put that in the project documents file? And the process wheel didn't really have any major problems with.</v>
+
+113
+00:31:01.350 --> 00:31:04.260
+<v UserInterface>And my main difficulty was the the time pressure.</v>
+
+114
+00:31:05.770 --> 00:31:31.270
+<v MarketingExpert>Sometimes it's like a little bit rushed. we've got like five minutes left.</v>
+
+115
+00:31:32.280 --> 00:31:47.000
+<v ProjectManager>But if we've finished, then we've finished. So I would say that's the end of that meeting.</v>
+
+116
+00:31:48.330 --> 00:31:49.960
+<v UserInterface>Yeah, it was a pleasure working with you.</v>
+
+117
+00:32:14.700 --> 00:32:20.970
+<v ProjectManager>Right, so we have to complete the final questionnaire and meeting summary when they send it.</v>
+
+118
+00:32:19.430 --> 00:32:20.970
+<v IndustrialDesigner>Was there a questionnaire already sent?</v>
+
+119
+00:32:24.720 --> 00:32:27.330
+<v MarketingExpert>Do we have to go back into the other room or can we stay in here now?</v>
+
+120
+00:32:27.560 --> 00:32:29.650
+<v ProjectManager>I don't see why you can't stay here, really.</v>
+

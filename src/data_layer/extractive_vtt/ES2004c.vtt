@@ -1,0 +1,178 @@
+WEBVTT
+
+1
+00:01:25.440 --> 00:02:58.090
+<v ProjectManager>Right this is our conceptual design meeting,. I think we're slightly ahead of ourselves. This is where we talk about properties, materials, user-interface and trend-watching. the minutes from the last time. we had a couple of changes in our plans in that we couldn't use teletext, it wasn't gonna be a control for everything. and that we had to incorporate the image of the company into it somehow. we have decided on a leaving out the voice recognition,. we've decided on there being a flip design. and a different shape from what's normal. We were thinking a shell, but something along those lines,. and we were gonna think about the port and an alarm for getting it lost,</v>
+
+2
+00:03:41.930 --> 00:05:44.910
+<v MarketingExpert>And so this feedback from the marketing department is really about trend watching. the methods we used to decide on current trends and so on, market trends, were that we did our traditional our usual market research study with a hundred subjects. Also with our company being forerunners in putting fashion into technology, we also looked at a fashion update using our consultants on fashion and design in Paris and Milan. so the general findings from that was in the market trends the most important aspect for remote controls were people want a fancy look and feel, rather than the the current functional look and feel of remote controls. They also also want a remote control to be technologically innovative,. and of course, as we predicted, that it should be easy to use. Now I should point out that the first of those findings, fancy look and feel, is the most important,. is twice as important as the second, technologically innovative,. which is in turn twice as important as being easy to use. we found from our consultants in Paris and Milan who des attended all the design and fashion fairs there, that fruit and vegetables are going to be the theme for clothes, shoes and furniture. There also seems to be a trend towards a spongy feel to materials,</v>
+
+3
+00:06:51.880 --> 00:08:53.170
+<v IndustrialDesigner>This is all about the design of the actual components. and the availability of the components we have in stock at the moment. 'cause some of the things that we looked at last time aren't un unfortunately aren't available. This is the chip called the TA double one eight three five. which is what's used in pretty much every remote control 'cause it sends out standard signals, based on your input. and then we we're loo looking into battery options. There's actually no rechargeable option available,. I saw the the standard double A and triple A. which we thought were a bit bit too bulky at the moment,. I thought that that might be a bit silly to be to be honest,. So you wind up your remote control before you use it. like the the solar charging,. 'cause most people have the light on in the room anyway so they could get when when you got TV.</v>
+
+4
+00:09:17.010 --> 00:09:19.690
+<v ProjectManager>I'm pretty sure that solar is from the sun.</v>
+
+5
+00:09:47.250 --> 00:10:03.860
+<v IndustrialDesigner>But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in you get it in wrist watches. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up,</v>
+
+6
+00:10:11.610 --> 00:10:13.530
+<v UserInterface>It like it runs for long time?</v>
+
+7
+00:10:34.920 --> 00:10:40.410
+<v IndustrialDesigner>Well I do I I'm not entirely sure how long it would last but I've never seen one run out.</v>
+
+8
+00:11:26.900 --> 00:11:31.320
+<v MarketingExpert>Referring back to solar charging, is that compatible with standard batteries?</v>
+
+9
+00:11:35.820 --> 00:12:05.200
+<v IndustrialDesigner>Ye yeah I think I th y you could have a dual power thing. but the the thing with the solar cells is you would need to put them on the case. on a calculator they they're qui they're quite big and they all they all look i identical. Yeah the normal batteries would be the cheapest</v>
+
+10
+00:12:49.920 --> 00:12:54.610
+<v UserInterface>W which one would last the longest,. because we don't want customers to be like you know charging like a mobile phone every day.</v>
+
+11
+00:13:29.780 --> 00:13:32.080
+<v ProjectManager>'Cause if we're doing the kinetic thing</v>
+
+12
+00:13:32.310 --> 00:14:30.200
+<v MarketingExpert>Shouldn't we do some market research on that first before we add it in. It's not something that's come up in any of our focus groups and market research,. But it's something to put on the side to think about maybe.</v>
+
+13
+00:14:39.600 --> 00:18:24.960
+<v IndustrialDesigner>Most current remotes use this silicone PCB board which pr printed circuit board,. the thing about is they they can be as big or as small as you want them to be. Now what I was thinking about that was 'cause sometimes when when you have these things, they've got little lights on behind the buttons, so you can see what all the buttons are,. but you could you could have lights behind the buttons. the case material, I've a been sent what the factory can actually give us,. there's the plastic. which I think we were gonna go for anyway as the main case case housing. well you could go for wood. but I think it would be a bit impractical. Titanium very expensive just to process,. so perhaps some something made of rubber,. If you go for titanium they can only do a standard box shape,. whereas if you come to plastic they can they can be a little more they can they can do sort of curved shapes.</v>
+
+14
+00:18:32.770 --> 00:18:43.630
+<v UserInterface>Yeah and second question is like, a mobile you can change the cover,. So in this case if you're looking at like a customer can change the colour like from green, parrot green to chilli red or something like that.</v>
+
+15
+00:19:19.440 --> 00:19:25.000
+<v MarketingExpert>I was just wondering if we make the basic mould out of plastic but have like a rubber cover that goes over,</v>
+
+16
+00:19:29.940 --> 00:19:52.630
+<v ProjectManager>So instead of the fascia that comes off being plastic, the fascia that comes off would be the rubber,. Well that's been really popular with mobile phones so I don't see why not.</v>
+
+17
+00:20:28.360 --> 00:21:10.150
+<v IndustrialDesigner>But I thought that an LCD type of screen. the problem with it basically is that it's flat and so you can't do lots of curve curved things with it,</v>
+
+18
+00:21:26.800 --> 00:21:32.360
+<v MarketingExpert>I don't see why the curved thing is a problem,. if we for example had a shell, once we open that</v>
+
+19
+00:21:32.640 --> 00:21:51.880
+<v IndustrialDesigner>You could have a flat screen inside, yeah,. w or we could have rubber buttons which are made of this material which is anti-RSI.</v>
+
+20
+00:21:52.350 --> 00:22:02.370
+<v ProjectManager>I think it would be good to have a contrast between, if the whole thing is gonna be this rubber thing it would be good to open it up and see something quite fancy looking inside.</v>
+
+21
+00:22:14.490 --> 00:22:25.160
+<v MarketingExpert>Is it possible, just as an option, when we open it up, people can use their fingers to press the button, or we have inside like a small pointer thing when people want to.</v>
+
+22
+00:22:24.430 --> 00:22:29.930
+<v IndustrialDesigner>But I I think they could get a bit easily lost,</v>
+
+23
+00:23:51.380 --> 00:24:01.020
+<v MarketingExpert>Is it possible that when we open our flip-top shell it's a little compact mirror and when you press a button it then goes onto the phone display th the remote control display thing.</v>
+
+24
+00:24:01.550 --> 00:24:17.723
+<v ProjectManager>We're marketing to guys as much as we are to women. you were sitting watching TV are you gonna want to sort of open it and say oh shit I should go and have a shower and do my hair before I put the</v>
+
+25
+00:24:54.420 --> 00:26:47.800
+<v UserInterface>We just took the input from the previous meeting, especially from the marketing and industrial design, to check on the customer needs and feasibility. the picture here shows one of the standard models offered by competitors here. So you generally see rectangular shape, very monotonous kind of designs here. And second thing is there's too much of confusion here. we are going to have maybe a GUI interface in the in the middle of the flip-top. basically which is what we do in computer, have icons or touch pad or whatever,. so on the simpler board, on the top we have this button, rubber buttons, to keep frequently changing the channels.</v>
+
+26
+00:26:49.460 --> 00:26:54.280
+<v ProjectManager>Can we swap that round so th that the ones that we use all the time are on the bottom part?</v>
+
+27
+00:27:35.620 --> 00:29:14.190
+<v UserInterface>So the findings are too many cluttered buttons. Repetition of certain but buttons which I already explained,. Okay we had a latest finding of voice recognition,. there was a mail which mentions that our division has developed a new speech recognition feature. We have to check into the for financial feasibility whether we can incorporate it this at a low cost,. So it could be like, where is the remote, and the remote answers I am here. so I wouldn't say the design should be like a fruit,. but yeah we can take inspiration from fruit colours, like the vibrant colours, red chilli. I think most of the users would now be well acquainted with this cer central pattern, here,. so we we we would not change that particular pattern</v>
+
+28
+00:29:52.030 --> 00:31:06.550
+<v ProjectManager>I'm not sure how long we've got left,. but we need to make a decision about the things we've discussed. Do we agree on the battery? that means that there's no function for li the port,. so we could incorporate voice recognition for the finding it. I think the only pitfall that we would have would be how much it's going to cost if that means we have to cut down somewhere else,. The LCD's not cheap.</v>
+
+29
+00:31:17.460 --> 00:31:19.250
+<v UserInterface>Maybe we could start with the black and white.</v>
+
+30
+00:31:27.550 --> 00:31:29.580
+<v MarketingExpert>Did we decide on double A or triple A batteries?</v>
+
+31
+00:31:39.720 --> 00:31:45.020
+<v IndustrialDesigner>The kinetic ones come come with a sort of watch a battery that goes in a watch.</v>
+
+32
+00:31:55.880 --> 00:32:00.620
+<v ProjectManager>The inside components is pretty standardised across the board isn't it?</v>
+
+33
+00:32:16.360 --> 00:32:50.200
+<v IndustrialDesigner>Yeah the well I think were we're going for the LCD on that one, on the buttons,. On the bottom we were gonna have the rubber, the rubber ones,. okay on we've got the flip the flip-screen, the top one is gonna be the LCD and the bottom one is gonna be the rubberised buttons.</v>
+
+34
+00:32:57.090 --> 00:33:00.290
+<v UserInterface>For the body design I think plastic,</v>
+
+35
+00:33:09.450 --> 00:33:27.380
+<v MarketingExpert>So we decided on a rubber casing for the plastic shell, a variety of designs,. we're not gonna try and make it actually a vegetable or fruit design or anything else, like a shell that we discussed,</v>
+
+36
+00:33:33.740 --> 00:33:44.540
+<v ProjectManager>The fact the the material that we would be using would be cheap,. so we could make it red, we could make it psychedelic,</v>
+
+37
+00:34:50.800 --> 00:34:54.637
+<v MarketingExpert>This would definitely be different enough,. I just wondered if anybody could come up with something even more</v>
+
+38
+00:35:00.110 --> 00:35:07.089
+<v ProjectManager>You could have a plain black one, you could have sparkly pink glittery ones for your little</v>
+
+39
+00:36:44.250 --> 00:36:48.130
+<v UserInterface>So we can if financially voice recognition is not feasible we could go for a whistle.</v>
+
+40
+00:36:57.030 --> 00:37:15.490
+<v MarketingExpert>And incorporating the company logo? 'Cause I took it from the feedback you gave in the last meeting from from your report, it's not just a case of having a little RR hidden somewhere, they do want it to be obvious that it's our product</v>
+
+41
+00:37:21.180 --> 00:37:37.290
+<v ProjectManager>I think you just address that with advertising. Obviously it'll have a logo on it just like everything,. The point is that it's got to stand out somehow differently</v>
+
+42
+00:37:42.160 --> 00:37:48.420
+<v MarketingExpert>I know at the last meeting we spoke about a beeper,. have we just rejected that in favour of voice recognition then?</v>
+
+43
+00:37:49.860 --> 00:37:51.650
+<v IndustrialDesigner>Yeah, depending on the expense of it.</v>
+
+44
+00:38:11.510 --> 00:38:32.550
+<v ProjectManager>Right I'm going to wrap it up there. it says, closing we have forty minutes. so I think we've probably got about that time before we come back.</v>
+

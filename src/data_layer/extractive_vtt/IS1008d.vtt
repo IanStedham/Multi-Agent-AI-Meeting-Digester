@@ -1,0 +1,234 @@
+WEBVTT
+
+1
+00:00:41.510 --> 00:01:34.120
+<v ProjectManager>So this meeting agenda will be the detailed design meeting. And opening and P_M_s of the meet minutes,. prototype presentation from Christine and Agnes. and evaluation criteria. The finance, it's from my side, from the management,. and production evaluation. Then closing. So we have forty minutes to discuss and finalise and close the product and project and to move further, okay,. Okay, let's talk about maybe first for the prototype.</v>
+
+2
+00:01:39.250 --> 00:04:21.850
+<v UserInterface>I've done a presentation,. but it pretty much covers work that we've both done,. so if I'm missing anything, Christine can just correct me. from when we were discussing specifying the case in the last meeting, we decided that we wanted an ergonomic shape,. the material that we chose was wood,. and the colour would be customisable,. 'cause you can stain the wood whatever colour. so in terms of function, you have to be able to turn the TV on and off, volume and channel control, menu control, voice recognition control,. and we've incorporated the LCD screen on the flip panel as part of the design,. if we figure out it's too expensive, well then you just take it off. This is our remote control, with the flip panel as you can see. So if you lift up the panel, you can see the lovely yellow LCD display. The yellow button you have is the on off button,. so it's really big, hard to miss. You have the the red triangles are the toggles for changing the volume. The green are the channel changing. And it's one of those very light, very touchable displays. And then you have the numeric pad in the dark blue at the bottom,. and on the right-hand side you have the access to the menu on the TV,. and on the left-hand side you have the the the ability to turn off the voice recognition. Additional feature on the back is that you can have your own customised backing. and I suppose you could do the same thing on the flip case on the front.</v>
+
+3
+00:04:26.280 --> 00:04:40.112
+<v IndustrialDesigner>We haven't specified where the speaker or the microphone will be placed. That depends on the design of the circuit board inside and what room is left</v>
+
+4
+00:04:41.350 --> 00:04:46.270
+<v ProjectManager>I think the microphone is on on the top, on the middle, the under the flip.</v>
+
+5
+00:04:58.020 --> 00:05:05.820
+<v UserInterface>But it shouldn't be under the flip either,. because you can have the remote control closed, but you still might want to activate it by voice.</v>
+
+6
+00:05:07.780 --> 00:05:24.850
+<v ProjectManager>My opinion I think it's better under the flip. because whenever you want to the talk, okay, so then you can speak then you can close it. But if you put it on the on the flip, okay, then technical I don't think it's feasible,. 'cause most of the time you speak then it will be recognised.</v>
+
+7
+00:05:31.320 --> 00:05:52.930
+<v UserInterface>I mean the whole point of the voice is that if the remote control is sitting there and I'm too lazy to reach over and pick it up, I can just use my voice. I mean it doesn't have to be on the flip,. it can be on the side somewhere.</v>
+
+8
+00:05:52.870 --> 00:05:54.250
+<v ProjectManager>Yeah, the sides maybe is good.</v>
+
+9
+00:06:23.190 --> 00:06:26.208
+<v IndustrialDesigner>You need to work on the weight a little bit.</v>
+
+10
+00:06:28.220 --> 00:07:06.890
+<v UserInterface>And maybe the shape of the buttons,. the little egg shapes aren't the most economical, but. We could have possibly made it a lot thinner as well. And part of the thing is a lot of people say that they don't like something that's too light,. because they don't feel like they have enough control over it. So I mean maybe this is excessively heavy,. So that's pretty much it for our presentation actually.</v>
+
+11
+00:07:13.930 --> 00:07:27.248
+<v MarketingExpert>Well, the prototype is is very well within the design and ideas that we've we've talked about on the previous meetings. Now it goes into this next phase as the financial marketing</v>
+
+12
+00:07:46.890 --> 00:08:31.320
+<v ProjectManager>So then let's come to the finance,. I have some calculations which I made as for the budget. So here you can look like the energy and dynamo and kinetic and solar cells. it's optional, somewhat optional. and Ed wants the chip on print, that's what we were talking about that. So then we have sample sensor and sample speaker, then we have the wood material, then special colour and push button. actually, our budget was twelve point five Euro,. but it's coming to nine point nine five Euro,. so we are under below the budget,</v>
+
+13
+00:08:42.930 --> 00:08:47.673
+<v MarketingExpert>Well we haven't come to mine yet, so. we're gonna have a bit of difference of opinion, yes.</v>
+
+14
+00:08:45.140 --> 00:08:49.210
+<v IndustrialDesigner>It's gonna cost a long way to you know, cost a lot of money to market it, is it?</v>
+
+15
+00:09:02.630 --> 00:09:14.230
+<v MarketingExpert>On this pr provisionary cost analysis, we do not have a LC display. LC display is gonna be very expensive,</v>
+
+16
+00:09:14.130 --> 00:09:16.010
+<v UserInterface>No we do, but it's not filled in.</v>
+
+17
+00:09:16.730 --> 00:09:18.470
+<v MarketingExpert>We don't have the price up there,</v>
+
+18
+00:09:18.370 --> 00:09:19.650
+<v UserInterface>You're right, sorry, yes.</v>
+
+19
+00:09:18.470 --> 00:09:34.896
+<v MarketingExpert>Okay, so if we add approximately two to three Euro per remote, now we're up around about twelve, twelve and a half as to what the company had initially requested.</v>
+
+20
+00:09:34.400 --> 00:09:38.110
+<v IndustrialDesigner>So that means we can put the the LCD in, yeah.</v>
+
+21
+00:09:38.530 --> 00:10:21.160
+<v MarketingExpert>But as far as production I'm putting up a question. because we're talking about profit also,. and in mine you'll see the problem with our survey, the the possibility that how many units can be sold, what percentage of the market, etcetera etcetera. this is just production cost, it is not advertising cost, it's not transportation cost. And that will inflate quite a bit the cost of the the cost of the unit for the company. So to come up with what the company wants is a fifty million Pound profit, we're gonna have to go a long ways.</v>
+
+22
+00:10:23.570 --> 00:10:28.000
+<v ProjectManager>So when it go into the quantity, okay, and the cost will come down.</v>
+
+23
+00:10:29.624 --> 00:10:40.160
+<v IndustrialDesigner>Although customisation, because this is being done, you know, the on on-order basis, it might be the the quantity won't won't</v>
+
+24
+00:10:36.450 --> 00:10:38.780
+<v MarketingExpert>It's gonna be very hard to reduce.</v>
+
+25
+00:10:48.520 --> 00:10:53.150
+<v IndustrialDesigner>You got some pretty cheap labour that can do this case for one Euro.</v>
+
+26
+00:11:02.350 --> 00:11:24.730
+<v ProjectManager>So what I will do is I will try to negotiate with the vendors, okay, to get the production cost less, okay,. so then we can save some money, okay, to put into th our marketing or you know the promotions, whatever, okay,. I will speak to the management and how to get you know some more cost down.</v>
+
+27
+00:11:41.510 --> 00:14:16.220
+<v MarketingExpert>So now I'm gonna scare everybody out of this project. since we need to have some type of idea on a market we had independent study that says it this this market has an availability to absorb eight mi eight million units per year. Our internal company evaluation puts it between eight to nine million. Which means that if we have a target of two million would the company has to take twenty five percent of the market in the first year,. which is actually a tremendous amount. if we put an inflated price of fifty Euro at a production cost that cannot exceed twenty-five Euro,. with transport, promotion, labour, because we hav gi included the promotion in the cost, transport for the material to the stores or whatever how however we're gonna break this down between our our retailers. At two million units, we have to have a profit of twenty-five Euro per unit to get to the fifty million unit Eu Euro profit. I just did a run down the evaluation of the form,. the fan the fancy stylishness of the of the unit, the ease of use, speech recognition, cost, we've gone through these. Now, the company must evaluate the feasibility of being able to take enough of the market to justify in production. but being that the market changes very very quickly, maybe there's no more interest in buying this thing in eighteen months from now. So, now we have to come up with a decision. Can the company sell two million units? Can it sell it for fifty Euros?</v>
+
+28
+00:14:18.640 --> 00:14:40.120
+<v IndustrialDesigner>I would like to explore the possibility of using alternative delivery and sales channel. which would be to use the internet for promotion and ordering. and then to drop-ship the product to the customer's residence.</v>
+
+29
+00:14:54.500 --> 00:15:01.120
+<v UserInterface>You can do a shipping centre somewhere,. or strategically place shipping centres to minimise distance costs.</v>
+
+30
+00:15:00.180 --> 00:15:04.120
+<v IndustrialDesigner>In fact, we should sell through Amazon,. Or eBay, yeah.</v>
+
+31
+00:15:18.600 --> 00:15:29.210
+<v UserInterface>That actually makes more sense if we're gonna make it so highly customisable,. 'cause on the web people can look at the different options they have, see maybe what other people have done, what the range of possibility as,</v>
+
+32
+00:15:40.810 --> 00:15:48.940
+<v IndustrialDesigner>And you can even have an a movie that you can rotate the object and look at the di. the only thing that you're missing really is the weight.</v>
+
+33
+00:15:48.250 --> 00:15:49.400
+<v UserInterface>The weight and feel.</v>
+
+34
+00:15:54.720 --> 00:16:00.960
+<v IndustrialDesigner>But people are getting used to buying things online that they can't touch before buying.</v>
+
+35
+00:16:16.100 --> 00:16:25.450
+<v MarketingExpert>Maybe there's a possibility of selling more than two million units in one year, which could you know, feasibili feasibility lower the price of the unit.</v>
+
+36
+00:16:29.940 --> 00:16:41.920
+<v ProjectManager>I don't think that's not possible,. okay then, let's wait for the production, okay, then you can evaluate the product,. so how it looks like technically and how it look like the real.</v>
+
+37
+00:17:04.100 --> 00:17:11.500
+<v IndustrialDesigner>We probably should do some market tests once we have the prototypes and do some orders and things like that and test-market it.</v>
+
+38
+00:17:11.580 --> 00:17:14.350
+<v MarketingExpert>That'd have to be thrown out on the market for people to get an idea,</v>
+
+39
+00:17:14.390 --> 00:17:17.230
+<v ProjectManager>So you can take a minimum two weeks to a maximum four weeks.</v>
+
+40
+00:17:17.250 --> 00:17:24.570
+<v UserInterface>Think minimum two weeks if we're gonna develop prototypes and then try to take them to different places and see how people use</v>
+
+41
+00:17:44.030 --> 00:17:49.070
+<v ProjectManager>Okay, so then the real production we will start once we product evaluation, okay,</v>
+
+42
+00:18:15.568 --> 00:18:26.910
+<v UserInterface>Well I was just wondering about if we're gonna do a product evaluation then what about time for redesign if the users come back and tell us no this is bad, this is bad, we want this done differently.</v>
+
+43
+00:18:31.450 --> 00:18:51.570
+<v ProjectManager>Let's proceed with this model, okay, for the for the marketing direction, okay. So no more changes will be made, okay, in this the basic design. So we will introduce this model and let's introduce in the market. and let's take the feedback from the customers, then we can go for the</v>
+
+44
+00:18:57.720 --> 00:19:04.620
+<v UserInterface>The problem is there might not be a second generation if the first generation flops for some silly reason that we haven't thought of.</v>
+
+45
+00:19:03.060 --> 00:19:10.650
+<v ProjectManager>Well, every customer, okay, they have their own ideas, they have their own test, okay, so there's no end, there's no limit.</v>
+
+46
+00:19:12.820 --> 00:20:13.552
+<v UserInterface>No, but there's a difference between releasing a product that has been minimally tested and fine-tuned to suit a general range of requirements versus releasing a product that we think will work but we don't really have anything to back it up. I mean the whole point of user evaluation is to see what real people need. well you have no redesign not you personally, but in the project we have no redesign time and</v>
+
+47
+00:20:14.340 --> 00:20:25.680
+<v IndustrialDesigner>Ed, do you know what season of the year or time of the year is the most important for TV remote control sales? Would it be the Christmas season by any chance?</v>
+
+48
+00:20:24.690 --> 00:20:25.630
+<v ProjectManager>The sports time.</v>
+
+49
+00:20:28.030 --> 00:20:32.880
+<v MarketingExpert>Right before the Eur the World Cup. World soccer. World Cup soccer,</v>
+
+50
+00:20:38.620 --> 00:20:47.780
+<v IndustrialDesigner>So I think what we need to do is perhaps to synchronise the final the the launch of a user-tested device with some special event.</v>
+
+51
+00:20:47.430 --> 00:20:48.530
+<v UserInterface>Yeah, that's a good idea.</v>
+
+52
+00:21:08.060 --> 00:21:22.150
+<v IndustrialDesigner>But, so, I'm just ig pointing out a a strategy to do some additional user testing. pri and then to launch at a a major sports event</v>
+
+53
+00:21:23.758 --> 00:21:26.170
+<v UserInterface>That's actually good place to advertise it too.</v>
+
+54
+00:21:28.240 --> 00:21:48.220
+<v IndustrialDesigner>There might be some motion pictures that are coming out that are coming out on DVD that they need to have a special remote control to work with it,. Maybe some management has got relationships there we can leverage.</v>
+
+55
+00:21:48.230 --> 00:21:52.380
+<v ProjectManager>Yes, the that of course I will convince the management to do that, okay.</v>
+
+56
+00:21:59.960 --> 00:22:10.330
+<v UserInterface>A lot of products have gone out there without being properly user-tested and completely flopped,. when in fact it gets re-released a few years down the line with proper testing and it takes off like crazy.</v>
+
+57
+00:22:42.520 --> 00:22:45.620
+<v IndustrialDesigner>So, you're right, timing is very important,</v>
+
+58
+00:22:49.010 --> 00:23:40.140
+<v ProjectManager>I think he can promote the the brand value and the product value. Okay, so then let's come to the closing. and are the costs within the budget. and is the product evaluated, okay, so that will come soon. Okay for but our time being, so thanks for all your efforts and great work and great design. and let's leave it to the Ed for later for once production is over</v>
+

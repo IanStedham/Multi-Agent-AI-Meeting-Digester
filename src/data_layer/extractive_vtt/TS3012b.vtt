@@ -1,0 +1,326 @@
+WEBVTT
+
+1
+00:00:41.320 --> 00:00:42.740
+<v ProjectManager>Today, functional design phase.</v>
+
+2
+00:02:04.350 --> 00:04:05.020
+<v MarketingExpert>The functional requirements, it's very important for the user,. seventy five percent of the users find most remote controls ugly. they want to spend money for a better system, for better remote control,. and they use yeah, they use zap a lot,. but the relevant buttons are the power, the channel selection and the volume selection. but and not important in the audio settings, display settings</v>
+
+3
+00:04:05.780 --> 00:04:07.900
+<v ProjectManager>We can we can hide those under a menu or something,</v>
+
+4
+00:04:17.770 --> 00:04:50.530
+<v MarketingExpert>That was in the test, the the most people find it irritating when they cannot find a rem their remote control,. so I think it's a bee beep to sound it and you can find it. And another thing they want was speech recognition. And they want maybe an LCD screen</v>
+
+5
+00:04:55.650 --> 00:04:59.750
+<v ProjectManager>We wanna have a little preview on the remote control. Preview what's on the channel.</v>
+
+6
+00:05:01.830 --> 00:05:03.850
+<v UserInterface>'Cause it sounds pretty expensive too.</v>
+
+7
+00:05:11.410 --> 00:05:15.930
+<v MarketingExpert>My personal preferences is a button for my favourite channel,</v>
+
+8
+00:05:38.500 --> 00:05:43.170
+<v ProjectManager>It just remembers the channel that you are on most, for example.</v>
+
+9
+00:06:32.740 --> 00:08:49.520
+<v UserInterface>Some technical functions. There are many buttons on a remote control which are not clear. also symbols tend to fade after a while. And possibly also the size, so more important buttons, bigger. this is basically what I had in mind in the fade-proof symbols, locator, a sound,. but more less buttons, easy, some bigger buttons.</v>
+
+10
+00:08:45.300 --> 00:09:15.140
+<v ProjectManager>Yeah, it's true. So we agree on the the part that we need to get something on the on the remote to find it somewhere</v>
+
+11
+00:11:08.310 --> 00:12:13.880
+<v IndustrialDesigner>So if we make a circuit board with the the connections already on it, then that's cheaper. You have the the power coming in,. The switch if you press it then some electrical charge goes into the processor, that thinks over a Morse code,. then the signal is sent to two light bulbs. You have infrared. I don't have any personal preferences so far,. except for the materials to be used light, that they are light.</v>
+
+12
+00:12:40.530 --> 00:14:07.080
+<v ProjectManager>Like you said teletext is not not very popular anymore. I don't think we should remove the button,. But I don't think it should be very it should be one of the big buttons for example. This is a new product and with this new product we want to appeal to younger people,. the younger people were defined under forty. And one thing that should be important is that the corporate colour and slogan are recognisable,. which is apparently black and yellow,. With that concept I started thinking, so why not just steal Nokia's idea. and just make changeable covers for your</v>
+
+13
+00:14:45.910 --> 00:14:47.720
+<v IndustrialDesigner>I think this is a good idea.</v>
+
+14
+00:14:53.660 --> 00:14:55.300
+<v ProjectManager>I think we should lose the LCD screen,</v>
+
+15
+00:14:53.960 --> 00:14:56.400
+<v IndustrialDesigner>Y Yes, I think so too.</v>
+
+16
+00:15:01.580 --> 00:15:23.330
+<v ProjectManager>I think it takes up a lot of a lot of power. What we could do, what could be possible, is maybe not an LCD screen but with a preview,. For example, a little TV guide. I'm not sure it's even possible,</v>
+
+17
+00:15:22.690 --> 00:15:24.350
+<v IndustrialDesigner>I have to check that out,</v>
+
+18
+00:15:29.130 --> 00:15:37.830
+<v ProjectManager>I think the yeah, the beep is a very simple thing to imple implement,. just make a button on your TV. we should go for that.</v>
+
+19
+00:16:08.840 --> 00:16:17.860
+<v IndustrialDesigner>Then I'd I'd like to know now if we want the universal remote control or not,. because that's determines everything I'm gonna do.</v>
+
+20
+00:16:15.640 --> 00:16:40.880
+<v ProjectManager>I think it's universal. I think we should go for universal,. Speech recognition, I think it's very hard,. because we're selling across multiple countries.</v>
+
+21
+00:16:54.000 --> 00:17:06.330
+<v UserInterface>Besides that, the technology isn't really super yet,. but it's just not I don't think the market's ripe for that yet.</v>
+
+22
+00:17:12.590 --> 00:17:20.520
+<v ProjectManager>You should you should look into the in into the materials that are real durable. maybe a little harder plastic</v>
+
+23
+00:17:35.000 --> 00:17:41.780
+<v IndustrialDesigner>If we make a remote control with changeable covers, then we can also make a cover for every language area.</v>
+
+24
+00:17:59.620 --> 00:18:03.480
+<v UserInterface>But should the exchangeable covers include the buttons themselves</v>
+
+25
+00:18:11.260 --> 00:18:24.290
+<v ProjectManager>It's not even a bad idea. For example, if your buttons are faded, after I mean if you make a durable remote, they are faded, you can just buy a new cover.</v>
+
+26
+00:18:33.440 --> 00:18:37.120
+<v IndustrialDesigner>We can make something that you can only remove the sleeve.</v>
+
+27
+00:18:40.530 --> 00:19:51.330
+<v ProjectManager>It's just just a one one piece of rubber for example,. something I have to look into. you have to come up with a components concept,. you should do some trend-watching,. I think it should be have less or very little buttons. and maybe a second second level menu for the advanced things. Or maybe just stick 'em under a menu,</v>
+
+28
+00:20:04.720 --> 00:20:16.340
+<v UserInterface>Is it techni technically possible to send a signal to a television and then pops up a menu,. because we're working with different types of television,</v>
+
+29
+00:20:16.990 --> 00:20:17.660
+<v ProjectManager>That is true.</v>
+
+30
+00:20:18.230 --> 00:20:18.780
+<v IndustrialDesigner>I don't think so.</v>
+
+31
+00:20:37.440 --> 00:22:13.550
+<v ProjectManager>A double-sided remote control? I don't think that's useful. but you can't you cannot take into consideration all the different brands of T_V_s. because usually the the menu is the menu button is is usable between different brands. Especially the big ones, the big brands,. if you can put some research into that, if it's possible. I think it's possible,</v>
+
+32
+00:22:14.190 --> 00:22:15.860
+<v IndustrialDesigner>I thi I think so too.</v>
+
+33
+00:22:44.750 --> 00:22:46.250
+<v ProjectManager>Maybe it's a little more curves or whatever.</v>
+
+34
+00:22:47.400 --> 00:22:49.160
+<v MarketingExpert>And with different colours.</v>
+
+35
+00:22:49.670 --> 00:22:53.600
+<v UserInterface>I'll put some on paper. and present them next time the ideas that I have.</v>
+
+36
+00:23:04.540 --> 00:23:30.680
+<v ProjectManager>We could do some i do some work now on on the design for example. I think that the the buttons should be the channel buttons should be on their own.</v>
+
+37
+00:23:46.430 --> 00:23:51.900
+<v UserInterface>And since you're holding it like this, I suggest you put the channel up channel down and volume</v>
+
+38
+00:23:48.790 --> 00:23:50.106
+<v ProjectManager>Think it's like this.</v>
+
+39
+00:24:14.070 --> 00:24:17.510
+<v UserInterface>Maybe the menu button can go i in the middle.</v>
+
+40
+00:24:16.090 --> 00:24:16.810
+<v ProjectManager>Yeah, in the middle.</v>
+
+41
+00:24:21.950 --> 00:24:27.430
+<v IndustrialDesigner>Perhaps we should also make something like a flash on it, if you if it's lost, for people that are deaf.</v>
+
+42
+00:24:29.720 --> 00:24:32.870
+<v ProjectManager>But for example if it's lost in your armchair, we'll not see the flash.</v>
+
+43
+00:24:40.780 --> 00:24:45.360
+<v UserInterface>We could make a combination that it goes beep and that you that some light lights up.</v>
+
+44
+00:24:48.500 --> 00:24:50.330
+<v ProjectManager>We could do that.</v>
+
+45
+00:24:54.790 --> 00:25:09.870
+<v UserInterface>The power button somewhere over here? I usually press it on top.</v>
+
+46
+00:25:40.720 --> 00:25:42.450
+<v ProjectManager>I think it should be at the bottom somewhere.</v>
+
+47
+00:26:01.911 --> 00:26:07.610
+<v MarketingExpert>Around not not at top at the around the volume selection.</v>
+
+48
+00:26:41.600 --> 00:26:45.920
+<v IndustrialDesigner>Shall we also look if it's possible to make a rechargeable remote?</v>
+
+49
+00:27:04.260 --> 00:27:55.020
+<v ProjectManager>I'm not sure I'm not sure it's if it's expensive,. but just take a look at it,. to have like sort of a maybe a base station that you put on the TV. Could be flat, you could insert your remote into it.</v>
+
+50
+00:27:56.020 --> 00:27:58.870
+<v IndustrialDesigner>But I think that will cost a lot. a normal wire would be better.</v>
+
+51
+00:28:36.130 --> 00:28:37.270
+<v ProjectManager>I'm not sure if it costs a lot,</v>
+
+52
+00:28:45.680 --> 00:28:51.150
+<v UserInterface>And do people actually want that? To pay extra they want to pay for rechargeable?</v>
+
+53
+00:29:03.260 --> 00:29:20.430
+<v ProjectManager>We could either make a separate station which just sends a signal to the remote control to either beep or flash to find it,. we have to either that or make it integrated with a with a docking station.</v>
+
+54
+00:29:21.690 --> 00:29:23.330
+<v IndustrialDesigner>I think this is a brilliant product.</v>
+
+55
+00:30:00.660 --> 00:30:05.340
+<v ProjectManager>Because if they're willing to pay more, we could lose a little profit and maybe attract more customers,</v>
+
+56
+00:30:20.560 --> 00:31:27.190
+<v UserInterface>Could you post some other essentials of what people want,. Where would we want the teletext button? Do we put it somewhere over here? Or maybe this is something for the next meeting,</v>
+
+57
+00:31:28.490 --> 00:32:03.420
+<v ProjectManager>Draw us up some some designs of of possible. just keep in mind that the important buttons should be on top and either big,. we don't want we want very little buttons, just the buttons you use a lot.</v>
+
+58
+00:32:27.160 --> 00:32:33.230
+<v UserInterface>Because some T_V_s have the possibility to adjust brightness, that kind of menus.</v>
+
+59
+00:32:33.500 --> 00:32:35.230
+<v ProjectManager>But that's what we stick under the menu button.</v>
+
+60
+00:32:40.300 --> 00:32:44.190
+<v IndustrialDesigner>Because it needs to be configured in the television under the menu. If it isn't, then we cannot reach it.</v>
+
+61
+00:32:45.280 --> 00:32:48.180
+<v ProjectManager>But I think most modern T_V_s have it in their menu.</v>
+
+62
+00:32:49.490 --> 00:32:58.390
+<v IndustrialDesigner>Isn't there a possibility to do research on that, so we know that for sure? If you rule out functions, then and that gets known, then people are not gonna buy it.</v>
+
+63
+00:33:23.430 --> 00:33:29.290
+<v MarketingExpert>They want to pay for an LCD screen and speech recognition.</v>
+
+64
+00:33:37.950 --> 00:33:42.700
+<v UserInterface>Oh, we're not going to be able to sell it for twenty-five then, with an LCD screen.</v>
+
+65
+00:34:14.170 --> 00:34:48.980
+<v ProjectManager>Yeah, just look at the possibilities then,. we should do a little thing about design,. because it looks boring really to me.</v>
+
+66
+00:34:49.273 --> 00:34:53.580
+<v MarketingExpert>Different colours maybe.</v>
+
+67
+00:34:54.630 --> 00:34:55.940
+<v IndustrialDesigner>And the design, it should differ.</v>
+
+68
+00:35:36.560 --> 00:35:46.200
+<v ProjectManager>Let's say that people would want an LCD thing. Let's take take the basic design again, what we oh, crap came up with.</v>
+
+69
+00:36:10.700 --> 00:36:16.130
+<v MarketingExpert>If you're reading from top to bottom, I think it's better to put it at the top.</v>
+
+70
+00:36:29.740 --> 00:36:30.920
+<v ProjectManager>How can you use an LCD screen?</v>
+
+71
+00:36:31.650 --> 00:36:34.230
+<v MarketingExpert>But nee the function of it.</v>
+
+72
+00:36:41.290 --> 00:36:56.350
+<v ProjectManager>I I'm not sure. So we have three people saying it should be on top.</v>
+
+73
+00:37:42.630 --> 00:37:45.880
+<v UserInterface>Do we put the volume control and the channel control here,</v>
+
+74
+00:37:49.160 --> 00:37:49.840
+<v MarketingExpert>In the middle.</v>
+
+75
+00:37:51.730 --> 00:37:55.060
+<v ProjectManager>Maybe in a circle for example, like we like in this example.</v>
+
+76
+00:38:00.310 --> 00:38:03.780
+<v UserInterface>But we do agree that we keep this at the centre,</v>
+
+77
+00:38:05.810 --> 00:38:08.020
+<v ProjectManager>I think the channel button should be in the centre.</v>
+
+78
+00:38:38.920 --> 00:38:45.680
+<v IndustrialDesigner>But if we need two batteries and an LCD screen, that means a lot of space that we need. But it has to be a little bit heavier.</v>
+
+79
+00:39:46.780 --> 00:39:51.070
+<v ProjectManager>Just to do research into both, what it costs and what it takes for space.</v>
+
+80
+00:39:55.100 --> 00:40:02.060
+<v IndustrialDesigner>Let's give this a name, and not like some vague serial number that no one understands, like with cars.</v>
+
+81
+00:40:04.470 --> 00:40:17.070
+<v ProjectManager>Yeah, let's think of a name, okay. the the minutes will be on the on the web shortly,</v>
+

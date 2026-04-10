@@ -1,0 +1,242 @@
+WEBVTT
+
+1
+00:01:35.150 --> 00:02:39.710
+<v ProjectManager>I suggest we start the meeting without Matthew. he's obviously late for some reason. Today we will talk about conceptual design. I hope you both did some some work concerning a conceptual design. this will be the agenda for the meeting. I will take some minutes again. we will have the presentations of of you different team members,. and then try to come to decisions about the concepts you have presented. we have some forty minutes to complete this. do you ha Anna do you have your presentation ready?</v>
+
+2
+00:02:39.730 --> 00:02:44.980
+<v IndustrialDesigner>I think yeah the Matthew it is it's important that Matthew yeah is here</v>
+
+3
+00:02:45.560 --> 00:02:46.190
+<v ProjectManager>There is Matthew.</v>
+
+4
+00:04:15.830 --> 00:06:25.300
+<v MarketingExpert>This is just a presentation on the trends that we're gonna use to make the product stand out from the rest of the products out there at the moment. we have to work out a way what we can do with our product to make it stand out and make it so people wanna buy it. We basically used some focus group surveys. and some research on the current design and fashion trends that are out there at the moment,. The important aspects that came out were things that we've already discussed really. The most important by far was the look and feel of it. It needs to be something that's very different from everything else out there. It needs to stand out. It needs to be not functional like the rest of the things out there at the moment. we need to have something that looks interesting, that looks exciting, that will stand out. That was twice as i important as the next item on here. which is that it has to be technologically innovative. People have to then think about it and say got something there that I want. That's a really cool feature,. Third on the list, and again innovative was twice as important as this last aspect,. it has to be easy to use. So they have to be able to be able to look at it and have some intuitive idea of how to use it. Drawing on the fashion trends at the moment, fruit and vegetables. This is basically talking about just the the feel of it, so probably not the smell of it, but the bright colours, eye-catching, really bold designs, and a spongy feel. I had a talk to the design people about this,. but having a remote that's tactile, that feels different, that would be really cool.</v>
+
+5
+00:06:29.120 --> 00:06:32.790
+<v IndustrialDesigner>Can you repeat. and be more precise about what you just said?</v>
+
+6
+00:06:39.880 --> 00:07:42.980
+<v MarketingExpert>Spongy is the current thing. Spongy is the current texture,. but basically there are no reports no remotes at the moment which are spongy or tactile at all,. so if we make it like maybe furry or soft or something, that'll be something that sets it apart,. rather than just bare plastic which they all are at the moment. going with the fruit and vegetable idea, we've got the bright colours, so makes it stand out, the oranges and the the bright yellows and the florescent colours, part of the fruit and vegetables. Going back to the idea of taking inspiration from mobile phones,. a lot of them have the changeable covers,. so they can choose what colour the outside is. Textured feel we just talked about. So if it's part of the the changeable covers then may maybe they can choose a different texture, a spongy one or a soft one or something like that.</v>
+
+7
+00:07:45.250 --> 00:07:46.600
+<v IndustrialDesigner>Yeah that's a very good idea, yeah.</v>
+
+8
+00:07:53.510 --> 00:09:07.470
+<v MarketingExpert>Still taking the inspiration from the mobile phone design so functionality, the way the mobile phones work, the way the keypad looks. we talked about having a way of finding a remote control if it's been lost,. There are other aspects like LCD screens and speech recognition which weren't I don't think, in my personal opinion, gonna be worth the extra expense and the extra effort that will go into them. I think we're better doing something basic like this. and very will be a really cool feature to put in. maybe we just, the basic idea of having your core functions big and at the top maybe, by themselves,. and then th th the finer details of buttons you don't use as much either hidden away or completely separate.</v>
+
+9
+00:09:37.460 --> 00:09:57.184
+<v ProjectManager>Yes the the the there are changeable covers,. but on the other hand I I don't know whether my superiors would be so glad with it. because you have to introduce a complete new line of of supplies. it would be very complicated organisational</v>
+
+10
+00:10:01.060 --> 00:10:03.270
+<v MarketingExpert>We can afford to have two or three different designs at least.</v>
+
+11
+00:10:18.300 --> 00:10:23.370
+<v ProjectManager>I mean those covers could go for for three, five Euro.</v>
+
+12
+00:11:16.800 --> 00:12:55.450
+<v UserInterface>Then the the idea of having a remote is generally you have different keys and different structures, different forms,. and they could be like buttons. and they could be of a varying sizes if you want to to basically emphasize a particular key more than the other,. and maybe like you can have different colours. for example having the red for the on off switching on and off the button. So what I have found was that currently the they are mostly that the TV, VCR, music system operated ones actually,. for example if you want to follow the VCR and if you want to follow the s some soundtrack on the w see they have the common thing actually you can have. There is also a speech recognition to store channel information, names,. if you have a multiple functionality, say TV, VCR or something I say it to the TV and the TV, and you can programme the keys if you want to, certain keys are even the channel information.</v>
+
+13
+00:12:55.070 --> 00:13:01.740
+<v MarketingExpert>I like the idea though of having speech recognition for like the the name of a channel like BBC, rather than having to remember the the number of it on the keypad.</v>
+
+14
+00:13:05.760 --> 00:13:50.570
+<v UserInterface>Because as more and more channels come then you have more and more problems to remember the v exact channel numbers ex exactly,. In the present market I saw it that says something like they are looking for eighty word thing, eighty word,. which shouldn't be th that difficult to implement, like eighty to hundred word. Basically you want you don't want to store all the channels in the remote control,. you want to st store your favourite channel.</v>
+
+15
+00:13:49.760 --> 00:13:51.520
+<v MarketingExpert>Maybe ten channels, yeah at the most.</v>
+
+16
+00:14:00.860 --> 00:15:43.300
+<v UserInterface>Like the remote with LCD display for browsing. because you have multiple functionalities. for example you are watching a movie, and you are having a universal remote control and you want to you don't know really which functionality is now,. for example I can use a simple toggle switch, and a display,. so I press it so the display says, okay, I'm in TV or DVD or whatever it is, instead of having three keys separately for four keys,. there can be children friendly. where you can programme your remote. so that they they are not allowed to browse certain channels which you can block them, and you can operate them. I personally would look at things like having a universal remote,. instead of having unusual ones for all of them you can think of having, with multiple functionality possibly with speech recognition. I got a mail from the the coffee machine interface unit. that they have integrated the speech recognition into a into the coffee machine,. and so if you say hello coffee machine, it say hi Joe, or something like that,</v>
+
+17
+00:15:44.450 --> 00:15:48.420
+<v MarketingExpert>But a coffee machine, there's not too many words they'd be using with that it's a it's a small vocabulary.</v>
+
+18
+00:15:48.520 --> 00:16:33.570
+<v UserInterface>So it's a limited vocabulary thing, and very isolated word. and it's it is interesting, and basically storing the channel through voice or other ways of programming your keys, on the display for the browsing. and maybe having something like a blinking thing,. like it could indicate you're it it could indicate what is cal like the whether you you have enough battery in your in your remote, the blinking. At the same time, if it's a dark room, it can be used to locate the remote also</v>
+
+19
+00:16:37.280 --> 00:16:42.030
+<v IndustrialDesigner>Y you want to let the user to programming the keys? Some of them?</v>
+
+20
+00:16:42.020 --> 00:16:43.520
+<v UserInterface>Yeah you can let them to do that.</v>
+
+21
+00:16:43.250 --> 00:16:51.610
+<v IndustrialDesigner>And isn't that too difficult. I don't know if we still want the RC to be easy to use,</v>
+
+22
+00:16:54.440 --> 00:16:59.150
+<v UserInterface>It depends on the easiness like the user how much effort he can put.</v>
+
+23
+00:17:14.000 --> 00:17:23.520
+<v MarketingExpert>You can have it so it's easy they can pick it up and use it straight away without doing anythi without customizing it,. or if they want to they have the option of using these extra features.</v>
+
+24
+00:17:28.540 --> 00:18:10.672
+<v ProjectManager>Because I I'm not sure whether that that we can implement that for twelve Euro and fifty cents. I'm sorry to have Every time I have to come down on this price again. so this might be a little limiting for your creativity,. do we think these ideas an and my sp speech recognition, I mean maybe it's possible for for twelve Euro. but then then it will be at cost of other functionality we might implement like the the the the furry case of the</v>
+
+25
+00:18:12.380 --> 00:18:42.640
+<v IndustrialDesigner>I would say that for programming keys, you said, it could be easily done within the the package of twel twelve Euros,. i if if it's a low vocabulary it's already implemented,. and how much it's cost, maybe with a cheap chip.</v>
+
+26
+00:18:50.660 --> 00:19:03.060
+<v UserInterface>Maybe if you added little bit of display,. you might need the to che keep checking the battery,. so you really need a some kind of indicator,. so it could be a blinking option of LED</v>
+
+27
+00:19:09.750 --> 00:19:17.610
+<v MarketingExpert>I like the idea too of being able to use the remote in the dark,. so either having the buttons so you can feel the difference between them. or if they if they light up or something.</v>
+
+28
+00:19:22.320 --> 00:19:52.940
+<v UserInterface>Like if you have an LCD display and all those things it's not going to be the standard remote,. which need just six six volt th sorry three volts of DC. so you you may need to check your battery usage. and then you need that, some functionality to indicate the battery limit. And then if the battery limit is indicated, if it could be ind indicated through a blinking something</v>
+
+29
+00:20:24.140 --> 00:23:17.350
+<v IndustrialDesigner>What I'm gonna present here is very yeah basic knowledge about the all the the components that are inside a a RC a remote control, and how is it manufactured what is the process, just to explain you. there is a a set of components in a in a remote control. the the components in themself do not cost a lot. there are two different types of Two different ways of using the the components for making a a remote control. the basic way is to use a an integrated circuit and some transistors with an. that aims at communicating the message and to to send the message to the to the led. that will transmit to the receiver. the other components and the circuit board buttons, infrared, led, etcetera, for the components. just to say that the chip can detect when a key is pressed,. and then it translate to the key, to a sequence, something like morse code, as you know, with a different sequence for each key,. electronic parts are assembled onto printed boards. because it's easier to mass produce and assemble. I think for our design we want some programmable you know VLSI or FPGA high technology,. and also we'll use yeah like in any high-tech devices a chip of fi fibreglass to them and connect them. my personal design. we need to find a solution what what is the material of the cover we want to use. If it's plastic</v>
+
+30
+00:23:24.360 --> 00:23:42.490
+<v ProjectManager>M maybe maybe we can give the the the case a very normal a very normal case but, with the changeable covers to fancy it up. So like a normal cheap plastic case which can be covered up in, for instance, a wooden case.</v>
+
+31
+00:23:49.200 --> 00:25:35.410
+<v IndustrialDesigner>They also emailed me that they have available a bunch of different buttons, a scroll wheels, integrated push buttons such as a computer mouse. And very cheap L_C_D_s, so liquid crystal displays,. so I'm wondering, I think we might be able to integrate LCD into our RC. And the final point okay is we have yeah there are some compromise to to do. we have to know that the push button requires a simple chip,. but the scroll wheel and that kind of higher high-tech stuff needs more money which is a higher price range. And the display requires an advanced chip,. which in turns is more expensive than the regular chip,. but I think with twelve Euros and if it's made for four million items, then I think we could be able to handle that. And for the designing of the cove cover layout then it's better to to to maybe see that with the the UR exp URI Expert. so that we can it's really a team-working</v>
+
+32
+00:25:41.490 --> 00:25:56.126
+<v UserInterface>For example I wanted to know like if you want to have a a fo if you want to have the LCD display over there,. or if you want to store a programmes with a keys</v>
+
+33
+00:26:03.060 --> 00:26:14.160
+<v IndustrialDesigner>It's kind of simple pro progra programmable device, and we have to insert. I think we could insert one that could underlie several functions</v>
+
+34
+00:26:25.270 --> 00:26:31.950
+<v UserInterface>How cost effective it would be to put that car chip into it and do the programmable things.</v>
+
+35
+00:26:32.870 --> 00:27:02.950
+<v ProjectManager>I think we we should come to some decisions now a about this. I understand when we want a display we need a expensive chip,. but when we want a scrolling wheel we also need the expensive chip,. so can we use same chip,. so with one expensive chip we can implement several complicated or advanced features.</v>
+
+36
+00:27:02.660 --> 00:27:04.530
+<v IndustrialDesigner>Exactly yeah that's a very good idea,</v>
+
+37
+00:27:19.310 --> 00:27:27.790
+<v ProjectManager>When the more expensive chip you mentioned there is is possible in the in the given budget, maybe we should go for for the more expensive chip,</v>
+
+38
+00:27:40.370 --> 00:27:44.590
+<v UserInterface>I don't know if it'll fit into our cost of twelve point five Euro you know.</v>
+
+39
+00:27:48.820 --> 00:27:56.850
+<v IndustrialDesigner>I think both if we had a budget of twenty twenty Euros, it will be okay,</v>
+
+40
+00:27:59.220 --> 00:28:07.220
+<v MarketingExpert>Maybe we need specific costings then. do maybe two designs. and then cost them out. and see which one is gonna fit in our budget better.</v>
+
+41
+00:28:08.820 --> 00:28:16.980
+<v ProjectManager>Wh when you make a a design ca you can next meeting you can give an quite an exact cost price.</v>
+
+42
+00:28:26.510 --> 00:28:45.980
+<v UserInterface>Like what will be the each individually the cost of it. 'cause it's I think it's much easier to use a plastic or a rubber rather than wood. It will be much ch much expensive</v>
+
+43
+00:28:49.700 --> 00:28:57.330
+<v ProjectManager>I think I think we can just use more cheap plastic for a kind of basic edition,</v>
+
+44
+00:29:17.470 --> 00:29:38.390
+<v IndustrialDesigner>But i it's a detailed yeah yeah plastic versus wood,. and we need maybe to centre our description on the the really the what buttons what functionality we want to offer to the user, and maybe with graphs or I don't know</v>
+
+45
+00:30:06.600 --> 00:30:41.930
+<v ProjectManager>Let let's say next meeting you produce two designs, one one one less advanced and one more advanced and with the cost price. We now can concentrate on the on the basic remote control.</v>
+
+46
+00:30:47.560 --> 00:31:31.050
+<v UserInterface>We can give them smooth keys,. The the problem most of the time we've seen, the keys is that it's small,. for example, as I was if you make them big, it may change the look of the thing also to the people.</v>
+
+47
+00:31:43.390 --> 00:31:45.710
+<v IndustrialDesigner>And not too too many keys of course yeah.</v>
+
+48
+00:31:46.890 --> 00:31:54.730
+<v MarketingExpert>One I've had before, a r remote control we have at home is one that's actually got a cover on the bottom. so the bottom bit is just, covers half the keys most of the time,</v>
+
+49
+00:32:08.410 --> 00:32:20.610
+<v ProjectManager>So maybe it's possible, I don't know whether you can can indicate this, that you can elsewhere open your remote control and on the inside are buttons you don't use that much.</v>
+
+50
+00:32:44.270 --> 00:32:50.300
+<v MarketingExpert>Can we think about maybe having a a non-recta non non-rectangular one, so with not just the straight little box</v>
+
+51
+00:32:52.840 --> 00:33:04.464
+<v IndustrialDesigner>Maybe we need to also to make a decision on how how how big we want to be. and how many buttons like we should dec decide numbers or</v>
+
+52
+00:33:03.050 --> 00:33:05.290
+<v MarketingExpert>I think we might be out of time out of time for this meeting.</v>
+
+53
+00:33:07.190 --> 00:33:14.000
+<v ProjectManager>Ju just make two designs,. and the we we can decide decide between th those designs.</v>
+
+54
+00:33:24.280 --> 00:33:28.830
+<v MarketingExpert>Is there anything else I need to do from a marketing point of view for the next meeting?</v>
+
+55
+00:33:31.800 --> 00:33:40.690
+<v UserInterface>Maybe it would be interesting if you could look for the cost inventories of other devices, if you're using speech recognition or something like that.</v>
+
+56
+00:33:47.030 --> 00:33:53.420
+<v ProjectManager>I don't know whether that's possible,. maybe you can start evaluating their work somehow.</v>
+
+57
+00:33:54.120 --> 00:33:56.780
+<v MarketingExpert>Is this me designing a way to evaluate it</v>
+
+58
+00:34:00.409 --> 00:34:17.370
+<v ProjectManager>I don't know whether that's possible in the given time. but a as far as possible. you two will be together working on a on two prototypes. and further instructions will be will be sent to you by by email.</v>
+
+59
+00:34:19.920 --> 00:34:28.640
+<v UserInterface>One for like cost and the one with like higher-end. so that then we can be easily comparing them</v>
+
+60
+00:34:34.580 --> 00:34:35.310
+<v ProjectManager>Let's call this to an end.</v>
+

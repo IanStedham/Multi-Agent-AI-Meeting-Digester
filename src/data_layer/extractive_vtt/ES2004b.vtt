@@ -1,0 +1,186 @@
+WEBVTT
+
+1
+00:01:08.710 --> 00:02:50.620
+<v ProjectManager>This is our second meeting. right our agenda for today,. I'll go over what we decided last meeting,. we decided upon a universal control, one handset for all, TV, video equipment. that it was important that the product was accessible to a wide range of consumers, wide age range, not limiting anyone. We decided it was important to reflect the company's image in our product, we put fashion in electronics, you know that kind of thing. try not to reflect our budget, that we might have a bit of oh oh you can see it, okay. dissonance between what our budget was and what we want it to look like. We discussed a flip-open design,. reducing the size of the control. and an electronic panel for further features like programming, things like that. three presentations, I've got written here so. shall we hear from Marketing first?</v>
+
+2
+00:02:51.010 --> 00:02:52.960
+<v MarketingExpert>Is it okay if I postpone that til later,</v>
+
+3
+00:03:32.500 --> 00:05:21.730
+<v IndustrialDesigner>Okay this is the working design,. What the first thing question I asked was what are we trying to design? Well, a device which basically just sends the signal to the TV to change its state,. whether that be the power, or the channel or the volume, everything is just some sort of signal to change the state of the TV or other appliance that it's sending the signal to. so I decided I'd have a look at what th other people have designed. and try and take some inspiration from that. But although we will want to be taking ideas from other people, we wanna make sure that our design stands out. and I found out that most controls use some form of infrared to send signals to the TV. presumably because of the cost issue of something like the same thing that computers use, wireless. most of them are powered by some form of battery. Now our one, I'm I'm not sure whether we want to look at the size issue. because most of them are powered by triple A batteries. but those can be quite bulky. so I I didn't know if you wanted to look at something else so we could shrink down the size of the control.</v>
+
+4
+00:05:23.020 --> 00:05:26.750
+<v MarketingExpert>You're saying the triple A batteries are small or the surrounding it?</v>
+
+5
+00:05:26.170 --> 00:05:32.530
+<v IndustrialDesigner>If you if you look at if you look at most remote controls they're quite they're quite chunky. and that's because of the size of the batteries,</v>
+
+6
+00:05:36.460 --> 00:05:38.760
+<v MarketingExpert>The triple A_s are the smallest you can get are they not, right?</v>
+
+7
+00:05:38.360 --> 00:08:32.250
+<v IndustrialDesigner>Well you can you can get the sort of circular round ones. now the ones at the moment are small. but I was just wondering if we could look at something a bit smaller. and then you obviously need something to decode the information that you're putting in from from the controller. Now these have a wireless range of up to about five metres. we've just got the the power going to the infrared bulb with the chip and the UI interface. which would basically, when you when you pressed anything it would the chip would convert it into some form of IR data which could be decoded by the TV receiver,. which obviously means that we're gonna have to conform to whatever whatever form of communication that the T_V_s are already using. so all the components that I've put forward are low in cost. it should should be different enough from the alternative products to get a good consumer base,. because they're small they're also easy to lose so if we could look into some way of dunno some anti-going down the side of the sofa thing that you could have,</v>
+
+8
+00:10:14.770 --> 00:12:47.620
+<v UserInterface>Yeah. Actually some of my points might overlap with what William's just mention,. but basically my method was like whatever brainstorming we did in the last meeting, just a couple of valuable points and started developing on that. and there might be some missing loops in this thing which I think we'll take a feedback from the marketing. And to summarise I I would say it's it should be user-friendly by being easy to use, rather than having a lot of complex button. because you can have an engineering maybe having hundred buttons. and maybe having a remote control which has the main features like volume control or channel ch changing the channel or whatever. So what the concept is to have a flip-top model. The. main functions such as which are like often used will be on the top. and the complex functions which say you you can say like the young generation or trendy generation want to pr say programme their favourite channels or whatever, can be put in the middle part of the flip-top. and we can punch in new features such as added features such as shock proof body. because there are times like people have used a remote control for say a year or something and they they are not used maybe thirty to forty percent of the buttons. so we we can maybe go for an economies of a higher production. so we can give in add in more features and make it less costly. if you ask me personally, I would make flip-top with a trendy design. and maybe we we should look at also like the buttons whe whether they are like soft or little hard. because they are times when the buttons tend to be a bit hard after continuous use usage and all that.</v>
+
+9
+00:12:58.860 --> 00:13:04.352
+<v ProjectManager>Okay so if anyone wants to write something down that they want to bring up at the end,</v>
+
+10
+00:14:08.520 --> 00:17:15.090
+<v MarketingExpert>I'm going to look at the functional requirements from the marketing point of view. we used our our usability lab, the company's usability lab,. we did our usual selection methods to get a cross-section of the general public,. all age groups from fifteen upwards. and we observed them in the lab,. Our findings, lots of findings,. I've just summarised some of them here. The overall thing which I've I've got at the top there in italics is that users dislike the look and feel of current remote controls,. we found that seventy five percent of users find most remote controls ugly. Eighty percent would spend more money when a remote control would look fancy,. but that's quite a high proportion of our our, you know, international target group are prepared to spend more money for something that's a bit nicer looking. current remote controls do not match well with the operating behaviour of the user overall. For example, you can see below there, seventy five percent of users zap a lot,. fifty percent of users only use ten percent of the buttons,. and possibly we can also cut back on cost if we don't have so many functions actually on the remote control. the biggest frustrations that people found with regard to personal preferences were something that you you mentioned earlier, remote controls are often lost in the room,. fifty percent were were particularly frustrated by that. thirty four percent of people take said they take too much time to learn to use. slightly more than a quarter of people said it was bad for repetitive strain injury. the vast majority of the thirty five and under age group would like a liquid crystal display and speech recognition,. again that was to aid I think in when they've lost the actual remote control, some kind of speech recognition. Something we didn't put to them, but which I'm thinking of now is even if perhaps the lost control can give off a bleep every now and again til you find it or a flashing light, possibly. So thirty fives and unders who would like those two features, that kind of evens out thirty five to forty five. and in the older age group it kind of reverses,. if there's any more information I can email you extra details,</v>
+
+11
+00:17:21.720 --> 00:18:15.500
+<v ProjectManager>We have new project requirements,. we're not going to be using teletext,. our control is only going to be for TV,. it's not going to be a combined control,. I think maybe Sky things like that might be incorporated into it, but. I don't know, what do you think?</v>
+
+12
+00:18:17.680 --> 00:18:19.310
+<v MarketingExpert>Would that imply video use?</v>
+
+13
+00:18:17.810 --> 00:18:47.000
+<v ProjectManager>But I mean, general TV controls do do video as well. I think we assume that it's still got play and stop functions and programming.</v>
+
+14
+00:19:15.830 --> 00:19:59.380
+<v IndustrialDesigner>Ju just as an idea on the speech recognition thing that pr it'd probably be quite expensive to incorporate an entire speech recognition thing. Yeah but on on that again I just thought 'cause you can get those key chains now and you whistle and then it'll let off a loud noise to let you know where it is</v>
+
+15
+00:20:00.740 --> 00:20:56.240
+<v ProjectManager>We do have a budget limitation that we can't control ourselves,. so I think when we can take a cheaper option which still does the same kinda thing. maybe on the TV you could put like a pack on the TV or something. so you can't see the remote, you go and press the button on top of the TV and it beeps. the third thing was that we have to make sure the corporate image is very much incorporated into the handset. so we want logo,. we want fashionable, trendy,</v>
+
+16
+00:21:07.810 --> 00:21:17.820
+<v MarketingExpert>Further market research will be needed to kind of focus on what that is,. it's gonna be different for a fifteen year old th for somebody who's sixty. and also across the world if we're aiming at the international market.</v>
+
+17
+00:21:40.210 --> 00:21:45.390
+<v UserInterface>So are we talking of a single model or maybe five, six designs?</v>
+
+18
+00:21:46.300 --> 00:21:49.220
+<v IndustrialDesigner>Well yeah you could you could have a number of different designs</v>
+
+19
+00:21:53.490 --> 00:21:56.650
+<v UserInterface>The features could be same and the body could look slightly different.</v>
+
+20
+00:22:03.950 --> 00:22:48.670
+<v ProjectManager>The controls that are coming out now have kind of big, rubber buttons,. I'm thinking kind of Japan,. I'm thinking young, office people,</v>
+
+21
+00:24:06.330 --> 00:24:12.860
+<v UserInterface>Maybe for US and all you can have a slightly bigger remote control. and maybe in Japan and all you need to have a small, yeah.</v>
+
+22
+00:24:12.560 --> 00:24:16.280
+<v ProjectManager>I think we have to design one product</v>
+
+23
+00:24:25.280 --> 00:24:29.510
+<v MarketingExpert>Th the internal engineering design has got to remain the same, yes, absolutely.</v>
+
+24
+00:26:44.710 --> 00:27:12.460
+<v ProjectManager>Okay, so the remote control functions. we've got the TV,. we've got the video,. now there's I can't remember what it's called, the little code at the end of programme details,. We could use that as an alternative to programming in times, things like that,</v>
+
+25
+00:27:38.940 --> 00:27:42.370
+<v IndustrialDesigner>And you wouldn't you wouldn't need a whole host of extra buttons for that,</v>
+
+26
+00:27:46.490 --> 00:27:47.760
+<v MarketingExpert>I've not come across that function</v>
+
+27
+00:27:50.730 --> 00:27:58.090
+<v ProjectManager>If you look in the newspaper, TV guide or any TV guide there's a five, six digit number afterwards</v>
+
+28
+00:28:48.080 --> 00:29:29.140
+<v MarketingExpert>But just discussing the different age groups and targeting the different age groups it occurs to me, to produce our own mobile phones, that that's kind of what led us on to comparing TV remote controls with with their design features,. chain companies like Carphone Warehouse, you can pop in anytime with a phone that you bought for them if you've got any problems with it and they'll fix it,. Is it worthwhile with with our retail outlets having a a similar kind of service. so that if older users were deterred from buying this, if they know they can just pop into one of our high street outlets, th you know, which button is it I press for this? Th as free as a free aspect of our service, would that not make it more attractive to them?</v>
+
+29
+00:29:30.630 --> 00:30:20.140
+<v IndustrialDesigner>But the only problem is that with a mobile phone you signed for a contract. but I I'm not sure how much the cost would be of having. I mean instru instruction books I feel I reckon can cover that.</v>
+
+30
+00:30:23.070 --> 00:30:29.090
+<v ProjectManager>There will be a customer service number thing that you can phone up and speak to</v>
+
+31
+00:30:37.640 --> 00:30:43.270
+<v UserInterface>For a phone maybe he might walk down the street,. but for a remote he will just refer to the manual and all that.</v>
+
+32
+00:30:44.690 --> 00:31:50.030
+<v ProjectManager>But we should focus on making the manual as user-friendly as possible. what other functions? I'm not sure if we need a design decision now,. oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that? th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or at night or something,. something like that should reduce the size of it.</v>
+
+33
+00:31:50.090 --> 00:31:57.344
+<v IndustrialDesigner>Yeah if you if you had if you had one of those just coming back to your other point about pressing the button and setting off the bleeper in the room that could</v>
+
+34
+00:32:02.530 --> 00:32:06.160
+<v UserInterface>So are we talking of a concept of a rechargeable something on the remote?</v>
+
+35
+00:32:07.730 --> 00:32:27.700
+<v ProjectManager>Rechargeable with a docking station. th the shape you got trendy.</v>
+
+36
+00:32:43.220 --> 00:32:46.080
+<v MarketingExpert>I mean so many remote controls look absolutely identical,</v>
+
+37
+00:33:02.820 --> 00:33:47.460
+<v UserInterface>What I was thinking of a design which Nokia came up with almost six or seven years back. so they came up with something like this, curled up, so here,. so it's like you can say a banana shape kind of thing, curled up like a boat. I wouldn't say exactly semi-circular but yeah smooth.</v>
+
+38
+00:34:00.790 --> 00:34:13.940
+<v ProjectManager>I mean for example, if it was a or something like that, you could have it in a vague shape that opens up kind of like a shell, or something,</v>
+
+39
+00:34:47.030 --> 00:35:16.700
+<v MarketingExpert>I think that's that sounds a really attractive idea,. you know even though we're using plastic, you can still I mean think of the designs you can get in plastic,</v>
+
+40
+00:35:27.700 --> 00:35:38.671
+<v ProjectManager>You could have different kind of casings. So you could have like psychedelic ones for younger people and sleek ones and</v>
+
+41
+00:35:43.150 --> 00:35:48.090
+<v MarketingExpert>And people might want to put it on their mantelpiece or whatever as a ki if it looks attractive enough as a kind of ornament</v>
+
+42
+00:35:54.550 --> 00:35:57.070
+<v UserInterface>Yeah maybe we could come at some say five, six des designs</v>
+
+43
+00:36:07.990 --> 00:37:38.340
+<v MarketingExpert>Can I just quickly go over the new project requirements so that I haven't missed anything. So it's no teletext,. it's only for TV and by implication video,. our corporate image should be incorporated in the remote control,. something about Videoplus. and the rechargeable batteries. That's not at the moment a requirement,</v>
+
+44
+00:37:41.990 --> 00:38:03.840
+<v ProjectManager>And we've talked about there being an alarm or something, a beeping for being lost,. and the I the instruction manual, I don't know if we deal with that,.</v>
+
+45
+00:38:14.550 --> 00:38:46.990
+<v MarketingExpert>What would you specifically like marketing to look at before the next meeting? 'Cause we're at lunchtime now I think.</v>
+
+46
+00:38:53.430 --> 00:38:57.390
+<v ProjectManager>I think you can email me, if there's any more questions.</v>
+

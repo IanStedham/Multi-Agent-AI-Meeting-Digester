@@ -1,0 +1,310 @@
+WEBVTT
+
+1
+00:00:35.640 --> 00:01:31.650
+<v ProjectManager>Just to try and roughly go over what we agreed in the last one,. something that looks good. 'cause that seems to be in preference to actual functionality in the end,. many of our components are gonna be standard, off the shelf,. but it seemed like we were gonna require at least an advanced chip. and we were still very much for the idea of using an LCD display. other things were we were hoping to use rubber,. most likely gonna be double curved, etcetera. due to your hard work, we might as well let the two designers go first,. and show us the prototype. Quite how the best way to do this is, I'm not sure,</v>
+
+2
+00:01:30.656 --> 00:04:00.760
+<v UserInterface>I think if we both step up. and outline our ideas. do doing the prototype gave us a bit more insight into the ergonomics of the design. for one thing, it turned out that the only point at which it needs to be articulated for handedness is is i is down here for the LED. As it turned out, the whole thing transfers from the right to left hand fairly well from the point of view of operating the function buttons and joystick,. You could simply have a slightly ovoid shaped joystick. that could then just be turn twisted round,. But as you as you see with the with holding it in the left hand, the the LCD is nowhere useful,. so that would need to be articulated if we're going to retain ergonomic design. I I got your note about keeping the cost down. this design could be done with with plastic casing. Though I would recommend around the grip part here in the middle, having maybe just a rubber grip over that. which would allow for a slightly more sort of bio-morphic form, and a bit more ergonomic as well. As for the as for the single curve, well this edge and this edge, like I say it would be nice to have some curvature to it,. Really the curve that's most needed is the underside. and you have the transmitter here and a wee speaker for the for the for the fi for the remote control finder.</v>
+
+3
+00:04:05.790 --> 00:04:24.380
+<v IndustrialDesigner>Obviously it's gonna be bulkier than how it looks,. because it's gonna be flat on one side,. And it's plastic as well,. so it won't be as comfortable on the hand.</v>
+
+4
+00:04:33.250 --> 00:04:47.560
+<v UserInterface>If we could if we could still do the rubber, I though of was to have the rubber extend beyond the end of the of the rigid substructure. So it has a wee sort of tail. that you just drape over your wrist</v>
+
+5
+00:05:29.940 --> 00:07:18.269
+<v MarketingExpert>Basic point have a list of criteria that we need to rate the prototype by. it's a seven seven seven step kinda evaluation process. after we've finished doing all the ratings for each criteria,. we average that. And the criteria based on Real Reactions' kinda goals and policies, marketing strategies, and also those I put together from the user requirements phase. those are the criteria. And perhaps I could have put 'em a bit better,. but you notice a few things that we've totally abandoned,. which means that the product will score very badly on some of those points. we have to go through each point. and just give it a a score. how well have we realised the dream of being able to stop remotes from from being lost, or to be able to find them once they are lost. I mean, is the homing thing still the locator, is that still</v>
+
+6
+00:07:17.830 --> 00:07:19.440
+<v UserInterface>Yeah, that's still part of the design.</v>
+
+7
+00:07:23.280 --> 00:07:26.710
+<v ProjectManager>I mean I don't think anybody could actually stop a remote being lost,</v>
+
+8
+00:07:35.470 --> 00:07:37.320
+<v UserInterface>And making it a bright colour helps</v>
+
+9
+00:07:41.490 --> 00:07:49.670
+<v MarketingExpert>We still have that noise thing,. on a scale of one to seven, how would you guys rate it for finding finding it once it's lost?</v>
+
+10
+00:07:51.740 --> 00:07:52.820
+<v UserInterface>I'd say number one.</v>
+
+11
+00:08:36.290 --> 00:09:06.930
+<v ProjectManager>Just before we go through all of the steps here, well what we'll do is. if we can look at the criteria you're gonna evaluate,. and then we'll come back to the product evaluation. is there anything here that you that you wanted to cover as in the criteria that you've covered? And then we'll come back pretty much promptly to this.</v>
+
+12
+00:09:18.880 --> 00:10:06.360
+<v MarketingExpert>Something I neglected from my initial research. is that Real Reactions has a a goal strategy that all of the products be inspired by material fashion, and clothing fashion. That is why fruit and veg being popular in the home and in clothing was important. And this bit is this one easy to use for visitors or for anybody? I guess it's just the same as saying easy to use interface,. And we can come back to it, you said.</v>
+
+13
+00:10:19.820 --> 00:12:21.030
+<v ProjectManager>Slight problem we had. was that we have an amazing four Euros over budget for what we were hoping to do. most of it stems from the use of the LCD. which I think in the end accounted for about half of our expenditure. the only way to get this down was either to ditch the a LCD,. at which point we've removed a large part of how we were gonna interface,. Or what we did was that we we as in I as I was quickly going over it was altering the actual structure. changing it to plastic and a solid unit with a single curve design would allow us to come back into the proposed costs. we've got point two of a Euro left over there. Even then as well, there was no criteria technically defined for a joystick. so I've used what I think's appropriate. It blows a lot of our really good ideas kind of slightly to one side,. for example the possibility of having a USB connection is definitely not viable now.. We've got an advanced chip,. we've got the use of the LCD. I really think as much as it pains me. is that we might have to go with plastic and some kind of solid design,. possibly meaning that the LCD wouldn't be in this perfect place.</v>
+
+14
+00:12:27.220 --> 00:12:31.690
+<v UserInterface>- I suppose one thing that could be done is is have it circular</v>
+
+15
+00:12:45.410 --> 00:12:52.830
+<v MarketingExpert>Do you have any data on how much different prints cost? I mean can you get the entire thing printed with a design?</v>
+
+16
+00:12:59.420 --> 00:14:59.420
+<v ProjectManager>You now have as much information as I do.. I've said single curved. We really do need it to be that way for the ergonomics of it. plastic for some reason incurs no cost,. if I've read this thing correctly, then we can save point five of a Euro here in that it's not per push button. As you can see, the use of an LC display advanced chip and what would determine the scroll wheel here as well. because it's an integrated scroll scroll wheel push button that wasn't quite what I think they had in mind with a joystick. I'm very much open to suggestions of where we go,. this one comes in under price as you can see,. but this was the one that sacrificed the material for the case and for the actual case design.</v>
+
+17
+00:15:02.720 --> 00:15:07.060
+<v MarketingExpert>What about speakers and transmitters and stuff like that? Have we factored that in?</v>
+
+18
+00:15:08.730 --> 00:15:12.275
+<v ProjectManager>No, we haven't, not</v>
+
+19
+00:15:10.810 --> 00:15:17.670
+<v MarketingExpert>Transmitter, receiver, speakers. Plus the extra device itself that's gonna be on a TV.</v>
+
+20
+00:15:22.650 --> 00:15:24.880
+<v IndustrialDesigner>That's too expensive</v>
+
+21
+00:16:41.460 --> 00:16:44.900
+<v ProjectManager>If we remove the LC display, we could save ourselves</v>
+
+22
+00:16:51.540 --> 00:16:57.480
+<v UserInterface>I think if we remove the the LC display then there was absolutely no point to any of these meetings</v>
+
+23
+00:17:11.270 --> 00:18:03.460
+<v ProjectManager>If we could've increased the price we could've manufactured that and we could've got something far closer to what we were hoping to. but for the purposes of this meeting, I'm we're gonna have to stick with these figures. I would say that it would seem like the general opinion is we're gonna keep the LC display. are people maybe not happy with, but are willing to go ahead with this in going for a plastic solid case, to keep the LCD?</v>
+
+24
+00:18:08.250 --> 00:18:14.400
+<v UserInterface>I mean ho how much extra would it be to to keep I mean keep the the articulation?</v>
+
+25
+00:18:16.390 --> 00:18:22.210
+<v ProjectManager>I would say that you're at least gonna take double curved,</v>
+
+26
+00:18:31.400 --> 00:18:32.720
+<v IndustrialDesigner>It can still be single curved,</v>
+
+27
+00:18:41.420 --> 00:18:50.910
+<v MarketingExpert>Could we could we not get rid of the curvy the curvous the curvaceousness. and focus on the menu being the best interface?</v>
+
+28
+00:19:36.570 --> 00:19:44.210
+<v ProjectManager>So I mean for the purposes of this meeting maybe we can state that single curve still allows articulation.</v>
+
+29
+00:20:08.020 --> 00:20:11.660
+<v MarketingExpert>Sample speaker? What is a sample speaker?</v>
+
+30
+00:20:15.520 --> 00:20:37.903
+<v UserInterface>That's that voice response thing that we got the email about. But I thought it was just completely pointless. B i basically it was saying that our labs had come up with a chip. and it would say hello back in a friendly female voice.</v>
+
+31
+00:20:51.030 --> 00:20:54.850
+<v MarketingExpert>It looks like we're gonna get rid of the whole loca locator thing.</v>
+
+32
+00:21:19.520 --> 00:21:22.840
+<v ProjectManager>One point five of a Euro for one push button doesn't sound quite right.</v>
+
+33
+00:21:47.930 --> 00:21:50.890
+<v UserInterface>L let's say that and then we can have our special coloured case</v>
+
+34
+00:22:07.980 --> 00:22:37.800
+<v ProjectManager>I quite like that colour that you're fetching there,. make it glow in the dark even better. we'll come back to your evaluation. Just to give you an idea, you want to go maybe a bit quickly as well,</v>
+
+35
+00:22:44.510 --> 00:22:47.960
+<v MarketingExpert>Ability to stop remotes from being lost or to find them once they are lost.</v>
+
+36
+00:22:57.970 --> 00:23:00.530
+<v UserInterface>Three. I think we can do three.</v>
+
+37
+00:23:12.020 --> 00:23:13.730
+<v MarketingExpert>Reduce the number of unused buttons.</v>
+
+38
+00:23:19.730 --> 00:23:21.820
+<v ProjectManager>I'd say we're doing well there.</v>
+
+39
+00:23:22.780 --> 00:23:35.520
+<v MarketingExpert>Easy to use interface, buttons menu, menus. we're not doing so badly. easy to use. let's forget that one.</v>
+
+40
+00:23:38.770 --> 00:23:40.940
+<v UserInterface>It doesn't get much fancier.</v>
+
+41
+00:24:10.330 --> 00:24:12.360
+<v MarketingExpert>We're getting rid of the locator thing</v>
+
+42
+00:24:14.320 --> 00:24:27.650
+<v UserInterface>I'd give it a three for this for that. I mean the menus thing is something you don't normally see on on a remote,</v>
+
+43
+00:24:52.190 --> 00:24:57.670
+<v MarketingExpert>Materials that people find pleasing. Sponginess is what they really would have wanted, apparently.</v>
+
+44
+00:25:07.290 --> 00:25:08.940
+<v ProjectManager>Plastic, it sucks.</v>
+
+45
+00:25:15.660 --> 00:25:19.400
+<v UserInterface>-. I'd I I'd give it a six, to be honest.</v>
+
+46
+00:25:24.750 --> 00:25:30.480
+<v MarketingExpert>That's totally thrown everything off balance. Inspired by the latest interior and clothing fashion.</v>
+
+47
+00:25:34.130 --> 00:25:46.560
+<v UserInterface>I I I would sa I would say give a give a selection of colours. we went with yellow we went with yellow for the prototype. Leopard print would be cool.</v>
+
+48
+00:25:46.870 --> 00:25:51.616
+<v MarketingExpert>But by this I think it's more a case of fruit and veg,</v>
+
+49
+00:25:59.230 --> 00:26:03.050
+<v ProjectManager>It would also help keep the the product placement</v>
+
+50
+00:26:13.690 --> 00:26:19.392
+<v MarketingExpert>Is this like a banana type colour? it's not shaped like a banana is</v>
+
+51
+00:26:29.720 --> 00:26:36.010
+<v UserInterface>I I think I I think this isn't not particularly fruit and veggie..</v>
+
+52
+00:26:43.040 --> 00:26:47.920
+<v ProjectManager>I mean it's probably more fruit and veg than most other things out there bar fruit and veg,</v>
+
+53
+00:26:53.220 --> 00:27:06.760
+<v UserInterface>I'd I'd I don't think fruit and veg is the sole criterion. Is the sole criterion for being fashion fashionable or inspired by current fashions.</v>
+
+54
+00:27:44.360 --> 00:27:48.010
+<v ProjectManager>And we can make it yellow,. and that's pretty much banana like.</v>
+
+55
+00:27:57.850 --> 00:27:58.880
+<v IndustrialDesigner>Yeah, I'll go with five.</v>
+
+56
+00:28:07.270 --> 00:28:30.840
+<v MarketingExpert>We have one, two, three, four, five, six, seven. So five, seven, ten, sixteen, twenty one. Which gives us an average of three. it's it's not bad.</v>
+
+57
+00:28:50.550 --> 00:28:59.080
+<v ProjectManager>Considering the price we had to get this in, to have a positive you know, even based on the four of us being heavily biased,</v>
+
+58
+00:30:05.120 --> 00:30:09.500
+<v UserInterface>Are people really gonna shell out twenty five Euros for something that's only marginally good?</v>
+
+59
+00:30:52.340 --> 00:30:55.660
+<v IndustrialDesigner>Which which kind of people would be more likely to buy it?</v>
+
+60
+00:30:57.760 --> 00:30:59.270
+<v ProjectManager>Probably the people technologically.</v>
+
+61
+00:31:14.270 --> 00:31:53.970
+<v MarketingExpert>I think if sh if my mum saw a remote control like this with only two buttons and a joystick, I mean that'll probably be the first one she decides not to buy,. I think it's totally radical to have a remote control with no no numbered buttons,</v>
+
+62
+00:32:03.780 --> 00:32:55.540
+<v ProjectManager>Quickly we'll pop onto project evaluation.. we've got these four criteria here for satisfaction. Does anybody want to do you have any opinions on any of them? people made good use of the pen and paper? I'm not quite sure what the advantage for us using a digital pen might be.</v>
+
+63
+00:32:56.330 --> 00:33:14.320
+<v UserInterface>I think this is a I think the digital pen's mostly for the benefit of the. of the researchers studying this. Though it would have been nice to be able to transfer the. transfer our our paper notes onto the computer ourselves.</v>
+
+64
+00:33:27.660 --> 00:33:31.460
+<v ProjectManager>How are people satisfied with the teamwork we've managed to display today?</v>
+
+65
+00:33:33.400 --> 00:33:34.000
+<v MarketingExpert>Yeah I liked it,</v>
+
+66
+00:33:38.870 --> 00:33:50.800
+<v ProjectManager>Leadership. As much as can be leadered in this thing. last one we've got is room for creativity.</v>
+
+67
+00:33:51.050 --> 00:33:56.090
+<v UserInterface>Unti until until accounts came along,</v>
+
+68
+00:33:56.240 --> 00:33:59.030
+<v IndustrialDesigner>We're burs bursting with creativity.</v>
+
+69
+00:33:59.400 --> 00:34:02.110
+<v MarketingExpert>We we're not lacking in ideas,</v>
+
+70
+00:34:05.700 --> 00:34:22.850
+<v ProjectManager>I think of in the end, ideas that can be used sadly. Not so much that we weren't full of ideas, but of ones that are gonna allow us to actually build the thing. I think we needed a larger budget.</v>
+
+71
+00:34:35.970 --> 00:34:51.340
+<v UserInterface>I mean I th I mean I think to retaining the the more sort of bio-morphic form in the articulation would gain more in would gain more profit in sales than it would lose in</v>
+
+72
+00:35:37.550 --> 00:35:44.350
+<v ProjectManager>I I think it's gone okay today, considering the information that we've had at our disposal, and such.</v>
+
+73
+00:35:43.840 --> 00:35:50.680
+<v MarketingExpert>Maybe the counts wou woulda been better if we had a list or more Yeah, to begin with.</v>
+
+74
+00:35:57.560 --> 00:36:07.600
+<v ProjectManager>It is very much a pity to get so far into the stage and then find out that maybe some of your ideas are just a bit too expensive.</v>
+
+75
+00:36:35.020 --> 00:36:53.980
+<v UserInterface>I mean something that could perhaps be part of the product the product testing market research process would be to produce mock-ups of both versions. and see just how much of a difference the over going over-budget. would make to sales.</v>
+
+76
+00:37:19.630 --> 00:38:22.130
+<v ProjectManager>Is there anything else that anybody would like to to add,. before I quickly write up a final report. but we've got something. we think we can maybe stick onto the the market and sell. unless anybody's got anything they'd like to add, we can maybe round this up slightly earlier than we'd need to. and then we can finish up the writing and such.</v>
+
+77
+00:38:33.056 --> 00:38:44.660
+<v MarketingExpert>I was actually kind of upset you know at the budget, and that we had to cut a lot of stuff.</v>
+

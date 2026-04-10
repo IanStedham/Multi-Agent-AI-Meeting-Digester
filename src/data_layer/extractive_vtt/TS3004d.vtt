@@ -1,0 +1,342 @@
+WEBVTT
+
+1
+00:00:43.860 --> 00:01:13.370
+<v ProjectManager>F You're going to show your pr prototype presentation after me. So these are the last notes we I made. If anything doesn't look right, just say it to me then.</v>
+
+2
+00:01:18.530 --> 00:01:20.900
+<v UserInterface>Are we doing the the speech recognition?</v>
+
+3
+00:01:25.960 --> 00:01:29.160
+<v ProjectManager>Okay, but it's still possible financially.</v>
+
+4
+00:01:30.710 --> 00:01:32.620
+<v UserInterface>Okay yeah. Well then then we're gonna put it in.</v>
+
+5
+00:01:37.920 --> 00:01:41.700
+<v IndustrialDesigner>Or are we making a slide open, like underneath?</v>
+
+6
+00:01:44.350 --> 00:01:47.880
+<v ProjectManager>Slide open is quite usable for remote controls.</v>
+
+7
+00:01:51.444 --> 00:02:12.190
+<v UserInterface>It's may maybe a bit stronger as well. Yeah, we're gonna use the advanced chip then.</v>
+
+8
+00:02:20.740 --> 00:02:27.430
+<v ProjectManager>No, you have a different chip for speech recognition. So. So I already calculated that and it's still in the budget.</v>
+
+9
+00:02:51.310 --> 00:03:54.120
+<v IndustrialDesigner>Yeah, we just made a Word file with the basic elements. Simply a square with round corners. the material should be hard plastic. colour changeable, and also transparent. The functions are just basic. Mute function, on-off function, text functions. And the logo is over here, and the mic.</v>
+
+10
+00:04:06.100 --> 00:04:12.090
+<v ProjectManager>So how many functions do you need for for the microphone? Yeah, speech recognition.</v>
+
+11
+00:04:12.400 --> 00:04:21.730
+<v UserInterface>I didn't have a specification of that. But I can imagine that you have to input your voice or something.</v>
+
+12
+00:04:12.660 --> 00:04:14.620
+<v ProjectManager>Only one button to say it's on or off.</v>
+
+13
+00:04:25.810 --> 00:04:29.940
+<v UserInterface>Yes, you need options to configure it, and after that you don't need 'em anymore.</v>
+
+14
+00:04:36.240 --> 00:04:40.400
+<v IndustrialDesigner>Well we haven't had time to design that, the slide pad.</v>
+
+15
+00:04:49.990 --> 00:07:07.640
+<v UserInterface>I can imagine you need at least four buttons or something. So. on-off buttons, text buttons, mute buttons are together and at a place they easily are, easy to find. the on-off button is a bit bigger, so it stands out. It's basically the be standard place for scrollwheel, as far as I know. It's twelve buttons. F the form well, we've taken that from the iPod, other popular technical device. we'll use hard plastic. Since that allows us to use two buttons, non-rubber buttons. We have decided in the the channel buttons, there's a little colour around it. And also in the num-pads, there's also colour light behind it.</v>
+
+16
+00:07:26.600 --> 00:07:37.150
+<v MarketingExpert>Okay, there is one function I use daily, and it's not on the basic functions. It's to switch to your Scart.</v>
+
+17
+00:07:39.710 --> 00:07:41.944
+<v IndustrialDesigner>Okay, maybe we use this button for the</v>
+
+18
+00:07:49.280 --> 00:07:54.488
+<v ProjectManager>Just just draw a second level one and say all options that are still left or something.</v>
+
+19
+00:08:01.530 --> 00:08:05.270
+<v MarketingExpert>And how does the second level come out? it slides along?</v>
+
+20
+00:08:57.300 --> 00:09:00.880
+<v UserInterface>Right, the video channel, Play Station, etcetera. That's used pretty often.</v>
+
+21
+00:09:23.640 --> 00:09:26.960
+<v IndustrialDesigner>So here are multiple speech buttons,. I don't know how many.</v>
+
+22
+00:09:35.520 --> 00:09:37.370
+<v UserInterface>Menu buttons with arrows.</v>
+
+23
+00:10:09.480 --> 00:10:12.320
+<v MarketingExpert>Maybe one button to switch the colour of your LEDs?</v>
+
+24
+00:11:00.060 --> 00:11:05.050
+<v UserInterface>Yeah, maybe some some text next to the scroll wheel, that it is volume.</v>
+
+25
+00:11:15.150 --> 00:12:12.630
+<v MarketingExpert>There's one text button I prefer. That's the one that you use if you search for a page, like seven hundred, and it's counting from one hundred to two hundred, you will switch to your television and back to text. If you if you turn teletext on, you you set the seven hundred, and you turn it off, then the next time you turn it on, it still stays on seven hundred?</v>
+
+26
+00:12:14.920 --> 00:12:17.176
+<v ProjectManager>That's a functionality for the television.</v>
+
+27
+00:12:24.620 --> 00:12:33.840
+<v IndustrialDesigner>The remote can send like the the code for seven hundred, page seven hundred to the television. Th th th if you switch it on.</v>
+
+28
+00:13:11.320 --> 00:13:33.060
+<v MarketingExpert>The buttons? from which material are they now? Because if you use it a couple of years, some sometimes the numbers on the on the buttons are slide away,. And maybe we can write the numbers below or above?</v>
+
+29
+00:13:47.720 --> 00:13:51.650
+<v IndustrialDesigner>I think you have that problem more often with rubber buttons.</v>
+
+30
+00:14:15.120 --> 00:15:56.890
+<v MarketingExpert>Yeah, I made some criteria, so we can ev evaluate our model. and we have to test the criteria from one to zero. We sh we we we can give it a number, and then we can give ourself an average for our. And we have to discuss about, if we give it a one or a seven.</v>
+
+31
+00:16:20.660 --> 00:16:26.480
+<v UserInterface>If it's really, if you can if you can get the iPod look, then it's beautiful, I think.</v>
+
+32
+00:16:33.180 --> 00:16:36.410
+<v MarketingExpert>The basic colours are black or green or yellow?</v>
+
+33
+00:16:40.360 --> 00:17:14.730
+<v UserInterface>Maybe company colours? A bit a bit of yellow. Yeah, grey. Just dark grey I think.</v>
+
+34
+00:17:28.410 --> 00:17:31.650
+<v MarketingExpert>Changeable fronts, so ev for everyone for everyone it's something beautiful.</v>
+
+35
+00:17:45.320 --> 00:17:49.128
+<v ProjectManager>Okay, just give it a two.</v>
+
+36
+00:17:49.930 --> 00:18:28.760
+<v MarketingExpert>The fancy look-and-feel. And we can change the colours, so that's really fancy I think. It's pretty cool. If you slide it open, it lights up.</v>
+
+37
+00:18:54.550 --> 00:18:59.790
+<v IndustrialDesigner>And th and the the normal backlights also not the buttons, but behind the buttons.</v>
+
+38
+00:19:19.440 --> 00:19:26.400
+<v MarketingExpert>I think it's one. Learnable? Easy to use?</v>
+
+39
+00:19:30.040 --> 00:19:34.310
+<v ProjectManager>It's it's very easy to use, but the second layer is not easy to use.</v>
+
+40
+00:19:36.890 --> 00:19:40.100
+<v IndustrialDesigner>And you on don't have to pay attention to that second layer.</v>
+
+41
+00:19:49.370 --> 00:19:57.910
+<v MarketingExpert>Because because I think I think the scroll wheel, it's very handy, but the first time you get this thing in your hands, it's not to use the scroll wheel.</v>
+
+42
+00:21:16.270 --> 00:21:16.790
+<v UserInterface>Then a two.</v>
+
+43
+00:21:20.470 --> 00:21:26.900
+<v MarketingExpert>New features. Techno technological innovative? The speech function is new.</v>
+
+44
+00:21:25.880 --> 00:21:29.590
+<v UserInterface>And the scrollwheel, backlights, slide.</v>
+
+45
+00:21:27.640 --> 00:21:30.540
+<v MarketingExpert>And the slide. I think the slide is pretty new.</v>
+
+46
+00:22:04.680 --> 00:22:08.770
+<v UserInterface>But then we also have the the home station. We are forgetting about that now, but</v>
+
+47
+00:22:12.440 --> 00:22:14.600
+<v IndustrialDesigner>Yeah, we didn't draw that too, but</v>
+
+48
+00:22:59.540 --> 00:23:10.590
+<v ProjectManager>Okay. And new features, so we give it a two or also again a one? No, just so it's still a two.</v>
+
+49
+00:23:24.220 --> 00:23:29.770
+<v MarketingExpert>Yeah, but did we reach, with our style, the targeted audience?</v>
+
+50
+00:23:31.300 --> 00:23:36.340
+<v ProjectManager>You get the fancy things for younger people. And you get the the aesthetic things for older people.</v>
+
+51
+00:24:03.070 --> 00:24:05.530
+<v MarketingExpert>But we didn't follow the latest trends.</v>
+
+52
+00:24:09.420 --> 00:24:27.510
+<v IndustrialDesigner>Yeah, you could make a a front. Like a a banana kind of front.</v>
+
+53
+00:24:31.770 --> 00:24:33.600
+<v MarketingExpert>So we give ourself a three or something.</v>
+
+54
+00:24:47.120 --> 00:24:48.900
+<v ProjectManager>Yeah, it is one point eight three.</v>
+
+55
+00:24:53.640 --> 00:24:55.740
+<v MarketingExpert>A perfect score.</v>
+
+56
+00:25:54.040 --> 00:26:14.488
+<v ProjectManager>Okay, let's have a look at this one here, the production cost of it. Yeah, there are some that they didn't mention, because recharge is not on the list. So I think we are pretty much in the right direction, because it's twelve point three Euros.</v>
+
+57
+00:26:27.380 --> 00:26:37.933
+<v IndustrialDesigner>But but is it inc Does it include a a homestation or. Can we make that for twenty cents?</v>
+
+58
+00:26:37.910 --> 00:27:09.500
+<v ProjectManager>The the button supplements, I didn't I I was wondering if this special colour maybe was. But this is expensive, the sample speaker.</v>
+
+59
+00:27:17.460 --> 00:27:21.660
+<v UserInterface>Is that included? In the twelve Euro or</v>
+
+60
+00:27:21.240 --> 00:27:26.010
+<v IndustrialDesigner>It's kind of weird that we we get this information now, afterwards.</v>
+
+61
+00:27:39.700 --> 00:28:02.210
+<v ProjectManager>So we can do the project evalu evaluation now for for everything together. Was there room for creativity?</v>
+
+62
+00:28:20.200 --> 00:28:22.100
+<v UserInterface>I Yeah, I think so.</v>
+
+63
+00:28:26.200 --> 00:28:34.570
+<v IndustrialDesigner>Yeah If we got a high mark for innovativeness or innovativity</v>
+
+64
+00:28:36.680 --> 00:28:39.400
+<v UserInterface>I think we discussed a lot of things about it. So</v>
+
+65
+00:28:57.110 --> 00:28:59.273
+<v ProjectManager>Okay, so the leadership</v>
+
+66
+00:29:12.168 --> 00:29:19.050
+<v IndustrialDesigner>Just normal discussion, I think. Not. one leader or something.</v>
+
+67
+00:29:38.610 --> 00:29:47.500
+<v ProjectManager>The third meeting I think that one was pretty hard. We were not all We were not agree with every not agree with.</v>
+
+68
+00:29:52.260 --> 00:30:06.670
+<v UserInterface>I think we we got wrong information at the wrong time. I think that was the biggest problem. Like the prices. If we knew that before, we could have had discussion really really quicker.</v>
+
+69
+00:30:25.620 --> 00:30:26.820
+<v ProjectManager>But the teamwork was okay.</v>
+
+70
+00:30:27.130 --> 00:30:30.320
+<v MarketingExpert>Yeah, everybody could speak their opinion.</v>
+
+71
+00:30:31.800 --> 00:30:34.890
+<v UserInterface>I think everyone listen to each other.</v>
+
+72
+00:30:45.510 --> 00:30:55.830
+<v ProjectManager>The smart board is okay. Digital pen is horrible. But if you want to download it to your computer, it's doesn't work.</v>
+
+73
+00:30:56.070 --> 00:31:03.550
+<v UserInterface>Well smart board would be very nice to work with, if it worked really well.</v>
+
+74
+00:31:03.350 --> 00:31:06.830
+<v IndustrialDesigner>Yeah, i if if it would be faster, it would be great.</v>
+
+75
+00:31:03.900 --> 00:31:08.010
+<v MarketingExpert>Yeah, the drawings are are hard to make, I think.</v>
+
+76
+00:31:39.810 --> 00:31:47.330
+<v IndustrialDesigner>Just old fashioned kinda blackboard style. But you might as well do it in normal computer style.</v>
+
+77
+00:32:09.190 --> 00:32:17.360
+<v ProjectManager>So we made it in time. And we made a remote control. In the budget, yeah.</v>
+
+78
+00:32:19.110 --> 00:32:20.080
+<v UserInterface>New ideas found.</v>
+
+79
+00:32:25.900 --> 00:32:27.570
+<v ProjectManager>I don't know what it mean.</v>
+
+80
+00:32:31.800 --> 00:32:39.000
+<v MarketingExpert>To gather, or to work together, or new ideas for</v>
+
+81
+00:32:57.520 --> 00:33:12.950
+<v IndustrialDesigner>Yeah, but still, you couldn't make a fancy a you couldn't make a a prototype out of this. Because we don't have any sizes and. Yeah, but it You can't possibly do that in such a short time, I think.</v>
+
+82
+00:33:18.880 --> 00:33:21.130
+<v UserInterface>Yeah, this this is just the idea phase,</v>
+
+83
+00:33:44.080 --> 00:33:46.360
+<v ProjectManager>I think just I just write a final report.</v>
+
+84
+00:44:11.360 --> 00:44:13.130
+<v UserInterface>Guys, I think we have to finish the meeting.</v>
+
+85
+00:44:29.480 --> 00:44:30.820
+<v IndustrialDesigner>Fill in the questionnaire.</v>
+

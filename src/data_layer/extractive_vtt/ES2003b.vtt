@@ -1,0 +1,154 @@
+WEBVTT
+
+1
+00:00:56.810 --> 00:02:24.530
+<v ProjectManager>We'll start with the minutes of the last meeting. discussed the possibility of a macro facility, interac interacting the TV a bit more, mentioning of bar-code, joystick for user manipulation, and ergonomics of the remote control as well. it's come to my attention the following. Teletext has become outdated due to the populat popularity of the internet. Remote control should only be used for the TV. due for time to market and possibly also cost issues. also key is the corporate image should stay recognisable,. your colour and slogan of course is down at the bottom there. Just to say quickly I would have thought that only being used for a television the macro facility may now not be required. to the point in my opinion anyway that it might not be worth pursuing. if anybody disagrees we can definitely say so. I'd like to if possible hear from our Marketing Expert first,</v>
+
+2
+00:03:08.930 --> 00:08:24.950
+<v MarketingExpert>Functional requirement by me Ebenezer. we did some research,. we asked one hundred people their opinions on remote controls. We asked some open ended questions,. and we asked some very specific questions,. Please bear in mind this is only a hundred people,. so even when the groups are divided into fifteen to twenty five, twenty five to thirty five, there's only maybe ten people fifteen people in each group. some the bad stuff we got,. remotes are often lost. Most buttons are not used any more,. like you said, teletext is outdated now. there's just a lot of stuff that no one really uses. Takes too long to master the remote control. I've seen some remote controls that are big,. they have a lot of buttons,. you have to hold down more than one key at one time to do something,. Some of the good stuff we got. Between the age of fifteen and twenty five, most people would be willing to pay extra for voice recognition software. most people want remote controls to be pretty,. they want it to be fancy,. th they they want it to be different,. Finally, my opinion. The voice recognition thing is cool. And voice recognition, the software, open source software exist already. It's a bit sketchy at some times,, you're not gonna get good always accurate results,. but for a very fixed number of words,. how many different words can you have for a remote control,. up, down, left, right, channel five, channel seven,. For a fixed vocabulary it works quite well. I'm pretty sure people would buy it. I mean most people use a remote control for switching to channels,. So if you have to say up, up, up, up, if you have to do that all the time, then people might get a bit fed up with that. However, oh, because the voice recognition software exists already,. there's no need to spend money on research and development,. but this does mean the need for microphones in the in the remote control,. which is an unusual feature in my opinion. But if we do have the voice recognition thing, there's a lot of stuff that you can get rid of. there're two options. Either you have voice recognition by itself,. which I think is a bit impractical for like night time if you wanna be watching television and you wanna be quiet,. or I don't know you have a visitor coming round and the remote's only trained for you, it's a bit impractical to have just voice recognition by itself. So you can have voice recognition and a regular remote. But imagine you got rid of the regular remote part, then you can design the remote to look any way you want it to look,. but is it practical to have a voice recognition system in a remote control,. will people will people be willing to wait for the the period that it'll take to train the remote,. I think a lot of young people will buy the remote control, if they have the money,. but would they return it after a while</v>
+
+3
+00:08:33.530 --> 00:08:35.620
+<v ProjectManager>If you could speed it up a bit, yeah.</v>
+
+4
+00:08:37.610 --> 00:08:38.670
+<v MarketingExpert>I'm about to end, yeah.</v>
+
+5
+00:09:17.620 --> 00:12:45.650
+<v UserInterface>This is a brief run through of the of the technical functions of the remote. the presentation is already slightly obsolete. because I had in mind something that would be i be aimed at controlling multiple devices. I've looked at looked at a num couple of other remote control models just for an idea of basic design principles. basically the job of the device is to send commands to an appliance, in this case the television set. and there's two main trends in th in the sort of design practice. On the one hand and this this particularly relates to its sort of earliest models where with you know i so so many buttons on it. giving you every possible function that the that the device has, the remote control controls. it creates a rather user unfriendly interface. And on the other hand there's a user focused approach. that pares things down to just what what is most likely to get used. and of course there is a certain amount of sort of loss of function here obviously,. And so you go for something that's fairly intuitive to use,. My own view is that we should definitely be going for a user focused design. but the pro I think the problem with a lot of the sort of user focused designs that are about is that they sort of make assumptions in advance. about what what a given user's going to want mo want to do from want it to do most. something that's something that is more programmable,. that perh perhaps has the full range of functions available to it. but you can then specify yourself what you're most likely to want. I liked Ebenezer's idea of including a joystick in that and possibly a sort of fairly minimal number of sort of function buttons,. you then have some sort of basic display on it. so that if you're sort of cha changing from different modes for the device it'll tell you just exactly what you know each direction of the of the joystick's going to do or wha or what each function button's going to do.</v>
+
+6
+00:14:47.480 --> 00:16:57.560
+<v IndustrialDesigner>I'm responsible for working design,. this is basically the inside going on of the the remote control. So we have the energy source,. we have the user interface,. the sender will push the button,. the chip will respond,. Do we need many buttons,. or do we need many light bulbs. the joystick is another thing,. if we were gonna add that,, there'd be more components to deal with that. you have the energy source obviously connected to the chip,. You have the switch turn it on,. infrared bulb, will contact the TV. do we need on the control different buttons to decide, or different light bulbs,. I dunno what we should decide on that.</v>
+
+7
+00:17:31.140 --> 00:19:23.200
+<v ProjectManager>I hear what the Marketing Expert's saying about voice activated control. However I've got a couple of worries about that. The power required, and the ability to the cost, it seems like for an embedded system, this could cause us issues. voice activation could be an interesting idea. but I think that our Ind Industrial Designer would probably upon some research say that it's maybe not feasible. however the idea of a joystick and then maybe an LCD which has been kind of put forward so far,. but if you can control almost all of the functionality from the display, I don't know how much power an LCD would take,. literally if you can imagine the display maybe slightly larger than those on a a mobile phone,. something where you can read an an fair amount of information,. traverse maybe quite a few menus,. and then we could have like say the common buttons as you say, volume control, changing channels</v>
+
+8
+00:19:23.312 --> 00:19:32.080
+<v UserInterface>I I was thinking that the remote the sort of default functions for the joystick would be up and down for volume, left and right for channels.</v>
+
+9
+00:19:33.470 --> 00:19:37.640
+<v IndustrialDesigner>Do you think that people will get mixed up,. they'll be looking at this screen and that screen</v>
+
+10
+00:19:43.070 --> 00:20:17.540
+<v UserInterface>I think probably for the first couple of hours of using it. but we should probably try to stick to black and white. Si si simply to keep keep the unit cost down.</v>
+
+11
+00:20:50.500 --> 00:20:56.210
+<v MarketingExpert>But I think we don't have a specific audience,. like what is our target audience,</v>
+
+12
+00:21:08.224 --> 00:22:18.530
+<v ProjectManager>I think it could probably be aimed at most people who've used a mobile. if we are if we were to follow that avenue, we might be you know we're kind of almost relying on their experience with a mobile phone I suppose. I imagine as well that the actual LCD and maybe to a certain extent the joystick as well would be for the additional functionality. and you can still have the main buttons that allow the people to turn the machine on and off, up and down,. maybe we have the fol the joystick as a separate one for the other functions then,. that there's just a a small number of as you were saying buttons that have already been defined. we go for the nice standard up and down for and volume control.</v>
+
+13
+00:23:06.580 --> 00:24:03.890
+<v UserInterface>If you i if you wanted to access further functions i you you then get to sort of menu navigation. I mean with things like ch with things like tuning and channels you know adjusting brightn brightness and fiddly things that no one really bothers with, most T_V_s these days actually have menus anyway. I mean most of the of the replacement remote market is sort of remote control rationalisation. you want one wo you want one that'll do the job of all of them.</v>
+
+14
+00:24:15.900 --> 00:24:18.780
+<v ProjectManager>This is a requirement that we have to stick to I'm afraid,</v>
+
+15
+00:24:41.510 --> 00:24:47.220
+<v UserInterface>Would that include access to say interactive functions on digital or cable?</v>
+
+16
+00:24:49.500 --> 00:25:02.950
+<v ProjectManager>I would say so, yes,. I would say that the design spec we've been with is for the television only for now.</v>
+
+17
+00:25:20.112 --> 00:25:25.830
+<v UserInterface>Maybe then our market should be TV manufacturers, rather than the public.</v>
+
+18
+00:25:34.030 --> 00:25:36.910
+<v ProjectManager>However I don't know exactly where we'll be going with that,</v>
+
+19
+00:25:43.720 --> 00:25:54.270
+<v MarketingExpert>It's just, the way I figure it, twelve point five Euros per unit, we have to sell at least like three million or something like that,</v>
+
+20
+00:26:13.030 --> 00:26:30.220
+<v ProjectManager>Something else that you brought up was the ability to lose a remote,. but have any of you ever seen those odd little key rings. where if you whistle, it will beep and you tell you where it is.</v>
+
+21
+00:26:30.230 --> 00:26:37.310
+<v MarketingExpert>I had one of those,. because it it went off all the time accidentally.</v>
+
+22
+00:26:37.640 --> 00:26:40.740
+<v ProjectManager>The other option of course is that the</v>
+
+23
+00:26:39.460 --> 00:26:40.962
+<v MarketingExpert>The clapping one.</v>
+
+24
+00:26:45.970 --> 00:28:14.410
+<v ProjectManager>Digital telephones, for example, one unit has. of course you have to have that base unit,. somewhere where there's a button,. but maybe it's a button that you attach to the TV. Something which you when you press that, it would beep to give its location away, on the remote unit. again say what, it would be a small transmitter, watch battery type scenario I would say,. that might be something that we could look into. that could be something that separates us a bit from the market as well. we have to decide exactly what we're going to do with the remote. do we go for a small joystick that would operate say changing channels, up and down,. and then, what, another button that would say that it's now being used to manoeuvre round the LCD.</v>
+
+25
+00:28:19.280 --> 00:28:21.770
+<v IndustrialDesigner>Should volume be important in the joystick, do you think?</v>
+
+26
+00:28:22.020 --> 00:29:14.920
+<v ProjectManager>We could use say the left and right for changing channels. we could maybe even go as far as saying power button, small joystick, LCD,. and with the possibility of pushing down on the joystick to say okay?</v>
+
+27
+00:29:23.560 --> 00:29:59.840
+<v UserInterface>Actually I would say maybe two two function buttons, the we're now using the menus button and and an og and an okay button. I mean certainly something I've found with the joystick on mo the joysticks on mobile phones is that a lot of the time th the device mistakes you trying to move it in one direction or the other for pushing down for okay. The the the other dis design constraint I think we should bear in mind is that people are you know very much used to using a remote control one handedly,</v>
+
+28
+00:30:15.620 --> 00:30:21.430
+<v ProjectManager>Do we incorporate the idea of trying to locate the remote control again via a beeping noise?</v>
+
+29
+00:30:22.040 --> 00:30:22.890
+<v IndustrialDesigner>Yeah, think so.</v>
+
+30
+00:30:33.490 --> 00:30:46.890
+<v ProjectManager>So that would require a transmitter maybe attached to the TV,. and what, a basically a small microphone on the actual unit,</v>
+
+31
+00:30:47.750 --> 00:30:48.630
+<v IndustrialDesigner>Light bulb as well,</v>
+
+32
+00:30:49.950 --> 00:30:50.910
+<v UserInterface>A small speaker you mean.</v>
+
+33
+00:31:04.850 --> 00:32:52.700
+<v ProjectManager>Th the true fact, considering the cost of an LED, we could just incorporate it anyway. you could go for quite an interesting design. something that can make it stand out slightly. Feel free to email me if you think that we've screwed something up and wanna get it rectified as soon as possible.</v>
+
+34
+00:32:55.920 --> 00:33:00.760
+<v IndustrialDesigner>I should just look at the speaker, the speaker and an LED.</v>
+
+35
+00:33:08.860 --> 00:33:18.510
+<v UserInterface>If we do end up trying to market this to television manufacturers then the then the transmitter could actually be built into the television.</v>
+
+36
+00:34:02.230 --> 00:34:06.310
+<v ProjectManager>User interface, we also need to maybe get the slogan in here,</v>
+
+37
+00:34:18.470 --> 00:34:20.560
+<v IndustrialDesigner>The slogan's we put the fashion in electronics,</v>
+
+38
+00:34:27.860 --> 00:34:48.060
+<v ProjectManager>We can just incorporate into the actual plastic on top. But it might be something you could consider when you're thinking about shapes? and possibly the two R_s to signify the company. Rather than real reaction.</v>
+

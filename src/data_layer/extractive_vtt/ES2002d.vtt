@@ -1,0 +1,286 @@
+WEBVTT
+
+1
+00:00:06.760 --> 00:00:58.270
+<v ProjectManager>Well this is the final detailed design meeting. we're gonna discuss the look and feel design, the user interface design, and we're gonna evaluate the product. And the end result of this meeting has to be a decision on the details of this remote control,. and then I'm gonna have to specify the final design in the final report. we said we were gonna have a snowman shaped remote control with no LCD display, no need for talk-back,. it was hopefully gonna be kinetic power and battery with rubber buttons,. maybe backlighting the buttons with some internal L_E_D_s to shine through the casing,. hopefully a jog-dial,. and incorporating the slogan somewhere as well.</v>
+
+2
+00:01:14.700 --> 00:01:41.710
+<v UserInterface>There are a few changes we've made. well look at the expense sheet, and it turned to be quite a lot expensive to have open up and have lots of buttons and stuff inside,. this is gonna be an LCD screen, just a a very very basic one,. very small with access to the menu through the the scroll wheel and confirm. apart from that, it's just pretty much the same as we discussed last time.</v>
+
+3
+00:01:46.390 --> 00:02:29.720
+<v IndustrialDesigner>The advanced functions are still hidden from you, but they're hidden in the sense that they're not in use. they're in the LCD panel and the jog-dial? The LCD panel just displays functionally what you're doing. If you're using an advanced function right, like brightness, contrast, whatever, it will just say. It might even be one, a bit more complex LCD panel with pictures like maybe the sun or the, you know, the the symbols of the various functions. That's a number pad.</v>
+
+4
+00:02:31.600 --> 00:02:33.450
+<v ProjectManager>Where are we gonna have the slogan?</v>
+
+5
+00:02:35.020 --> 00:03:10.900
+<v UserInterface>Just like right inside there. Well we want the other buttons to be big enough to push easily with a finger. so we reckon maybe that'll be about the same size as the palm of your hand.</v>
+
+6
+00:03:25.420 --> 00:03:28.380
+<v ProjectManager>So we're talking about ten centimetres.</v>
+
+7
+00:03:47.980 --> 00:03:50.090
+<v MarketingExpert>I'm just gonna bring up the idea of colours.</v>
+
+8
+00:03:54.440 --> 00:04:22.530
+<v UserInterface>We're gonna have again the the sort of the foggy yellow from last time that lit up when you pushed the button. this button, because it's red it's sort of very prominent, we're gonna use it as it can be the power button. if you hold it for maybe two seconds it'll send a stand-by signal. apart from that it's gonna be used as a confirm button for the LCD screen</v>
+
+9
+00:04:28.090 --> 00:04:42.330
+<v IndustrialDesigner>Oh we've discussed how high it is, but how wide is it? be about th three and a half.</v>
+
+10
+00:04:50.790 --> 00:04:51.490
+<v ProjectManager>What else can you do?</v>
+
+11
+00:04:51.940 --> 00:05:07.610
+<v UserInterface>You can skip straight to a channel using these buttons. but because we've got the the LCD and the jog-dial we just thought we'd use that as the volume.</v>
+
+12
+00:05:12.010 --> 00:05:13.570
+<v ProjectManager>And what else do you do with the jog-dial?</v>
+
+13
+00:05:14.200 --> 00:05:18.336
+<v UserInterface>You can use it for more advanced functions like contrast, colour and</v>
+
+14
+00:05:54.990 --> 00:06:18.400
+<v IndustrialDesigner>A lot of these things will have to be free and open for users to define them. Audio, we have like your basic your base, your mid-range, your high range. maybe even pre-programmed sound modes,</v>
+
+15
+00:06:45.740 --> 00:07:13.020
+<v ProjectManager>We can now have a little look at the the Excel sheet and price listing,. and see if we need to. if we need to rethink anything at all. for this first part here power-wise, have we got battery? Do we have kinetic as well? And that's because of cost restraints is it?</v>
+
+16
+00:07:15.940 --> 00:07:17.870
+<v IndustrialDesigner>We need an advanced chip I think, yep.</v>
+
+17
+00:07:36.850 --> 00:07:38.530
+<v ProjectManager>So we want double-curved?</v>
+
+18
+00:07:46.190 --> 00:07:47.650
+<v IndustrialDesigner>I think we're gonna have to skip the rubber.</v>
+
+19
+00:07:48.920 --> 00:07:51.930
+<v ProjectManager>And we wanted special colours didn't we?</v>
+
+20
+00:07:55.970 --> 00:08:36.020
+<v IndustrialDesigner>For the case itself, one colour. It's one special colour. We've got push buttons as well. Okay let's just be safe and put like say four buttons for that one.</v>
+
+21
+00:09:05.540 --> 00:09:15.184
+<v ProjectManager>So we're w quite far over. something's gonna have to go. we're at sixteen point eight and</v>
+
+22
+00:09:42.780 --> 00:11:14.570
+<v IndustrialDesigner>The other thing could be that you could take away the LCD panel and the advanced chip together,. so when we scroll we need just some way to get the TV to respond,. It It needs to be more than one big button because if you open up your phone, underneath there's actually one button underneath, it's just that the panel itself is a single panel. or the colours, you could take away colours for th for the buttons.</v>
+
+23
+00:11:12.260 --> 00:11:13.130
+<v ProjectManager>No can do.</v>
+
+24
+00:11:34.550 --> 00:11:37.810
+<v IndustrialDesigner>So then these just become normal coloured buttons,</v>
+
+25
+00:11:50.260 --> 00:11:51.910
+<v ProjectManager>And now we're under budget.</v>
+
+26
+00:12:48.370 --> 00:12:52.070
+<v UserInterface>Sort of deep enough to be comfy to hold in your hands rather than being wide and flat.</v>
+
+27
+00:13:08.490 --> 00:13:26.870
+<v ProjectManager>Width-wise we're looking at about what three centimetres or something? How how tall do you envisage it being? About two centimetres, okay.</v>
+
+28
+00:13:35.590 --> 00:13:37.920
+<v MarketingExpert>Maybe closer to three even or two and a half.</v>
+
+29
+00:13:38.040 --> 00:13:40.490
+<v ProjectManager>Okay we'll we'll say two point five.</v>
+
+30
+00:14:10.060 --> 00:14:16.620
+<v MarketingExpert>But just in in that we want this to be stylish, should we think a little bit more out of the box in terms of a button grid,</v>
+
+31
+00:14:26.320 --> 00:14:33.070
+<v IndustrialDesigner>I think that's something that's very hard to catch,. so you you restrict the number of people who wanna try something.</v>
+
+32
+00:14:41.320 --> 00:14:42.370
+<v MarketingExpert>What about button shape?</v>
+
+33
+00:15:03.570 --> 00:15:10.060
+<v ProjectManager>Discuss how satisfied we all are with with these four points,</v>
+
+34
+00:15:32.130 --> 00:15:34.470
+<v IndustrialDesigner>Maybe we should do the design evaluation first.</v>
+
+35
+00:16:20.650 --> 00:17:31.930
+<v MarketingExpert>I've reviewed all of the the points of discussion from the beginning,. and used that as a criteria of evaluation for the for the current design th or the plan,. So to sort of bring together two things, sort of design goals and also the market research that we had,. when we rate this, one is high in in succeeding or fitting to our original aim and seven is low,. and we've been asked to to collectively rate this,. So the first one, stylish look and feel.</v>
+
+36
+00:17:32.710 --> 00:17:33.720
+<v IndustrialDesigner>I rate that pretty highly.</v>
+
+37
+00:17:58.110 --> 00:18:28.690
+<v MarketingExpert>Okay let's go with five then. Fi oh just actually the opposite. Let's go with two point five then. high tech innovation. so we've had to remove a few of our features we wanted,</v>
+
+38
+00:18:36.900 --> 00:18:38.110
+<v ProjectManager>Yeah about three, okay.</v>
+
+39
+00:18:42.310 --> 00:18:45.880
+<v MarketingExpert>Style reflects a fruit inspired colour, design.</v>
+
+40
+00:18:47.750 --> 00:18:59.800
+<v IndustrialDesigner>Okay, the blue the blue colours and don't re don't actually represent the colour,. the the yellow is more representative of the colour,</v>
+
+41
+00:19:02.410 --> 00:19:11.500
+<v MarketingExpert>So we'll go two. and design is simple to use, simple in features.</v>
+
+42
+00:19:14.130 --> 00:19:15.610
+<v ProjectManager>I mean I'd give that nearly a one.</v>
+
+43
+00:19:21.860 --> 00:19:32.090
+<v MarketingExpert>Soft and spongy, have we achieved that? We've used mostly plastic in the end so it's going to be quite a bit of a compromise for price.</v>
+
+44
+00:19:29.410 --> 00:19:30.740
+<v UserInterface>Yeah I think it's about five.</v>
+
+45
+00:19:50.890 --> 00:21:44.344
+<v MarketingExpert>Logo, we've got it in there, haven't we? And it's within budget, yep. out of forty nine with with zero being the highest. We are at two, seven, eight, ten, fifteen point five. So it's pretty good. I thought okay in theory this kind of a process would be about refining our design, revisiting our original goals. It's not something I need to push through,. but I thought should we thinking more about the dimensions, sort of like more of a three dimensional shapes as well as opposed to just that flat</v>
+
+46
+00:22:33.810 --> 00:25:02.860
+<v ProjectManager>Well next up then, because we've done finance, is the project evaluation. well do you wanna just individually say what you think about about these four points and. Well do you feel though that that you were able to have quite a lot of creative input into the thing?</v>
+
+47
+00:25:06.860 --> 00:25:13.120
+<v MarketingExpert>It feels as though the creativity goes on when we leave, and then we come here and then we kind of put out our ideas and then, you know.</v>
+
+48
+00:25:12.880 --> 00:25:15.520
+<v ProjectManager>But I don't I don't think it means the room as in this room.</v>
+
+49
+00:25:31.740 --> 00:26:09.129
+<v MarketingExpert>Answering the question in those terms I'd say that actually there's sort of a tease of creativity. We're told okay think in terms of style and look and feel and technology, but build something for twelve and a half pounds,. so actually the creativity was more more of like a a sort of a formality then an actual</v>
+
+50
+00:26:14.800 --> 00:26:16.250
+<v IndustrialDesigner>The constraints do come in very fast.</v>
+
+51
+00:26:26.290 --> 00:26:32.870
+<v UserInterface>It's it is quite a lot of fun to go and then you have sort of hit the end then go right, gotta cut everything out 'cause we don't have enough money.</v>
+
+52
+00:26:36.280 --> 00:27:33.264
+<v IndustrialDesigner>I think another point is that the meetings are more brainstorming sessions than meetings,. and I think the fact that we're wearing these things restricts. it it it does actually you know affect how, whether you feel comfortable to communicate. and and the time the time given also restricts</v>
+
+53
+00:28:14.670 --> 00:28:43.790
+<v MarketingExpert>In in reality I think here the the different elements of leadership such as the the original briefing and then the personal coach and the and then you know having having you with your the meeting agenda is actually quite a quite a quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so. But it's not bad leadership, it's just sort of fairly strong, you know.</v>
+
+54
+00:28:50.320 --> 00:28:53.360
+<v ProjectManager>So you think maybe a little too controlling or</v>
+
+55
+00:28:53.440 --> 00:28:55.480
+<v MarketingExpert>Yeah, oh yeah, without without a doubt.</v>
+
+56
+00:28:56.600 --> 00:29:12.210
+<v IndustrialDesigner>I think the interactions are very structured. I don't think there's a sense of control 'cause all the decisions have been made in terms of a, like a consensus right, we go around and we think about it,</v>
+
+57
+00:29:25.160 --> 00:29:26.980
+<v ProjectManager>What about teamwork?</v>
+
+58
+00:29:30.930 --> 00:29:39.100
+<v UserInterface>Reckon that was a bit hard because we could only discuss things in the meeting. If we could just go up to somebody outside the meeting and have a quick talk with them, that would've been a lot easier.</v>
+
+59
+00:30:13.990 --> 00:30:20.360
+<v IndustrialDesigner>I think the tools that they were given, the tool set that were given to us are fancy but they don't support collaboration, I think that's the word.</v>
+
+60
+00:30:25.890 --> 00:32:33.600
+<v MarketingExpert>I mean sort of taking upon that idea, the way I see this i is that it's the the the structure in which we've we've approached this whole task is quite contrary to the principle of teamwork. because the the tasks were d sort of divided, and then the work went on in isolation. I think the whiteboard, for me, is the kind of thing I would use all the time,. maybe just in the way that we we use it, in the sense that once we have an idea out there or while work was going on in between meetings, that could have been up on a board you know as opposed to in like in text. I know that people who design cars and you know in aviation they quite often just have a simple like fibreglass prototype. and it's completely you know abs abstract from the final product, but they use it as a kind of a context to sort of walk around and puzzle and and point and discuss. and in a way everybody's as we discuss things in the in theoretically and out of our notebooks,. we're actually just each of us discussing something that's in each of our own minds.</v>
+
+61
+00:32:52.110 --> 00:33:43.830
+<v IndustrialDesigner>I think the the focus of it a lot was the PowerPoint as opposed to the to the whiteboard,. and I think that is also does you know hinder us and things I think. And a lot of the information on the PowerPoints, I don't think, you know, we needed to actually it could have, we could have gone through it verbally,</v>
+
+62
+00:33:48.230 --> 00:33:51.960
+<v ProjectManager>What about the digital pens, did you find them easy enough to use?</v>
+
+63
+00:33:52.680 --> 00:33:53.630
+<v UserInterface>Oh they're a bit clunky.</v>
+
+64
+00:34:03.480 --> 00:34:33.110
+<v IndustrialDesigner>Having to tick it before you go off was a bit hindering as well,. But I think the pen is is very intuitive,. So I think the pen's good.</v>
+
+65
+00:34:34.390 --> 00:34:46.290
+<v MarketingExpert>And on the topic of the technology, it just occurred to me that we actually didn't need to move our computers because each computer has all of the files. We only actually needed one computer.</v>
+
+66
+00:34:50.040 --> 00:35:00.440
+<v IndustrialDesigner>And the computer may not be conducive to a meeting because you tend to look at your computer and wanna have the urge to check something, you know,</v>
+
+67
+00:35:45.420 --> 00:36:15.150
+<v MarketingExpert>The main one for me is that the process na in a natural context would not have been interrupted by this necessity to discommunicate ourselves from each other. well you know it's kind of hard to keep working forward on a team a team based project when when you're told you must now work away from your team.</v>
+
+68
+00:36:17.030 --> 00:36:49.340
+<v ProjectManager>I think it was quite good that we had time limits on the meetings because they really could have run on. I really thi i I think maybe if we'd like all been working in the one room,. and they just said you know like every hour or something everybody make sure yo you know just have a have a short meeting and then just c</v>
+
+69
+00:37:15.620 --> 00:37:16.810
+<v IndustrialDesigner>And we have Ninja Homer.</v>
+
+70
+00:37:18.850 --> 00:38:03.940
+<v ProjectManager>Well apparently now I write the final report. I'm slightly gutted that we couldn't get plastic and rubber,</v>
+
+71
+00:38:10.320 --> 00:39:17.150
+<v IndustrialDesigner>Oh, I did learn something new, Play-Doh is useful. It is useful and in in in in in in in conceptualizing, in being creative. Like we were playing with the Play-Doh and the ideas came with the Play-Doh rather than with everything else. It becomes tangible.</v>
+

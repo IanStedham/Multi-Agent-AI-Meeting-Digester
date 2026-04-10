@@ -1,0 +1,218 @@
+WEBVTT
+
+1
+00:00:46.000 --> 00:00:52.970
+<v ProjectManager>Mailed you the minutes of the last meeting just to save time.</v>
+
+2
+00:01:18.700 --> 00:04:55.700
+<v MarketingExpert>In this meeting I I'm going to discuss about the trend watching,. We have done a rec not only a recent remote control market survey, but we also considered the latest fre fashion trends of the market,. when we did our remote control market survey we found that people people do have preference for tho fancy mobi remote controls which look and feel very good,. rather than having a functional look and feel good. The second most important aspect is that remote control should be a technologically innovative. And the third most important aspect in the ta to take into consideration is that it should be easy to use,. and customers should be provided with manuals that is easy to understand in their local language, something. When we did fashions, recent fashion our recent fashion update shows that. because you can see how people have related their clothes, shoes, and everything with fruits and vegetables,. the feel of the material is expected to be spongy rather than just having a plastic look, hard look.</v>
+
+3
+00:05:12.070 --> 00:05:16.560
+<v UserInterface>Do you think like rubber would be good or does it really want to be like gel kind of stuff?</v>
+
+4
+00:05:14.690 --> 00:05:21.310
+<v MarketingExpert>The rubber which is good for health and which is quite disposable that we can take into co</v>
+
+5
+00:06:52.020 --> 00:09:44.670
+<v UserInterface>Okay, so the interface concept. so the method, we looked at existing designs,. Okay, so most remote controls use graphical interface,. and we also found that there's inconsistent layout, which makes it confusing. but I think standard kind of shape and play and those kind of but buttons. And we've got some pictures of some new remote controls to show you. There's an LCD thing,. I thought could get a bit confusing and a bit expensive as well for us. This one is got a kind of scroll like a mouse,. and But I'm not exactly sure how you'd use that,. But the one below that has got like a little scroll function on the side. But I presume that the functions must come up on the TV screen. Again that's just quite boring shape, grey,. looks quite space-agey, but too many buttons, I think on that one. this one I thought was really cool. It's it's got the programmability function that we talked about. and it's quite an organic shape</v>
+
+6
+00:09:54.890 --> 00:10:10.990
+<v ProjectManager>Yeah, I I mean the one thing I think about about these ones is these kl secured areas, I've seen a lot of them with the the cover missing. So like have it hinge rather than sort of clip on or whatever.</v>
+
+7
+00:10:18.570 --> 00:12:17.390
+<v UserInterface>And this one, the over-sized one,. I don't know about you, but I think it's a bit too gimmicky. I like some of these things the the raised symbols and everything,. and I've just got an e-mail from our technical department saying that they have broken through with some new speech recognition software that you can program in. I think maybe incorporating that in our design would be good. you program it like you say, record, and then, play, and then, record, play machine, and stuff like that,. the raised symbols I thought were good,. the LCD, it does look smart, but I think maybe for our budget,. 'cause I think we're definitely going for the speech recognition,</v>
+
+8
+00:12:17.640 --> 00:12:22.130
+<v MarketingExpert>But in our market survey we have seen that people are willing to pay more,</v>
+
+9
+00:12:27.700 --> 00:12:30.530
+<v ProjectManager>It's still it's still got to get within our twelve fifty, you know.</v>
+
+10
+00:12:47.890 --> 00:12:54.890
+<v UserInterface>I'm not sure if the if for twenty five Euros per twelve Euros fifty manufacturing cost,.</v>
+
+11
+00:12:56.100 --> 00:13:02.080
+<v ProjectManager>Although, th I mean to be to be sure they have got I mean they are going crazy with the LCD technology now,</v>
+
+12
+00:13:45.700 --> 00:14:15.680
+<v UserInterface>And one of the survey findings was that they want it easy to use, so I think I'm not sure about the LCD. It's a it's great, it's a good idea,. but for our budget and for the thing we're trying to go for eas easy to use, it's not the thing we should go for, I think. Child-friendly, I thought this was good,. we could make a vegetabley kind of round shape, I think.</v>
+
+13
+00:14:18.600 --> 00:14:25.150
+<v ProjectManager>Well, si since we're going for the the the sort of company colours, I think your lemon wasn't that far</v>
+
+14
+00:14:31.860 --> 00:14:34.490
+<v UserInterface>I like the the different shapes of the buttons and stuff.</v>
+
+15
+00:14:34.740 --> 00:14:36.910
+<v ProjectManager>I like I like the colourful buttons as well.</v>
+
+16
+00:14:37.490 --> 00:14:39.910
+<v UserInterface>And the mouse one, I thought it was a good idea,</v>
+
+17
+00:15:28.800 --> 00:18:14.700
+<v IndustrialDesigner>I guess there are a lot of options that we're gonna have to choose from among,. and I'll I'll give you the, I guess, technical considerations for those. And I'm gonna use the whiteboard,. just 'cause we haven't used it. the way I'm gonna do this is we're gonna take a look at some old remote controls, see how they work,. and then we'll throw in our new innovations. you open it up, there's a circuit board inside,. and there's a a chip, a processor,. the TA one one eight three five, which receives input from the buttons,. so that takes a signals from the buttons and translates it into a sequence of pulses that it then sends to the to the amplifier,. which is made of some transistors and amplifiers, op-amps,. and then that gets sent to the to the LED light,. So you know, as we said, we got the outer casing,. which we have to decide, you know, what's it gonna be,. processor, we'll probably use the more advanced processor than they had,. so for the casing, this an e-mail I got from our manufacturing team. you know, we have a bunch of options from wood, titanium, rubber, plastic, whatnot,. latex, double-curved, curved.</v>
+
+18
+00:18:21.570 --> 00:18:43.210
+<v ProjectManager>Well, I mean like la latex has a kinda spongy feeling to it,. And that would also give it kinda durability. and ther that's also sorta relatively cheap to cast. so maybe a sort of plastic initial plastic with a a latex kinda sheath?</v>
+
+19
+00:18:49.010 --> 00:19:29.870
+<v UserInterface>I like the rubber, the stress balls, I think,. w like, 'cause there's gonna be the the cover the the rubber or the plastic casing and then the buttons in probably two different colours</v>
+
+20
+00:19:41.270 --> 00:19:43.000
+<v IndustrialDesigner>So multi-coloured buttons.</v>
+
+21
+00:19:48.590 --> 00:20:08.560
+<v ProjectManager>Or yeah a limit maybe even just a limited multi-colour so it it doesn't look too childish, perhaps. Although I mean this also comes to shape as well. I mean double-curved sounds good to me if we're talking about sorta ergonomic and easy use,</v>
+
+22
+00:20:19.720 --> 00:20:22.480
+<v UserInterface>Like an hour glass kind of figure,</v>
+
+23
+00:20:34.210 --> 00:20:38.250
+<v IndustrialDesigner>Okay, like we could have a big banana shaped remote control,</v>
+
+24
+00:20:40.780 --> 00:20:46.557
+<v ProjectManager>And a lemon might be a little hard to grip. Yeah.</v>
+
+25
+00:20:46.260 --> 00:20:47.160
+<v UserInterface>How would you point it?</v>
+
+26
+00:20:49.560 --> 00:20:51.310
+<v IndustrialDesigner>We could have a little L_E_D_s on each end.</v>
+
+27
+00:21:07.792 --> 00:21:11.780
+<v UserInterface>I'm I'm not sure about the banana idea.</v>
+
+28
+00:21:19.130 --> 00:21:22.218
+<v ProjectManager>It does seem a bit again childish maybe.</v>
+
+29
+00:21:23.140 --> 00:21:28.180
+<v UserInterface>I think maybe just draw on the kind of fruit and vegetable shape.</v>
+
+30
+00:21:36.550 --> 00:22:03.210
+<v IndustrialDesigner>So maybe an an unidentifiable fruit or fiable fruit or vegetable. Like a gourd almost, or a squash of some sort?</v>
+
+31
+00:22:19.340 --> 00:22:26.650
+<v ProjectManager>You don't necessarily have to have it sort of clearly identified as a fruit just to have that kind of fruitish shape,</v>
+
+32
+00:22:37.261 --> 00:22:44.630
+<v MarketingExpert>Or we can do something, we can design two three shapes and we can have a public survey, let the public choose what they want.</v>
+
+33
+00:22:44.710 --> 00:22:46.440
+<v ProjectManager>There's a good man. There's a good idea.</v>
+
+34
+00:23:26.370 --> 00:23:30.096
+<v UserInterface>Yeah, what about the scroll wheel and speech recognition?</v>
+
+35
+00:23:29.090 --> 00:23:31.420
+<v ProjectManager>Speech recognition, I think,</v>
+
+36
+00:23:33.120 --> 00:24:11.014
+<v IndustrialDesigner>I could put the microphone here. Okay, well we can do some user test with scroll-wheels, right? So should the microphone be just anywhere on it or</v>
+
+37
+00:24:55.910 --> 00:24:59.020
+<v UserInterface>What about the glow-in-the-dark thing, the strip around it?</v>
+
+38
+00:25:23.720 --> 00:26:00.560
+<v ProjectManager>I mean how good is the speech recognition thing? do we want to just have a device that maybe sits and pretends it's a fruit? l like think of a fruit that could sit sort of independently on its own like, I dunno, an apple.</v>
+
+39
+00:26:21.760 --> 00:26:25.150
+<v IndustrialDesigner>But yeah, about the speech thing, it doesn't have to be hand held or close.</v>
+
+40
+00:26:34.650 --> 00:28:06.330
+<v MarketingExpert>We can just have a remote control and casings of different different shapes,. different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. button will be on the upper side, buttons will be the on the upper side. So in that way we need not to have different different shape mobiles everything, we will just design casings fruit shape.</v>
+
+41
+00:28:50.790 --> 00:28:58.450
+<v IndustrialDesigner>S I guess we decided on material,. So that that spongy latex rubber everything feel,</v>
+
+42
+00:29:06.440 --> 00:29:41.600
+<v UserInterface>Well, I I'm not sure if we should go so far in the whole fruit thing,. and I think maybe fruit could be a bit of a too much of a gimmick,. but something ergonomically shaped and organic, like good to hold, based on fruits and natural things like that,. because al already we're going a bit gaudy with the yellow, you know.</v>
+
+43
+00:29:48.170 --> 00:30:19.930
+<v ProjectManager>So again I mean like we could have, I mean, we could quite easily have the the main body be a different. I mean not necessarily that the the whole body has to be of the company colour,. So you have the main body blue with the yellow logo and slogan running up one side of it kind of thing.</v>
+
+44
+00:30:25.010 --> 00:30:49.160
+<v IndustrialDesigner>As for the energy source, you know, almost every remote control uses just batteries,. We can use a hand-dynamo. So, this might be an idea for something that people really wanna grab, you can shake it if it's out of power.</v>
+
+45
+00:30:58.470 --> 00:31:04.360
+<v MarketingExpert>But but do you think that it will be a good idea to use dynamo, tha these type of cells?</v>
+
+46
+00:31:07.420 --> 00:31:09.860
+<v ProjectManager>It does leave them with an obligation to</v>
+
+47
+00:31:23.320 --> 00:31:25.890
+<v IndustrialDesigner>There's solar power..</v>
+
+48
+00:31:25.110 --> 00:31:43.870
+<v MarketingExpert>Solar power will also not be a good idea,. I think we should a rechargeable battery will be a good idea.</v>
+
+49
+00:31:55.940 --> 00:34:23.270
+<v ProjectManager>Having a rechargeable stand,. so that not only it doubles as a stand, but for using it as recharging it, but also for using it as sound recognition. and if we if we're just having buttons and the speech then we're getting our cheapest option of chipping. I just dele I just accidentally deleted what I was supposed to say next. our next meeting's in half an hour. and what I would like you guys to do is work on giving me a model in clay. and further instructions will be sent by your personal coaches.</v>
+
+50
+00:34:23.970 --> 00:34:27.410
+<v IndustrialDesigner>Okay. Save everything to the shared documents, is that right?</v>
+
+51
+00:36:19.670 --> 00:36:22.560
+<v MarketingExpert>You have to keep your pen separate, because I used your pen.</v>
+
+52
+00:37:16.459 --> 00:37:22.500
+<v ProjectManager>I wonder if they mean like literally make it, sort of buttons and everything.</v>
+
+53
+00:37:25.980 --> 00:37:27.660
+<v MarketingExpert>Or we are going to discuss something?</v>
+
+54
+00:37:28.630 --> 00:37:56.350
+<v ProjectManager>No, I think that's us our discussion over. we'll probably get questionnaire in a minute,. There we go. Warning, finish meeting now.</v>
+

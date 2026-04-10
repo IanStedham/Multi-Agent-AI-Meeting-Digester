@@ -1,0 +1,174 @@
+WEBVTT
+
+1
+00:02:43.550 --> 00:04:09.870
+<v ProjectManager>Alright first off we'll just recap from our last meeting. which was we got together just to basically decide on well to talk about what it is that we were actually supposed to be doing,. yeah, we're gonna hear your th three little presentations,. o I'd like to hear who's who's on the from from Catherine actually first.</v>
+
+2
+00:04:47.690 --> 00:05:22.544
+<v IndustrialDesigner>So for the energy sources we can have a basic battery,. a hand dynamo which is which was used in the fifties for torches,. You can have a kinetic provision of energy,. Or you can use solar cells,. but I'm not sure about that indoors, really, but</v>
+
+3
+00:05:22.480 --> 00:05:29.220
+<v UserInterface>Well, there's sometimes combinations, I mean, like calculators do combinations of battery with but also using some solar power.</v>
+
+4
+00:05:47.930 --> 00:07:17.300
+<v IndustrialDesigner>Think the the what would cost the less would be the basic battery, really. And if we want something fancier, I think the kinetic provision of energy could be nice,. For the case of the remotes itself, they can be a general case, which is just a flat one. You can have a curved one or a double curved one,. then the case material itself, so it can be either plastic or latex, rubber, wood, or titanium. And th for each of them you have cases where for example titanium, you can't use it for if you if we're choosing a double curved case, we can't choose titanium. But if we're choosing just the flat case then we can go for anything.</v>
+
+5
+00:07:23.460 --> 00:07:26.800
+<v ProjectManager>So that might be an idea of using the rubber,</v>
+
+6
+00:07:31.080 --> 00:07:33.500
+<v IndustrialDesigner>And also it doesn't break as easily maybe,</v>
+
+7
+00:07:52.310 --> 00:07:55.410
+<v ProjectManager>Rubber, we're all we're all going we're all liking that idea?</v>
+
+8
+00:08:08.960 --> 00:08:42.720
+<v IndustrialDesigner>So you can have basic push-buttons or a scroll-wheels, like you have on a mouse,. or you could have LCD, which gives you a display. and if we choose double curved then we have to go for rubber push-buttons.</v>
+
+9
+00:09:11.580 --> 00:09:21.619
+<v UserInterface>Mean so what's the difference between a normal rubber case and a rubble doub double rubber double curved case?</v>
+
+10
+00:09:59.810 --> 00:10:01.320
+<v ProjectManager>Let's have rubber push buttons, hey.</v>
+
+11
+00:10:09.480 --> 00:10:39.340
+<v IndustrialDesigner>So the push-buttons themselves they can be just simple or they can be. If we get an advanced chip which is used for the LCD, the display thing, then that's even more expensive.</v>
+
+12
+00:11:06.266 --> 00:11:20.490
+<v ProjectManager>Is, okay, advanced chip on print, which I presume is like one PCB and that's got all the electronics on one board including the infra-red sender?</v>
+
+13
+00:11:32.340 --> 00:11:41.390
+<v IndustrialDesigner>Well, if if it's not chip on print then, I guess, you get different chip components, and you build them separately and doesn't include the infra-red.</v>
+
+14
+00:11:53.410 --> 00:12:12.860
+<v ProjectManager>If it's something that's inside the the unit. I it doesn't affects whether the customer's gonna buy it or not. So let's not let's not bother with the chip on print.</v>
+
+15
+00:12:23.220 --> 00:12:25.630
+<v MarketingExpert>What about the just developed sample sensor?</v>
+
+16
+00:12:32.510 --> 00:12:34.970
+<v ProjectManager>Well, what do we need a speaker for in a remote control unit?</v>
+
+17
+00:12:42.230 --> 00:12:45.680
+<v IndustrialDesigner>I'm just guessing. But it's gonna be the most expensive option, probably and</v>
+
+18
+00:13:18.020 --> 00:13:28.010
+<v UserInterface>It would be one thing if it was speech recognition where you say something and it turns the TV on like, turn the TV on, and i turns comes on,. a it just gives you a verbal response.</v>
+
+19
+00:13:47.010 --> 00:13:48.630
+<v MarketingExpert>Oh, then forget about it.</v>
+
+20
+00:14:26.500 --> 00:14:41.900
+<v UserInterface>So we want it rub rubber double curved. So rubber rubber keys, yeah.</v>
+
+21
+00:15:33.860 --> 00:15:40.990
+<v ProjectManager>But the fact that this this rubber i is actually used in these anti-RSI ps specific</v>
+
+22
+00:16:30.230 --> 00:21:35.370
+<v UserInterface>Okay, so I'm continuing with the user interface topic. and so the manufacturing division sent some some samples of of interface components that we might be interested in using that have been used in other products, like the coffee machine. So I already mentioned the speech recognition interface. I guess, we we basically vetoed that idea. they they suggested the idea of using a spinning wheel like you use on the side of an MP three player like iPod. but they suggested, you know, going i a little bit into a a niche,. but it sounded like from our last meeting we really wanted something that was general, but done well. I can give you an example here of, good layout and bad layout. So this would be an example of bad layout,. where you have volume up and volume down, but they have a on both of them, so. this is the example of the giant remote that's impossible to lose. so I was against the speech recognition and against going towards anything in in a niche sense. I didn't I didn't think the spinning-wheel or the LC display were were crucial for us. So we're we're not gonna have any sort of display I think. I think we shall have a limited number of buttons,. ideally, I mean a a power, channel up, channel down, volume up, volume down, and a numerical keypad. it will either have a a lock button like we mentioned or or a cover or something like that. it seems like we wouldn't wanna make it too busy and too sort of gaudy,. Yeah, I would say mayb maybe a couple of colours like like a black with with yellow and somewhere,. I I guess the fact also that we are having a rubber case would prevent us from having the cover function that we thought of before.</v>
+
+23
+00:22:13.920 --> 00:23:07.000
+<v MarketingExpert>Well, I'm just basically letting you know what's happening in the markets. So the remote control has to look and feel fancier than the ones that already that we already have. second, it should be technologically innovative innovative.</v>
+
+24
+00:23:25.460 --> 00:23:31.040
+<v ProjectManager>Now the trouble is is we've already decided that we're going with the stuff that works already, that's cheap.</v>
+
+25
+00:23:35.890 --> 00:23:38.950
+<v UserInterface>I mean it's different, but I wouldn't say like a rubber remote is fancy.</v>
+
+26
+00:23:48.960 --> 00:24:09.860
+<v MarketingExpert>That's why I was thinking, Bluetooth,. 'cause Bluetooth is the in thing nowadays, like it really is,. they don't really care whether, you know, at the end of the day whether it works properly or not.</v>
+
+27
+00:24:10.290 --> 00:24:11.990
+<v ProjectManager>Of course, they do.</v>
+
+28
+00:24:27.220 --> 00:24:30.860
+<v UserInterface>So is is the advantage of Bluetooth that you can just like synchronise it with other</v>
+
+29
+00:24:45.700 --> 00:24:50.800
+<v ProjectManager>That would mean you'd need a television that has Bluetooth in it, which no no television does,</v>
+
+30
+00:24:49.410 --> 00:26:07.790
+<v MarketingExpert>Well, if you're looking at if you looking at something that's going to be bought by people, you have to make it new, you have to make it state of the art. Like it doesn't have to be, you know, Bluetooth,. If we want something new, we need to move away from what we already have</v>
+
+31
+00:26:10.230 --> 00:26:18.960
+<v IndustrialDesigner>Maybe the kinetic mo provision of energy then. It's been done for watches, but I haven't seen that for remotes, yet.</v>
+
+32
+00:26:18.300 --> 00:26:21.610
+<v ProjectManager>Okay. Yeah, this that's that's very good.</v>
+
+33
+00:26:43.800 --> 00:26:48.670
+<v UserInterface>Yeah, we can make the squeezing of the rubber be the be the generating like the energy generator.</v>
+
+34
+00:27:01.880 --> 00:27:10.920
+<v MarketingExpert>Next year's fashion i very much in fruit and vegetables are thm are like the theme for cloths, shoes and furniture.</v>
+
+35
+00:27:20.040 --> 00:27:26.300
+<v UserInterface>Okay, so we could have keys that are like a like a broccoli key and a and an avocado key on them.</v>
+
+36
+00:27:29.280 --> 00:27:34.690
+<v MarketingExpert>And as it's rubber the feel which is in this year is spongy,</v>
+
+37
+00:27:37.870 --> 00:28:34.150
+<v ProjectManager>Yeah, we're we're ahead of the game there. right, we're gonna go go back to going with the kinetic thing,. and I'm not sure about the buttons being in the shape of fruit though.</v>
+
+38
+00:28:40.350 --> 00:28:42.890
+<v MarketingExpert>Maybe make it like fruity colours or something.</v>
+
+39
+00:28:49.890 --> 00:28:52.430
+<v UserInterface>The power button could be like a big apple or something.</v>
+
+40
+00:30:00.480 --> 00:30:22.407
+<v MarketingExpert>Like I'm just thinking bright colours. Wanna make it different colours so anybody can choo like like</v>
+
+41
+00:32:11.270 --> 00:32:15.280
+<v ProjectManager>So we could do like the pink range, the blue range, the green range, the</v>
+
+42
+00:32:40.400 --> 00:32:46.890
+<v UserInterface>Where, you know, you have a variety of colours, that people feel like they're customising it when they buy it, even, you know, just just by the fact of choosing.</v>
+
+43
+00:33:24.470 --> 00:36:05.420
+<v ProjectManager>From you Catherine wi your y you know you're gonna be working on the the look and feel design. Gabriel, you're gonna be working on, you know come up with the the user interface design. Then basically, you two are gonna be working together on this. and I think you are gonna get a chance to play with some clay. come up ki you know, be ab for the next meeting be able to come in and show us some some i some physical ideas. and you're gonna be working on the product evaluation. We'll look into this lock key</v>
+

@@ -1,0 +1,166 @@
+WEBVTT
+
+1
+00:00:25.410 --> 00:00:54.540
+<v ProjectManager>Okay so we're here to talk about the detailed design of the product,. And here's the agenda for this meeting. I'm just gonna open, say a few boring words to start with again, and start taking minutes afterwards. You guys are gonna give us a presentation of our wonder product. And then we're gonna evaluate it. Then we're gonna talk about finance,</v>
+
+2
+00:01:43.650 --> 00:02:25.300
+<v IndustrialDesigner>Production costs estimated by our manufacturing department and the research department, which is us, is fifteen point eight Euros,. we implemented the basic functions,. which is just TV functions plus the locator,. scroll wheel for the the channels,. and we implemented the the the way of putting the new and revolutionary zapping, your favourite channels functionality, in the scroll.</v>
+
+3
+00:02:28.040 --> 00:02:29.470
+<v UserInterface>Scrolling through your favourites list.</v>
+
+4
+00:02:40.810 --> 00:02:43.160
+<v ProjectManager>I like the the the the logo on there as well.</v>
+
+5
+00:02:50.810 --> 00:03:52.320
+<v UserInterface>So this is the cradle unit,. so the scroll bar is or the scroll wheel is this this green little scrolly guy here,. This is the teletext. So this bl this button will be used both for the favourites and for programming your the the type of television you wanna use. So the plastic is the white area of this of the model here,. and the red area is like a rubber covering. and the buttons are all gonna be rubber, so it's pretty hard to actually damage it</v>
+
+6
+00:03:52.600 --> 00:03:56.640
+<v ProjectManager>Could that be easy to for the scroll wheel to be rotated if it lands on it?</v>
+
+7
+00:03:57.430 --> 00:04:04.030
+<v UserInterface>Yeah that might be a possible a mi possible problem, but if you drop it</v>
+
+8
+00:04:16.500 --> 00:04:20.450
+<v ProjectManager>I take it that this is gonna be slightly lighter in the final design as well.</v>
+
+9
+00:04:27.200 --> 00:04:29.840
+<v UserInterface>But I think we might scale down the final model a bit.</v>
+
+10
+00:04:57.190 --> 00:05:03.050
+<v IndustrialDesigner>So you ha you have like the the base station with the little button for the where's my remote.</v>
+
+11
+00:05:03.270 --> 00:06:02.707
+<v UserInterface>Beep beep beep. And there's one other feature that we were debating, but we decided to go against it,. we were thinking that it might be interesting to have a trigger button here because you have this finger. but we couldn't figure out what button is important enough to put there. And we we don't wanna accidentally be hitting the power button like that so</v>
+
+12
+00:06:01.910 --> 00:06:06.450
+<v ProjectManager>But maybe if you had a trigger plus the scroll then that would get past the the problem of it landing and scrolling,</v>
+
+13
+00:06:08.120 --> 00:06:11.180
+<v UserInterface>So maybe in a final design phase we might tweak that a little bit,</v>
+
+14
+00:06:13.510 --> 00:06:17.080
+<v ProjectManager>But it's definitely got options for like different types of models and things as well based on that,</v>
+
+15
+00:06:28.840 --> 00:06:31.150
+<v UserInterface>So we'll leave the colour scheme up to the marketing people.</v>
+
+16
+00:06:46.320 --> 00:10:44.450
+<v MarketingExpert>My my my suggestion is we're gonna go go to the silvers and blacks like most of the televisions. So you're not gonna find my my folder up there. I gotta do mine up at the board. No it's not in there because I had the computer problem and I I I cou I couldn't create it. And when I speak about method I speak about the marketing of the product huh. And to me with this product we got we got basically three things to market. We've got the features,. we have the characteristics,. The the corporation stands behind the product, okay. we've got you know the features that make this a unique product. we have reliability, we have comfort, we have ergonomics, we have environmentally sensitive. One thing I would want to to see is is can we can we get a lifetime guarantee on this product, a normal use guarantee,. it has the features and the characteristics, and the background, I believe, to make it marketable I believe at a cost of of of thirty thirty five to to fifty Euros. We're gonna be competitive, and we're gonna we're gonna have a market niche.</v>
+
+17
+00:10:45.600 --> 00:10:53.730
+<v ProjectManager>Would you a argue that that we're better going for the higher cost than bringing it down into twenty five as we probably could, but lowering our profit margins?</v>
+
+18
+00:11:00.130 --> 00:12:10.130
+<v MarketingExpert>For my evaluation, based on what our competition is, I th I think that that we can go after this. and at that cost I think it there's nobody else that's putting this this combination of of ingredients together. The only limitations I see to this is that we're focused on television only. There's gonna be somebody going home and say oh sh this thing doesn't work for my DVD and my but I like these other things, so they keep it, they don't take it back. Well one of one of the thoughts that I had is can can this unit be be produced in a way that makes it upgradable?</v>
+
+19
+00:12:21.510 --> 00:12:27.198
+<v IndustrialDesigner>W we need we need we need some more buttons if it would to work on some other stuff, but</v>
+
+20
+00:12:42.680 --> 00:13:58.160
+<v ProjectManager>Yeah, the plus there's the the risk of making it unusable as well, or making it less. b because at the moment it's actually very straightforward to look at all the buttons,. Okay so we can talk about finance now. So I have a little spreadsheet for us. I've made a few assumptions here in that I'm assuming that our power adaptor we can make for a cost of four Euros,. which I think is probably fair considering that we have in-house manufacturing of power adaptors already. and I'm assuming that the locator beacon,. can be made for a similar price to an LC display,</v>
+
+21
+00:14:04.110 --> 00:14:11.690
+<v UserInterface>I do think we that we we don't need the events chip on print, we only need the the regular chip on print,</v>
+
+22
+00:14:25.640 --> 00:14:46.900
+<v ProjectManager>Is that a single-curved rather than a double-curved? So we come bring it down to Fifteen point four.</v>
+
+23
+00:14:45.830 --> 00:14:49.440
+<v UserInterface>See it's a little bit more than single-curved. So yeah it's fifteen point eight,</v>
+
+24
+00:15:02.460 --> 00:15:20.080
+<v ProjectManager>We haven't talked about any special colour though. if we're going for greys and silvers then I don't think we're. is this intended to be a button as well or just a scroll?</v>
+
+25
+00:15:19.320 --> 00:15:19.950
+<v UserInterface>That's a scroll.</v>
+
+26
+00:15:29.230 --> 00:16:05.370
+<v ProjectManager>Then we have fifteen point eight Euros. We're on to the pat-on-the-back part of the presentation,. How how have we done today?</v>
+
+27
+00:16:06.170 --> 00:16:07.090
+<v UserInterface>I think we did pretty well.</v>
+
+28
+00:16:11.080 --> 00:16:19.000
+<v MarketingExpert>No, I think we come up with a with a attractive marketable product and and concept.</v>
+
+29
+00:16:37.060 --> 00:16:40.620
+<v ProjectManager>Okay so th th what about room for creativity?</v>
+
+30
+00:16:45.000 --> 00:16:47.710
+<v UserInterface>Sh I think there was plenty of room.</v>
+
+31
+00:16:47.280 --> 00:16:49.350
+<v ProjectManager>I think we we ended up being quite creative there.</v>
+
+32
+00:16:53.480 --> 00:16:58.800
+<v MarketingExpert>We kinda at least adjusted every every criteria they gave us</v>
+
+33
+00:17:19.410 --> 00:17:22.610
+<v ProjectManager>Yeah but we did we did break with the specs a little bit I guess,</v>
+
+34
+00:17:40.650 --> 00:17:46.160
+<v IndustrialDesigner>It was more of a teamwork thing then really leadership based project was</v>
+
+35
+00:18:05.680 --> 00:18:08.290
+<v UserInterface>These cables suck.</v>
+
+36
+00:18:40.380 --> 00:19:09.670
+<v ProjectManager>So yeah the the pen came in alright. and it's a little uncomfortable to use but I guess it works. What new ideas have we found?</v>
+
+37
+00:19:20.960 --> 00:19:27.560
+<v UserInterface>Well we had the favourites list, and the scroll bar, and we have the cradle, and the remote call feature.</v>
+
+38
+00:19:34.780 --> 00:19:36.860
+<v IndustrialDesigner>Yeah comfortable headsets would be nice.</v>
+
+39
+00:19:50.080 --> 00:19:53.210
+<v MarketingExpert>And of course I did not have so much fun with my computer this afternoon.</v>
+
+40
+00:20:04.600 --> 00:20:23.830
+<v ProjectManager>Are the costs within the budget? Not the original budget, but they are now. Is the project evaluated?</v>
+
+41
+00:20:37.200 --> 00:20:38.370
+<v MarketingExpert>So we need to close this meeting,</v>
+

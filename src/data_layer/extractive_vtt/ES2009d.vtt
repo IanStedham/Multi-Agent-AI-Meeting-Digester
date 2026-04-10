@@ -1,0 +1,378 @@
+WEBVTT
+
+1
+00:01:02.060 --> 00:02:58.690
+<v ProjectManager>Here we have our detailed design meeting. where we will look at the prototype. I finally figured out what this whole second bullet point is about in my. It means I'm supposed to read the minutes from the previous meeting. just real briefly to go over minutes from last meeting,. basically the moral of the story from our last minute last meeting was that we that we had meetings from we had presentations done by the Industrial Designer, or from Nathan, and Ron and from Sarah about what we can do here. and we essentially came to the conclusion that we should develop a remote with voice recognition,. IE that had a vaguely non-remote like shape. because you didn't really need to use it as a remote. since you could just use your voice. That would include some mostly just the simple design features for a television operation. but with a slide or a fold-out bay for more advanced functions for users. the UID and the ID were asked to go ahead and start developing a prototype for us to look at.</v>
+
+2
+00:03:15.360 --> 00:04:29.620
+<v IndustrialDesigner>We have assembled our prototype,. we took into account a lot of the things. that we went over in the last meeting,. Some of the most important things to consider are that we decided not to go for the touch screen. and opted for some very large buttons for the primary functions,. This is going to be the on off button. and we have these buttons to go through the channels. and then two volume buttons down here,. d we decided those were the most important buttons. And then, for the more advanced functions there is a slide out panel here. and you can see that there are lots of other things going on. and provides a very nice aesthetic when it's all put away,. As far as the whole visible light thing, we decided to go with the multiple colours coming out,. Of course, if that's annoying for some people that function can be turned off..</v>
+
+3
+00:04:32.480 --> 00:05:40.600
+<v UserInterface>We talked a quite a bit about you know the the interchangeable faces. and what we've done here is come up with a bit of a natural look here. we call it fruity. of course that's interchangeable. and I think it would be desirable for the for the regular product in the in the in the in the first packaging to be something a little bit more subdued. but this is kind of something that can be done. and as you can see on the television there. we have the voice detector device on the top there. So that that will work quite well with with regard to finding this contraption. if you give it a touch it does have actually a bit of a spongy feel,. clearly there's gonna be some more colours and what not available.</v>
+
+4
+00:05:44.030 --> 00:06:21.670
+<v IndustrialDesigner>I worried about the materials,. the entire thing is covered in a rubber coating. it's not gonna break like some types of plastic that's dropped. and if you touch it it does have that nice squishy feel. I dunno if you noticed,. but I wrote the the company's name on the telephone screen,</v>
+
+5
+00:06:46.000 --> 00:07:03.110
+<v UserInterface>But I think that's I think that sums up the main features of our of the remote,. did we come in under budget?</v>
+
+6
+00:07:06.420 --> 00:07:48.430
+<v IndustrialDesigner>To put this into production, we're looking at about. It was twelve fifty Euro. and this actually came in at about eleven ninety nine. obviously we had a choice with the buttons. whether to use scroll buttons or standard rubber buttons,. but we just went for a classic rubber button. So even though it has a lot of modern technology, for example the voice recognition,. in a lot of ways it's just a simple remote</v>
+
+7
+00:07:58.912 --> 00:08:51.820
+<v UserInterface>Did we talk about the voice recognition option? on the back here you all noticed this area here which is actually the voice recognition console. and I think it's nicely designed into the into the overall look. but basically the voice recognition incorporates the latest designs that our research team has been able to cufw come up with. and, I think that has given a proven ease of use and what not. And allows features like the remote actually talking back to the user, so.</v>
+
+8
+00:08:54.899 --> 00:09:05.410
+<v MarketingExpert>Do we have other, for lack of a better word, skins? Covers? or are those ones gonna be developed later once we see how the couple we have go or?</v>
+
+9
+00:09:08.320 --> 00:09:11.400
+<v UserInterface>We didn't quite have enough material.</v>
+
+10
+00:09:17.040 --> 00:09:27.105
+<v IndustrialDesigner>As you can see this is just a most superficial layer. and it'd be very easy to put another layer of something else like</v>
+
+11
+00:09:27.840 --> 00:09:56.180
+<v UserInterface>Actually this bottom red ring here just unclips. and then you put a a new a new a new plate on top of that. we definitely priced out a spongy even spongier non-natural look materials. We also continued on with the ideas that following Apple's colour schemes with the kind of the light orange and the green.</v>
+
+12
+00:09:55.390 --> 00:10:18.240
+<v IndustrialDesigner>It's not it's not quite a a face plate,. it's more like a pseudo-face plate. it locks into place such that, you know, it's pretty permanent. but at the same time, if we wanna go the other way it's just a matter of a couple of adjustments. and we could go the face plate way</v>
+
+13
+00:10:21.890 --> 00:10:23.560
+<v MarketingExpert>Very cool, nice job.</v>
+
+14
+00:10:29.776 --> 00:11:08.250
+<v ProjectManager>What we need to discuss now is the finance of it,. you provided a number. that actually sounds quite nice. the trouble is I was just given this by finance. it's a spreadsheet of the parts. and I've just tentatively put in what it's going to look like. if we can just itemize what's in here,. it's a solar cell thing. With a back-up battery?</v>
+
+15
+00:11:12.560 --> 00:11:18.760
+<v UserInterface>The voice recognition area actually doubles as as the solar cell area. Yeah.</v>
+
+16
+00:11:24.048 --> 00:11:55.810
+<v ProjectManager>It's a a speaker and a sensor at the same time. and the case, it's more of a single-curved case,. and we've got a rubber skin material basically throughout. Push button interface with this other drop-down. so maybe we've got two push button interfaces</v>
+
+17
+00:12:09.560 --> 00:12:16.680
+<v IndustrialDesigner>And I guess you have to mark special colour and special form as well,. 'Cause it i it is very unconventional,</v>
+
+18
+00:12:22.200 --> 00:12:23.510
+<v MarketingExpert>M come in at sixteen?</v>
+
+19
+00:12:23.430 --> 00:12:40.137
+<v ProjectManager>A bit over budget,. what we could do perhaps, a simple fix would maybe to switch away from the solar cells. or take out the back-up battery.</v>
+
+20
+00:12:41.660 --> 00:12:48.670
+<v UserInterface>I think that if we're talking about it being one of our main selling features, being environmental and without the batteries and what not,</v>
+
+21
+00:12:53.730 --> 00:13:12.310
+<v IndustrialDesigner>I mean we could take we could take the battery out of it you see. but you're gonna have to set up a call centre for that one per cent of the time. and saying oh look my remote isn't working. I think in the long-run it's better to keep the battery,</v>
+
+22
+00:13:56.890 --> 00:14:09.030
+<v MarketingExpert>I mean obviously the solar cell is a big piece of the way we're marketing this as like a natural, new thing,. but honestly if we cut that one piece out we're actually coming in under budget</v>
+
+23
+00:14:11.980 --> 00:14:20.230
+<v UserInterface>I mean you might be able to sway me on the idea that we our main selling point could be already this voice recognition thing. I mean that's what sets us apart</v>
+
+24
+00:14:29.590 --> 00:14:33.780
+<v MarketingExpert>Perhaps when the cell technology comes down in price we can bring that back into the game</v>
+
+25
+00:14:37.810 --> 00:15:00.160
+<v UserInterface>And the reality is you know, for me from an ideological stand point, I'd like to stick with the the solar cell,. but I kind of have to throw myself in the in the business structure model here. and you know I think I think that I think that we need to come to a compromise here. and maybe move ahead with the project, without the solar cell.</v>
+
+26
+00:15:02.640 --> 00:15:04.440
+<v MarketingExpert>I think unfortunately that's our best option.</v>
+
+27
+00:15:09.400 --> 00:15:26.530
+<v ProjectManager>'Cause we can't remove the push buttons. nor would changing the case materials.</v>
+
+28
+00:15:39.800 --> 00:15:40.890
+<v IndustrialDesigner>Gotta do what you gotta do.</v>
+
+29
+00:15:46.560 --> 00:15:48.870
+<v UserInterface>I think that was a good compromise you brought forward Sarah.</v>
+
+30
+00:16:02.090 --> 00:16:05.990
+<v ProjectManager>I guess now we just go to the project evaluation</v>
+
+31
+00:16:27.820 --> 00:17:17.680
+<v MarketingExpert>Basically I was just evaluating from what we know of how our product's working right now with the criteria that we set at the beginning of. these are the things we needed to do,. these are the things that look like we feel they're important. so I was looking at basic design things,. Is the design what we wanted it to do? are technologies up to where we hoped they would be. and does it fulfil the aesthetic qualities that our original market research was looking for?. Does it respond to voice recognition? And overall, in general, it looks like it's coming up to par. the only thing is with with the pull-out panel, that is, can it take some adjusting. but then, once you get used to it, it does make a lot of sense. So I think overall we're headed in the right direction.</v>
+
+32
+00:17:19.930 --> 00:17:21.340
+<v UserInterface>They like that spongy feel.</v>
+
+33
+00:17:29.560 --> 00:17:40.690
+<v MarketingExpert>I think eventually if we do branch out with this product maybe we do have a higher budget options. and if it goes over with this model we can look into wider range voice recognition like from other rooms of the house and stuff,</v>
+
+34
+00:17:46.710 --> 00:17:49.870
+<v IndustrialDesigner>I am bit disappointed about losing the solar panel</v>
+
+35
+00:18:13.020 --> 00:18:46.620
+<v ProjectManager>This one's a bit unclear to me to be perfectly fair,. I got this slide from the coach. and I'm not sure what it's connected to. so I guess we are going to discuss our project process. I guess this is the point where we go out of role it looks like. and talk about our satisfaction for room for creativity and so forth. and how that all worked, I guess,.</v>
+
+36
+00:18:46.370 --> 00:18:48.710
+<v MarketingExpert>As in within the team or?</v>
+
+37
+00:18:48.170 --> 00:18:49.150
+<v ProjectManager>I think so yeah.</v>
+
+38
+00:19:12.720 --> 00:19:15.260
+<v IndustrialDesigner>Are we considering these points here?</v>
+
+39
+00:19:15.270 --> 00:19:35.690
+<v MarketingExpert>I think they're starting blocks. I think in general, for a day's worth of work we actually were relatively productive,. considering the little amount of input we had going in. and the technology has definitely been a help,. it's really been interesting to try out all this new stuff.</v>
+
+40
+00:19:37.620 --> 00:19:39.290
+<v UserInterface>We didn't use the whiteboard at all.</v>
+
+41
+00:19:39.590 --> 00:19:44.147
+<v ProjectManager>No, no whiteboard.</v>
+
+42
+00:19:45.160 --> 00:19:50.880
+<v MarketingExpert>And I feel like if you guys had been designing in here perhaps that would have changed. but because of room constraints, doesn't really matter.</v>
+
+43
+00:19:52.100 --> 00:20:01.020
+<v UserInterface>Also had I not been intrigued about the pen, I don't think I woulda used it at all,. I didn't write barely anything.</v>
+
+44
+00:20:10.550 --> 00:20:11.780
+<v ProjectManager>Was pretty cool tack though.</v>
+
+45
+00:20:14.630 --> 00:20:18.703
+<v MarketingExpert>I am disappointed I didn't get a note back from my personal coach.</v>
+
+46
+00:20:28.440 --> 00:20:31.910
+<v ProjectManager>Attempts to contact coach ineffective.</v>
+
+47
+00:20:39.650 --> 00:20:47.780
+<v UserInterface>N I think there was a lot of room for creativity,. we could do whatever basically what we wanted until the budget came down on us,.</v>
+
+48
+00:20:48.420 --> 00:20:52.830
+<v MarketingExpert>And even then we did get a decent product turned out. although it's not everything we wanted it to be.</v>
+
+49
+00:21:08.700 --> 00:21:11.770
+<v ProjectManager>I think, yeah re I thought it was like really creative actually, I mean.</v>
+
+50
+00:21:11.184 --> 00:21:15.930
+<v UserInterface>I think the teamwork was good as well.</v>
+
+51
+00:21:26.630 --> 00:21:30.910
+<v IndustrialDesigner>My one my one criticism is that we didn't have enough colours to work with,</v>
+
+52
+00:21:33.120 --> 00:21:36.630
+<v MarketingExpert>You could have developed multiple skins really had you had more colours.</v>
+
+53
+00:21:39.760 --> 00:21:43.270
+<v ProjectManager>What did you guys think about the the the roles?</v>
+
+54
+00:21:55.840 --> 00:22:10.830
+<v IndustrialDesigner>I think it was pretty clever. 'cause we were never able to get too far off track. because the information came in at the right time. and kind of filled in the gaps enough. At the same time you had enough room to kind of just make things up,</v>
+
+55
+00:22:11.570 --> 00:22:30.600
+<v MarketingExpert>Though I did feel like th the level of information dropped off severely over the course of the day. but I didn't actually get any information for the last presentation at all. Nothing, I didn't even get an email,. I feel like that was slightly lacking</v>
+
+56
+00:22:42.140 --> 00:23:06.570
+<v UserInterface>When I was reporting about what each of us was doing I was often confused as to what you were doing. and then I also felt like you know a lot of our discussion would centre around specifically what my task was. and then in the end I think our jobs kind of melded together a little bit more,</v>
+
+57
+00:23:06.620 --> 00:23:14.690
+<v IndustrialDesigner>I think the most helpful thing out of everything was getting the the PowerPoint slides already put together for you</v>
+
+58
+00:23:14.620 --> 00:23:16.910
+<v MarketingExpert>Yeah, already having the formatted stuff helped a lot.</v>
+
+59
+00:23:14.690 --> 00:23:18.260
+<v IndustrialDesigner>'cause if we didn't have that there's no way we could have got all that done in time.</v>
+
+60
+00:23:22.300 --> 00:23:23.990
+<v UserInterface>And I think your leadership was quite good.</v>
+
+61
+00:23:24.080 --> 00:23:25.280
+<v IndustrialDesigner>It was really good yeah.</v>
+
+62
+00:23:29.690 --> 00:23:57.620
+<v ProjectManager>I did get I I felt like I got way too into it. But you guys felt that you could keep the, yeah, suspension of disbelief kind of like like the role and the okay?</v>
+
+63
+00:23:57.820 --> 00:23:59.720
+<v MarketingExpert>Except for a couple moments where it just got out of hand</v>
+
+64
+00:24:30.890 --> 00:24:33.060
+<v ProjectManager>You guys felt like there was enough teamwork in all?</v>
+
+65
+00:24:34.000 --> 00:24:34.420
+<v MarketingExpert>I think so.</v>
+
+66
+00:24:40.140 --> 00:24:42.340
+<v ProjectManager>No I, no I dunno, I I I dunno,</v>
+
+67
+00:24:44.700 --> 00:25:01.840
+<v MarketingExpert>I mean other than minor discussion at meetings there wasn't except for the actual building,. but I feel like if this was a team project there actually would have been much more of the collaborative like brainstorming, use the board. and this would have been six months' worth of work, not like three hours' worth of meetings.</v>
+
+68
+00:25:28.350 --> 00:25:33.660
+<v IndustrialDesigner>Is there anything about the way that we got so much inform what was it that kept us from going to the the board?</v>
+
+69
+00:25:37.950 --> 00:25:42.520
+<v MarketingExpert>I didn't feel like getting up and down and dealing with all these wires,. I was afraid I was gonna break something actually.</v>
+
+70
+00:25:42.480 --> 00:25:47.680
+<v IndustrialDesigner>And each time you get up it's a possibility of tripping over something or getting tangled or.</v>
+
+71
+00:25:48.100 --> 00:26:00.130
+<v UserInterface>I dunno what I woulda shown on that board. it's just like the paper I don't know what I really needed the paper for.</v>
+
+72
+00:26:23.120 --> 00:26:24.890
+<v IndustrialDesigner>Usually I would do a lot more doodling too</v>
+
+73
+00:26:25.820 --> 00:26:27.520
+<v MarketingExpert>I felt like I needed to be professional</v>
+
+74
+00:26:38.060 --> 00:26:40.810
+<v ProjectManager>I I'm curious about what the de-briefing is gonna be like.</v>
+
+75
+00:26:45.830 --> 00:26:46.960
+<v UserInterface>Is this all we need to get through?</v>
+
+76
+00:26:47.850 --> 00:26:50.960
+<v ProjectManager>I'm not sure what the new ideas found i is about.</v>
+
+77
+00:26:52.470 --> 00:26:54.790
+<v MarketingExpert>It did it just say in an email that we need to discuss that?</v>
+
+78
+00:26:56.080 --> 00:27:04.220
+<v ProjectManager>That's the thing I got i in the email I got this PowerPoint file. I didn't change this one at all.</v>
+
+79
+00:27:10.150 --> 00:27:17.280
+<v UserInterface>Any new ideas with regard to remote control concepts?</v>
+
+80
+00:27:16.660 --> 00:27:18.290
+<v MarketingExpert>I think they still do their job.</v>
+
+81
+00:27:30.760 --> 00:27:32.990
+<v ProjectManager>How much can you do with a remote control?</v>
+
+82
+00:27:50.840 --> 00:27:52.380
+<v MarketingExpert>How long was our meeting supposed to be?</v>
+
+83
+00:27:53.520 --> 00:28:07.060
+<v ProjectManager>I I I we should go on a bit yeah about the project eval,. I dunno about you guys but I felt like a bit under-stimulated on the whole thing.</v>
+
+84
+00:28:11.560 --> 00:28:29.390
+<v MarketingExpert>At the beginning it started out. and I felt actually like under pressure. and I was like had like all this brainstorming I was doing. and then suddenly I was like well it's just another two minute presentation. that you guys don't really care about anyway. like we all sort of knew where we were headed with it</v>
+
+85
+00:28:30.570 --> 00:28:41.500
+<v IndustrialDesigner>Definitely when when I first filled out the questionnaire I was marking it probably higher in terms of how much I had to how much I stressed over it. and then by the time I got to the last one I was like, you know, not very much.</v>
+
+86
+00:28:42.220 --> 00:28:49.720
+<v UserInterface>Think it was also realisation of you basically just copy and paste what's given to you into your presentation</v>
+
+87
+00:28:53.890 --> 00:28:58.750
+<v ProjectManager>Every single one I a all the presentations I either added slides. or edited 'em.</v>
+
+88
+00:29:03.760 --> 00:30:40.080
+<v MarketingExpert>My slides were all blank,. they'd have a title maybe. with the whole new background being innovative, yeah that was class. An interesting day all in all I would say.</v>
+
+89
+00:30:53.010 --> 00:31:57.800
+<v ProjectManager>It seemed like everything flowed pretty logically. You know from the the the basics to the conce. although the whole concepts thing, the whole concepts phase, I don't think I really understood like the concept. we've established that the costs weren't really within budget,. We did the project evaluation based on Sarah's evaluation of on off switches</v>
+
+90
+00:31:57.470 --> 00:32:02.930
+<v MarketingExpert>Though it was really technically an evaluation of the product, not the project in general.</v>
+
+91
+00:32:23.140 --> 00:33:21.520
+<v ProjectManager>And it's all recorded,. I'm supposed to do this final report thing at the end. so I'll put all that into the final report as well, or as much as seems like. I will save this into the project documents.</v>
+
+92
+00:34:29.350 --> 00:34:30.940
+<v UserInterface>You guys ready to celebrate?</v>
+
+93
+00:34:31.860 --> 00:35:09.940
+<v ProjectManager>That's our last step. Celebration. I guess we can probably call that meeting to an end for the most part. I guess we'll call that a a doner.</v>
+
+94
+00:35:08.450 --> 00:35:09.710
+<v MarketingExpert>That's the end of the meeting.</v>
+

@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Benjamin (ID: FEE005)",
+    "role": "Project Manager",
+    "skills": ["Budget management", "Requirement setting", "Meeting facilitation", "Project coordination"]
+  },
+  {
+    "name": "Arthur (ID: MEE006)",
+    "role": "Industrial Designer",
+    "skills": ["Hardware conceptualization", "Material selection (rubber, plastic, titanium)", "Cost-feasibility analysis", "Creative prototyping"]
+  },
+  {
+    "name": "Clara (ID: MEE007)",
+    "role": "User Interface Expert",
+    "skills": ["Ergonomic assessment", "Interface layout optimization", "Competitive product research"]
+  },
+  {
+    "name": "Daniel (ID: MEE008)",
+    "role": "Marketing Expert",
+    "skills": ["Consumer behavior analysis", "Market trend identification", "Brand identity development", "Feature prioritization"]
+  },
+  {
+    "name": "Adam Duguid (ID: MEE009)",
+    "role": "Project Manager",
+    "skills": ["Technical oversight", "Time-to-market strategy", "Team management", "Requirement synthesis"]
+  },
+  {
+    "name": "Tarik Rahman (ID: MEE010)",
+    "role": "Industrial Designer",
+    "skills": ["Internal component engineering", "Material science (wood/metal)", "Circuitry design", "Signal transmission"]
+  },
+  {
+    "name": "Dave Cochrane (ID: MEE011)",
+    "role": "User Interface Expert",
+    "skills": ["Ergonomic prototyping", "Biomorphic form design", "Accessibility design", "User navigation mapping"]
+  },
+  {
+    "name": "Ebenezer Ademesoye (ID: MEE012)",
+    "role": "Marketing Expert",
+    "skills": ["Quantitative consumer research", "Survey design and execution", "Marketing strategy alignment"]
+  },
+  {
+    "name": "Sarah (ID: FEE013)",
+    "role": "Project Manager",
+    "skills": ["Agenda development", "Goal definition", "Project phase management", "Team cohesion building"]
+  },
+  {
+    "name": "William (ID: MEE014)",
+    "role": "Industrial Designer",
+    "skills": ["Infrared (IR) signal design", "Form-factor reduction", "Low-cost component sourcing", "Battery optimization"]
+  },
+  {
+    "name": "Oscar (ID: MEO015)",
+    "role": "User Interface Expert",
+    "skills": ["Interface concept brainstorming", "Flip-top model design", "System simplification", "User-centric design"]
+  },
+  {
+    "name": "Fiona (ID: FEE016)",
+    "role": "Marketing Expert",
+    "skills": ["Market feedback analysis", "Consumer accessibility focus", "Stakeholder reporting"]
+  },
+  {
+    "name": "George (ID: MEE017)",
+    "role": "Project Manager",
+    "skills": ["Profit margin management", "Brand strategy development", "Technical constraint negotiation", "Project administration"]
+  },
+  {
+    "name": "Henry (ID: MEE018)",
+    "role": "Industrial Designer",
+    "skills": ["Production cost analysis", "Demographic targeting", "Material science research"]
+  },
+  {
+    "name": "Isabella (ID: FEE019)",
+    "role": "User Interface Expert",
+    "skills": ["Biomorphic design (fruit shapes)", "Speech recognition software integration", "Ergonomic layout optimization"]
+  },
+  {
+    "name": "Jack (ID: MEO020)",
+    "role": "Marketing Expert",
+    "skills": ["Quantitative market survey methodology", "Aesthetic preference analysis", "Product safety compliance"]
+  },
+  {
+    "name": "Kelly (ID: FEE021)",
+    "role": "Project Manager",
+    "skills": ["Multi-phase design oversight", "Financial criteria checking", "Technical staff coordination"]
+  },
+  {
+    "name": "Leo (ID: MEO022)",
+    "role": "Industrial Designer",
+    "skills": ["Hardware engineering (PCB, transistors)", "Alternative energy research (solar/kinetic)", "Internal component mapping"]
+  },
+  {
+    "name": "Mia (ID: FEO023)",
+    "role": "User Interface Designer",
+    "skills": ["Need gap analysis", "Interface mechanism design (scroll-and-click)", "Voice recognition conceptualization"]
+  },
+  {
+    "name": "Cat (ID: FEE024)",
+    "role": "Marketing Expert",
+    "skills": ["Quantitative design evaluation", "Requirement specification", "Accessibility assessment"]
+  },
+  {
+    "name": "Nathan (ID: MEE025)",
+    "role": "Project Manager",
+    "skills": ["Project aim definition", "Tool training coordination", "Corporate brand identity management"]
+  },
+  {
+    "name": "Olivia (ID: FEO026)",
+    "role": "Industrial Designer",
+    "skills": ["Technical system drawing", "Responsibility mapping", "Power source optimization (dual batteries)"]
+  },
+  {
+    "name": "Paul (ID: MEE027)",
+    "role": "User Interface Designer",
+    "skills": ["Operational range analysis", "Interface requirement specification", "Design presentation"]
+  },
+  {
+    "name": "Quinn (ID: FEE028)",
+    "role": "Marketing Expert",
+    "skills": ["International market range definition", "User maintenance analysis (battery fatigue)"]
+  },
+  {
+    "name": "Rachel (ID: FEE041)",
+    "role": "Project Manager",
+    "skills": ["Spreadsheet management", "Production cost tracking", "Material analysis oversight"]
+  },
+  {
+    "name": "Samuel (ID: MEO042)",
+    "role": "Industrial Designer",
+    "skills": ["Modular hardware design", "Component integration (locator chips)", "Wheel-based control mechanisms"]
+  },
+  {
+    "name": "Tina (ID: FEE043)",
+    "role": "User Interface Expert",
+    "skills": ["Biomorphic interface design", "Hand-held ergonomics", "Locator button placement"]
+  },
+  {
+    "name": "Victor (ID: FEE044)",
+    "role": "Marketing Expert",
+    "skills": ["Market report drafting", "Final documentation synthesis"]
+  },
+  {
+    "name": "Wendy (ID: MEE045)",
+    "role": "Project Manager",
+    "skills": ["Think tank facilitation", "Strategic pricing", "Requirement constraint negotiation", "Market positioning"]
+  },
+  {
+    "name": "Katie (ID: FEE046)",
+    "role": "Industrial Designer",
+    "skills": ["Electrical component engineering (ICs, diodes)", "Renewable energy integration (solar cells)", "Ergonomic hardware layout"]
+  },
+  {
+    "name": "Kendra (ID: FEE047)",
+    "role": "User Interface Designer",
+    "skills": ["Material assessment", "User behavior analysis (zapping habits)", "Functional UI modeling"]
+  },
+  {
+    "name": "Andrew (ID: MEE048)",
+    "role": "Marketing Expert",
+    "skills": ["Statistical market research", "Consumer aesthetic tracking", "Practicality analysis"]
+  },
+  {
+    "name": "Florence (ID: FEE049)",
+    "role": "Project Manager",
+    "skills": ["Fast-track timeline management", "Corporate slogan integration", "Conflict resolution", "Administration"]
+  },
+  {
+    "name": "Xavier (ID: FEE050)",
+    "role": "Industrial Designer",
+    "skills": ["Internal circuitry design (chip on print)", "Kinetic energy engineering", "Hardware prototyping"]
+  },
+  {
+    "name": "Steph (ID: FEE051)",
+    "role": "User Interface Designer",
+    "skills": ["Clay modeling", "Interface simplification (scroll-push technology)", "Organic form design"]
+  },
+  {
+    "name": "Sarah (ID: FEE052)",
+    "role": "Marketing Expert",
+    "skills": ["Fashion forecasting (thematic sleeves)", "Speech recognition research", "Material innovation"]
+  },
+  {
+    "name": "Alastair (ID: MEE053)",
+    "role": "Project Manager",
+    "skills": ["Logo integration", "Budget oversight", "Project documentation"]
+  },
+  {
+    "name": "Nick (ID: MEE054)",
+    "role": "Industrial Designer",
+    "skills": ["IR sender analysis", "Circuit board tiering", "Dynamo/Kinetic power research"]
+  },
+  {
+    "name": "Louisa (ID: FEE055)",
+    "role": "User Interface Expert",
+    "skills": ["Functional design mapping", "Ergonomic analysis", "Button count minimization"]
+  },
+  {
+    "name": "Robin (ID: MEE056)",
+    "role": "Marketing Expert",
+    "skills": ["Prototype evaluation", "Market trend alignment", "Innovation assessment"]
+  },
+  {
+    "name": "Heather (ID: FEE057)",
+    "role": "Project Manager",
+    "skills": ["Turnover goal management", "Team coordination", "Facilitation"]
+  },
+  {
+    "name": "Poppy (ID: FEE058)",
+    "role": "Industrial Designer",
+    "skills": ["Sustainability engineering", "Recycling analysis", "Smart materials (shape memory alloys)"]
+  },
+  {
+    "name": "Tara (ID: FEE059)",
+    "role": "User Interface Designer",
+    "skills": ["Multi-phase UI design", "Layout optimization", "RSI prevention design"]
+  },
+  {
+    "name": "Genevieve (ID: FEE060)",
+    "role": "Marketing Expert",
+    "skills": ["Consumer demographic targeting", "LCD panel feasibility studies", "Competitive analysis"]
+  },
+  {
+    "name": "Nick Debusk (ID: MEE061)",
+    "role": "Project Manager",
+    "skills": ["Project goal definition", "Note-keeping administration", "Final presentation synthesis"]
+  },
+  {
+    "name": "Manuel (ID: MEO062)",
+    "role": "Industrial Designer",
+    "skills": ["Technical requirements fulfillment", "Material selection", "Look-and-feel engineering"]
+  },
+  {
+    "name": "Ryan (ID: MEE063)",
+    "role": "User Interface Designer",
+    "skills": ["Palm-fit optimization", "Functional technical mapping", "Ball-shaped interface conceptualization"]
+  },
+  {
+    "name": "Corinne Whiting (ID: FEE064)",
+    "role": "Marketing Expert",
+    "skills": ["Quantitative frustration tracking", "Button frequency analysis", "Fashion/Furniture trend alignment"]
+  }
+]

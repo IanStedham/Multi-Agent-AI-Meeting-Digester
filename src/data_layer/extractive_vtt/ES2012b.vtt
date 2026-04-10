@@ -1,0 +1,154 @@
+WEBVTT
+
+1
+00:00:44.630 --> 00:05:46.110
+<v ProjectManager>Welcome to the second meeting of this design group. I'll briefly go through the notes of the of the last meeting. we we we saw that the the problems with existing remote controls were the a boring shape and boring colour. and and we we saw that the what we needed to do was to to make sure the device controls several items,. that switching was easy,. that you shouldn't need to point the thing at anything in particular,. that it need to be contoured to make it interesting,. that the keys might be concave,. should have interchangeable fascias. and that people might want it as as in addition to their existing remote controls. And that it shouldn't be too small,. that it it gets lost.. I'll shortly ask for for three three presentations. before I do that, however, I will go through some new project requirements. that the the management have placed on us. the the ma the management has had it's own thoughts on this. and the they don't necessarily agree with with what we we thought. the the new requirements are the the management team see that teletext is no longer of any importance given the the rise of the internet. and and they want it only to cover televisions. what is not quite clear from their directive is. whether they mean th they don't want it to cover teletext. or whether they don't want it to cover, you know, videos, D_V_D_s, satellite boxes,. which I mean we saw as being fundamental to the to the exercise. The the actual wording of the directive is that it should cover television only. the device has to incorporate the company logo and colours. the the logo being at the bottom of the screen there, the the the two R_s in grey against a yellow background. this doesn't necessarily mean that we have to give up some of our ideas about making it attractive to the to the market. but they also want it to be simple to get it to the market quickly,. but we we need to talk that through.</v>
+
+2
+00:07:34.270 --> 00:11:21.580
+<v MarketingExpert>These are functionality requirements from the our our guys down in the the research lab. Took hundred people. and covered all the aspects of what is needed by people and what they want to see. everything kinda from functionality and how individual functions are how mu how how often they're used and how much their necessary and stuff. And general opinions about current current remotes. See that, as we kinda noticed, seventy five percent of people find their remote controls ugly. along with looking less ugly, if it looks better, eighty percent of people said they'd spend more money on it. Current remote controls do not match the operating behaviour of the user. I kinda take that to mean as they they don't they, yeah, they only use they only work for the television. as in in my flat I've got six remote controls for a stereo system, a digital box, a DVD player, a video player and TV. again, seventy five percent is seventy five percent of users say they zap a lot. fifty percent users only use ten percent of the buttons,. we'll have some buttons taken off by the lack of teletext,. but oh and we're going to see on the that some of the functions like audio settings aren't hardly ever used. So I think maybe fewer buttons,. which also make the design look sleeker,. frustrations of like people losing remote control. maybe some kind of system of you press a button on the TV. it would have to incorporate, but like some kind of system where you can use something else to find the remote control. Maybe like it'll beep or something. the time taken to learn new remote controls is. And repetitive strain injury,. I suppose we should make it more comfortable. like I was saying about the whole mice the mouse idea of it feels more comfortable. Maybe don't even have to hold it as such. It also asked if we would if people would pay more for speech recognition. and younger people say they would. And there was another section on our on the report for LCD displays,. but the data wasn't there,</v>
+
+3
+00:11:28.390 --> 00:11:39.910
+<v ProjectManager>I must say that the I can't remember what you know phone service I was using the other day,. but that had sorta speech recognition. which worked remarkably well,</v>
+
+4
+00:11:44.420 --> 00:13:00.352
+<v MarketingExpert>And it would cut out the RSI as well if you. possibly the speech recognition is possibly something could add into the design. I've got some other things. I couldn't fit onto this presentation. functionality, like people's opinions on functionality, the relevance to the remote and how often they're used. like the power. Using the using the swi the power switch to switch on TV is a high relevance of nine,. but it's not frequently used. Whereas channel selection, which is very high relevance. is used the most. I was possibly even thinking of a design that maybe some of the buttons are hidden from everyday use. Maybe like a folding ledge or something. So that we can maybe go into the channel settings and the audio settings,. And keep the volume selection and channel selection very easily</v>
+
+5
+00:13:02.940 --> 00:13:17.090
+<v UserInterface>I was just gonna say maybe like the flip phones that they use? you could have the most used buttons on top</v>
+
+6
+00:13:18.780 --> 00:13:21.730
+<v MarketingExpert>Like the one that like slides back. and the buttons are concealed underneath.</v>
+
+7
+00:13:23.690 --> 00:14:47.840
+<v ProjectManager>If people really don't use those buttons to any extent at all remove them altogether. I wonder whether we could get the remote control with no buttons at all if we went for voice recognition,. what we didn't have was what proportion of people using remotes were in those particular age groups. Forty no sorry for forty five to fifty five age group, to put myself right in the middle of it, use remote controls to a great extent. again, we don't know the relative proportion the relative numbers in the age groups. If we wanted something different, truly different, then the buttonless remote control would be it.</v>
+
+8
+00:14:46.920 --> 00:14:52.100
+<v IndustrialDesigner>The only problem I can think of with that is if you've got a lot of people that don't wanna be bothered learning how to use new rem remote controls.</v>
+
+9
+00:14:56.800 --> 00:15:00.400
+<v ProjectManager>But if you just lift it up and say, channel one or BBC</v>
+
+10
+00:15:03.610 --> 00:15:05.710
+<v MarketingExpert>You could just put it down once on top your TV</v>
+
+11
+00:15:11.950 --> 00:15:14.080
+<v UserInterface>And then it doesn't matter where in the room you are,</v>
+
+12
+00:15:16.160 --> 00:17:10.040
+<v ProjectManager>I can I can see technical problems with that in terms of the, you know, the sound from the television,. because if somebody actually on the television says, you know, ITV and you're watching BBC then then it might change itself,. so it probably needs to be possibly actually need a button on it. Or or something just to identify that you've lifted it up and it's use. w we need to identify things that people actually need. and and it's a function of frequency and relevance. if we can design something that that looks interesting,. incorporates the the logo and and the colours. and we can still have our interchangeable fascias even if it's the yellow and grey,. buttons or or buttons as an option.</v>
+
+13
+00:17:12.430 --> 00:17:25.050
+<v MarketingExpert>You were saying about it could technical problems of like someone on the television saying a channel number and it changed. we could maybe have like an activation</v>
+
+14
+00:17:36.370 --> 00:17:45.490
+<v ProjectManager>If we want to make this so simple that anybody can walk into the room and lift it up and say</v>
+
+15
+00:17:57.240 --> 00:18:01.270
+<v MarketingExpert>I mean I'm just thinking of the point of view of peop you could still like lose this remote.</v>
+
+16
+00:18:19.530 --> 00:18:21.120
+<v ProjectManager>Do you want to just carry on with</v>
+
+17
+00:18:27.970 --> 00:18:59.810
+<v MarketingExpert>I was just kinda wrapping up there. eighty percent of people would spend more on a remote that looks better,. take out the limited functio functions. but as for channel settings and stuff it might it might turn people somewhe peop some people that want the whole functionality away.</v>
+
+18
+00:19:09.030 --> 00:19:17.550
+<v ProjectManager>S we could we could make it dual function voice recognition and still have buttons on it</v>
+
+19
+00:21:03.040 --> 00:23:06.280
+<v UserInterface>This is just about the technical functions. the method, I looked online for examples of other similar products. and then just kind of was trying to brainstorm some possible design ideas. and then there are two different kinds that I found. There's a user centred one and an engineering centred one. these are the two different ones. This one this is the user centred,. it has quite a few fewer buttons. and then this is the engineering centred,. which has a lot more buttons,. what a remote control is is you it's to send messages to the television set,. turn on, off, switch the channels and the volume and things such as that. And so for this product it's gonna be television only,. and then it has to have the logos. for my personal preferences, I think this one is easier to use. and has quite a you know, fewer buttons. we want something that sends messages easily to the television. and I was thinking maybe if it were wider at the top,. then that would be easier. the unique style, maybe have it light up. the changeable face-plates,. when we were talking about havi losing it,. maybe to have a button on the television that you press and it maybe if it makes a noise or lights up or something like that,</v>
+
+20
+00:24:04.250 --> 00:25:55.150
+<v ProjectManager>Rather than the the the traditional. something like this shape,. sort of something that you can that's sort of a more vertical shape,. l such as I mean something you hold up like that,. possibly with a couple of buttons like that,. again the need to look at the the the technicalities of. if minimum number of buttons is our priority, then we should, as I say, know, really bite the bullets and and reduce the buttons to absolute minimum,. possibly with backup channel and volume buttons and on off. and nothing else.</v>
+
+21
+00:26:57.750 --> 00:29:32.170
+<v IndustrialDesigner>I'll just do my presentation on the working design. the basic function of the remote control is to send messages to another sh system, the the TV or the DVD player or whatever. and it does this by well, you need to start off you need an energy source. and this energy source will feed into an integrated circuit chip. and the circuit chip is the part that actually composes the different messages within the remote. which will then be sent to the the television, the DVD to tell that what to do. and you need a user interface,. which controls the chip and thus the messages. and the user interface is that's basically just you kn the sorta design of the actual remote which you hold in your hands and what buttons will be on it. what we need technically speaking for the remote control is some sort of energy source, some sort of user interface,. which I think we've mostly been talking about the user interface and the design of that. a circuit chip within that to control and send the messages and a sender and receiver. This is just sort of a little schematic diagram of what we're looking for. my personal preferences. I I just think we need sorta big energy source that won't die out,. perhaps some sort of rechargeable battery. or a battery dock you could place it in,. so you wouldn't have to be worrying about it running out of batteries and not changing channels for you. also definitely a user-friendly interface. and I think we've all sort of mentioned adding a a locating device on it,</v>
+
+22
+00:29:51.640 --> 00:30:47.480
+<v ProjectManager>I think your point about the the big energy source is a very valid one. I don't suppose we've got any statistics on the the life expectancy of remote controls, particularly sort of independent ones. you know, the number of things you buy these days, which you know, have a a a lithium whatever battery in,. perhaps we should have the the disposable remote control,. the the the battery will last. know, five, ten years. perhaps we should, know, reduce the, you know, the sort of moving parts even more by not even having a battery compartment</v>
+
+23
+00:30:48.400 --> 00:30:51.310
+<v IndustrialDesigner>Just having one that's guaranteed to last five to ten years?</v>
+
+24
+00:31:02.500 --> 00:31:17.600
+<v ProjectManager>It's actually a marketing gimmick. it's it's totally practical. so I th think you know the idea of a rechargeable one is. unless you're really high tech and it sort of just recharges itself if it's by, you know, magnetic waves or whatever,</v>
+
+25
+00:31:18.120 --> 00:31:23.840
+<v MarketingExpert>It could have like know like a cordless phone in your house it got like a base that sits there all the time.</v>
+
+26
+00:31:29.160 --> 00:31:32.010
+<v UserInterface>I mean people forget to put their cordless phones back on there,</v>
+
+27
+00:31:45.030 --> 00:31:48.620
+<v IndustrialDesigner>'Cause I only remember to charge my cell phone when battery dies.</v>
+
+28
+00:31:56.140 --> 00:32:01.750
+<v ProjectManager>What so wh what what do we think about the the the permanent battery?</v>
+
+29
+00:32:02.970 --> 00:32:05.040
+<v MarketingExpert>That sounds pretty good, yeah.</v>
+
+30
+00:32:23.270 --> 00:32:24.990
+<v UserInterface>Do they make batteries that last that long?</v>
+
+31
+00:32:30.760 --> 00:32:33.940
+<v ProjectManager>But there are certainly things that you buy. I mean calculators for example.</v>
+
+32
+00:32:38.580 --> 00:32:40.016
+<v UserInterface>Yeah, they have that little solar</v>
+
+33
+00:32:48.580 --> 00:32:56.080
+<v IndustrialDesigner>Most of them, don't they have sort of a combination of the two,. when there is light, they'll work off the light,. and if there isn't, they'll kick into this battery,. so we can maybe do something like that</v>
+
+34
+00:33:07.500 --> 00:33:18.360
+<v ProjectManager>I mean the the actual time that a remote control is actually operating. I would think is i is is probably, you know, no more than minutes in its entire life.</v>
+
+35
+00:33:30.240 --> 00:33:37.810
+<v MarketingExpert>Like like this this market research thing says number of times per hour that it's used, channel selection a hundred and sixty eight</v>
+
+36
+00:33:48.260 --> 00:36:28.100
+<v ProjectManager>That does sound excessive. We're looking at extreme simplicity. We're looking at a radically different shape. Possibly no buttons at all,. but if you can incorporate channel change and volume buttons in into the design, then then that's fine. I don't see why we shouldn't go for voice recognition. and the the only buttons that I think we need are channel control, volume control and on off. it needs to incorporate the corporate logo, the the grey and yellow colour scheme. and there's no reason why we can't introduce interchangeable covers. Yeah. We are doing just the television.</v>
+
+37
+00:36:22.980 --> 00:36:28.720
+<v UserInterface>Are we doing just the television. so not DVD players,</v>
+
+38
+00:36:30.000 --> 00:37:06.670
+<v ProjectManager>I think that's quite clear from the the information that we've been given,. we can all give some thought to that for for the next meeting,</v>
+

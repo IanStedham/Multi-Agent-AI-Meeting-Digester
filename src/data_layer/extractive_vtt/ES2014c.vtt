@@ -1,0 +1,242 @@
+WEBVTT
+
+1
+00:02:09.180 --> 00:03:35.060
+<v ProjectManager>Right well from the last meeting I was trying to send you the minutes,. but it didn't work out too well,. so maybe in sort of quick summary of the last meeting, I can quickly give you what we what we had. Right so we had the fact that we're gonna have the the logo the company logo in its colour scheme incorporated onto the the device the remote device. We had made our decisions about made our decisions about the device itself,. that it was gonna be simple to make it enable us to complete the project in time. We're gonna have effectively two pages,. a front page which had the features that the the customers most wanted,. and then the the backup features on the second page so that it could meet the technical requirements.</v>
+
+2
+00:03:52.040 --> 00:06:50.770
+<v IndustrialDesigner>I think we all have a presentation again,. For the components design, next step is. basically the the way the remote's gonna work is still the same idea as before. We still have the user interface which is all the buttons we're gonna incorporate. Then there is a chip. and still the sender. So yes including the power supply as well. first in the power supply, we have the option of just the standard battery,. There's a dynamo. There's a kinetic option,. which would mean the batteries wouldn't have to be replaced. but I think that was gonna cost a little more. And then there's solar cells. as a final option. For the buttons, we have an integrated push button,. which I guess is just the same as the standard ones. This says it's similar to the button on the mouse for a normal for like like modern computer. there's a scroll wheel which is you know the new mouse has just got like the centre section which you can scroll up and down,. one issue for the buttons is, depending on which material we use,. if we use rubber buttons then it requires a rubber case,</v>
+
+3
+00:06:54.530 --> 00:06:56.680
+<v ProjectManager>What would be the cost do do we know?</v>
+
+4
+00:06:59.740 --> 00:09:09.280
+<v IndustrialDesigner>I th I think the there wasn't too much difference in the cost, that that related to the actual buttons,. but it does affect the printed circuit board. The firm supplies a simple, a regular and an advanced circuit board. So if we've got the scroll wheel for one of the buttons, that would require a slightly more advanced circuit board than if we just had a standard push button. one final thing we came up with was some information on the speech recognition. There's a small unit available through the company which obviously would be an extra cost,. going to my personal preferences, I thought possibly for power we could use kinetic. And this would avoid batteries running out, having to replace batteries and such like. for the buttons, I thought we'd probably get away with just having the standard push buttons rather than the scroll wheel. and for the circuit board, again depends on which features we want in the actual in the remote. So if we wanted the scroll wheel and wanted the voice recognition, then we'd have to get a a more costly circuit board. if we're gonna have the speech recognition, we'd have to probably get an advanced one. I'm guessing. but I don't know,. so that is something I'll have to look into. that's a that's a decision for all of us..</v>
+
+5
+00:09:10.660 --> 00:09:28.240
+<v ProjectManager>So are we able to make that decision now in a sense that this is the point at which we're discussing that issue,. I mean one way is to do each of the presentations. and then make decisions going back to the various presentations as they were.</v>
+
+6
+00:09:34.060 --> 00:09:36.160
+<v UserInterface>That's probably a better one, to discuss it straight away.</v>
+
+7
+00:09:39.240 --> 00:09:51.060
+<v ProjectManager>So if we wanted to know for instance that the scroll wheel required the regular and what required advance. Then if we were able to see that down then we could make the decision at that point in time</v>
+
+8
+00:10:18.820 --> 00:10:27.540
+<v IndustrialDesigner>As I say it only specified that we need a more advanced circuit board for the scroll wheel,. The voice recognition came as a separate piece of information..</v>
+
+9
+00:10:27.350 --> 00:10:44.640
+<v ProjectManager>The scroll wheel required the regular,. The display requires an advanced chip</v>
+
+10
+00:10:55.220 --> 00:10:58.060
+<v IndustrialDesigner>And note that the push button just requires a simple chip,</v>
+
+11
+00:11:00.680 --> 00:11:06.050
+<v UserInterface>Yeah, and if we're going for sleek and sexy, I think a scroll wheel is maybe a bit kinda bulky?</v>
+
+12
+00:11:12.620 --> 00:11:14.050
+<v IndustrialDesigner>So maybe just a simple push button,</v>
+
+13
+00:11:33.190 --> 00:11:35.770
+<v UserInterface>Yeah, a simple pushbuttons.</v>
+
+14
+00:11:35.648 --> 00:11:56.300
+<v IndustrialDesigner>Did everyone get this on the speech recognition? So it is basically the concept we discussed before. but then we don't know for sure whether it would require a more complicated circuit board.</v>
+
+15
+00:12:01.880 --> 00:12:06.620
+<v ProjectManager>So if we go for the simple push button, so effectively we're going for the simple printed circuit board are we?</v>
+
+16
+00:12:36.980 --> 00:12:43.050
+<v MarketingExpert>I suppose we need we need to find out what circuit board that requires, maybe before we make a decision.</v>
+
+17
+00:12:43.950 --> 00:12:57.400
+<v UserInterface>But the way that I interpret that it doesn't seem to send out a signal to the telly,. it's like a parrot just rep reply replying to your message. So I don't think it would effect our circuit board.</v>
+
+18
+00:12:57.300 --> 00:12:58.500
+<v IndustrialDesigner>So we'd have a simple circuit board</v>
+
+19
+00:13:01.050 --> 00:13:04.380
+<v UserInterface>And I don't think you could really perform any of the remote functions with it.</v>
+
+20
+00:13:18.700 --> 00:14:03.380
+<v IndustrialDesigner>So we'd stick with the simple circuit board. I I thought so just for just for ease of not having to replace the batteries. Somehow the mechanism inside powers up through movement.</v>
+
+21
+00:14:10.340 --> 00:14:11.950
+<v ProjectManager>Are we going for speech recognition?</v>
+
+22
+00:14:21.860 --> 00:14:24.950
+<v MarketingExpert>Just just for the call and find thing.</v>
+
+23
+00:14:36.720 --> 00:14:37.990
+<v IndustrialDesigner>It's it's just an addition thing</v>
+
+24
+00:14:39.580 --> 00:14:41.340
+<v ProjectManager>And so we would want it in as an extra</v>
+
+25
+00:15:10.700 --> 00:15:15.940
+<v IndustrialDesigner>But Maybe we maybe we'll find out how much that does cost and have to decide slightly later.</v>
+
+26
+00:15:32.240 --> 00:17:28.540
+<v UserInterface>Okay, so very brief presentation,. From looking at the remotes that are out there at the minute, none of them are particularly sleek and sexy. I haven't actually got the examples of the scroll button there,. but there's some curved cases that you can see, a range of sizes. All of them have a lot of buttons there. some of the remotes that I looked at, one of the models da did actually have voice recognition where you could where it was connected to the remote control functions. And it was quite a swish model,. I mean maybe it's better not to try and compete with that sort of thing. the scroll buttons, as you've already mentioned, there's examples of those,. but they don't look as sleek as other models. and because it impacts on other on the materials and the price it's not great. Th there was a specialist type of remote that we could think about,. There was children's remote,. where they just had a very limited range of buttons. and they were bright and colourful. and you you could program them so that they could only look at certain channels.</v>
+
+27
+00:17:39.160 --> 00:18:02.290
+<v ProjectManager>Well we're to go for the international market rather than a local market. The one thing that you can often do with products is you can make small modifications. So you have your basic model which you would sell at whatever,. and then you could have additional features. You'd have model one, model two and model three,</v>
+
+28
+00:18:08.100 --> 00:18:10.600
+<v IndustrialDesigner>So maybe the children's remote should be like a a next step,</v>
+
+29
+00:18:14.220 --> 00:18:31.440
+<v ProjectManager>But on this basic one I'm reckoning that we're going for the basic model to be discussed here. and that you would have for future reference the possibility of adding in extra features at extra cost to take care of specialist market segments.</v>
+
+30
+00:18:39.490 --> 00:18:53.010
+<v UserInterface>I think because there's already very good voice recognition technology out there, and because ours might not cover the same functions that the leading brands do, it might be a good idea to market it as a finder function.</v>
+
+31
+00:18:54.510 --> 00:19:54.810
+<v ProjectManager>The finder function rather than as a speech function to find your remote. Alright, so we're just gonna have the the rubber buttons,</v>
+
+32
+00:20:09.550 --> 00:21:21.880
+<v UserInterface>There was a mention just as kind of a warning about button design. just to avoid ambiguity. I think the thing was that if you decide to do this, to have triangular buttons, somebody might look at this one and say oh well this triangular button is pointing up,. they might see yeah, they might see this pointing down and think right that's gonna turn the volume down,. whereas the actual button's pointing up, so the function is to turn the button up. So, be careful what you put on the buttons. and be careful of the shape that you make them,. because they might be kind of two contradicting kind of shapes.</v>
+
+33
+00:21:21.660 --> 00:21:23.910
+<v IndustrialDesigner>So maybe we could have volume written on the side</v>
+
+34
+00:22:10.840 --> 00:25:11.860
+<v MarketingExpert>I've I've got some things to say about possible design things from trend watching. Right, I've been looking at some trends in in sort of basically fashion on top of doing the research into the remote control market. that we'd sort of asked people about remote controls and what what was good about them, what was bad, what they used. And we've also been looking at sort of fa sort of fashions and what people are wanting out of consumer goods at the moment. So we've had people in Paris and Milan watching the fashion trends. The most important thing was that the thing sort of look and felt fancy rather than just functional. And second, there should be some technological innovation. And then third and less important than the other two, there should be an ease of use as well. And apparently, the fashion trends are that people want sort of clothes and shoes and things with a fruit and vegetables theme. but the feel of the material should be spongy,. we need to emphasise the fancy design with on on our remote control above all else. And then also try and add in technological informat innovation. which could be our sort of find the thing with a hand clap. And then maybe find a way to incorporate these trends so that we sort of capture people's imaginations. So maybe we could make the buttons shaped like fruit and veg,. or the the buttons could be spongy, somehow. And then sort of even wackier than that, we could maybe have a fruit or vegetable shaped remote,. How how far we actually want to go along and sort of follow the trends,. do we think the trends are particularly important for this type of gadget,. or or you know, do they not matter that much?</v>
+
+35
+00:25:12.370 --> 00:25:16.870
+<v UserInterface>I think if you start making the buttons fruit shaped, it might make it more complicated to use.</v>
+
+36
+00:25:17.100 --> 00:25:20.750
+<v ProjectManager>Well you were just talking about you've got to be careful how you shape your buttons,</v>
+
+37
+00:25:31.520 --> 00:25:38.140
+<v UserInterface>Maybe just one button,. say the standby button is quite kinda separate from all the other functions. Maybe that could be a little apple.</v>
+
+38
+00:25:44.210 --> 00:26:14.360
+<v ProjectManager>Th that that incorporates the trend whilst at the same time not confusing people, if you're looking for functionality. If if you change all the buttons then you've got the problem that this year's fruit and veg, next year's I was gonna say animals or elephants or whatever.</v>
+
+39
+00:26:27.060 --> 00:26:36.130
+<v IndustrialDesigner>I mean it just seems realistic that the remote control market isn't the kind of thing which takes in those kinds of fashion trends. to something which is maybe more universal.</v>
+
+40
+00:26:37.030 --> 00:26:39.740
+<v UserInterface>But I suppose as long as it's quite a subtle design,</v>
+
+41
+00:26:45.370 --> 00:26:53.648
+<v IndustrialDesigner>Maybe the spongy feel is something we could think about,. Maybe still with a rubber design we could</v>
+
+42
+00:27:01.680 --> 00:27:05.050
+<v UserInterface>It seems like you're gonna have rubber cases, as well as buttons.</v>
+
+43
+00:27:31.510 --> 00:28:23.570
+<v ProjectManager>Rubber buttons require rubber case. The the main problem is how how frequently do the fashions change? Whereas if you kept the product the same but you could have a difference from year to year, it seems to me that you could incorporate a fashion statement if you like, rather than changing the whole kit and caboodle. You're just changing one aspect like like the standby button or something like that,</v>
+
+44
+00:28:26.810 --> 00:28:52.650
+<v IndustrialDesigner>I suppose we maybe are limited in the fact that we still have to put the logo on the actual. Maybe we could think of the the cases like changing with the fashions. like the Nokia phones where you could take the casing off the outside.</v>
+
+45
+00:29:17.910 --> 00:29:47.000
+<v UserInterface>Oh but you still would have to have the logo on every new case,. But we are supposed to use the company colour scheme, aren't we?</v>
+
+46
+00:29:59.180 --> 00:30:09.530
+<v ProjectManager>You could have your company badge and logo. I mean a lot of computers for instance like like on the one you've got there, it actually has a sort of stick on badge</v>
+
+47
+00:30:56.740 --> 00:31:03.280
+<v IndustrialDesigner>And whether we'd have a big enough market to have this kind of like secondary market of selling the cases might be something to consider.</v>
+
+48
+00:31:20.220 --> 00:31:25.130
+<v MarketingExpert>I'm not convinced on whether having changeable covers would be something that people would buy into.</v>
+
+49
+00:31:36.450 --> 00:31:40.026
+<v UserInterface>Okay, so if we just went for one colour of a rubber case</v>
+
+50
+00:32:12.140 --> 00:32:20.120
+<v MarketingExpert>Whereas just the fact that it was a rubber case is probably less less of something that you're gonna end up hating in a year, you know.</v>
+
+51
+00:32:33.088 --> 00:33:01.904
+<v IndustrialDesigner>It seems to make sense that we we'd just maybe stick with the standard rubber case,. and then have the standard rubber buttons as well. Maybe curves give it like the slightly more aesthetic feel? But the double curve wouldn't require us to perform miracles with the Plasticine.</v>
+
+52
+00:33:24.690 --> 00:33:38.640
+<v ProjectManager>One thing to consider is that in some ways you want by having a fairly standard case it means they can all fit together on top of each other. therefore for storage purposes in shops and the like and it makes it easier that you can if you can store them up on top of each other.</v>
+
+53
+00:34:27.430 --> 00:34:29.420
+<v UserInterface>Shall we go for single curve, just to compromise?</v>
+
+54
+00:34:29.240 --> 00:34:37.000
+<v IndustrialDesigner>We'll go for single curve, yeah. So did we did we decide on the kinetic power supply?</v>
+
+55
+00:34:44.210 --> 00:35:13.430
+<v UserInterface>And the rubber push buttons, rubber case. and and the voice recognition, we can use that can't we, just to find it. Without affecting the circuit board.</v>
+
+56
+00:35:22.760 --> 00:35:28.490
+<v MarketingExpert>And then are we going for sort of one button shaped like a fruit. Or veg.</v>
+
+57
+00:35:42.710 --> 00:35:45.950
+<v ProjectManager>So it's not really spongy feel buttons, it's just rubber buttons.</v>
+
+58
+00:36:16.960 --> 00:36:18.410
+<v MarketingExpert>Could be a red apple, yeah.</v>
+
+59
+00:36:21.780 --> 00:36:57.770
+<v UserInterface>Yeah 'cause we wanna incorporate a bit of colour if we can,. 'Cause most of them will just be kind of mainly circular or like very plain. just to keep the shape of the buttons simple.</v>
+
+60
+00:37:35.260 --> 00:37:40.000
+<v ProjectManager>I guess you two are on plasticine duty or whatever.</v>
+

@@ -1,0 +1,250 @@
+WEBVTT
+
+1
+00:00:42.340 --> 00:01:53.840
+<v ProjectManager>For the aim of this meeting now is to to make presentation about the work for each one. And take the the decision about the the design and the functionality of the the remote control. And we have think I got a new project requirement. So I think teletext becomes outdated. So the popularity of the since the popularity of the internet,. and I think we don't need lighting adaptive,. so the remote control should be only used for the the television. And of course we should have our image in the in the design. So, let's start with the the industrial designer.</v>
+
+2
+00:02:33.840 --> 00:05:01.530
+<v IndustrialDesigner>Right, so I will talk about the the working design and. And well I I will present my my first idea on how to build the our new remote control for television. So I think the first things to do is to define the hardware components neededs to achieve what we want to do. I think I I'll do a survey about what is what is available on the market. and what what is the the cheapest possible things we hav we can use. Then I will try with the technical team to to build a prototype. And how an and we can start troubleshooting first com communication problems or things like that. And when we are ready with this first prototype I I think we can add some software functionalities on a programmable chip like browsing by content or things like that. So, wha what I think for now is we don't want to have a remote control which is wired. so I think we we can use a battery for the. Then two programmable chips for both software functionalities and communication. And the communication with the TV set is made through infrared communication. So this is the the schema of the of the future remote controls. so you can you can see the components, battery. and the two chips goes to the infrared connection to the TV set. The one on top is for the well the functionali the functionalities</v>
+
+3
+00:04:59.140 --> 00:05:00.520
+<v MarketingExpert>One is a communication.</v>
+
+4
+00:05:01.530 --> 00:05:28.820
+<v IndustrialDesigner>And the the th red sorry the green one is is to well, putting things together,. transform the data into qu into the format to to to communicate with the TV set. I think we should use a FPGA for for the functionalities which is easy to to t</v>
+
+5
+00:05:28.020 --> 00:05:29.090
+<v UserInterface>What is FPGA?</v>
+
+6
+00:05:34.370 --> 00:05:36.620
+<v MarketingExpert>It's a field programmable gateway arrays.</v>
+
+7
+00:05:36.520 --> 00:05:39.010
+<v UserInterface>So why's it how is it different from the Bluetooth?</v>
+
+8
+00:05:39.520 --> 00:05:55.480
+<v IndustrialDesigner>Well, a FPGA is just a chip you can you can pr programme it wi with wh whatever you want. And well the Bluetooth chip is just responsible to make the communication between the two devices.</v>
+
+9
+00:05:55.570 --> 00:06:01.532
+<v UserInterface>So this are the they have to work together? Or? Do they have to work together or two separate choice</v>
+
+10
+00:06:00.730 --> 00:06:04.180
+<v IndustrialDesigner>Well, th the FPGA will produce the the data to send.</v>
+
+11
+00:06:05.330 --> 00:06:30.720
+<v MarketingExpert>Or it's something like isn't hardware the first one? And the second one is for the software. Okay, and how about the battery power? you mean that battery would be somewhere there and the remote contro the power to the battery comes through infrared?</v>
+
+12
+00:06:31.680 --> 00:06:48.000
+<v IndustrialDesigner>I think we have to to have embedded batteries in in the. And I I don't think it will need very much power to make it run, so</v>
+
+13
+00:06:48.500 --> 00:06:51.910
+<v UserInterface>You can put it on the charger when you when you don't need to use it.</v>
+
+14
+00:06:52.700 --> 00:06:53.630
+<v IndustrialDesigner>It's a good idea.</v>
+
+15
+00:06:54.990 --> 00:07:05.410
+<v MarketingExpert>Having a charger rather than putting the battery cells always. People don't like it to have to buy the batteries when they run out. We just make a small charger</v>
+
+16
+00:07:06.510 --> 00:07:13.370
+<v UserInterface>Because you are using because you are using Bluetooth, if some people have PDA they can use their PDA to control the TV if they want to, right?</v>
+
+17
+00:07:13.960 --> 00:07:23.180
+<v IndustrialDesigner>Also, but but I I I think the the goal is to sell our remote control.</v>
+
+18
+00:07:21.020 --> 00:07:25.583
+<v MarketingExpert>We do not want to make it PDA.</v>
+
+19
+00:08:19.570 --> 00:09:08.020
+<v UserInterface>So I'm working on the technical functions design. So the the purpose is to to find the important questions to ask is what effect should the apparatus have. So so I found on a webs on the internet. and and I found that the function of remote control is to send messages to television set. For example switch on, switch off, switch the next channel and so on and so on. So I found two very good prototypes for for this interface from our competitors</v>
+
+20
+00:09:09.670 --> 00:09:13.060
+<v ProjectManager>This are usual functionality.</v>
+
+21
+00:09:13.150 --> 00:09:36.368
+<v UserInterface>Ours is a bit different. So these are two example. One is from. the other one is from, yeah, engineering centr yeah. This is the most competing prototypes I've found. But then loo but then I found if you look at you see on the left one there are too many buttons</v>
+
+22
+00:09:36.560 --> 00:09:39.010
+<v ProjectManager>And they are small.</v>
+
+23
+00:09:38.560 --> 00:10:41.150
+<v UserInterface>O on the right I tried to play with the problem is that if I have hundred channels I have I have to choo press the other button to choose the hundred channels and I have to compose the number. so it's very lousy. So you so you move to the next the next one. And then I I look at the user manual. they are a hundred pages thick,. so we don't want that. So I propose the easy to use prototype. You can navigate on TV screen. and we need to have the TV connected to internet so we end in order to access the TV programmes by XML. and we need some to do some preprocessing. From the technical aspect, the processing should be done on the TV set than on the on the remote controller, right? And then we the speech recognition as Harry says we may just put in we may KIV.</v>
+
+24
+00:10:41.610 --> 00:10:45.130
+<v ProjectManager>What do you mean by the pa pa processing will be done on the TV</v>
+
+25
+00:10:45.240 --> 00:10:51.472
+<v UserInterface>Yeah, all the processing is done the TV is a compu has some processing power the</v>
+
+26
+00:10:51.680 --> 00:10:54.270
+<v ProjectManager>So we should have specific TV?</v>
+
+27
+00:10:55.040 --> 00:11:01.905
+<v IndustrialDesigner>We have to sell a TV with the remote control too.</v>
+
+28
+00:10:58.978 --> 00:11:04.050
+<v UserInterface>Yeah because are you just wondering what controller okay.</v>
+
+29
+00:11:04.360 --> 00:11:23.411
+<v IndustrialDesigner>I think there there is there is al there there is a a technology like show view who is already available on most of the TV set on recorders or thing like that. and we can try to get this information on to the remote control to to do the processing on the remote control because</v>
+
+30
+00:11:37.800 --> 00:11:46.372
+<v UserInterface>So I come up with a simple design,. just keep the navigation buttons.</v>
+
+31
+00:11:42.070 --> 00:12:04.409
+<v IndustrialDesigner>Yes, that's a good idea, I think. We we don't we we don't need really much buttons to i if we have a screen to navigate on on the TV so. Well, four five buttons, it's sufficient. It's easy to build,. it does not consume much power.</v>
+
+32
+00:12:06.450 --> 00:12:17.400
+<v MarketingExpert>Oh, but you have a catch there,. assume that if you want to go to if you are watching channel two and if you want to go to channel ninety nine, then.</v>
+
+33
+00:12:17.110 --> 00:12:22.160
+<v IndustrialDesigner>Well, then you you go to the main menu. and you have go to channel</v>
+
+34
+00:12:24.090 --> 00:12:31.750
+<v UserInterface>No, because you choose by channel,. so you don't have hundred channels to choose from.</v>
+
+35
+00:12:34.912 --> 00:13:16.250
+<v IndustrialDesigner>But I I think i i if you if you want to to make well a a big jump but well you you have to to have a a a device when you could you could. but something that that says more clearly that right, left, up, down,. well, the to have the ability to to to write something to the navigator, maybe directly, or. we can think of buttons like in the telephone to send messages or things like that.</v>
+
+36
+00:13:23.860 --> 00:13:33.310
+<v UserInterface>It's gonna be small. So it'll beep if you wanna find it</v>
+
+37
+00:13:29.680 --> 00:13:34.371
+<v MarketingExpert>Too small that it goes under the sofa and we can't find it.</v>
+
+38
+00:13:33.310 --> 00:13:42.360
+<v UserInterface>You just shout h just. it just has to re respond to you when you look for the device.</v>
+
+39
+00:13:44.396 --> 00:13:49.710
+<v MarketingExpert>Just give it a name and we call him.</v>
+
+40
+00:13:47.260 --> 00:13:54.992
+<v UserInterface>And responds to you, and</v>
+
+41
+00:14:11.240 --> 00:14:46.670
+<v MarketingExpert>Okay, after having the inputs from industrial design and user interface, I think most of the points which I want to are already covered here. And to find the most interesting features what the users would be interested, then what we have done is we have put a feedback forms in all the magazines,. and the users send the feedbacks,. and based on that These are the findings which we got. and yeah adding of a speech interface is always good for a TV remote</v>
+
+42
+00:14:50.610 --> 00:15:00.940
+<v IndustrialDesigner>Well I I think it will be a, yes, a bit complicated to make a speech recognisers runs on the small ts</v>
+
+43
+00:15:04.490 --> 00:15:14.480
+<v UserInterface>But I think if you to recognise numbers it's a well-studied problem. I if you just recognise numbers is a limited you have limited vocabulary</v>
+
+44
+00:15:13.580 --> 00:15:17.340
+<v MarketingExpert>Oh we can put an limited vocabulary as in the mobile phones.</v>
+
+45
+00:15:19.100 --> 00:15:24.610
+<v IndustrialDesigner>And this can allow to choose the the program, for instance without adding buttons</v>
+
+46
+00:15:25.979 --> 00:15:53.330
+<v MarketingExpert>It's not going to take much space also. It's going to be very slim. And next one was the size of the remote control. It has to be of course a very slim and small one. And of course most of the people are interested in if it's less expensive,. I mean we have to look for a trade-off. The features and the cost.</v>
+
+47
+00:15:52.875 --> 00:16:09.690
+<v UserInterface>I no I I think that i if we go for quality people may tolerate for high quality and of course comes with reasonable cost. Maybe not less, but they may be willing to pay little bit more for comfort,</v>
+
+48
+00:16:06.820 --> 00:16:09.740
+<v MarketingExpert>Little bit more if it's with extra features.</v>
+
+49
+00:16:11.200 --> 00:16:15.243
+<v IndustrialDesigner>Yeah, s speech is a important extra feature I think</v>
+
+50
+00:16:19.980 --> 00:16:41.360
+<v MarketingExpert>I mean, for a lazy guys they could say nine and the nine channel comes. but only for the numbers on the channel, or volume up, volume down, brightness, contrast. And the fourth one was the teletext in various languages.</v>
+
+51
+00:16:42.860 --> 00:16:54.688
+<v IndustrialDesigner>We we just have to find a mean how to to add a a a a microphone or well yes a microphone into the the remote control, so</v>
+
+52
+00:17:12.050 --> 00:17:15.060
+<v ProjectManager>What about lighting adaptive options?</v>
+
+53
+00:17:14.550 --> 00:17:23.640
+<v MarketingExpert>Yeah as discussed in the earlier meeting, but I think not much people are really interested in this point if it's not really required.</v>
+
+54
+00:17:15.060 --> 00:17:18.860
+<v ProjectManager>According to the re to the new requirements I think we don't need that.</v>
+
+55
+00:17:59.750 --> 00:18:03.570
+<v UserInterface>But it's quite possible. but maybe not in this project.</v>
+
+56
+00:18:26.980 --> 00:18:30.380
+<v ProjectManager>So any things to to discuss?</v>
+
+57
+00:18:31.350 --> 00:19:15.490
+<v MarketingExpert>I think as I discussed th that four points would be good for marketing. The speech interface. and less reasonable cost. And the lighting adaptation. and the teletext. And regarding the teletext these are the subtitl these are the text information which you got on the televisions. If you are watching an foreign movie, you get subtitles sometimes. And if you are a French guy watching an English movie you would like to have it in French. And if I am a German then I would like to have the my options in German. So, the remote it should have some it should give me some flexibility of choosing the ch languages.</v>
+
+58
+00:19:19.310 --> 00:20:16.140
+<v IndustrialDesigner>Yeah, but well what about the the new project's requirement? I I I think we should give up with teletext, no? Well, so maybe we we can we can already think about a way to to access the internet via the television. Yeah, but we can think that in a few years there will be TV set that can access the internet. So it's a good idea if i i if we i if if we think about how to to to build up our remote control with this functionality in a which will which will come in a few years.</v>
+
+59
+00:20:17.930 --> 00:20:20.550
+<v ProjectManager>So you have to anticipate the the future?</v>
+
+60
+00:20:25.590 --> 00:20:37.936
+<v IndustrialDesigner>Well, not not to implement it,. but to well, to find a way to to add to add this functionality in a yeah, in an in an easy manner, if is possible.</v>
+
+61
+00:20:37.300 --> 00:20:40.240
+<v UserInterface>Yeah. Because all the TV sets will be digital, right.</v>
+
+62
+00:20:52.360 --> 00:21:01.840
+<v ProjectManager>Okay. So let's go for the the lunch break,. and we will meet after.</v>
+

@@ -1,0 +1,194 @@
+WEBVTT
+
+1
+00:01:21.980 --> 00:01:26.060
+<v ProjectManager>We'll get your presentations again on the conceptual design.</v>
+
+2
+00:02:30.810 --> 00:03:34.420
+<v MarketingExpert>It's very important that the control is fancy looking and good feeling. technological technological innovations, that's regarded very highly too. such as an LCD screen, speech acknowledgement, as we talked about earlier. the last point is easy to use.</v>
+
+3
+00:03:47.360 --> 00:03:52.416
+<v ProjectManager>Functional is not an issue, and then easy to use. Well we have to choose one of them.</v>
+
+4
+00:04:05.030 --> 00:04:08.020
+<v UserInterface>Well something fancy looking can be can be easy to use.</v>
+
+5
+00:04:30.690 --> 00:05:11.960
+<v MarketingExpert>So it must be very bright, very colourful. Fruit and vegetables are cool. furthermore material, that's your part, should be very strong. I was thinking of something like well iron plate over it,</v>
+
+6
+00:05:20.340 --> 00:05:24.590
+<v ProjectManager>Well the the handy thing about our fronts is that we can follow these trends ev every year.</v>
+
+7
+00:05:27.160 --> 00:05:28.710
+<v MarketingExpert>Yeah, that's great.</v>
+
+8
+00:06:17.960 --> 00:08:26.110
+<v IndustrialDesigner>Right, I am going to tell you something about the components design. Y Hard plastic i is of course pretty pretty tough,. but it doesn't have a really really tough look. So. the buttons of course rubber,. I think everyone agrees. under forty five years old. they like soft materials with primary colours. Soft materials is of course agai again a bit a contradiction with our material choice of what you said,. And also they like curved round shapes.</v>
+
+9
+00:10:46.910 --> 00:10:52.970
+<v ProjectManager>Maybe you should have some some coloured titanium or something. So it it looks pretty but it feels strong.</v>
+
+10
+00:11:01.400 --> 00:12:42.260
+<v IndustrialDesigner>I suggest the basic battery. But solar energy is not very practical inside a house,. And kinetic and and and dynamos are are not very practical, I think, for for a simple remote,. And I also suggest as a shape a double curved case. the disadvantage of that that you can use no titanium. as for the buttons, simple push buttons. No otherwi no difficult scroll things or some things like that,. But we do use an LCD screen,. so we we do have to consider of we have to use a more advanced chip,</v>
+
+11
+00:13:39.110 --> 00:15:11.070
+<v UserInterface>There are new developments in speech recognition systems,. it's not really speech recognition,. and then once you talk to the remote, then he will a answer with the the prerecorded message that you left. No it doesn't does not do anything. Well, as I said earlier I think the LCD screen should be positioned at the lower end of the remote. the buttons for screen width and general settings and and that kind of stuff. we can also do let that kind of functions be shown in the LCD screen, instead of extra buttons.</v>
+
+12
+00:15:44.600 --> 00:15:45.560
+<v IndustrialDesigner>Can you draw it now?</v>
+
+13
+00:16:02.290 --> 00:16:05.160
+<v MarketingExpert>So you have a menu button,. and then you can go up and down.</v>
+
+14
+00:16:04.800 --> 00:16:08.610
+<v ProjectManager>But then we should also have an an Okay button.</v>
+
+15
+00:16:45.650 --> 00:16:47.150
+<v IndustrialDesigner>I suggest a banana shape.</v>
+
+16
+00:16:52.170 --> 00:16:54.250
+<v ProjectManager>M Next year that's out.</v>
+
+17
+00:17:06.500 --> 00:17:15.390
+<v IndustrialDesigner>Those are the the cha the channel buttons of course? And then below is the LCD screen?</v>
+
+18
+00:17:34.470 --> 00:17:39.690
+<v UserInterface>The video button should be an apart button,</v>
+
+19
+00:18:21.380 --> 00:18:26.330
+<v ProjectManager>Or you can put in the LCD's window an option Get Out.</v>
+
+20
+00:18:33.180 --> 00:18:38.970
+<v MarketingExpert>But we need a we need a a recording recording button for the speech part.</v>
+
+21
+00:18:39.610 --> 00:19:29.890
+<v UserInterface>If we decide to to implement that, maybe we should. Well the speaker and the microphone, I think, are the same little hole thingy. This is my suggested design.</v>
+
+22
+00:19:30.070 --> 00:19:34.900
+<v ProjectManager>Then let's have a look at the decisions we are going to have to make.</v>
+
+23
+00:19:35.630 --> 00:20:42.573
+<v UserInterface>And oh I think as you can see so, the LCD screen does look better at the lower end, or at the bottom. I think we should, if it's possible, one with colours, but</v>
+
+24
+00:20:42.770 --> 00:21:09.080
+<v MarketingExpert>Nah th It's too expensive. You can make the the underside, you can make it more round, where the LCD is.</v>
+
+25
+00:21:10.210 --> 00:21:12.000
+<v ProjectManager>So it falls over the hand.</v>
+
+26
+00:21:37.270 --> 00:23:58.480
+<v IndustrialDesigner>I will design it, we design it later. Well a case? that's me. Yeah but the non-removable elements of the of the remote, so not the front, could be titanium,. And then the front is made of plastic. And you can put that on and off,</v>
+
+27
+00:24:01.370 --> 00:24:03.878
+<v MarketingExpert>But the feel of plastic isn't strong.</v>
+
+28
+00:24:59.750 --> 00:25:01.820
+<v ProjectManager>Titanium back, plastic front.</v>
+
+29
+00:25:29.170 --> 00:25:33.840
+<v MarketingExpert>When you want an other colour on the front, it doesn't match.</v>
+
+30
+00:25:45.130 --> 00:25:50.720
+<v IndustrialDesigner>But you know Titanium is very basic colour,. and it doesn't really matter if we have a purple front on it or a orange front.</v>
+
+31
+00:26:39.410 --> 00:27:16.150
+<v ProjectManager>All the all the inside work of our remote is standard work. the buttons are normal, etcetera. well we have our beautiful drawing. Well you can put that in into the shared folder,. and then I'll put it in our end report.</v>
+
+32
+00:27:36.940 --> 00:27:40.440
+<v MarketingExpert>I think we can launch a couple of packages.</v>
+
+33
+00:27:48.520 --> 00:28:13.680
+<v ProjectManager>We can also implement we can also implement fronts from movies that are very hot. Launch different lines at once.</v>
+
+34
+00:28:32.590 --> 00:28:42.020
+<v UserInterface>Well you can you can give them s three or so,. and that they want more.</v>
+
+35
+00:28:40.350 --> 00:28:41.960
+<v IndustrialDesigner>Yeah but you you can have some basic colours,</v>
+
+36
+00:28:58.220 --> 00:30:04.400
+<v ProjectManager>Yeah well I think we'll have to in the next half an hour, we'll have to s specify the different types we want to launch, when we well introduce our remote. Maybe a a cheap voice recording.</v>
+
+37
+00:30:09.350 --> 00:30:10.530
+<v IndustrialDesigner>We all agree on that. Yeah.</v>
+
+38
+00:30:11.480 --> 00:31:08.890
+<v ProjectManager>Industry designer,. User Interface, Mike. You're going to work together on a prototype drawing on the SMARTboard. I don't know what product evaluation exactly means,. but you'll get the specifications.</v>
+
+39
+00:31:26.730 --> 00:31:32.010
+<v UserInterface>Will we use round buttons or square ones for the for the numbers?</v>
+
+40
+00:32:50.580 --> 00:32:57.770
+<v IndustrialDesigner>Well yeah. I think a logo, our company logo, and the slogan should be or could be</v>
+
+41
+00:33:00.660 --> 00:33:02.420
+<v UserInterface>I I'd say only the logo.</v>
+
+42
+00:33:05.600 --> 00:33:20.060
+<v IndustrialDesigner>Well, our slogan is not very long. But you can put it on the back,</v>
+
+43
+00:33:23.360 --> 00:33:31.530
+<v UserInterface>Ah the logo should be on the top I think. Right corner, yes.</v>
+
+44
+00:33:40.910 --> 00:33:44.900
+<v MarketingExpert>But the logo the logo shouldn't be exchangeable, when you get off the front.</v>
+
+45
+00:33:47.850 --> 00:33:50.620
+<v UserInterface>The logo can be on on every front.</v>
+
+46
+00:34:36.940 --> 00:34:55.160
+<v ProjectManager>Yes, slogan from company on the back with logo. and logo also on the front</v>
+
+47
+00:36:33.560 --> 00:36:36.390
+<v MarketingExpert>So a little corner of titanium.</v>
+
+48
+00:36:39.070 --> 00:36:42.300
+<v ProjectManager>Yes, that also sounds pretty neat.</v>
+

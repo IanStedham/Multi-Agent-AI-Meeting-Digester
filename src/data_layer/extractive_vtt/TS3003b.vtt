@@ -1,0 +1,158 @@
+WEBVTT
+
+1
+00:01:12.760 --> 00:02:52.910
+<v ProjectManager>Now we're going into the functional design. Then our agenda. first the opening. this time I will take the minutes. you're going to have a presentation. All of you. and we've got forty minutes for the whole prese for the whole presentations. So I suggest we take about seven minutes per presentation,. and then we can have a little discussion about the new project requirements. And then the decision on the control functions which we wanna include and those which we don't wanna include.</v>
+
+2
+00:03:26.850 --> 00:08:55.740
+<v MarketingExpert>My name is Freek Van Ponnen. I'm the Market Expert. We have we have been doing research in a usability lab. where we observed users operating remote controls. we let them fill out a questionnaire. in addition we did some market research. see what the market consists of. What ages are involved. these are three quite astonishing results, I thought. seventy five percent of the people questioned indicated that they thought their remote were was ugly. and an additional eighty percent indicated that they would spend more money on a fancy-looking remote control. in addition remotes were not very functional. Fifty percent of the people indicated they only loo used about ten percent of the buttons on a remote control. And fifty percent of the people indicated that their remote tended to get lost in their room. Then we did some research to the most relevant functions. Channel selection and volume selection both got a ten on a scale of one to ten for relevancy. The power button got a nine. And teletext got a six and a half. Then there are some one-time use function. That audio settings, video settings, and channel settings buttons. Which are not really used very frequently,. but are still considered to be of some importance. channel selection was also indicated to be used very frequently. One hundred and sixty eight times per hour. sixty percent of the market consists of users between the ages sixteen and forty six. the users of forty six to sixty five years cons The make up forty percent of the market. They are not really very interested in features. But they do tend to spend their money a lot easier. What I think this indicates for our design. I think we should make a remote for the future. And this means we would have to focus on the age ages sixteen to forty five. this would mean we would have to make a fancy design. The results also indicated that about one quarter of the people questioned thought that the remote control caused RS RSI. And thirty four percent thought that it was hard to learn a how to operate a new control, remote control. I think we should make very few buttons. I think the most frequently used buttons should be emphasised. Especially the channel selection and audio selection buttons. But it might be a good idea to make a docking station. And this would, could get a button in it. which would send a signal to the remote. which would then beep. So you'd know where it is in the room. And in addition to this it could recharge the batteries in the remote if you put it in. Then a surprisingly great deal of people indicated that an LCD screen in the remote control would be preferred. This was mostly people in the age of sixteen to twenty five. This would also greatly increase the production costs. but I think these are just some small factors we could consider.</v>
+
+3
+00:09:22.440 --> 00:13:42.680
+<v UserInterface>I've been looking at the user interface of it. for the techno functions of of it. I think we must use the general functions of the remote control. I've do I've done a little research on the internet. and not much information about it, about interface. I I've been thinking about a simple manner to put a lot of functions in one in one remote control. so you've got a lot of devi devices like DVD television, stereo. But it must be user-friendly. you you can't put a a lot of functions in one Yeah. Yeah. In one remote control. you can see, this is quite simple remote control. but This re remote control got a a lot of buttons. what I was thinking about was keep the general functions like they are. like the on-off button. keep it yeah like a red button. My personal preferences. Use a display for specific functions of the different device. And here you've got a kind of a display. It's a touchscreen. you got a general f the functions of the device for a DVD player or so the pl yeah for playing reverse. And you got here real buttons for selecting a device. you you never got all the buttons on one device. We better use quite large buttons. Everybody have to use it so ol even even old people young people. we must keep buttons quite simple and quite large.</v>
+
+4
+00:13:56.590 --> 00:14:02.320
+<v IndustrialDesigner>I think if we are gonna use a touchscreen we're gonna go way above the twelve and a half Euros.</v>
+
+5
+00:14:02.510 --> 00:14:10.690
+<v UserInterface>N I I don't think so. you got quite a cheap touchscreen. it's not in colour or something.</v>
+
+6
+00:14:46.420 --> 00:14:48.370
+<v MarketingExpert>It would certainly make a fancy design.</v>
+
+7
+00:14:49.680 --> 00:17:00.460
+<v IndustrialDesigner>But the It wouldn't be very robust. I've got a presentation about the working design. first about how it works. Everybody knows how a remote works. The user presses a button. The remote determines what button it is,. uses the infrared to send a signal to the TV. The TV switches to the frequency, or what function it is. we've got the the plate. It gots conductive disks for every button. When the user presses a button, a signal got sent,. goes to the LED. and transmits tranmi transmits its to the TV. this is a schematic overview. You've got the buttons. The power source. And when a button gets pressed, its goes to the chip. I think we should use default materials, simple plastics. Keep the inner workings simple,. I think we should focus on aesthetics, the design and the user interface,. and if you use high-tech materials it come back in every product. it's, in my idea, it's it's gonna be smart to invest in di in design and not in in the product itself.</v>
+
+8
+00:17:31.560 --> 00:19:50.033
+<v ProjectManager>So I'm here to mess things up. and tell you some new requirements. we've got to design a remote which is only suitable for TV. that's because it will be too complex. and the time to market will be too big, if we wanna have it for more functions. another point is we have to skip the teletext,. because in the world of upcoming internet we think teletext is going to be a thing of the past. Another one is the customer is forty plus. that's the the market we have to to to target,. because we are going to develop a new product which is specially designed for the younger customers. And we have to be very attent in putting the corporate image in our product. So it has to be visible in our design, in the way our device works. I suggest let's have a discussion on the control functions. we can see if we can find a way between the functions we wanna use and the market we wanna reach with our product.</v>
+
+9
+00:19:49.520 --> 00:20:48.730
+<v MarketingExpert>'cause you're you're saying that teletext is gonna be an old feature. But I think if you're targeting people of forty plus, the chance that they will have a TV with internet access. within the next like twenty years is very slim. In addition people indicated that teletext simply was an important feature for the remote control. So I think it's pretty dumb to put no teletext feature on it. Besides that, I think the market for forty plus is like pretty small. But I mean if I if I see this, it's I think we're just gonna go for another</v>
+
+10
+00:20:55.510 --> 00:22:04.560
+<v ProjectManager>I think we can do a lot with the design and the simple buttons. if we put a lot of effort in those, we can make a remote control with just two or three buttons. Or just a remote which is suitable for the market we wanna reach. if you look in Holland at the whole generation of forty plus, fifty plus, it it's the the biggest share of the of the whole population now. But don't you think that if we make a remote which is typically made for this market, that people think the people think that's the the device I've looked for although I didn't realise it.</v>
+
+11
+00:22:32.770 --> 00:22:58.720
+<v IndustrialDesigner>I think that if we're If we put our marketing right we can sell this just like I don't know if you've heard about it in the news, the the elderly mobile phone? if we if we make a remote control just with that idea in mind, we could make tons of money, I think. We don't have to focus on on on the on the design then but on functionality.</v>
+
+12
+00:23:57.030 --> 00:24:11.340
+<v ProjectManager>I think teletext can be. can be a function as well. But only if if it won't higher the the cost,</v>
+
+13
+00:24:19.030 --> 00:24:23.950
+<v UserInterface>But deaf people need teletext for for subtitles.</v>
+
+14
+00:24:26.640 --> 00:24:29.710
+<v MarketingExpert>I think it'd definitely be a bad idea not to include teletext.</v>
+
+15
+00:24:30.570 --> 00:25:32.390
+<v ProjectManager>Is anybody really against teletext? I think that's a good idea as well, especially for the subtitles. I think that's very important we have a few buttons.</v>
+
+16
+00:26:02.510 --> 00:26:05.620
+<v UserInterface>So we can we can skip the display,</v>
+
+17
+00:26:06.540 --> 00:26:12.190
+<v ProjectManager>But do you need the buttons for one to zero.</v>
+
+18
+00:26:12.580 --> 00:26:15.080
+<v MarketingExpert>Think if you're gonna include teletext you do.</v>
+
+19
+00:26:25.180 --> 00:26:41.682
+<v ProjectManager>Maybe we can implement the scroll button? Or a joystick like? Just look if you look at telephones. The Sony telephone has a scroll button which is very useful in searching names or</v>
+
+20
+00:26:43.810 --> 00:26:58.990
+<v MarketingExpert>But I don't think there are many T_V_s that can switch channels that fast. And so you would need like the TV would need an a function where you can actually view all channels and scroll through it.</v>
+
+21
+00:27:09.270 --> 00:27:18.600
+<v IndustrialDesigner>If we're gonna focus on elderly people they'll have to adapt. So perhaps we should stick to the basic layout.</v>
+
+22
+00:27:34.010 --> 00:27:44.970
+<v MarketingExpert>But I don't think I think if you're gonna make a remote control only to operate a TV, you there's not much you can gain on having as few buttons as possible.</v>
+
+23
+00:27:58.130 --> 00:29:04.340
+<v ProjectManager>I think it's very important in the in the design. You can make a very fancy design with putting the buttons on the right places. you suggest we could better focus on for example the docking station.</v>
+
+24
+00:29:14.510 --> 00:29:21.530
+<v MarketingExpert>I think, mean we obviously need a good way to position all the buttons. But I don't think we should spend very much time in that.</v>
+
+25
+00:29:24.560 --> 00:29:31.150
+<v ProjectManager>Do you think the docking station will is allowed in the budget we have?</v>
+
+26
+00:29:36.040 --> 00:29:59.020
+<v IndustrialDesigner>And if the remote stays rather small, it should be possible. we're just gonna focus on the extras?</v>
+
+27
+00:30:00.460 --> 00:30:01.120
+<v ProjectManager>I think so.</v>
+
+28
+00:30:20.360 --> 00:30:24.430
+<v MarketingExpert>Fifty percent of the people indicated that remote control tended to get lost.</v>
+
+29
+00:30:24.570 --> 00:30:29.390
+<v ProjectManager>So maybe we should implement the audio sign, or something.</v>
+
+30
+00:30:31.580 --> 00:30:35.480
+<v IndustrialDesigner>Like with your key-chain, if you whistle it goes it makes a sound.</v>
+
+31
+00:30:34.680 --> 00:30:42.520
+<v MarketingExpert>You have it's on some phones too,. which have a docking station. And you just press a button. and the phone goes ringing.</v>
+
+32
+00:30:54.300 --> 00:31:05.370
+<v ProjectManager>Point is the LCD screen. I don't know if that will rise the cost too much,</v>
+
+33
+00:31:05.970 --> 00:31:09.410
+<v IndustrialDesigner>I think we'll have to choose between the docking station or the screen,</v>
+
+34
+00:31:13.150 --> 00:31:37.020
+<v MarketingExpert>I think since a lot of people indicated that a new remote control is hard to learn,. and we're focusing on elderly people here. which tend to have a hard time understanding new devices,. it might be a good idea to have just a little screen on it,. which would explain a button if you press it. And it wouldn't have to be touchscreen or a very expensive screen,</v>
+
+35
+00:31:38.960 --> 00:33:42.520
+<v ProjectManager>Just the LCD. That's a good idea. Few buttons, we talked about that. Docking station, LCD. general functions. And default materials. I think that's a good idea as well,. Because I think what we're going to design now is for people above sixty, maybe. If we want a with for example the the telephone for elderly people, we can. target the real elderly people.</v>
+
+36
+00:33:58.500 --> 00:34:02.110
+<v MarketingExpert>If we're able to really bring an innovative product.</v>
+
+37
+00:34:00.118 --> 00:34:05.350
+<v ProjectManager>Now you're talking about sixty to eighty for example.</v>
+
+38
+00:34:08.300 --> 00:34:41.130
+<v MarketingExpert>But I'd have to look into that a little more. And with the little screen in it, which explains the buttons. You could I think we it would be a lot easier to. adapt it to different cultures.</v>
+
+39
+00:34:42.090 --> 00:35:24.320
+<v ProjectManager>In different languages, you know. what we're going to do for the next meeting is the Industrial Designer will do the components concept,. User Interface Designer the user interface concept,. and the trend-watching.</v>
+

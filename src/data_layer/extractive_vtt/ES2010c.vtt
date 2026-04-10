@@ -1,0 +1,126 @@
+WEBVTT
+
+1
+00:00:36.440 --> 00:00:56.780
+<v ProjectManager>Okay we're back for the conceptual design meeting. we're gonna open it and I'm gonna keep the minutes as Project Manager. We're gonna have three presentations,. And then we are going to come to decision on the remote control concepts</v>
+
+2
+00:01:40.470 --> 00:04:19.120
+<v MarketingExpert>Okay, so trend watching. fifty eight per cent of the decision of what it should look like, fancy versus functional,. and then it has to also be technologically innovative, and yet easy to use. So the customer basically is confused. So in Milan and Paris recently the trends have been showing that clothing, shoes and furniture are basically just covered with fruits and vegetable patterns. and also the spongy feel is in in contrast to last year. But as for the fruits and vegetable patterns, I don't know if we really want to go with that,. we need easy to read like large buttons, clearly labelled. And I was thinking about different types of designs and I came up with something. So what we could do is something like an old-fashioned telephone. where we put the buttons around, like we'd put a big on-off button or something else in the middle,. So it's classically retro.</v>
+
+3
+00:05:45.470 --> 00:09:12.790
+<v UserInterface>Looking at the interface concept, it's gonna be mostly examples of possibilities of where we can go with this. can't really see, but there's two possible ways,. on the left, if you see on th on the sides of of the remote, you have the sort of scroll down,. And then on the right, we have what's really big trend right now, it's the iPod. and it's sort of like you have the both kind of trendy and hip, but also very sleek and and very simple, but technologically advanced. there's the idea of like being able to do it by feel as well as by by sight. for example you have a specific triangular shape that you know you're looking at the up and down arrow. this is particularly geared towards children. and you have the shapes and it's very simplistic and friendly looking. and then down at the bottom you have the logos. and that's where you could put the RR, Real Reaction. But it's sort of like just taking aspects out of that and saying, well out of this one we like, you know the round section of, or we'd like the the button size on this.</v>
+
+4
+00:09:44.740 --> 00:13:04.740
+<v IndustrialDesigner>So basic remote operation runs as follows,. we need rubber for buttons, aluminium for battery contacts, integrated circuit which consists of a diode, transistor, resonator, resistors, and a capacitator,. contact discs for the buttons, plastic for the casing, and a power-source,. whatever power-source we've actually determined we want. They suggested power options, solar cells, hand dynamo, and kinetic power,. I'm not sure how the hand dynamo works,. We can offer options for casing such as straight, curved, double-curved, you know,. very specific to the customer. certain restrictions do apply here though. And so you functions what for the buttons, scrolling function could be very beneficial to us instead of actual buttons themselves. the manufacturing division also has said that they have several types of chips. and they've just developed a sample sensor or sample speaker chip, which we could utilise. push button requires a simple chip and scroll requires more complicated chip.</v>
+
+5
+00:13:57.460 --> 00:14:32.990
+<v UserInterface>Let me just add one more thing that I couldn't say before,. and that's just that there's the new technology that they've developed on the voice recognition. there's a sample sensor and there's a sample speaker unit for. So, you would say like, good morning, coffeemaker, and it would respond, good morning, Jill,. I'm not sure exactly how it's gonna work, 'cause do you programme do we program the responses and the questions.</v>
+
+6
+00:14:58.380 --> 00:15:05.500
+<v MarketingExpert>I feel like voice recognition would be, I don't know, it would be too hard to really</v>
+
+7
+00:15:07.940 --> 00:15:13.468
+<v ProjectManager>If it's within our price to get that kind of chip that would, you know, technology</v>
+
+8
+00:15:19.820 --> 00:15:26.370
+<v IndustrialDesigner>But, I guess, we have to look at what our production cost is for the chip itself anyway.</v>
+
+9
+00:15:49.870 --> 00:16:30.520
+<v ProjectManager>Let's let's see if we can decide what kind of energy source we want to have first and foremost.. It's not gonna be a huge universal remote.</v>
+
+10
+00:16:42.580 --> 00:16:48.180
+<v UserInterface>'cause it still fits in your hand, so you still wanted something that's comfortable and substantial, but not necessarily full of buttons.</v>
+
+11
+00:17:01.550 --> 00:17:34.010
+<v IndustrialDesigner>If we do a voice-activated locator, though, we're gonna be looking at a more substantial chip. Honestly, I think the customer would be kind of irritated by the fact that it has a base</v>
+
+12
+00:17:48.230 --> 00:17:52.880
+<v MarketingExpert>I think if we had a a locating device with the small one, I think that seems way more advanced.</v>
+
+13
+00:18:21.560 --> 00:18:25.020
+<v ProjectManager>Okay, so what kind of material do we want to be made out of?</v>
+
+14
+00:18:26.670 --> 00:18:52.260
+<v IndustrialDesigner>I don't think wood is a viable option. 'Cause I was thinking if we wanted to get the high in market then you could produce a few in titanium,</v>
+
+15
+00:19:02.720 --> 00:19:11.900
+<v ProjectManager>I I think we should just focus on one design and one concept right now.I'm. not sure that we'll have the time and money to produce a whole array of</v>
+
+16
+00:19:29.260 --> 00:20:39.824
+<v IndustrialDesigner>Since we're going with batteries instead of solar power, I'd recommend maybe a soft like latex,. because we could produce, you know how cellphones have those overlays that you can change the colour. we could do a cherry cover for this year. So we could do like a a hard base plastic, and then we could give two latex covers to start. Are we gonna go with the voice activated</v>
+
+17
+00:20:40.980 --> 00:20:46.850
+<v ProjectManager>I think we should just do the recognition for when it's lost, you know.</v>
+
+18
+00:20:55.000 --> 00:20:58.220
+<v MarketingExpert>Because people could just be talking and we don't want it going off all the time.</v>
+
+19
+00:22:05.080 --> 00:22:09.130
+<v ProjectManager>And what size batteries, double A, triple A?</v>
+
+20
+00:22:19.890 --> 00:22:22.470
+<v IndustrialDesigner>Or we could do one small lithium,</v>
+
+21
+00:23:11.270 --> 00:23:15.950
+<v ProjectManager>I ki I kind of like your idea about the retro phone dial,</v>
+
+22
+00:23:35.360 --> 00:23:45.410
+<v UserInterface>'cause if you have the circle and the button in the middle, then is it gonna get wider than your your hands are,. because And then would the buttons be too small if it was enough to fit on it?</v>
+
+23
+00:23:51.780 --> 00:23:59.520
+<v IndustrialDesigner>Which I think if we make it curved like a hand like a hand-shape like if we put the the scroll-button on the side,</v>
+
+24
+00:24:42.610 --> 00:25:24.550
+<v UserInterface>Well, the other option is in instead of a scroll you just have the buttons up on the side which are on the side. Well I sort of like having the a yellow strip at the bottom with the RR like that.</v>
+
+25
+00:25:27.170 --> 00:26:17.470
+<v ProjectManager>I think maybe we should do it on a button itself though,. or if we're going for the retro look, I think, like a really shiny black would be cool.</v>
+
+26
+00:26:18.440 --> 00:26:19.810
+<v MarketingExpert>Or like a gun-metal grey,</v>
+
+27
+00:26:34.820 --> 00:26:37.880
+<v UserInterface>I'm just really wary of the putting anything on a button.</v>
+
+28
+00:26:38.720 --> 00:28:12.290
+<v IndustrialDesigner>It'll wear off. so I was thinking maybe instead of doing that what we could do is leave a space for where the logo should be.</v>
+
+29
+00:28:12.310 --> 00:28:14.473
+<v ProjectManager>Like a little cut-out kind of</v>
+
+30
+00:28:41.610 --> 00:28:48.050
+<v MarketingExpert>And then if we do have them illuminate upon contact, they could illuminate yellow.</v>
+
+31
+00:29:56.710 --> 00:30:21.830
+<v ProjectManager>The ID is going to do the look and feel design,. the UID the user interface design. I think you're going to get a lot of, I mean, the final say on what buttons get put. 'Kay. And you're gonna do some product evaluation. Okay, and right now, the ID and UID, you two are going to work together on a prototype using modelling clay.</v>
+

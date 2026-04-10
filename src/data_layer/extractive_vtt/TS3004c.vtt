@@ -1,0 +1,482 @@
+WEBVTT
+
+1
+00:01:53.830 --> 00:03:45.280
+<v ProjectManager>We're going to talk about the conceptual model. I just show you the the no the the the the the the minutes, minute. we just talked about it looks. Has to look nice. Usability is very important. People don't want to spend money on something that's similar to cheaper ones. It has to be very basic,. not too many buttons. Light switches on if you use a button. text TV still has to be a possibility. And it has to be easy to learn. And the functions are volume, channel to choose channels, an on-off, a mute button, and a text TV button. That are the functions. I just want to give you Mike again, the first presentation</v>
+
+2
+00:04:01.550 --> 00:05:26.140
+<v MarketingExpert>I received an email. and I searched on this document, recent investigation of the remote control market. It has been done in Italy Italy and in another country in Europe,. but they found out the most important aspect for remote controls happens to be a fancy look-and-feel, instead of the current functional look and feel. So it's very important for us to create something new. Fancy stands for an original look-and-feel of the case and interface. this aspect is the most important one. It is twice important as the following. The second most important aspect is that a remote control should it technological innovative. that stands for new technical features. And then that This is a point of discussion,. because we just decided that we don't make use of LCD or speech recognition.</v>
+
+3
+00:05:38.270 --> 00:05:40.300
+<v ProjectManager>But we already have the flashing flashing light</v>
+
+4
+00:05:53.080 --> 00:06:42.830
+<v MarketingExpert>The third one is the aspect of the remote control should be easy to use. We already discussed that. our our target group we thought about was young and trendy. So I took that part of the webpage. And it says fashion-watchers of Pari France and Italy, yeah, have detected the following trends. This trends I th trend I think it's not that meaningful for us, maybe. But it's about clothes and shoes. But the the next aspect also in contrast to last year, the feel of material is expe is expected to be spongy.</v>
+
+5
+00:06:46.120 --> 00:06:47.480
+<v UserInterface>Spongy, like sponge.</v>
+
+6
+00:06:49.690 --> 00:06:51.050
+<v IndustrialDesigner>So rubber, kind of.</v>
+
+7
+00:06:52.360 --> 00:06:59.140
+<v ProjectManager>But maybe th that's al definitely a good idea,. because you've you're you drop your remote control very often on the ground.</v>
+
+8
+00:07:03.190 --> 00:08:24.750
+<v MarketingExpert>But I didn't knew knew what it means. it's also a stress-ball. because a fancy look is the most important thing for remote control control,. I think about changeable fronts. maybe a see-through one in a a fruit front. And some basic colour fronts. maybe an extraordinary shape, like a sponge. just another shape than a normal remote control ha has. We have to discuss about that. Main point still is the technolo technological innovative. how do we do that? We ma must have some kind of gadget.</v>
+
+9
+00:08:28.864 --> 00:08:35.980
+<v ProjectManager>It's very difficult to to to do it. Because it's only twelve and a half Euros you have to spend on every remote control.</v>
+
+10
+00:08:35.120 --> 00:08:43.840
+<v MarketingExpert>That's the problem. That's the main problem. Maybe we watch the first the next two presentations.</v>
+
+11
+00:08:58.160 --> 00:09:03.900
+<v IndustrialDesigner>Actually we have don't have an idea how much it's gonna cost. But maybe it's cheap. and it's easy to implement.</v>
+
+12
+00:09:08.970 --> 00:09:19.080
+<v UserInterface>If we implement speech recognition, I think it would be better to implement LCD as well. Since you have to configure speech thing.</v>
+
+13
+00:09:32.710 --> 00:09:37.570
+<v ProjectManager>But a telephone also have a LCD and and it's about two hundred Euros.</v>
+
+14
+00:09:38.210 --> 00:09:39.220
+<v UserInterface>We have to decide on that.</v>
+
+15
+00:09:46.530 --> 00:10:10.220
+<v IndustrialDesigner>I got an email. And it says the chip can be simple, regular or advanced. They say a display requires an advanced chip. And this is more expensive than all the other chips.</v>
+
+16
+00:10:18.540 --> 00:10:19.780
+<v UserInterface>And speech recognition?</v>
+
+17
+00:10:20.840 --> 00:10:25.750
+<v IndustrialDesigner>Yeah, probably too. I I haven't got anything about speech recognition,</v>
+
+18
+00:10:48.090 --> 00:11:12.410
+<v UserInterface>I had to make a sort of a design. So I did some searching on the internet. I watched the old remote controls and news com remote como remote controls. This is one of the modern remote controls of the moment. I think we should go more to the iPod and MP three players. Mobile phones.</v>
+
+19
+00:11:10.720 --> 00:11:13.350
+<v ProjectManager>Just modern modern but still basic.</v>
+
+20
+00:11:14.340 --> 00:12:18.370
+<v UserInterface>You probably have to make it a bit bigger and a bit smaller. 'Cause remote con control, you can see it here, you have to bo reach both out both sides. And here you just have one, few buttons. I definitely think we should go like this. And then changeable fonts,. It's the most important part, I think. And the home base is something like that, something simple. and then I just ordered the the buttons a bit. basic buttons. On-off, mute. And th maybe two others, I dunno. Text buttons. And then the colour buttons, if we want it on. I don't find it very usable,. and then yeah we saw the the pla display, in the the iPod. They can put the basic buttons, one, two, three, four. And above ten.</v>
+
+21
+00:12:18.680 --> 00:12:20.020
+<v IndustrialDesigner>That's on on the display.</v>
+
+22
+00:12:21.210 --> 00:12:36.370
+<v UserInterface>That th there is no display there. But it's on the place of the display. And I think we should light this up much more than that part. So the focus is on these two parts. So you don't see all the buttons you else need.</v>
+
+23
+00:12:34.305 --> 00:12:45.340
+<v ProjectManager>But it sounds very difficult to use. Because the volume and channel is on the on the the bottom of it. So you can't use your thumb for it.</v>
+
+24
+00:12:58.470 --> 00:13:04.001
+<v UserInterface>Here we have also side scrolls. I dunno if we can use that. Do we want to use</v>
+
+25
+00:13:03.190 --> 00:13:05.800
+<v ProjectManager>For volume. For volume, or a channel.</v>
+
+26
+00:13:06.840 --> 00:13:15.390
+<v UserInterface>Then we can even simplify it more. By just putting the volume on the side. And and just channel buttons here.</v>
+
+27
+00:13:18.300 --> 00:13:38.230
+<v IndustrialDesigner>The channel buttons are often used. And you can't use them now with your thumb,. m maybe we cho should put that on top,. and buttons we we don't use on, in the bottom.</v>
+
+28
+00:13:37.820 --> 00:13:42.510
+<v ProjectManager>Yeah, just th th th other buttons like text TV. Put that on the button bottom.</v>
+
+29
+00:13:44.530 --> 00:13:46.740
+<v UserInterface>You mean these to the low?</v>
+
+30
+00:13:48.360 --> 00:13:50.070
+<v ProjectManager>Except from the on-off button.</v>
+
+31
+00:13:52.880 --> 00:14:04.330
+<v IndustrialDesigner>But I I think you'll use the switch channels buttons more often than the normal channel buttons, like one two three. So maybe we can put that on the bottom.</v>
+
+32
+00:14:21.700 --> 00:14:36.210
+<v UserInterface>I think it's pretty standard, these rubber buttons on the top. I think it's modern to light this area up, and to light this area up.</v>
+
+33
+00:14:56.930 --> 00:15:03.260
+<v IndustrialDesigner>I think th the the top buttons are okay. They sh Those should be on top. But we we can switch those two,</v>
+
+34
+00:15:13.800 --> 00:15:42.550
+<v UserInterface>My personal opinion is that we should go more modern look. MP three player. if we want to put in speech rec recognition or something, we I don't think we should put it on top then. I think that, if we're gonna put in more technology, that you need to be able to switch it open. if you put in speech recognition, you need so more many more buttons.</v>
+
+35
+00:16:17.890 --> 00:16:51.530
+<v IndustrialDesigner>The component design. I looked at some similar devices, and my own common knowledge. this was on the web site. If you aim at a young public, you should use materials that are soft with primary colours like green, blue, red. So flashy kinda colours. shapes should be curved, so round shapes. Not Nothing square-like.</v>
+
+36
+00:16:55.090 --> 00:17:00.300
+<v UserInterface>IPod is trendy. And it is well curved square.</v>
+
+37
+00:17:04.780 --> 00:17:15.290
+<v IndustrialDesigner>We shouldn't have too square corners and that kind of thing. And sports and gaming device style characteristics.</v>
+
+38
+00:17:24.780 --> 00:17:40.880
+<v ProjectManager>We have to put our Real Reaction logo as well on the on the remote control. the colours also. So we have ha to ma make it in black, black, yellow. Maybe the sides in yellow and the the the top in black.</v>
+
+39
+00:17:41.750 --> 00:17:48.070
+<v IndustrialDesigner>Because we definitely want to make it kind of flashy, to attract a young public.</v>
+
+40
+00:17:54.510 --> 00:17:57.790
+<v ProjectManager>Maybe you can put yellow on the side and black on the on the front.</v>
+
+41
+00:18:03.330 --> 00:18:12.368
+<v UserInterface>Can't we use different fron fronts, with all with the the logo on it? Can we do that? So</v>
+
+42
+00:18:11.900 --> 00:18:14.680
+<v IndustrialDesigner>Like fronts in in red and yellow and blue</v>
+
+43
+00:18:15.170 --> 00:18:16.540
+<v ProjectManager>Still still transparent.</v>
+
+44
+00:18:17.160 --> 00:18:19.570
+<v UserInterface>Yeah. But with all with logo on it.</v>
+
+45
+00:18:35.160 --> 00:18:37.020
+<v ProjectManager>Maybe we have to make it from soft material.</v>
+
+46
+00:18:43.670 --> 00:18:45.420
+<v IndustrialDesigner>But anyways it should be transparent.</v>
+
+47
+00:18:50.380 --> 00:18:54.280
+<v UserInterface>Just like a mobile phone, you can make different fronts on it.</v>
+
+48
+00:18:59.280 --> 00:19:03.843
+<v ProjectManager>Just give five with them, just in a box. Five different</v>
+
+49
+00:19:03.750 --> 00:19:18.010
+<v IndustrialDesigner>But you could you could make 'em like blue and transparent. the buttons. Normal rubber I think. Like normal ordinary buttons. Soft.</v>
+
+50
+00:19:18.790 --> 00:19:22.350
+<v ProjectManager>It it could be like a Nokia, like plastic.</v>
+
+51
+00:19:22.020 --> 00:19:23.510
+<v IndustrialDesigner>With the hard hard buttons.</v>
+
+52
+00:19:23.130 --> 00:19:25.370
+<v UserInterface>I think rubber really has an odd look.</v>
+
+53
+00:19:27.460 --> 00:19:38.230
+<v MarketingExpert>The the the new new modern remote controls, the buttons are part of the the style, I think is part of the remote control itself.</v>
+
+54
+00:19:49.680 --> 00:19:51.140
+<v IndustrialDesigner>It's it's all on one level.</v>
+
+55
+00:19:50.630 --> 00:19:53.540
+<v MarketingExpert>It don't come out of the on the background.</v>
+
+56
+00:20:07.860 --> 00:20:10.150
+<v IndustrialDesigner>So that should be hard plastic.</v>
+
+57
+00:20:15.550 --> 00:20:28.010
+<v ProjectManager>But maybe you can make a round fluff or soft material. basic remote control from normal plastic,. the rounds of it from softer s</v>
+
+58
+00:20:35.180 --> 00:20:48.400
+<v IndustrialDesigner>The normal infrared LED I think sufficient. And back light L_E_D_s. But I think we have to make the case transparent,</v>
+
+59
+00:20:50.750 --> 00:20:53.320
+<v UserInterface>You can just make them around the buttons</v>
+
+60
+00:21:06.640 --> 00:21:23.770
+<v IndustrialDesigner>And in green colour, the back lights. but I think there are multiple colour LEDs.</v>
+
+61
+00:21:38.270 --> 00:21:40.860
+<v ProjectManager>Just make it some different colours. Blue, red and green, or something.</v>
+
+62
+00:21:55.840 --> 00:22:36.370
+<v IndustrialDesigner>This is the normal circuit board, like a chip board in in a lot of things. So we we just need this and this transistors and resonators. There's all these kind of things. they they basically said that that's almost the same on any remote controls. the battery contacts, like normal batteries ca you can put in.</v>
+
+63
+00:22:38.430 --> 00:22:40.040
+<v ProjectManager>We still want to have a recharger, don't we?</v>
+
+64
+00:22:47.610 --> 00:22:49.000
+<v UserInterface>Re recharger. Base station.</v>
+
+65
+00:22:48.410 --> 00:23:24.970
+<v IndustrialDesigner>Just just batteries, rechargeable batteries. And a chip, that's this one. for the energy source we can use batteries. or a kinetic Like with the pulse watch. Or we can also use solar cells. But you mostly use it indoors,</v>
+
+66
+00:23:23.350 --> 00:23:25.580
+<v ProjectManager>It's dark in the room. It's just batteries,</v>
+
+67
+00:23:26.710 --> 00:24:02.320
+<v IndustrialDesigner>And and we can use the home station kind of thing. flat, so uncurved. two curved is like front to the back. And three curved is also in depth. but with three curved remote controls, we must use rubber buttons. So we can't use the flat buttons. these kinda materials can be used.</v>
+
+68
+00:24:04.480 --> 00:24:10.480
+<v ProjectManager>We just make it plastic. The scroll wheels, that's cool. That's for the volume.</v>
+
+69
+00:24:25.680 --> 00:24:33.470
+<v IndustrialDesigner>And the LCD. we need the expensive, most expensive chip, if we use an LCD.</v>
+
+70
+00:24:33.210 --> 00:24:35.080
+<v ProjectManager>I don't think that's an opportunity.</v>
+
+71
+00:24:38.020 --> 00:24:54.270
+<v IndustrialDesigner>Then we we use must use the second most expensive chip. So th so the regular chip. are are we using a a rubber case,</v>
+
+72
+00:24:57.880 --> 00:25:00.148
+<v UserInterface>I don't think a rubber case looks</v>
+
+73
+00:25:02.850 --> 00:25:10.730
+<v MarketingExpert>The trend is spong spongy and fruit or fresh fresh.</v>
+
+74
+00:25:14.160 --> 00:25:24.020
+<v UserInterface>Fruit and veg can be just the covers. I can't imagine a soft remote control.</v>
+
+75
+00:25:27.980 --> 00:25:35.600
+<v IndustrialDesigner>Just hard plastic? Titanium, I think it's too expensive.</v>
+
+76
+00:25:37.620 --> 00:25:39.650
+<v ProjectManager>Not the sh the square form.</v>
+
+77
+00:25:41.330 --> 00:25:45.690
+<v IndustrialDesigner>You can make it curved or round. But just in two, not in depth.</v>
+
+78
+00:26:00.680 --> 00:26:19.310
+<v ProjectManager>We have to decide which one we're going to choose from these. What exactly. So the energy is the recharger. Just a normal battery. the case is just a plastic one.</v>
+
+79
+00:26:18.720 --> 00:26:20.760
+<v IndustrialDesigner>Yeah th yeah, the chip is the the regular one.</v>
+
+80
+00:26:28.560 --> 00:26:33.999
+<v ProjectManager>And we need a plastic case, with a scroll wheel.</v>
+
+81
+00:26:57.070 --> 00:27:02.080
+<v UserInterface>ID and UID work together on prototype drawing on smart board.</v>
+
+82
+00:27:02.320 --> 00:27:19.620
+<v ProjectManager>That's for the next one. But you definitely get a specific instruction. But th think about something that's more rounded.</v>
+
+83
+00:28:13.640 --> 00:28:16.421
+<v IndustrialDesigner>Like a very big scroll-wheel.</v>
+
+84
+00:28:15.480 --> 00:28:18.310
+<v ProjectManager>But just not on the top, but on the side of it.</v>
+
+85
+00:28:26.240 --> 00:28:32.840
+<v IndustrialDesigner>I think you'll get a a lot of volume changing when it's not wanted.</v>
+
+86
+00:28:44.210 --> 00:28:49.670
+<v UserInterface>Maybe you just have to make it That's not scrollable too easy.</v>
+
+87
+00:29:00.230 --> 00:29:04.210
+<v IndustrialDesigner>I think th the numbers should be in the bottom, and and the switch channel in the middle.</v>
+
+88
+00:29:06.840 --> 00:29:12.990
+<v ProjectManager>It doesn't make a difference, if you put the the switch channels on side of each other or on top of each other.</v>
+
+89
+00:29:35.890 --> 00:29:38.100
+<v UserInterface>I think zapping is the highest priority.</v>
+
+90
+00:29:43.040 --> 00:30:23.300
+<v IndustrialDesigner>But I think we we should bu put 'em on top of each other,. But but I I think left to right is more often associated with volume, and top down is more with channel changing. So so if we use that, they will probably have a long learning time.</v>
+
+91
+00:30:50.740 --> 00:31:08.180
+<v MarketingExpert>We have to care that it looks really new. Because we still hold on to the ordinary square remote control. 'Cause wha what I see the only difference i i i in fact is that we use a scroll-wheel on the outside.</v>
+
+92
+00:31:09.300 --> 00:31:11.700
+<v IndustrialDesigner>But i i it should be round in in shape.</v>
+
+93
+00:31:15.520 --> 00:31:33.290
+<v UserInterface>You have to look at that image of the iPod. If we do it like that we have below have we a lot of room to put a nice logo.</v>
+
+94
+00:31:36.210 --> 00:31:40.610
+<v MarketingExpert>And how many fronts fronts do we put on the market then?</v>
+
+95
+00:31:41.700 --> 00:31:43.190
+<v ProjectManager>Yeah, five. Let's give five.</v>
+
+96
+00:31:44.950 --> 00:31:46.430
+<v UserInterface>Maybe you can buy separate ones</v>
+
+97
+00:31:48.140 --> 00:31:53.190
+<v MarketingExpert>Buy the product. You buy, you get one. And basic.</v>
+
+98
+00:31:58.400 --> 00:32:05.560
+<v ProjectManager>Y you can put the bottom of the remote control in recharger? you could put it like that,</v>
+
+99
+00:32:04.570 --> 00:32:15.490
+<v IndustrialDesigner>So top down. Do we have to design that as well? The docking station?</v>
+
+100
+00:32:21.680 --> 00:32:24.960
+<v UserInterface>But th Yeah, that can be very simple. Least.</v>
+
+101
+00:32:35.640 --> 00:32:41.530
+<v IndustrialDesigner>But we have to make contacts on the on the remote control and the recharger as well.</v>
+
+102
+00:32:59.040 --> 00:33:01.330
+<v ProjectManager>But maybe you can just round up the corners a bit.</v>
+
+103
+00:33:29.840 --> 00:34:36.020
+<v IndustrialDesigner>As long as it isn is in two we can use all kind of round shapes. but we could do a lot of, lot more curving. I dunno. I dunno if it's handy.</v>
+
+104
+00:34:37.504 --> 00:34:42.750
+<v UserInterface>I think it will only look more like the old remote controls.</v>
+
+105
+00:35:20.920 --> 00:35:23.970
+<v ProjectManager>We have to make a decision,. what kind of form it's gonna have going to have.</v>
+
+106
+00:35:32.200 --> 00:35:59.540
+<v UserInterface>I think if My opinion. If we just take the iPod, and the same look. So light or just whatever colour, but the same light colours. And just with together with the back-lights look will look very new. No rubber buttons or something. Just together with the back-lights you'll get a totally new look. More like the MP three player P P three player.</v>
+
+107
+00:36:00.490 --> 00:36:06.550
+<v ProjectManager>And you have the scroll button inside. But why do we have to round it on the bottom then?</v>
+
+108
+00:36:08.710 --> 00:36:09.540
+<v UserInterface>Doesn't have to be.</v>
+
+109
+00:36:11.840 --> 00:36:15.010
+<v IndustrialDesigner>Though that's a trend. If we want to make it.</v>
+
+110
+00:36:32.100 --> 00:36:34.470
+<v ProjectManager>I think it's okay if you just keep it a bit square.</v>
+
+111
+00:36:38.510 --> 00:36:45.070
+<v IndustrialDesigner>I I don't know something about ergonomic kind of fits-in-the-hand stuff.</v>
+
+112
+00:37:19.040 --> 00:38:39.300
+<v ProjectManager>Maybe maybe make the the the wha what's it called scroll wheel. Make it in in yellow or something. Just like the colours of Real Reaction. We just we just skip the the the voca or was it the the speech recognition.</v>
+
+113
+00:38:39.390 --> 00:38:40.230
+<v UserInterface>Do we keep that?</v>
+
+114
+00:38:42.230 --> 00:38:43.660
+<v ProjectManager>But you'd definitely need a</v>
+
+115
+00:38:47.940 --> 00:39:00.140
+<v IndustrialDesigner>And we we have to build in a microphone. I I didn't receive any information on speech recognition,</v>
+
+116
+00:39:13.590 --> 00:39:25.800
+<v ProjectManager>Can we just put it speech recognition in it as well,. Probably we need a advanced chip then.</v>
+
+117
+00:39:31.120 --> 00:39:33.200
+<v MarketingExpert>But we don't have any information about the cost.</v>
+
+118
+00:39:35.620 --> 00:39:40.920
+<v IndustrialDesigner>Yeah, I have I have some some information about the cost. But just a about the chip.</v>
+
+119
+00:39:46.200 --> 00:40:45.400
+<v UserInterface>Our division has developed a new speech recognition feature, the integrated programmable sample sensor simple speaker unit. This is a very small electronic unit,. will give a standard answer after it recognise a question. Just You say record, followed by your question sample, and after a few seconds the answer sample. it works like good morning remote control,. and then the remote control says good morning. that's integrated in the chip,. but if we use speech recognition, that will be in it as well. it it would be would be a good feature feature.</v>
+
+120
+00:40:50.790 --> 00:40:51.590
+<v ProjectManager>We have to stop it now.</v>
+

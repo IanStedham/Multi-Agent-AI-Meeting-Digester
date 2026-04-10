@@ -1,0 +1,298 @@
+WEBVTT
+
+1
+00:00:06.680 --> 00:00:49.720
+<v ProjectManager>I sent you the agenda,. it was on the in the project documents. Anyway, it's the meeting's gonna follow more or less the same structure as last time,. so we'll go round each of you in turn. and you can give your presentations on what you've been up to. and at the end of that we need to discuss what you've come up with, so that we can make a decision on the key remote control concepts,. we need to know about the components' properties, materials, the user interface and any trends that the Marketing Expert has been watching.</v>
+
+2
+00:00:57.690 --> 00:05:21.720
+<v IndustrialDesigner>So I haven't made a PowerPoint presentation,. I I thought I'll use the whiteboard instead. I thought I'll use the whiteboard because we have so many different options. and what we can do is that we can start rubbing off the options that we do not require. and putting in the options that are or highlighting or underlining them or something like that. Okay, so I'll start again with a brief introduction to connect that anyway brief introduction to the insides of a remote control. If you open it, you have a circuit board here, right,. and this is the chip that I was talking about last time. This basically sends information to a tr transistor here, which then sends the information to an LED device here. If you flip the printed circuit board, and this is th the most important point here,. So you see for example a particular button attaches to a particular place on the PCB. on pressing this button I a circuit completes,. the information goes to the chip, which is somewhere here. and the chip that tra then translates the code into an infra infrared radiation, which goes goes out through there. So the important point that I read over the website was that the configurations of these printed circuit circuit boards are quite cheap to make,. so these are the different options that we have. So the batteries, I'll start with the battery, right? So they can be simple which is like the normal batteries in our the cells, yeah? So I don't know if even if you want to consider this,. So the third one is the kinetic energy ones. The the kinetic energy one is that they are usually modern watches, since our hand keeps moving, it keeps the watch ticking. But I dunno i if it is a good idea for a remote control, because it'll just lie there for a long while sometimes. But as soon as you pick it up it moves and then again it re recharges or something. And the fourth option is the solar cells, which are also made by the company. There are different cases that can be provided. They can be basically the shape of the cases, they can be flat,. they can be curved with one-sided curved and one side flat,. and they can be curved with on both the sides.</v>
+
+3
+00:05:28.352 --> 00:05:33.680
+<v UserInterface>You mean this would be like the the overall shape of the remote control, yeah,</v>
+
+4
+00:05:39.610 --> 00:09:33.090
+<v IndustrialDesigner>There were different kind of supplements available,. like it can be in plastic, rubber, wood, or titanium, right? so we can use even a certain titanium is also used in the company to make some space design equipment,. so it's kind of it'll be probably nicer to use, because it relates to the overall image of the company,. but it cannot be used on a double curved surface. the interface options now. we can have push-buttons, like most remotes do. we can have scroll wheels like the ones on mouse pointers. they can even have an an integrated push-button inside the scrolling thing. we can have L_C_D_s. so th this concerns firs first of all the the chips I I showed you at. The PCB is inexpensive, so we can put put in whatever we want,. but the various integrated circuit options are, we have either a simple one. or a regular. okay, so the good thing about wh wh why why we would want to use advanced why we might want to use advanced is that L_C_D_s can only come with the advanced chip. we need regular or advanced for scroll wheels. and the chip basically includes the infra infrared sender. besides this in electr under electronics also the company has started making a sample sender,. which is did not explained what i what it was,. So I'm guessing that the sample speaker is probably something like you know, as soon as you press a button, it it give gives you feedback, one five or whatever. I dunno whether sample sender sender has to do something with voice recognition or not, but anyway. now now I think that we can integrate you know, the user interface and the marketing things in that,</v>
+
+5
+00:10:33.600 --> 00:10:35.250
+<v ProjectManager>Right, interface concept.</v>
+
+6
+00:10:36.550 --> 00:14:49.290
+<v UserInterface>To be honest actually, I mentioned some some of the things which which could fit on the on the this talk this time, I I mentioned them already in the previous talk. So yeah, this time I might not have them on the slides but I I can just mention them aw again. So I thought I would also include the definition of user interface. so it's the aspects of a of of a computer system or programme which can be seen by the user. the mechanisms that the user uses to control its operation and input data. So this would includes things like shape and size and buttons and voice recognition as well, and colour, and so on. the method I employed this time was a again having a look to related products and mainly on the internet. and then analyse them from the point of view of user fen friendliness. and also whether their appearance was was pleasant. this can help us to decide which features we want to incorporate in our product. So in in the case of many user interfaces, they're just so full of buttons that it's actually hard to find the ones you you really want to use. and and it's just confusing, it takes know time to learn. and I thought I would just quickly show some of them that I found. so yeah, they're quite big and have many many buttons. Actually of the of all these I personally prefer this one,. because it's it's the smallest and and with with least with the smallest number of buttons as well. And I would say even the appearance of some of them is kind of not so nice. Our own company has developed a new in user interface. we can include voice recognition. i it's possible to record eighty different voice samples on it. so this this one was already mentioned the LC display. another new development is a scroll button,. And our own manufacturing division ha has designed a new programmable speech. it it it comes together with a voice recognition,. but it's once once the gadget recognises the voice of the speaker, there can be a pre-programmed answer,. So I mean this is also one of the dev new developments which we might consider if we wanted to include.</v>
+
+7
+00:14:50.960 --> 00:14:55.690
+<v IndustrialDesigner>Are you sure wha what this means, a spinning wheel with the LC display?</v>
+
+8
+00:15:00.600 --> 00:15:15.170
+<v UserInterface>The scroll button is a different thing. I I have a picture if you just a moment,. but I think it's just like it's it's a wheel, it's like not separate buttons.</v>
+
+9
+00:15:15.071 --> 00:15:17.320
+<v IndustrialDesigner>Oh okay, the iPod thing, yeah.</v>
+
+10
+00:15:21.640 --> 00:15:54.250
+<v MarketingExpert>It's like it's like where you you know how you have your your mouse, and you go round and i it's kind of like that and you spin round. I like the the wheels that click on the side you you get 'em much slower,. Do you know, if you're lookin if you're th scrolling through the A to of your music and you're looking for something at, then it's a lot faster than the wheel,. but you've got a lot less control over it.</v>
+
+11
+00:16:04.680 --> 00:16:43.530
+<v UserInterface>Okay, and the personal preferences are pretty much the same as as as last time. Okay, we decided to include voice recognition,. so to have the standard major buttons like on, off, ch the channels and and then volume. and then the rest would be a menu on the screen. and I I also thought if we want to keep it small and nice. and actually I I quite like the idea of a scroll a scrolling button,. I thought it could be for for voice like, I dunno, it like on a i like it used to be on Walkmans or something.</v>
+
+12
+00:16:53.840 --> 00:16:55.270
+<v ProjectManager>Okay, straight to trends,</v>
+
+13
+00:17:53.290 --> 00:18:34.800
+<v MarketingExpert>So what I did was to search the internet to come up with market trends and you know what users are gonna be wanting in the the near future. Now, the first aspect is apparently twice as important as the second aspect, which is twice as important as the third a aspect. So, I mean the the easy to use thing is fairly low down on the. which I think given the target group is what you would expect, really. you know, people want something new,. something technologically innovative and different,. so the whole idea with the L_C_D_s and the spinning and the colours and the voice recognition is quite like, quite the thing to go for.</v>
+
+14
+00:18:39.480 --> 00:18:55.380
+<v IndustrialDesigner>So maybe as you're discussing things, is it okay if we just keep highlighting things here? so probably voice recognition is is kind of important, right?</v>
+
+15
+00:18:55.740 --> 00:18:58.620
+<v ProjectManager>And maybe the LCD and spinning</v>
+
+16
+00:18:58.640 --> 00:19:11.790
+<v IndustrialDesigner>Okay, I I have a point about LCD,. W L_C_D_s are basically for feedback, right, to the user who's pressing buttons,. and the feedback can come through television itself,. so do we need an LCD on the remote?</v>
+
+17
+00:19:12.224 --> 00:19:33.700
+<v MarketingExpert>Depends how fast your television runs, really,. I mean we've got one of those Telewest boxes. and you put the number in the remote. so i it actually takes quite a long time. so I think, you know, a screen on the remote would probably cut down your time on that.</v>
+
+18
+00:19:36.570 --> 00:19:41.580
+<v ProjectManager>It it is also quite nice though to to have something here so you don't interrupt the picture on the screen,</v>
+
+19
+00:19:54.240 --> 00:20:18.000
+<v MarketingExpert>But I think maybe a way to do it would be a similar way to how you have your mobile phone, you know,. like you have the slidey ones. and you have the flippy ones. So you can have like what looks like a normal remote control, you know. or like a minimalist remote control. So you got your buttons one to nine, your on and off and your volume on that. and then if you want to mess about with it, you flip it open and,</v>
+
+20
+00:20:19.030 --> 00:20:22.790
+<v IndustrialDesigner>So now we seem to have a consensus that L_C_D_s are definitely the way to go</v>
+
+21
+00:20:22.560 --> 00:20:23.620
+<v ProjectManager>Yeah, I think so.</v>
+
+22
+00:20:22.790 --> 00:20:23.936
+<v IndustrialDesigner>Because of style and</v>
+
+23
+00:20:38.010 --> 00:20:58.380
+<v MarketingExpert>Okay, apparently, fruit and vegetables will be providing inspiration. so these will be an important feature for clothes, shoes and furniture. So I mean, I'm taking this to mean, you know, curviness. 'Cause you don't tend to get flat vegetables. You know?</v>
+
+24
+00:20:57.820 --> 00:20:59.590
+<v ProjectManager>And possibly even uneven,</v>
+
+25
+00:20:59.890 --> 00:21:23.550
+<v MarketingExpert>Bit of asymmetry and stuff. But that would be a good way to to get in the whole RSI issue in there,. so you wanna you curve it so that it's suitable for use with the right hand. I'm not quite sure about the relevance of material will be spongy.</v>
+
+26
+00:21:23.740 --> 00:21:25.920
+<v ProjectManager>Something a bit squishy and</v>
+
+27
+00:21:27.300 --> 00:21:29.460
+<v UserInterface>So it could be like a rubbery</v>
+
+28
+00:21:44.890 --> 00:21:46.360
+<v ProjectManager>And it'd help if you drop it,</v>
+
+29
+00:21:49.870 --> 00:22:08.088
+<v IndustrialDesigner>So if if we use latex cases, they won't allow us to use solar cells, as an energy source. so we could use titanium, wood or plastic or</v>
+
+30
+00:22:06.290 --> 00:22:13.350
+<v ProjectManager>Or if we want to use the the latex, then we have to go with one of the other power things.</v>
+
+31
+00:22:12.000 --> 00:22:15.210
+<v MarketingExpert>If it's made of rubber you could get the kinetic energy fairly easily there,</v>
+
+32
+00:22:26.150 --> 00:22:35.030
+<v IndustrialDesigner>So probably double curved surface is the way to go,. Or or curved at one end and flat on the top,</v>
+
+33
+00:22:42.770 --> 00:22:45.390
+<v MarketingExpert>You have to have a certain element of flatness, I think.</v>
+
+34
+00:22:51.930 --> 00:22:56.200
+<v IndustrialDesigner>Singe single side curved or double side curved does not say too much, does it?</v>
+
+35
+00:23:08.600 --> 00:23:17.590
+<v MarketingExpert>So I mean does curved one side mean one side is straight. and, you know curved two sides means the whole thing is just a big curvy thing?</v>
+
+36
+00:23:18.030 --> 00:23:39.590
+<v IndustrialDesigner>Di now did it say anywhere in your research material about this sliding stuff. because according to the information that I have, I think the onl only options that we have with the case is are these three. It does not say anything about whether technically, you know, this this stuff is available at all.</v>
+
+37
+00:23:40.410 --> 00:23:47.420
+<v MarketingExpert>It's it's more about the protecting the LCD, which I think is where it came from. But no, my research didn't tell me anything,</v>
+
+38
+00:24:05.780 --> 00:24:11.130
+<v ProjectManager>Looking at what we've got, we we want an LCD display with a spinning wheel.</v>
+
+39
+00:24:16.910 --> 00:24:19.050
+<v IndustrialDesigner>Hand dynamos are definitely out, right?</v>
+
+40
+00:24:21.840 --> 00:24:26.790
+<v ProjectManager>It's not that's not streamlined and sexy, having a having a wind up.</v>
+
+41
+00:24:27.580 --> 00:24:31.560
+<v IndustrialDesigner>Kinetic energy does seem to have some kind of appeal,</v>
+
+42
+00:24:33.037 --> 00:24:36.510
+<v MarketingExpert>It's about the practicality of it really, isn't it? You know?</v>
+
+43
+00:24:38.870 --> 00:24:43.670
+<v IndustrialDesigner>This this thing will have to be tapped every time,. which which might be very frustrating for the user.</v>
+
+44
+00:24:43.524 --> 00:24:48.090
+<v ProjectManager>Depends how much how much movement it really needs.</v>
+
+45
+00:24:52.660 --> 00:25:11.180
+<v IndustrialDesigner>Okay, let's keep it option keep an option,. It has to be at least curved from one side, yeah. Wood, do you think wood will be a good idea?</v>
+
+46
+00:25:19.760 --> 00:25:22.040
+<v MarketingExpert>I can't imagine a wooden remote control.</v>
+
+47
+00:25:33.350 --> 00:25:41.536
+<v ProjectManager>And given that we're we're looking at more spongy material preferences, I ha would think maybe rubber or plastic is more</v>
+
+48
+00:25:46.710 --> 00:26:17.130
+<v MarketingExpert>I mean it's it's alright for a table,. And splinters and stuff and. You have to have some push-buttons, don't you?</v>
+
+49
+00:26:16.850 --> 00:26:20.620
+<v UserInterface>I think for for the channel numb channel numbers you still need them, wouldn't you?</v>
+
+50
+00:26:27.280 --> 00:26:32.120
+<v IndustrialDesigner>If you have an LCD display, then you can select almost everything on the LCD display.</v>
+
+51
+00:26:36.800 --> 00:26:44.130
+<v UserInterface>When we discussed that we might like this flipping open thing, then I mean you can use it as a normal remote control,</v>
+
+52
+00:26:48.790 --> 00:27:43.450
+<v MarketingExpert>I think this is going back to the the graph at the beginning that I made, where, you know, the buttons that people use all the time, you want buttons for them and everything else menu-driven. I think the thing is, so if someone just wants to turn on their TV and put on a channel, then it should be easier to use than any other remote,. and then if someone wants to, you know, change the contrast on their TV and they should be able to do that and it should be accessible,</v>
+
+53
+00:28:19.050 --> 00:28:24.370
+<v UserInterface>So I think it it doesn't make sense to have both like a scrolling and spinning thing,</v>
+
+54
+00:28:27.280 --> 00:28:29.580
+<v ProjectManager>Just spinning and not scrolling, I would say.</v>
+
+55
+00:28:38.130 --> 00:28:46.730
+<v MarketingExpert>But I mean the the thing with this whole if you're planning on making it out of rubber, on the basis that it's spongy, then I'm not sure how well a scrolling wheel would work.</v>
+
+56
+00:28:46.820 --> 00:28:56.640
+<v ProjectManager>But if you've got a if if you've got a flipped thing, effectively it's something that's curved on one side and flat on the other side, but you folded it in half.</v>
+
+57
+00:28:59.310 --> 00:29:03.120
+<v IndustrialDesigner>I'm not sure it'll be a good idea to construct the whole thing out of rubber.</v>
+
+58
+00:29:03.190 --> 00:29:06.700
+<v ProjectManager>No, I think it's just the casing rubber on the outside.</v>
+
+59
+00:29:05.480 --> 00:29:07.540
+<v UserInterface>The case would be rubber and the the buttons,</v>
+
+60
+00:29:11.660 --> 00:29:15.340
+<v IndustrialDesigner>Everything else in plastic or even titanium if we want to use it.</v>
+
+61
+00:29:15.250 --> 00:29:42.730
+<v MarketingExpert>Or maybe like interchangeable cases. but I have like a you know, obviously my iPod's not made of rubber,. but then I have a little rubber case that goes over the top of it. and I can change the colour, theoretically, to match my outfit. I think the spinning wheel is definitely very now.</v>
+
+62
+00:29:53.280 --> 00:29:57.632
+<v IndustrialDesigner>And colours can be provided with the case rather than</v>
+
+63
+00:30:03.400 --> 00:30:11.152
+<v UserInterface>It was a a requirement that we use our th the colours of our company,. so would it be like yellow, grey and black or something, or</v>
+
+64
+00:30:11.910 --> 00:30:38.760
+<v MarketingExpert>That doesn't fit in with the whole vegetable theme though. but I mean do you think we could incorporate the colours of the company into the buttons. and then make the colour of the main remote the colour like vegetable colours, do you know? I mean I suppose vegetable colours would be orange and green and some reds and maybe purple. and that and then you'd pick the buttons in company colours to to match with it.</v>
+
+65
+00:30:46.730 --> 00:30:51.280
+<v IndustrialDesigner>Since we're having L_C_D_s there there's no way that we're will be able to</v>
+
+66
+00:30:47.949 --> 00:30:50.970
+<v ProjectManager>We need the advanced yeah.</v>
+
+67
+00:30:51.280 --> 00:31:06.830
+<v IndustrialDesigner>What we do need to consider, however, is that the price is going up for the ever every such thing that we are considering,. but since L_C_D_s seems to be a definite yes,. So I'll rub off the other two.</v>
+
+68
+00:31:08.860 --> 00:31:13.856
+<v MarketingExpert>So are we discounting solar energy because rubber's gonna be used in there somewhere or</v>
+
+69
+00:31:42.180 --> 00:32:04.280
+<v IndustrialDesigner>Using the simple battery will be a safer option as compared to the kinetic energy one, I mean,. a although it does seem interesting. okay, so we understand this better now that the the speaker is for the feedback, right?</v>
+
+70
+00:32:08.440 --> 00:32:36.360
+<v ProjectManager>I think if we can if we can include them at not too much extra cost, then I'd put them in,. And the case is curved on one side, but then flat flat, so it's flipped into each other.</v>
+
+71
+00:32:32.640 --> 00:33:31.430
+<v IndustrialDesigner>Flat on the top. we we're definitely going in for voice recognition as well as L_C_D_s,.</v>
+
+72
+00:33:53.150 --> 00:34:29.710
+<v ProjectManager>So we've basically worked out that we're going with a simple battery,. the advanced chip. and a curved on one side case which is folded in on itself, made out of rubber. and the buttons are also rubber. We're having push-buttons on the outside. and then on the inside an LCD with spinning wheel,. and it's gonna look sort of vegetable,. and be in bright vegetable colours.</v>
+
+73
+00:34:58.740 --> 00:35:10.690
+<v MarketingExpert>You've maybe got, you know like if you're modelling on iPod you've got five buttons and a wheel,. and four of the buttons are in the wheel,. and the other one's the little bit inside the wheel,</v>
+
+74
+00:35:12.660 --> 00:36:00.440
+<v ProjectManager>Okay, so now we've got thirty minutes before our next meeting. In the meantime, the Industrial Designer over here is gonna work on the look and feel design,. the User Interface Designer will work on the user interface design. and the Marketing Expert is going to work on product evaluation. And as well as that, the two designers are going to work together on our prototype following those instructions that we've just come up with using modelling clay. and you will get extra instructions from your personal coach. And anyone who hasn't put their their presentation in the project documents folder, it would be good just so in case we have to refer to it.</v>
+

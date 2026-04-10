@@ -1,0 +1,194 @@
+WEBVTT
+
+1
+00:02:22.060 --> 00:02:51.480
+<v ProjectManager>Yeah., before we begin it, I want to say I've I've put the minutes of the second meeting in the shared folder,. It it still some technical difficulties. so the the first part of the minutes are very hard to read, because there are two documents that were layered over each other. But, from now on I won't use my pen anymore, so will be just ordinary keyboard.</v>
+
+2
+00:02:59.250 --> 00:05:58.440
+<v IndustrialDesigner>Okay, when we talk about components design, it's really about the material and the and really the stuff we build the remote controls of. the properties of the case, it has to be solid in hard material like hard plastic. with soft rubber for falling and and yeah, it feels good in your hand. I when we use a rubbled a doubled curved case, we must use a rubber push-buttons to. the the rubber double-curved case is a is a three-dimensional curve in the in the design,. which is necessary when we want to be trendy. the basic battery,. which I thi prefer because of its its non non-depending of of of. here you have to have a hand yeah, kinetic energy. solar cells are also a bit weird for remote controls. I think that plastic is the is the best with rubber, because wood or titanium would also be a bit weird.</v>
+
+3
+00:06:00.190 --> 00:06:09.510
+<v UserInterface>Oh titanium is probably trendy, I think. Well, maybe a little bit expensive.</v>
+
+4
+00:06:22.790 --> 00:08:17.840
+<v IndustrialDesigner>The chip set and the board is all off the shelf. all the materials and the components are just available in in our factory. another possibility. I yeah, I looked up on was the LCD displays. Could be something special to our remote control,. and it's possible, but it only cost a bit more,. I th I got an email with some examples and it these were were the most trendiest one. Yes, maybe we can bri bring a couple of couple of types of</v>
+
+5
+00:09:25.660 --> 00:09:36.490
+<v UserInterface>I still don't have any information about user requirements. I was thinking about just the basic functions and I got</v>
+
+6
+00:09:35.640 --> 00:09:38.490
+<v ProjectManager>Oh, we decided upon that in the last meeting.</v>
+
+7
+00:09:39.940 --> 00:09:46.010
+<v UserInterface>Yeah, but but then wh I don't know when there are new user requirements.</v>
+
+8
+00:09:46.490 --> 00:09:49.890
+<v ProjectManager>Well, tha I didn't receive any new requirements or somethi</v>
+
+9
+00:09:54.050 --> 00:09:57.200
+<v UserInterface>Well, I have here a couple of basic functions I could think of.</v>
+
+10
+00:10:07.200 --> 00:10:09.790
+<v ProjectManager>These are the ones you already summed up in the</v>
+
+11
+00:10:30.170 --> 00:11:26.280
+<v UserInterface>I was also looking for what you said, for I got an email about LCD in in in front of the remote control. I don't know if that's a good idea, or maybe it's a little bit too much for twelve and a half. Production. I I ju I was just thinking about it. Then I got a pop-ups to go to the meeting. But. yeah. Well, the functions are are not more to discuss, I think. It's it's just the base things we already discussed that the no VCR or that kind of</v>
+
+12
+00:11:29.630 --> 00:11:32.770
+<v ProjectManager>But you do mention the next and previous button.</v>
+
+13
+00:11:34.430 --> 00:12:04.029
+<v UserInterface>Well, that's next channel. I mean next channel. And I thinked of the button sizes and I'm not sure if they have to be big or just small</v>
+
+14
+00:12:34.010 --> 00:13:21.410
+<v ProjectManager>Well, when we only use basic functions, we have the possibility to make the buttons larger. Well, I think we already agreed upon the fact that the the the skip buttons and the cha and the volume buttons, th th those two have yeah, they have to be large. It puts an extra accent on the the on the simplicity of our remotes to to make these two most basic functions extra big, like t</v>
+
+15
+00:13:37.850 --> 00:13:40.350
+<v UserInterface>Personal preference I didn't have.</v>
+
+16
+00:14:16.610 --> 00:16:52.660
+<v MarketingExpert>Well, I've done some research again about trends on the internet. the most important thing is fancy look and feel of the remote control. The second important thing is innovative technology in the RC. And the third point there in this order if of importance, the third point, is a high ease of use. The younger market likes. Well, the themes of of this year are surprisingly fruits and vegetables and spongy material. I think the spongy material is is very irritating for the remote control itself. To implement some spongy thing, maybe we can do it in the in the docking station. Yeah, also a bit for elderly people who are a little bit crazy and want maybe want a little younger design but still the dark colour.</v>
+
+17
+00:17:02.380 --> 00:17:10.480
+<v UserInterface>But how do we use fruits and vegetables in Christ's sake with remote control?</v>
+
+18
+00:17:09.190 --> 00:17:40.520
+<v ProjectManager>No, but I I I think that our design already resembles so a piece of fruit. Yeah, but it that doesn't have to remind you, you know, like explicitly of our of a of a specific piece of fruit, but just, you know, like the the the the round curves.</v>
+
+19
+00:18:11.910 --> 00:18:30.550
+<v MarketingExpert>Well, we can we can we can produce multiple multiple things. And, maybe, yeah, a a banana is is not easy for a remote control, but yeah.</v>
+
+20
+00:18:52.680 --> 00:19:01.270
+<v ProjectManager>Yeah, I do like the to the idea of making a a, a catchy colour design and a because I do I think a dark colour would be nice too.</v>
+
+21
+00:19:01.990 --> 00:19:06.145
+<v IndustrialDesigner>But pictures of fruit, vegetables vegetables</v>
+
+22
+00:19:03.190 --> 00:19:04.400
+<v ProjectManager>Maybe it's too much, you know.</v>
+
+23
+00:19:04.120 --> 00:19:12.670
+<v UserInterface>But, we we have to There have to be the the the the firm colours, our own colours has to be in it.</v>
+
+24
+00:19:16.410 --> 00:19:19.550
+<v ProjectManager>But I don't think our our company colours are this fashionable.</v>
+
+25
+00:19:26.490 --> 00:19:30.730
+<v MarketingExpert>If this is our docking station, we can make our logo over here.</v>
+
+26
+00:20:12.800 --> 00:20:16.520
+<v ProjectManager>Do we want to use an LCD display, for example?</v>
+
+27
+00:20:17.640 --> 00:20:21.650
+<v MarketingExpert>Well, it's nice, of course. But I don't I don't know what to display on it.</v>
+
+28
+00:20:21.630 --> 00:20:25.670
+<v IndustrialDesigner>Maybe maybe we can make a TV guide on it, for the channel you're on.</v>
+
+29
+00:20:39.860 --> 00:20:50.218
+<v MarketingExpert>Yes sure, but it it has to to show an entire title of a programme or at least a a quite quite large part of it and then you get a very large LCD screen, because</v>
+
+30
+00:20:55.660 --> 00:20:59.900
+<v ProjectManager>Yeah, but no. I do I think it's a bit redundant, actually.</v>
+
+31
+00:21:03.530 --> 00:21:05.510
+<v UserInterface>Well well what would you display on it then?</v>
+
+32
+00:21:06.080 --> 00:21:10.180
+<v IndustrialDesigner>Programme information or or or or or a guide</v>
+
+33
+00:21:17.080 --> 00:22:12.770
+<v ProjectManager>But you're already watching the TV, you're not gonna watch your remote control. I really understand you want to make your job more exciting by putting an LCD in it,. But I don't think a LCD display fits in that image.</v>
+
+34
+00:24:14.760 --> 00:24:25.175
+<v IndustrialDesigner>When when you put maybe a colour LCD screen on it, it's very special and very trendy to have a remote control from</v>
+
+35
+00:24:36.670 --> 00:24:45.300
+<v MarketingExpert>Well, I'm coming back to the costs again, but I think we gotta build a pretty cheap design to to stay within our limits.</v>
+
+36
+00:26:08.120 --> 00:30:34.680
+<v ProjectManager>And really, I don't see how the the LCD display is gonna add anything, you know, on a design level. Okay, we skip the LCD display. The material, I think it was a good idea to use the plastic and the rubber. Maybe just bring it out in different colours,. but not af that you can switch fronts afterwards, that's also too much. But is it possible to use both the the plastic and so soft things and p titanium, as well?</v>
+
+37
+00:30:37.500 --> 00:30:44.930
+<v IndustrialDesigner>But it it then it you can't throw it it. It will make a huge noise or break other stuff</v>
+
+38
+00:31:06.140 --> 00:31:10.530
+<v UserInterface>I think titanium nowadays is way more often used than plastic.</v>
+
+39
+00:31:17.830 --> 00:31:22.109
+<v MarketingExpert>On the other hand, if you want to make fruit fruity stuff with</v>
+
+40
+00:31:21.760 --> 00:35:00.030
+<v ProjectManager>Yeah, but I I really like the idea of the the the plastic and the big kind of thing. But wha th our basic idea I mean, you gonna we're probably gonna have like two type of materials, like the d the plastic enclosure and then the the pads that surround it. How many colours are we gonna give it? Like two-tone colour? T. I think maybe the case itself should be in one colour and then the rubber of the buttons, and the cushions as well should be in another colour.</v>
+
+41
+00:35:09.860 --> 00:35:13.170
+<v UserInterface>Not more than two colours I think. It's a a little bit too flashy.</v>
+
+42
+00:36:16.190 --> 00:36:24.040
+<v ProjectManager>Th in that way we have like only the numbers, the power button, skip and volume, and then ten rem</v>
+
+43
+00:36:23.010 --> 00:36:25.710
+<v MarketingExpert>A mute and a teletext and a menu.</v>
+
+44
+00:36:46.280 --> 00:38:08.780
+<v ProjectManager>I think the spongy thing already comes forward in the in the in the cushions, pads and things on the side. I think this is kind of fruity, you know. Just round shapes with. I think colours is very important, because it has to be flashy, but and but it it doesn't have to be annoying,. Okay, well I think the meeting will be over within a minute. Well, you will read the minutes in the you can find them in the</v>
+
+45
+00:38:07.820 --> 00:38:08.860
+<v MarketingExpert>In the shared folder.</v>
+
+46
+00:38:12.480 --> 00:38:14.090
+<v ProjectManager>Because I'm will now type them out.</v>
+
+47
+00:38:15.620 --> 00:38:16.720
+<v IndustrialDesigner>What are we going to do now?</v>
+
+48
+00:38:17.500 --> 00:38:18.900
+<v MarketingExpert>You'll see in you email, I guess.</v>
+

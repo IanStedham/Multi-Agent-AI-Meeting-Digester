@@ -1,0 +1,122 @@
+WEBVTT
+
+1
+00:01:25.750 --> 00:04:10.600
+<v ProjectManager>The Project Manager. Okay, this is our agenda,. get to know each other a bit better to feel more comfortable with each other. then we'll go do tool training,. talk about the project plan,. discuss our own ideas and everything. Now, we're developing a remote control which you probably already know. we want it to be original,. appealing to a wide market,. grannies to kids, maybe even pooches should be able to use it. Okay,, first is the functional design,. this is where we all go off and do our individual work,. what needs need to be fulfilled by the product,. what effects the product has to have. and then the detailed design,. how we're actually gonna put it into practice and make it work. We're gonna practice with the pens. and draw our favourite animal on the white board,. and sum up the characteristics of that animal. I'm going to tell you that's supposed to be a tiger.</v>
+
+2
+00:04:53.320 --> 00:04:56.020
+<v UserInterface>Maybe you can guess what I'm trying to make?</v>
+
+3
+00:05:06.380 --> 00:05:07.200
+<v MarketingExpert>A kind of dog?</v>
+
+4
+00:06:19.600 --> 00:06:37.950
+<v IndustrialDesigner>Okay, now I'm gonna have to change what is was originally gonna be. Yeah, it can be a crocodile, it can be a crocodile.</v>
+
+5
+00:08:20.470 --> 00:08:22.820
+<v MarketingExpert>It's meant to be an eagle</v>
+
+6
+00:09:25.460 --> 00:09:47.980
+<v ProjectManager>Finance-wise, we've got a selling price at twenty five Euros,. which I don't actually know what that is in Pounds, at all. Okay, that's expensive.</v>
+
+7
+00:09:48.370 --> 00:09:49.550
+<v MarketingExpert>Should we be making notes of this?</v>
+
+8
+00:09:52.230 --> 00:09:55.930
+<v ProjectManager>I'll be able to pull it up,. or I could put it in the shared folder or something.</v>
+
+9
+00:09:54.190 --> 00:10:03.210
+<v IndustrialDesigner>Havi having said that though, if you wanna get one of those the the ones on the market at the moment they're they're about twenty pounds anyway.</v>
+
+10
+00:10:14.390 --> 00:10:28.760
+<v ProjectManager>Production cost's at twelve fifty, so. and profit aim is fifty million Euros,</v>
+
+11
+00:10:38.100 --> 00:10:45.220
+<v MarketingExpert>You've got market range international. and you did say earlier it's got to be a accessible and usable by sort of all age groups</v>
+
+12
+00:11:15.200 --> 00:11:48.910
+<v ProjectManager>What are your experiences with remote controls? I mean I've got we got we had three videos, a TV and a sort of amp thing all set up. so we got one of the universal remote controls, that you programme each of your things into,. but that kept losing the signals. but that was quite good, the fact that you could You didn't have six remote controls sitting in front of you.</v>
+
+13
+00:11:52.920 --> 00:11:59.260
+<v MarketingExpert>My experience has only been being given the remote control with the object I buy,. not doing any tampering with it and programming,</v>
+
+14
+00:12:19.620 --> 00:12:27.370
+<v ProjectManager>I hate I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do</v>
+
+15
+00:12:30.810 --> 00:12:33.440
+<v MarketingExpert>And symbols that you don't necessarily understand,</v>
+
+16
+00:12:35.180 --> 00:12:38.060
+<v UserInterface>So simplification of symbols you could think of.</v>
+
+17
+00:12:41.830 --> 00:12:52.830
+<v ProjectManager>And a section opens up or something to the other functions where you can do sound or options kind of recording, things like that inside it.</v>
+
+18
+00:13:03.260 --> 00:13:14.480
+<v MarketingExpert>But you know on a mobile phone, you can press a key and it gives you a menu, it's got a menu display,. I wonder if incorporating that into the design of a remote control might be useful,. so you've got a little LCD display.</v>
+
+19
+00:13:16.740 --> 00:13:22.900
+<v UserInterface>Instead of having too many buttons and make it complicated for the user, may maybe have an LCD di display or something like that,</v>
+
+20
+00:13:32.350 --> 00:13:33.650
+<v ProjectManager>What about the older generation?</v>
+
+21
+00:13:59.270 --> 00:14:02.480
+<v MarketingExpert>That's gonna be a problem anyway with the older generation perhaps,</v>
+
+22
+00:14:26.260 --> 00:14:34.730
+<v ProjectManager>I don't like the, you know the new phones that have kind of got a Windows-based running system. I find it really confusing,</v>
+
+23
+00:14:45.180 --> 00:14:59.310
+<v IndustrialDesigner>Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get,. you'd you'd have to sort of keep it down to a black and white LCD thing anyway, I'd assume.</v>
+
+24
+00:15:35.180 --> 00:15:41.850
+<v MarketingExpert>The other thing is, just ch chucking into mobile phone design features again, it could have a flip top remote control</v>
+
+25
+00:15:48.480 --> 00:15:49.910
+<v ProjectManager>I think that's a cost thing,</v>
+
+26
+00:15:59.690 --> 00:16:09.160
+<v MarketingExpert>And there's no reason we need to make it look as fashionable and stylish as a mobile phone,. it can still be lightweight plastic, you know? Something that's easily moulded and produced.</v>
+
+27
+00:16:14.290 --> 00:16:29.510
+<v ProjectManager>We've got half an hour before the next meeting,. so we're all gonna go off and do our individual things. and then we'll come back and liaise again. and I get to do another fantastic PowerPoint presentation.</v>
+
+28
+00:16:32.960 --> 00:16:52.350
+<v IndustrialDesigner>About what you're saying about the does does it need to be fashionable? I I had a quick look at the company website. and it's like the the we put the fashion into electronics,. I mean you don't you you can still have plastic</v>
+
+29
+00:16:58.620 --> 00:16:59.450
+<v MarketingExpert>We don't have to use metal,</v>
+
+30
+00:17:05.040 --> 00:17:24.160
+<v ProjectManager>I mean there's Sky remote controls and everything. They're kind of moulded. and the Telewest remote controls are silver plastic,. so yeah I guess that's stuff we can think about. Okay, so let's break it up there. So, see you in half an hour.</v>
+

@@ -1,0 +1,270 @@
+WEBVTT
+
+1
+00:01:30.010 --> 00:04:46.990
+<v ProjectManager>Well our functional design meeting, that's the stage we're in. now the new project requirements, I'll just show them. Well, teletext goes out.</v>
+
+2
+00:04:49.930 --> 00:04:50.810
+<v IndustrialDesigner>I I disagree,</v>
+
+3
+00:04:59.500 --> 00:05:36.980
+<v ProjectManager>Because we just said we wanted to include the DVD. and they don't want it,. because especially for the third requirement we want to reach people under the thirty years. Well and our corporate image should stay rec recognisable in our products.</v>
+
+4
+00:07:06.850 --> 00:10:25.450
+<v MarketingExpert>Well, I'm going to tell you something about functional requirements. Well, the first findings are that people think most controls are very kind of ug ugly. They also say, that's about I thought it was fifty per cent, that more money will be spent on better looking controls. almost every user uses it the the control for just ten per cent of its capacity. Furthermore, it's seventy five per cent of the users zaps a lot. Thus it might be might be smart to make a a big zapping button or something in the middle, so you can reach it with your thumb. A lot of losers users lose their controls in their in their living room. So it might be sensible to make some kind of a button on your television, that's your your control beeps or something, that you can find this very easily. thirty four thirty four per cent thinks it's it's too too difficult to learn.</v>
+
+5
+00:10:31.860 --> 00:10:37.666
+<v IndustrialDesigner>I think our user expert should also consider manual a manual for the remote, of course.</v>
+
+6
+00:10:58.610 --> 00:11:11.210
+<v UserInterface>Yeah but nobody reads a manual about a remote control, I think. It sh it should be there, the manual.</v>
+
+7
+00:11:15.960 --> 00:12:26.790
+<v MarketingExpert>So it's better to put our attention to the the design. So you can pick up and use it, than I think. Next point. RSI. research shows that they like to have a little LCD screen on their on their zapping device. I thought it was the age between sixteen and twenty, ninety nine per cent of the people like that.</v>
+
+8
+00:12:36.410 --> 00:12:37.950
+<v IndustrialDesigner>It's going to be expensive. Yeah.</v>
+
+9
+00:12:59.030 --> 00:13:01.632
+<v MarketingExpert>I don't have any information on that. So</v>
+
+10
+00:13:00.640 --> 00:13:02.890
+<v IndustrialDesigner>No, we'll look we'll look into that later.</v>
+
+11
+00:13:03.550 --> 00:13:07.610
+<v MarketingExpert>And another thing is speech recognition. They also like that,</v>
+
+12
+00:13:10.030 --> 00:13:12.680
+<v UserInterface>I think that's difficult to realise also.</v>
+
+13
+00:13:35.810 --> 00:17:40.690
+<v IndustrialDesigner>We don't rule them out yet. Well it is my task to explain or to point out a working design. You have basically the energy, the power of the of the remote control,. And the the user interface sends the the different signals of the different buttons to the chip,. The chip produces Morse code, a specific code to indicate that specific button that is pressed, of course. Now the LED produces an infrared beam and signals the, well it's very simple, and signals the signals to the sensor on the TV set,. I've some couple of pictures here. It has very little buttons and. and it's not very user-friendly. So we have to change a little bit to that,. so that it becomes more user-friendly,</v>
+
+14
+00:17:46.490 --> 00:18:09.220
+<v MarketingExpert>I have a table here about the the relevance of the buttons. the power button is used very much, channel selection, volume and teletext. But I think it's very important to make the power, channel and volume buttons near to the thumb, so you can't have RSI consequences.</v>
+
+15
+00:18:35.700 --> 00:18:44.300
+<v ProjectManager>But the most important buttons maybe you can just put them a bit apart so you would reject RSI RSI.</v>
+
+16
+00:18:43.700 --> 00:18:51.930
+<v UserInterface>Maybe you can make, for for channel changing, two little buttons on the side of the remote, so you can just do like this.</v>
+
+17
+00:19:14.900 --> 00:19:25.080
+<v ProjectManager>Yeah. If someone puts up i picks up his remote, and he picks up it he he touches the side then he's a already on the next channel. That's very irritating, I think.</v>
+
+18
+00:19:26.790 --> 00:19:49.440
+<v IndustrialDesigner>But in in any case the the basic function should be indeed, and as you say at the thumb. and and that the less important buttons, like the the the different channels, the numbers one two three four five as well, should be yeah well not in reach,. And I have some pictures of the inside workings,</v>
+
+19
+00:21:06.930 --> 00:22:38.120
+<v UserInterface>Yeah. Well I'm Mike, User Interface Designer. took a good look at the remotes on the corporate website, which are these two. This one is engineering-centred,. I like user-centr centred also the best. I think this is about the maximum number of buttons we'll need. I I kinda like the shape. I think we should go further with the idea of a removable front.</v>
+
+20
+00:22:41.510 --> 00:23:04.170
+<v ProjectManager>But i th they all have to have something about the recognition from our company. So if if you make a a front with just a a tiger on it, then our recognition is totally gone.</v>
+
+21
+00:23:05.240 --> 00:23:08.770
+<v UserInterface>Or you can you can can put the same symbol on on every remote.</v>
+
+22
+00:23:10.660 --> 00:23:12.220
+<v IndustrialDesigner>We can put it on the on the back side.</v>
+
+23
+00:23:18.270 --> 00:23:26.200
+<v MarketingExpert>We can make a symbol of the company right here. And if you put a front on it, there's a hole on the front. So the symbol's always on</v>
+
+24
+00:23:53.670 --> 00:23:58.020
+<v IndustrialDesigner>Mike, can you put that picture from me on the in the Word documents file? In Map?</v>
+
+25
+00:23:57.270 --> 00:23:58.350
+<v UserInterface>Yeah, I will.</v>
+
+26
+00:24:15.750 --> 00:24:24.770
+<v MarketingExpert>And we've chose for the younger one. research has shown that it's a high interested in features.</v>
+
+27
+00:25:13.910 --> 00:25:17.520
+<v UserInterface>But what kind of features? Like LCD screens and voice recognition.</v>
+
+28
+00:26:00.520 --> 00:26:04.660
+<v ProjectManager>And if if that's gives you a little bit of sta status information.</v>
+
+29
+00:26:05.050 --> 00:26:07.070
+<v MarketingExpert>Which programme you are watching or something.</v>
+
+30
+00:26:21.270 --> 00:26:27.790
+<v IndustrialDesigner>So it it just signals the the different sig the different symbols on the screen you have,</v>
+
+31
+00:26:45.100 --> 00:27:26.840
+<v MarketingExpert>No not clickable. I think it should be at the top. Alright, we go with the LCD screen?</v>
+
+32
+00:27:26.660 --> 00:27:28.930
+<v ProjectManager>Well I think so, yes.</v>
+
+33
+00:27:27.919 --> 00:27:31.870
+<v UserInterface>Yeah well we we we still need to know how much that will cost.</v>
+
+34
+00:27:33.930 --> 00:28:12.490
+<v ProjectManager>No but we're we'll have to look into that. So we have to decide on the different remote control functions.</v>
+
+35
+00:28:32.370 --> 00:28:36.950
+<v UserInterface>Yeah but with with the LCD screen on the top it gets a bit unnatural.</v>
+
+36
+00:29:27.150 --> 00:29:58.520
+<v ProjectManager>Because when when when I use a remote I I hate the buttons but buttons at the at the bottom. We don't want them to look like a calculator.</v>
+
+37
+00:30:14.100 --> 00:30:19.600
+<v IndustrialDesigner>I think it's still important to have it at the top,. because it's it's more familiar that way.</v>
+
+38
+00:30:41.240 --> 00:30:49.670
+<v MarketingExpert>I think we have a few functions,. and we can put the LCD above it,. and still have lots of room at the bottom, where you can put your hand.</v>
+
+39
+00:30:59.820 --> 00:31:45.220
+<v ProjectManager>Well but what what if we we first decide the different functions,. We have a power button, setting buttons, LCD window, the number buttons. the mute button.</v>
+
+40
+00:31:49.680 --> 00:32:03.960
+<v UserInterface>I think we we should use something like this to The the channel up and channel down button? Yeah, in circle, you know? And and a volume control also in it.</v>
+
+41
+00:32:16.070 --> 00:32:21.890
+<v MarketingExpert>You should put that power button, channel and volume should have the most importance.</v>
+
+42
+00:32:24.110 --> 00:32:27.250
+<v UserInterface>I think these should be in one big circle in the middle.</v>
+
+43
+00:32:27.200 --> 00:32:51.290
+<v MarketingExpert>Yeah, but what he said about RSI was kinda true. So it might be smarter to put them a little more away from each other.</v>
+
+44
+00:33:06.770 --> 00:33:10.880
+<v UserInterface>Yeah but people don't like it when their buttons are all over the place.</v>
+
+45
+00:33:24.310 --> 00:33:32.620
+<v MarketingExpert>So the the channel channel buttons should be far far apart, I think, up and down.</v>
+
+46
+00:33:32.420 --> 00:33:33.360
+<v UserInterface>No I don't think.</v>
+
+47
+00:33:49.200 --> 00:33:56.930
+<v IndustrialDesigner>I think you can have the two buttons of up and down close together,. but you don't have have to have volume control and and zapping button close together.</v>
+
+48
+00:34:23.080 --> 00:34:25.370
+<v MarketingExpert>Right, just make some decisions.</v>
+
+49
+00:35:18.280 --> 00:35:43.680
+<v ProjectManager>Well what if we're going to now decide about the functions,. and the design comes into the next round? Are we going to do it like on Mike's screen with one button that says I'm going to do a two number digital?</v>
+
+50
+00:35:54.260 --> 00:35:59.860
+<v UserInterface>On most T_V_s if you press two numbers shortly after each other, it</v>
+
+51
+00:36:00.260 --> 00:37:16.270
+<v ProjectManager>Alright so no button for that. there's screen. You can make it wider and less wide. And the button that you can go to AV for your video.</v>
+
+52
+00:37:17.200 --> 00:37:19.910
+<v MarketingExpert>I do think we have to put that underneath a clip.</v>
+
+53
+00:37:24.240 --> 00:37:25.570
+<v ProjectManager>Th that's a bit waste.</v>
+
+54
+00:37:33.500 --> 00:37:40.260
+<v IndustrialDesigner>But you you can put two or three buttons under another section. You can just put it somewhere</v>
+
+55
+00:37:43.460 --> 00:37:46.890
+<v UserInterface>Oh, they can be small or round like buttons.</v>
+
+56
+00:37:47.740 --> 00:38:06.740
+<v IndustrialDesigner>Well and and I think more at the bottom. Yeah. We have it, and we design later where everything goes. Yeah.</v>
+
+57
+00:38:10.710 --> 00:38:11.870
+<v UserInterface>Why go to video?</v>
+
+58
+00:38:15.220 --> 00:38:59.840
+<v MarketingExpert>Yeah, but you can you can zap you can you can zap to the video channel from zero to. Yeah, but if we're choosing to incorporate these buttons, you have to have channel setting,</v>
+
+59
+00:39:09.170 --> 00:39:13.190
+<v IndustrialDesigner>Yeah well different screen settings a Yeah, sk</v>
+
+60
+00:39:18.720 --> 00:39:22.304
+<v UserInterface>And then with plus and min minus you can adjust the</v>
+
+61
+00:39:26.460 --> 00:39:28.670
+<v ProjectManager>So we still have one four?</v>
+
+62
+00:39:28.990 --> 00:39:32.090
+<v MarketingExpert>For a screen fu channel setting.</v>
+
+63
+00:39:39.600 --> 00:39:43.460
+<v ProjectManager>Oh you always have in the centre an Okay button, for your menu.</v>
+
+64
+00:39:45.580 --> 00:39:47.440
+<v IndustrialDesigner>Yeah. I think that's important.</v>
+
+65
+00:40:10.000 --> 00:40:15.150
+<v UserInterface>I think things like contrast and brightness should be in the menu, yeah.</v>
+
+66
+00:40:14.670 --> 00:40:19.510
+<v IndustrialDesigner>And you can then adjust it with the zapping buttons or something.</v>
+
+67
+00:40:25.680 --> 00:40:30.026
+<v ProjectManager>And we'll have to decide things on our own I think. So</v>
+

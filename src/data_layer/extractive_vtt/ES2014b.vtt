@@ -1,0 +1,270 @@
+WEBVTT
+
+1
+00:01:48.640 --> 00:03:07.320
+<v ProjectManager>So we've got new project requirements. So basically we've got three things,. and we've got forty minutes in which to for this meeting to to discuss the various options. W I I got or or three things basically, relating to the remote being only for TV. We discussed that last time. we've got teletext outdated. Right and the corporate image was the final thing. So I I got that in email form.</v>
+
+2
+00:05:39.080 --> 00:09:41.580
+<v IndustrialDesigner>Okay I'm gonna be looking at the working design. I've just got three sections,. first is the research I made on the on the remote control itself. And then that involves the components required in it and the systems design of the actual the actual remote. so having researched the existing models within the market, I found my research off the internet. I've established what the components required for the remote control to function, actually are. And then also the methods in which these components interact together for the remote to actually do what you want it to do. the basic components are an energy source. which I guess in most existing models would be a battery supply. We then have the user interface, which is basically the like the the buttons on the actual remote. the various functions used for changing channel, channel up and down, volume, things like that. there's also a chip inside the remote which does all the computer type things. And then the sender, which is usually, I've found, an infra-red device which sends a signal to the actual television. and the last part is receiver which is important in the system. because that's obviously found in the television. I'm gonna have to actually draw on the board. because it was a little tricky on PowerPoint to get this working,. a power supply. we then have a particular button,. that's obviously there's lots and lots of different buttons. after you press that that sends the message to the chip,. and then sends the appropriate message to the sender. that's the components of the remote. So this is the user interface. which then, and that's the that's the infra-red sender. And then on the separate thing we have on the on the television we have a a receiver. going on to personal preferences, I've said that battery seems the best option for the actual remote,. just because of the size. and then the sender,. and infra-red has been used quite successfully.</v>
+
+3
+00:10:32.700 --> 00:12:03.080
+<v UserInterface>Okay so I'm gonna talk a bit about the technical functions design. so the basic method of this is to send a signal from the remote to the television set, so that a desired function is performed. here are two example remotes. by the look of it they both have kind of play and fast forward, rewind functions,. so I think they incorporate a kind of video function which we won't have to worry about. but as you can see, the left remote is quite quite busy looking, quite complicated. whereas the right remote is much simpler,. it looks much more user friendly. so my personal preference would be the right remote. So, it's got nice big buttons,. it's got a very limited number of buttons. I like the use of the kind of symbols like the triangles and the squares and the arrows as well as the words on the kind of play functions and all that. So it's very very user friendly,</v>
+
+4
+00:12:10.660 --> 00:12:47.250
+<v ProjectManager>We have to remember that we have our own logo and colour scheme. But I got I got an email that basically said to make sure that whatever device we come up with at the end of the day had to incorporate the corporate colour and slogan.</v>
+
+5
+00:13:10.510 --> 00:13:21.840
+<v IndustrialDesigner>Would you be able to get rid of the the extra buttons here, the the sort of circular section,. because that seems to be for a video as well. So we could dispense with that little bit as well. and just get it down to just the numbers and the volume.</v>
+
+6
+00:13:30.100 --> 00:13:38.910
+<v UserInterface>And I don't really think that you need nine numbers. I mean how often do you use seven, eight and nine? I think just one to six and then channel up and down should be enough.</v>
+
+7
+00:13:41.570 --> 00:14:54.180
+<v ProjectManager>Well for for general television purposes obviously you have channels one to five at this point in time,. and we'd have to have some room for future such channels. but the the other thing is that with the current expansion of channels in the process of taking place, certainly the button up and down,. and there's I don't know exactly how many channels there are on when you take into account Sky and various other various others. Maybe you could have a fast forward on the on the channels</v>
+
+8
+00:15:02.800 --> 00:15:05.760
+<v UserInterface>Some remotes have kind of favourite options</v>
+
+9
+00:15:13.940 --> 00:15:30.960
+<v ProjectManager>Yeah, I I suppose in a sense you could have if you've got a hundred channels then if you had sort of an easy way of getting rather than having to go one to a hundred, you could go one to one to ten, ten to twenty. and then have a second button to get you to the actual channel you want</v>
+
+10
+00:15:35.210 --> 00:15:42.880
+<v UserInterface>But I think a lot of like Cable and Sky and stuff, that would be tuned to one channel,. and then you'd have another remote for all of those channels.</v>
+
+11
+00:15:49.760 --> 00:15:51.120
+<v ProjectManager>Limit the number of buttons,</v>
+
+12
+00:15:52.620 --> 00:15:54.830
+<v UserInterface>But I suppose nine's not really excessive.</v>
+
+13
+00:16:04.810 --> 00:16:06.940
+<v ProjectManager>You could get fifty by five and a zero or whatever,</v>
+
+14
+00:16:27.780 --> 00:16:30.670
+<v IndustrialDesigner>How many buttons have we got? We've just got ten, eleven twelve th</v>
+
+15
+00:16:40.270 --> 00:16:53.850
+<v ProjectManager>Well we've we've got that it's remote for TV only otherwise project would become too complex with which would endanger the time to market was one of the considerations.</v>
+
+16
+00:18:36.220 --> 00:21:46.380
+<v MarketingExpert>We've done some research into the functional requirements that people want out of their remote control. and how do people use it? We asked them sort of which buttons were useful for them. And we did that by sort of giving them a questionnaire that we'd prepared and asking them to fill in the answers. And three quarters of them found that remote controls are ugly. and that a sort of even higher proportion would spend more for a sort of a fancier remote control. And that of all the buttons on the remote control, the sort of setting buttons for sort of the picture picture and brightness and the audio settings, they weren't used very often at all. People concentrated on the channel buttons and the volume buttons and the power buttons. we also asked them about speech recognition for remote control. And young people were quite receptive to this,. but as soon as we got sort of over about into a thirty five to forty age forty five age group and older, people people weren't quite so keen on speech recognition. There's a lot more th there's a lot lot more older people who didn't know whether they wanted it or not as well. and the number one frustration was that the remote was lost somewhere else in the room and that they couldn't find it. And the second second biggest frustration what that if they got a new remote control, it was difficult to learn all the buttons and all the functions, and to find your way around it. My personal preferences from the marketing is that we need to come up with some sort of sleek sort of good looking high high-tech. and that we should come up with fewer buttons than most of the controls on the market,. and we should sort of concentrate on the channels and sort of power, and also volume and that sort of thing, as as Louisa said. we could maybe come up with a menu, a sort of a an LCD menu for other functions on the remote control. and maybe we could think about speech recognition as well,. because sort of young people are perhaps the ones that are gonna buy buy our new product if we aim it at sort of you know sort of a high-tech design. And we could maybe think about using speech recogniti recognition as a way to find the remote control if it's lost in a room, rather than sort of having it to speech recognition to change the channels. 'Cause there's a problem with that in that the television makes noise,. so it could end up talking to itself and changing its channel.</v>
+
+17
+00:21:51.570 --> 00:21:54.850
+<v ProjectManager>What was that last wee bit there?</v>
+
+18
+00:21:53.400 --> 00:21:56.200
+<v MarketingExpert>About speech recognition?</v>
+
+19
+00:21:56.740 --> 00:22:00.210
+<v ProjectManager>But that was only for young people that preferred it, older people didn't.</v>
+
+20
+00:22:16.520 --> 00:22:40.830
+<v IndustrialDesigner>And they might end up costing more than our twelve fifty budget for for the speech recognition.. And possibly the thing about the about the remote being lost we could have. You know with your mobile phone, you lose that and you can ring it. Maybe we can have some kind of sensor which is kept somewhere where you can some kind of buzzer system between the two. So you can press a button which is always kept in one place. and then it maybe buzzes to somewhere else, wherever the remote actually is.</v>
+
+21
+00:22:41.220 --> 00:22:44.650
+<v MarketingExpert>Yeah, we'd have that would mean we'd have to put two products together as well,</v>
+
+22
+00:22:47.880 --> 00:22:55.280
+<v UserInterface>There's key rings that you kind of whistle at or clap at,. and then they whistle back, or something like that. That'd probably be really simple,</v>
+
+23
+00:23:00.260 --> 00:23:04.570
+<v IndustrialDesigner>Or like the same technology could be put inside the inside the remote.</v>
+
+24
+00:23:03.670 --> 00:23:51.570
+<v ProjectManager>Well if you're trying to avoid having a second product 'cause obviously you could have a second product that gave you the right pitch which would set the remote off to say here I am sort of thing, you know without sound recognition. I was gonna say a sharp noise, you know a clapping of hand or whatever. I mean obviously if you've got voice recognition then you can do it in that way. because it'll recognise the voice. and you can give it a command,. a set command whatever that happened to be.</v>
+
+25
+00:23:55.824 --> 00:24:06.140
+<v IndustrialDesigner>You could have an option to turn it off. Or. So that would solve the problems with the TV kind of speaking to the remote and changing its own channels.</v>
+
+26
+00:24:13.020 --> 00:24:20.080
+<v MarketingExpert>Would it take quite a while to sort of develop the speech recognition software in the remote control?</v>
+
+27
+00:24:20.240 --> 00:28:01.650
+<v ProjectManager>Well if it does then we can't. and it seems to me that the management is wanting us to go down a narrow path and not opening out. So anything that is to be added, such as voice recognition et cetera has to be very simple and has to be very quick. because time to market is is critical. S. But probably quick and simple is primary rather than added extras. d I think I think first and foremost we've gotta get to the end. and then get to the end with added extras if possible. But we have to make the decisions on the remote control functions. and how we were planning to proceed so that at the next meeting each person that's got a a a task to do is clear from this meeting what that task is. And if dur between the time of this meeting finishing and the next meeting starting, if you get any additional information that only you have at that point in time you'd think would be relevant to other people in terms of their des decision making process, then we should communicate that as quickly as possible and not wait until the next meeting. If you get the information just before the next meeting that's fine. But if you get it well before the next meeting, let everybody else know</v>
+
+28
+00:28:20.390 --> 00:28:43.640
+<v UserInterface>Well I think it'd be really easy and it'd be a big advantage if we did have some sort of kind of whistle back kind of function. I don't really know about the voice recognition thing.</v>
+
+29
+00:29:13.440 --> 00:29:25.650
+<v ProjectManager>Well, so maybe a clap rather than a whistle would be. On the basis that if we've got if we're catering to the whole age range, you want something that's easy to do,</v>
+
+30
+00:29:34.520 --> 00:29:35.870
+<v MarketingExpert>Clapping, I think clapping,</v>
+
+31
+00:29:50.560 --> 00:29:53.240
+<v UserInterface>'Kay we've already decided that we don't need a teletext button, haven't we?</v>
+
+32
+00:30:04.740 --> 00:30:13.400
+<v IndustrialDesigner>Did we decide on having the ten the ten numbers. and then the the little digit next to it which kind of enabled you to put them together.</v>
+
+33
+00:30:13.690 --> 00:30:19.550
+<v MarketingExpert>I think nowadays you can just get ones where it gives you a sort of a second or two to press another number,</v>
+
+34
+00:30:27.940 --> 00:30:31.410
+<v IndustrialDesigner>I'll put delay to allow multiple numbers.</v>
+
+35
+00:30:48.690 --> 00:30:56.208
+<v MarketingExpert>We could possibly put an a sort of a LCD menu in,. but that again is probably an expense that</v>
+
+36
+00:30:58.800 --> 00:31:06.460
+<v IndustrialDesigner>You only have to probably tune in the TV once,. So and if finally the TV breaks, you get a new one, you're gonna have to be able to tune it.</v>
+
+37
+00:31:39.020 --> 00:31:50.580
+<v ProjectManager>The the product we've got is something that's at the I would have said the lower end of the of the cost scale,. so we're not really going for something that's terribly high-tech.</v>
+
+38
+00:31:58.320 --> 00:32:07.120
+<v MarketingExpert>I mean we're maybe talking about replacing remotes for slightly older televisions,. so we maybe need to keep the the tuning function in.</v>
+
+39
+00:32:08.580 --> 00:32:14.780
+<v IndustrialDesigner>Would you maybe have like one menu button, then you'd use the other buttons, maybe the number buttons to actually do the separate functions.</v>
+
+40
+00:32:18.450 --> 00:33:24.360
+<v UserInterface>Yeah, 'cause you do need kind of brightness and contrast and everything as well. Well, if we're trying to keep it slee sleek and sexy as well, have you seen those remotes where kind of the bottom bit slides down, so there's kind of everything else revealed? So you don't use it that much,</v>
+
+41
+00:33:26.720 --> 00:33:28.620
+<v IndustrialDesigner>That is that is a good idea actually.</v>
+
+42
+00:33:40.210 --> 00:33:51.570
+<v ProjectManager>So so keep keep detailed functions hidden at the back.</v>
+
+43
+00:33:52.750 --> 00:33:54.740
+<v UserInterface>And that'll be better for the older generation as well</v>
+
+44
+00:34:04.020 --> 00:34:09.630
+<v IndustrialDesigner>So we're gonna have to have to work out what's gonna be on these other functions as as well.</v>
+
+45
+00:34:18.630 --> 00:34:22.840
+<v MarketingExpert>The detailed ones would be sort of brightness,</v>
+
+46
+00:34:36.540 --> 00:34:38.660
+<v ProjectManager>So on front,</v>
+
+47
+00:34:38.592 --> 00:34:51.120
+<v IndustrialDesigner>About the number. the volume up and down. A mute button as well.</v>
+
+48
+00:34:55.340 --> 00:34:58.030
+<v MarketingExpert>And probably a power one as well.</v>
+
+49
+00:35:02.770 --> 00:35:22.890
+<v UserInterface>I know it's probably like not an issue to raise here, but the whole thing about not using your standby because of the like waste of electricity. Like we should maybe try to discourage people from standby.</v>
+
+50
+00:35:23.080 --> 00:35:25.150
+<v IndustrialDesigner>But then they might not buy it if they haven't got one.</v>
+
+51
+00:35:25.640 --> 00:35:30.650
+<v UserInterface>Yeah, it's maybe too much of a big issue for here.</v>
+
+52
+00:35:27.840 --> 00:35:32.790
+<v ProjectManager>So so are you having the stand-by on the front, then?</v>
+
+53
+00:35:39.080 --> 00:35:41.850
+<v IndustrialDesigner>Are we gonna have the channel up and down as well as the number buttons?</v>
+
+54
+00:35:42.320 --> 00:35:49.210
+<v MarketingExpert>'cause yeah the market research said there is quite a lot of people do just zap around and flick, so.</v>
+
+55
+00:35:52.480 --> 00:35:56.220
+<v IndustrialDesigner>So we've got ten eleven twelve thirteen fourteen fifteen sixteen there?</v>
+
+56
+00:36:00.660 --> 00:36:13.950
+<v MarketingExpert>Numbers is ten,. volume is twelve,. And a mute, yeah.</v>
+
+57
+00:36:30.020 --> 00:36:31.620
+<v ProjectManager>And then at the back?</v>
+
+58
+00:36:32.920 --> 00:36:37.010
+<v MarketingExpert>You've got brightness and contrast.</v>
+
+59
+00:36:38.310 --> 00:36:44.740
+<v IndustrialDesigner>Maybe if we're gonna run out of time, one of us should come up with a list of these and then get back at the next meeting just at the start and say what they're gonna be.</v>
+
+60
+00:36:52.120 --> 00:36:53.880
+<v UserInterface>There's audio functions.</v>
+
+61
+00:36:52.190 --> 00:36:55.490
+<v ProjectManager>You're also gonna have the channel tuner, as it were.</v>
+
+62
+00:37:08.790 --> 00:37:18.230
+<v MarketingExpert>And then maybe sort of an enter button for sort of you know, saying that you want that particular thing tuned in.</v>
+
+63
+00:37:37.390 --> 00:37:44.090
+<v UserInterface>So I think there's quite a lot of like Dolby surround studio, surround sort of things.</v>
+
+64
+00:37:44.830 --> 00:37:48.860
+<v IndustrialDesigner>Do they have their own do they have their own controls on their actual products, then,</v>
+
+65
+00:37:51.700 --> 00:37:55.370
+<v UserInterface>I think they've got their own controls in this kind of like hidden panel.</v>
+
+66
+00:37:55.430 --> 00:38:19.210
+<v IndustrialDesigner>Yeah I suppose if we've got their if they've got their own controls then we can avoid it for ours just to keep it simple. Well shall we look into that and just get back together.</v>
+
+67
+00:38:20.420 --> 00:38:24.600
+<v ProjectManager>Right so I'll do the minutes of this meeting.</v>
+
