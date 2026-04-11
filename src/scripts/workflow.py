@@ -85,7 +85,6 @@ def run_planner_agent(client: anthropic.Anthropic):
     print("Planner Agent format response:\n", plan)
 
     store_memory("workflow:plan", plan, NAMESPACE)
-    store_memory("workflow:status", "transcript", NAMESPACE)
 
 
 def run_transcript_agent(client: anthropic.Anthropic):
@@ -135,7 +134,6 @@ def run_transcript_agent(client: anthropic.Anthropic):
 
     store_memory("transcript:summary", summary, NAMESPACE)
     store_memory("transcript:tasks", tasks, NAMESPACE)
-    store_memory("workflow:status", "task", NAMESPACE)
 
 def run_task_agent(client: anthropic.Anthropic):
     # 1. Load agent instructions from Task_agent.md
@@ -173,9 +171,12 @@ def run_task_agent(client: anthropic.Anthropic):
     # 6. Extract and store the result
     print("Task Agent raw response:\n", response)
     task_assignments = response.content[0].text
-    print("Task Agent format response:\n", task_assignments)
-    store_memory("task:assignments", task_assignments, NAMESPACE)
-    store_memory("workflow:status", "email", NAMESPACE)
+    task_assignments = re.sub(r"^```(?:json)?\s*", "", task_assignments)
+    task_assignments = re.sub(r"\s*```$", "", task_assignments)
+    task_assignments = task_assignments.strip()
+    parsed_task_assignments = json.loads(task_assignments)
+    print("Task Agent format response:\n", parsed_task_assignments)
+    store_memory("task:assignments", parsed_task_assignments, NAMESPACE)
  
 
 
@@ -201,7 +202,7 @@ def run_email_agent(client: anthropic.Anthropic):
     {transcript_summary}
  
     Draft a professional follow-up email for each employee based on their assigned tasks.
-    Return the emails in plain text, clearly separated by employee name.
+    Return only the json file containing the different emails.
     """
  
     # 5. Call the Claude API
@@ -216,9 +217,13 @@ def run_email_agent(client: anthropic.Anthropic):
     # how will this be structured? is it multiple emails in the one json or several elements for all the drafts?
     print("Email Agent raw respone:\n", response)
     draft_emails = response.content[0].text
-    print("Email Agent format response:\n", draft_emails)
-    store_memory("email:drafts", draft_emails, NAMESPACE)
-    store_memory("workflow:status", "tool", NAMESPACE)
+    draft_emails = re.sub(r"^```(?:json)?\s*", "", draft_emails)
+    draft_emails = re.sub(r"\s*```$", "", draft_emails)
+    draft_emails = draft_emails.strip()
+    print("DEBUG email text repr:", repr(draft_emails[:200]))  # add this
+    parsed_draft_emails = json.loads(draft_emails)
+    print("Email Agent format response:\n", parsed_draft_emails)
+    store_memory("email:drafts", parsed_draft_emails, NAMESPACE)
  
 
 
@@ -243,13 +248,13 @@ def start_workflow(
         raise ValueError("meeting:employees not found in memory")
     print("### Successfully validated transcript and employee information ###\n\n\n")
     
-    print("### Running Planner agent ###")
-    run_planner_agent(client)
-    if not validate_memory_key("workflow:plan", NAMESPACE):
-        raise ValueError("workflow:plan not found in memory")
-    if not validate_memory_key("workflow:status", NAMESPACE):
-        raise ValueError("workflow:status not found in memory")
-    print("### Completed Planner agent ###\n\n\n")
+    # print("### Running Planner agent ###")
+    # run_planner_agent(client)
+    # if not validate_memory_key("workflow:plan", NAMESPACE):
+    #     raise ValueError("workflow:plan not found in memory")
+    # if not validate_memory_key("workflow:status", NAMESPACE):
+    #     raise ValueError("workflow:status not found in memory")
+    # print("### Completed Planner agent ###\n\n\n")
     
     print("### Running Transcript agent ###")
     run_transcript_agent(client)
@@ -273,3 +278,9 @@ def start_workflow(
     
     # will need this
     # run_tools_agent()
+
+    summary = retrieve_memory("transcript:summary", NAMESPACE)
+    tasks = retrieve_memory("transcript:tasks", NAMESPACE)
+    assignments = retrieve_memory("task:assignments", NAMESPACE)
+    emails = retrieve_memory("email:drafts", NAMESPACE)
+    return summary, tasks, assignments, emails

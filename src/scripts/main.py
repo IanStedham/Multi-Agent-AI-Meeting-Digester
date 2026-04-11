@@ -31,22 +31,25 @@ def load_inputs_to_memory(transcript_path: Path, employee_path: Path):
         print("Failed to store employee data in mcp server")
         sys.exit(1)
 
-def main():
+def main(
+    transcript_path: str = "src/data_layer/extractive_txt/ES2002a.txt",
+    employee_path: str = "src/data_layer/employee_json/employee_es.json"
+):
     load_dotenv()
-
     api_key = validate_environment()
     client = anthropic.Anthropic(api_key=api_key)
-    clear_workflow_memory()
 
-    transcript_path = "src/data_layer/extractive_txt/ES2002a.txt"
-    employee_path = "src/data_layer/employee_json/employee_es.json"
+    if not Path(transcript_path).exists():
+        raise FileNotFoundError(f"Transcript file not found: {transcript_path}")
+    if not Path(employee_path).exists():
+        raise FileNotFoundError(f"Employee file not found: {employee_path}")
+
+    clear_workflow_memory()
     load_inputs_to_memory(transcript_path, employee_path)
 
-    start_workflow(
-        client=client,
-        transcript_path=transcript_path,
-        employee_path=employee_path
-    )
+    summary, tasks, assignments, emails = start_workflow(client=client)
+
+    return summary, tasks, assignments, emails
 
 if __name__ == "__main__":
     main()
