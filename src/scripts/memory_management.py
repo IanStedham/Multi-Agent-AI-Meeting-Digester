@@ -6,8 +6,52 @@ import time
 import os
 
 # WSL PATH CLARIFICATION:
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CLAUDE_FLOW = "/usr/bin/ruflo" if os.path.exists("/usr/bin/ruflo") else shutil.which("ruflo")
 NAMESPACE = "meeting-digester"
+
+def _run_memory_command(args: list[str], input_text: str = None) -> Tuple[int, str, str]:
+    """
+    Enhanced helper that FORCES the command to run in the project root.
+    This ensures Ruflo always sees the local .swarm/memory.db.
+    """
+    if not CLAUDE_FLOW:
+        return 1, "", "Ruflo binary not found"
+    
+    command = [CLAUDE_FLOW, "memory"] + args
+    try:
+        result = subprocess.run(
+            command,
+            input=input_text,
+            capture_output=True,
+            text=True,
+            timeout=25,
+            cwd=PROJECT_ROOT  # <-- CRITICAL: Forces local context
+        )
+        return result.returncode, result.stdout.strip(), result.stderr.strip()
+    except Exception as e:
+        return 1, "", str(e)
+
+def clear_workflow_memory():
+    """
+    Strict Local Wipe: Only targets the project-specific database.
+    """
+    print(f"Purging LOCAL memory only...")
+    
+    # 1. Kill processes
+    try:
+        subprocess.run(["pkill", "-9", "-f", "ruflo"], capture_output=True)
+    except:
+        pass
+        
+    # 2. Target the local DB specifically
+    local_db = os.path.join(PROJECT_ROOT, ".swarm", "memory.db")
+    if os.path.exists(local_db):
+        os.remove(local_db)
+        print(f"✅ Local DB Deleted: {local_db}")
+
+    # 3. Re-init in the project root
+    _run_memory_command(["init"])
 
 def run_health_check():
     print(f"\n--- RUFLO BINARY HEALTH CHECK ---")
@@ -42,49 +86,6 @@ def _ensure_directories():
             except Exception as e:
                 print(f"   ⚠️ Could not create directory {p}: {e}")
 
-def _run_memory_command(args: List[str], input_text: str = None) -> Tuple[int, str, str]:
-    if not CLAUDE_FLOW:
-        return 1, "", "Ruflo binary not found"
-    
-    command = [CLAUDE_FLOW, "memory"] + args
-    try:
-        result = subprocess.run(
-            command,
-            input=input_text,
-            capture_output=True,
-            text=True,
-            timeout=25
-        )
-        return result.returncode, result.stdout.strip(), result.stderr.strip()
-    except Exception as e:
-        return 1, "", str(e)
-
-def clear_workflow_memory():
-    print(f"Initiating WSL Triple-Wipe for: {NAMESPACE}")
-    force_kill_ruflo()
-    
-    potential_dbs = [
-        os.path.expanduser("~/.ruflo/ruflo.db"),
-        os.path.join(os.getcwd(), ".swarm", "memory.db"),
-        os.path.join(os.getcwd(), "ruflo.db")
-    ]
-    
-    for db_path in potential_dbs:
-        if os.path.exists(db_path):
-            try: 
-                os.remove(db_path)
-                print(f"Physically Wiped DB: {db_path}")
-            except Exception as e:
-                print(f"Failed to remove {db_path}: {e}")
-
-    _ensure_directories()
-    print("Initializing fresh Ruflo memory...")
-    init_code, init_out, init_err = _run_memory_command(["init"])
-    if init_code != 0:
-        print(f"Memory init warning: {init_err or init_out}")
-
-    _run_memory_command(["delete", "--namespace", NAMESPACE], input_text="Yes\n")
-    print("Cleanup phase finished.")
 
 def store_memory(key: str, value: Any, namespace: str = NAMESPACE) -> bool:
     """Stores data with auto-initialization if the database is missing."""

@@ -3,6 +3,7 @@ from pathlib import Path
 import subprocess
 from memory_management import store_memory, retrieve_memory, validate_memory_key
 import json
+import re
 
 
 """
@@ -79,7 +80,10 @@ def run_planner_agent(client: anthropic.Anthropic):
     )
 
     # set memory in mcp
+    print("Planner Agent raw response:\n", response)
     plan = response.content[0].text
+    print("Planner Agent format response:\n", plan)
+
     store_memory("workflow:plan", plan, NAMESPACE)
     store_memory("workflow:status", "transcript", NAMESPACE)
 
@@ -100,6 +104,8 @@ def run_transcript_agent(client: anthropic.Anthropic):
         Then create a summary of the transcript and write the summary to memory key 'transcript:summary'.
         Then extract any needed tasks or todos that should be completed by employees and write this to 'transcript:tasks'.
         Finally set 'workflow:status' to "task" to signal the pipeline is ready to proceed.
+
+        You should respond with only the raw json file for the tasks and summary.
     """
 
     # get response
@@ -111,13 +117,21 @@ def run_transcript_agent(client: anthropic.Anthropic):
     )
 
     # set memory in mcp
+    print("Transcript Agent raw response:\n", response)
+    # response = response.content[0].text.strip()
+    # parsed_response = json.loads(response)
     response = response.content[0].text.strip()
-    print("This is the transcript response: ", response)
+    response = re.sub(r"^```(?:json)?\s*", "", response)
+    response = re.sub(r"\s*```$", "", response)
+    response = response.strip()
     parsed_response = json.loads(response)
+    print("Transcript Agent format response:\n", response)
 
     # may need to validate these are not empty and strings
     summary = parsed_response.get("summary", "")
     tasks = parsed_response.get("tasks",   [])
+    print("Transcript Agent summary: ", summary)
+    print("Transcript Agent tasks: ", tasks)
 
     store_memory("transcript:summary", summary, NAMESPACE)
     store_memory("transcript:tasks", tasks, NAMESPACE)
@@ -157,14 +171,12 @@ def run_task_agent(client: anthropic.Anthropic):
     )
  
     # 6. Extract and store the result
+    print("Task Agent raw response:\n", response)
     task_assignments = response.content[0].text
+    print("Task Agent format response:\n", task_assignments)
     store_memory("task:assignments", task_assignments, NAMESPACE)
     store_memory("workflow:status", "email", NAMESPACE)
  
-    print("Task Agent complete — assignments written to memory.")
-
-    # i dont think this return is needed since we are only accessing info through the mcp server
-    # return task_assignments
 
 
 # this is going to need to be updated to check if the planner agent determined a follow up email needs to be sent
@@ -202,13 +214,12 @@ def run_email_agent(client: anthropic.Anthropic):
  
     # 6. Extract and store the result
     # how will this be structured? is it multiple emails in the one json or several elements for all the drafts?
+    print("Email Agent raw respone:\n", response)
     draft_emails = response.content[0].text
+    print("Email Agent format response:\n", draft_emails)
     store_memory("email:drafts", draft_emails, NAMESPACE)
     store_memory("workflow:status", "tool", NAMESPACE)
  
-    print("Email Agent complete — draft emails written to memory.")
-    # i dont think this return is needed since we are only accessing info through the mcp server
-    #return draft_emails
 
 
 # NOT YET TESTED, NEED ALL AGENTS READY BEFORE TEST
@@ -230,7 +241,7 @@ def start_workflow(
         raise ValueError("meeting:transcript not found in memory")
     if not validate_memory_key("meeting:employees", NAMESPACE):
         raise ValueError("meeting:employees not found in memory")
-    print("### Successfully validated transcript and employee information ###")
+    print("### Successfully validated transcript and employee information ###\n\n\n")
     
     print("### Running Planner agent ###")
     run_planner_agent(client)
@@ -238,7 +249,7 @@ def start_workflow(
         raise ValueError("workflow:plan not found in memory")
     if not validate_memory_key("workflow:status", NAMESPACE):
         raise ValueError("workflow:status not found in memory")
-    print("### Completed Planner agent ###")
+    print("### Completed Planner agent ###\n\n\n")
     
     print("### Running Transcript agent ###")
     run_transcript_agent(client)
@@ -246,19 +257,19 @@ def start_workflow(
         raise ValueError("transcript:summary not found in memory")
     if not validate_memory_key("transcript:tasks", NAMESPACE):
         raise ValueError("transcript:tasks not found in memory")
-    print("### Completed Transcript agent ###")
+    print("### Completed Transcript agent ###\n\n\n")
 
     print("### Running Task agent ###")
     run_task_agent(client)
     if not validate_memory_key("task:assignments", NAMESPACE):
         raise ValueError("task:assignments not found in memory")
-    print("### Completed planner agent ###")
+    print("### Completed planner agent ###\n\n\n")
 
     print("### Running email agent ###")
     run_email_agent(client)
     if not validate_memory_key("email:drafts", NAMESPACE):
         raise ValueError("email:drafts not found in memory")
-    print("### Completed Email agent ###")
+    print("### Completed Email agent ###\n\n\n")
     
     # will need this
     # run_tools_agent()
