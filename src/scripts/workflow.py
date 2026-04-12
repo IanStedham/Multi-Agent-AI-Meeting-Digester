@@ -50,40 +50,33 @@ def initialise_swarm():
 
 # kinda a wrapper for calling agents with passed in markdown file as input
 def run_planner_agent(client: anthropic.Anthropic):
-    # load files
     instructions = load_agent("planner_agent.md")
-
     transcript = retrieve_memory("meeting:transcript", NAMESPACE)
     roster = retrieve_memory("meeting:employees", NAMESPACE)
 
-    # create user message, might need to alter these signals for consistency
-    # also i am yet to test if the agent is able to write to the mcp server itself, might be reductive to have in prompt
     user_message = f"""
-        The following data is now available in shared memory:
-        TRANSCRIPT (memory key: meeting:transcript):
+        TRANSCRIPT:
         {transcript}
 
-        EMPLOYEE ROSTER (memory key: meeting:employees):
+        EMPLOYEE ROSTER:
         {roster}
 
-        Please review both and confirm they are valid.
-        Write your workflow plan to memory key 'workflow:plan'.
-        Then set 'workflow:status' to "transcript" to signal the pipeline is ready to proceed.
+        Read both and return your routing decisions for the email agent as raw JSON.
     """
 
-    # get response
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=1024,
+        max_tokens=512,
         system=instructions,
         messages=[{"role": "user", "content": user_message}]
     )
 
-    # set memory in mcp
-    print("Planner Agent raw response:\n", response)
-    plan = response.content[0].text
-    print("Planner Agent format response:\n", plan)
-
+    response = response.content[0].text.strip()
+    response = re.sub(r"^```(?:json)?\s*", "", response)
+    response = re.sub(r"\s*```$", "", response)
+    response = response.strip()
+    plan = json.loads(response)
+    print("Planner Agent plan:\n", plan)
     store_memory("workflow:plan", plan, NAMESPACE)
 
 
@@ -182,45 +175,41 @@ def run_task_agent(client: anthropic.Anthropic):
 
 # this is going to need to be updated to check if the planner agent determined a follow up email needs to be sent
 def run_email_agent(client: anthropic.Anthropic):
-    # 1. Load agent instructions from Email_agent.md
-    agent_instructions = load_agent("email_agent.md")
- 
-    # 2. Pull required inputs from shared memory
+    instructions = load_agent("email_agent.md")
+
     task_assignments = retrieve_memory("task:assignments", NAMESPACE)
     transcript_summary = retrieve_memory("transcript:summary", NAMESPACE)
- 
-    # 3. Validate inputs before proceeding
-    if not task_assignments or not transcript_summary:
+    workflow_plan = retrieve_memory("workflow:plan", NAMESPACE)
+
+    if not transcript_summary or not workflow_plan:
         raise ValueError("Email Agent: Missing required memory keys — aborting.")
- 
-    # 4. Build the prompt for the agent
+
     prompt = f"""
-    Here are the task assignments:
-    {task_assignments}
- 
-    Here is the meeting summary:
-    {transcript_summary}
- 
-    Draft a professional follow-up email for each employee based on their assigned tasks.
-    Return only the json file containing the different emails.
+        Here is the workflow plan with routing decisions:
+        {workflow_plan}
+
+        Here is the meeting summary:
+        {transcript_summary}
+
+        Here are the task assignments (may be empty if send_task_emails is false):
+        {task_assignments or "[]"}
+
+        Draft the appropriate emails based on the routing decisions in the workflow plan.
+        Return only raw JSON matching your output format.
     """
- 
-    # 5. Call the Claude API
+
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=1024,
-        system=agent_instructions,
+        max_tokens=2048,
+        system=instructions,
         messages=[{"role": "user", "content": prompt}]
     )
- 
-    # 6. Extract and store the result
-    # how will this be structured? is it multiple emails in the one json or several elements for all the drafts?
+
     print("Email Agent raw respone:\n", response)
     draft_emails = response.content[0].text
     draft_emails = re.sub(r"^```(?:json)?\s*", "", draft_emails)
     draft_emails = re.sub(r"\s*```$", "", draft_emails)
     draft_emails = draft_emails.strip()
-    print("DEBUG email text repr:", repr(draft_emails[:200]))  # add this
     parsed_draft_emails = json.loads(draft_emails)
     print("Email Agent format response:\n", parsed_draft_emails)
     store_memory("email:drafts", parsed_draft_emails, NAMESPACE)
@@ -230,8 +219,6 @@ def run_email_agent(client: anthropic.Anthropic):
 # NOT YET TESTED, NEED ALL AGENTS READY BEFORE TEST
 def start_workflow(
     client: anthropic.Anthropic,
-    transcript_path: Path=None,
-    employee_path: Path=None
 ):
     print("### Initializing swarm ###")
     initialise_swarm()
@@ -248,13 +235,11 @@ def start_workflow(
         raise ValueError("meeting:employees not found in memory")
     print("### Successfully validated transcript and employee information ###\n\n\n")
     
-    # print("### Running Planner agent ###")
-    # run_planner_agent(client)
-    # if not validate_memory_key("workflow:plan", NAMESPACE):
-    #     raise ValueError("workflow:plan not found in memory")
-    # if not validate_memory_key("workflow:status", NAMESPACE):
-    #     raise ValueError("workflow:status not found in memory")
-    # print("### Completed Planner agent ###\n\n\n")
+    print("### Running Planner agent ###")
+    run_planner_agent(client)
+    if not validate_memory_key("workflow:plan", NAMESPACE):
+        raise ValueError("workflow:plan not found in memory")
+    print("### Completed Planner agent ###\n\n\n")
     
     print("### Running Transcript agent ###")
     run_transcript_agent(client)
