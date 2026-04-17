@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ES2011a.JacquelinePalmer.s.10",
+        "text": "The Industrial Designer will research the working design and components.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2011a.JacquelinePalmer.s.11",
+        "text": "The User Interface Designer will research the technical functions.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2011a.JacquelinePalmer.s.12",
+        "text": "The Marketing Expert will research user requirements.",
+        "type": "actions"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ES2011c.JacquelinePalmer.s.15",
+        "text": "The Project Manager instructed the User Interface Designer and the Industrial Designer to construct the prototype.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2011c.JacquelinePalmer.s.16",
+        "text": "The User Interface Designer will work on the interface and the Industrial Designer will work on the look and feel of the device.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2011c.JacquelinePalmer.s.17",
+        "text": "The Marketing Expert will prepare a prototype evaluation.",
+        "type": "actions"
+    }
+]

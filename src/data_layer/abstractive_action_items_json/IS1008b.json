@@ -1,0 +1,22 @@
+[
+    {
+        "id": "IS1008b.JacquelinePalmer.s.10",
+        "text": "The Industrial Designer will make a presentation on the components concept for the product.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008b.JacquelinePalmer.s.11",
+        "text": "The User Interface Designer will make a presentation on the user interface concept.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008b.JacquelinePalmer.s.12",
+        "text": "The Marketing Expert will present the marketing concept.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008b.JacquelinePalmer.s.13",
+        "text": "The Project Manager will research companies that can provide the Industrial Designer with help on integrating voice recognition into her design.",
+        "type": "actions"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "IS1007c.JacquelinePalmer.s.13",
+        "text": "The group will find out if the kinetic energy component can provide enough energy.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1007c.JacquelinePalmer.s.14",
+        "text": "The group will inquire about the cost of voice recognition and the scroll button.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1007c.JacquelinePalmer.s.15",
+        "text": "The group will ask about the capability of the voice recognition component.",
+        "type": "actions"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": "ES2015c.elana.s.9",
+        "text": "The industrial designer will work on the look-and-feel design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2015c.elana.s.10",
+        "text": "The interface designer will work on the user interface design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2015c.elana.s.11",
+        "text": "The industrial and interface designers will be working together using modelling clay.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2015c.elana.s.12",
+        "text": "The marketing expert will be evaluating the product.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2015c.elana.s.13",
+        "text": "Their personal coaches will give the rest of the information",
+        "type": "actions"
+    }
+]

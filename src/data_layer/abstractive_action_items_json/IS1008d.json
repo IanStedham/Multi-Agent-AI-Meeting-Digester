@@ -1,0 +1,22 @@
+[
+    {
+        "id": "IS1008d.JacquelinePalmer.s.9",
+        "text": "The Project Manager will negotiate with production companies and with management to decrease the cost of production.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008d.JacquelinePalmer.s.10",
+        "text": "He will also present the new promotion plan to management.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008d.JacquelinePalmer.s.11",
+        "text": "The Marketing Expert will begin his marketing plan after production has begun.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008d.JacquelinePalmer.s.12",
+        "text": "The group will evaluate the product after real units have been produced.",
+        "type": "actions"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": "IS1008a.JacquelinePalmer.s.8",
+        "text": "The Marketing Expert will prepare a sales plan for the product and discuss the project budget and the sales strategy.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008a.JacquelinePalmer.s.9",
+        "text": "The Industrial Designer will prepare an initial functional design.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008a.JacquelinePalmer.s.10",
+        "text": "The User Interface Designer will contribute studies on user requirements to the functional design.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1008a.JacquelinePalmer.s.11",
+        "text": "The Project Manager will post his presentation to be available for all participants.",
+        "type": "actions"
+    }
+]

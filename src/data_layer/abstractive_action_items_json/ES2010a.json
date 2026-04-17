@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ES2010a.JacquelinePalmer.s.8",
+        "text": "The Industrial Designer will work on the internal working design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2010a.JacquelinePalmer.s.9",
+        "text": "The User Interface Designer will work on the technical function design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2010a.JacquelinePalmer.s.10",
+        "text": "The Marketing Expert will research user requirements.",
+        "type": "actions"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "IS1000a.elana.s.11",
+        "text": "The interface designer will work on a general design.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1000a.elana.s.12",
+        "text": "The industrial designer will work on the technica function design.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1000a.elana.s.13",
+        "text": "The marketing expert will think about user requirements.",
+        "type": "actions"
+    }
+]

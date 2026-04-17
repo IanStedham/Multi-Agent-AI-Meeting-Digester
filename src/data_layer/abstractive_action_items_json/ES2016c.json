@@ -1,0 +1,22 @@
+[
+    {
+        "id": "ES2016c.rdhillon.s.9",
+        "text": "The user interface designer will work on the user interface design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2016c.rdhillon.s.10",
+        "text": "The industrial designer will work on the look and feel design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2016c.rdhillon.s.11",
+        "text": "The marketing expert will work on a product evaluation.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2016c.rdhillon.s.12",
+        "text": "The user interface designer and industrial designer will work on a prototype",
+        "type": "actions"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": "ES2015a.elana.s.7",
+        "text": "The Industrial Designer will be doing the working design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2015a.elana.s.8",
+        "text": "The Interface Designer will do the technical functions design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2015a.elana.s.9",
+        "text": "The marketing expert will do the user requirements.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2015a.elana.s.10",
+        "text": "They were recieve specific instructions on what to do.",
+        "type": "actions"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "ES2008b.rdhillon_cc.s.7",
+        "text": "Each team member will complete a questionnaire and a summary.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2008b.rdhillon_cc.s.8",
+        "text": "The team members will spend time on their individual work.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2008b.rdhillon_cc.s.9",
+        "text": "The project manager will post the minutes and project documentation.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2008b.rdhillon_cc.s.10",
+        "text": "The team members will post their project documentation.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2008b.rdhillon_cc.s.11",
+        "text": "The industrial designer will work on the components concept.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2008b.rdhillon_cc.s.12",
+        "text": "The user interface designer will work on the user interface concept.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2008b.rdhillon_cc.s.13",
+        "text": "The marketing expert will work on trend watching",
+        "type": "actions"
+    }
+]

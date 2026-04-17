@@ -1,0 +1,17 @@
+[
+    {
+        "id": "TS3005a.rdhillon.s.6",
+        "text": "The marketing expert will look at user requirement specifications.",
+        "type": "actions"
+    },
+    {
+        "id": "TS3005a.rdhillon.s.7",
+        "text": "The industrial designer will look at the working design.",
+        "type": "actions"
+    },
+    {
+        "id": "TS3005a.rdhillon.s.8",
+        "text": "The user interface designer will look at the technical functions design",
+        "type": "actions"
+    }
+]

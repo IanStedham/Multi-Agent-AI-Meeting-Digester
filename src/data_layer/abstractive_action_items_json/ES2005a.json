@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ES2005a.JacquelinePalmer.s.5",
+        "text": "The Marketing Expert will examine the features and design of competitors' remotes.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2005a.JacquelinePalmer.s.6",
+        "text": "The User Interface Designer will research possible shapes and colors for the device.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2005a.JacquelinePalmer.s.7",
+        "text": "The Industrial Designer will research possible materials and the necessary internal components of the device.",
+        "type": "actions"
+    }
+]

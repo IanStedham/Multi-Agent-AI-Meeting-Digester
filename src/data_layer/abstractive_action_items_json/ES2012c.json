@@ -1,0 +1,22 @@
+[
+    {
+        "id": "ES2012c.elana.s.10",
+        "text": "The marketing expert will be doing the product evaulation.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2012c.elana.s.11",
+        "text": "The interface designer will be looking at the look, feel, and design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2012c.elana.s.12",
+        "text": "The industrial specialist will be looking at how the user uses the product.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2012c.elana.s.13",
+        "text": "The interface designer and industrial specialist will be producing a model of the product",
+        "type": "actions"
+    }
+]

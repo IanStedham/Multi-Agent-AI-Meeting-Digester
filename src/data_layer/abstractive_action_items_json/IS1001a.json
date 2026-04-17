@@ -1,0 +1,17 @@
+[
+    {
+        "id": "IS1001a.JacquelinePalmer.s.7",
+        "text": "The Industrial Designer will do research on the whistle tracking locator function and other functional components.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1001a.JacquelinePalmer.s.8",
+        "text": "The User Interface Designer will research the necessary amount of buttons and the lighted interface that were discussed during the meeting and other usability features.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1001a.JacquelinePalmer.s.9",
+        "text": "The Marketing Expert will research users' requirements for a remote control device.",
+        "type": "actions"
+    }
+]

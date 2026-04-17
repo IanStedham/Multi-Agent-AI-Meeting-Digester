@@ -1,0 +1,17 @@
+[
+    {
+        "id": "IS1000b.elana.s.11",
+        "text": "The industrial designer will try to find out which components are needed.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1000b.elana.s.12",
+        "text": "The interface designer will get more specific user interface content.",
+        "type": "actions"
+    },
+    {
+        "id": "IS1000b.elana.s.13",
+        "text": "The marketing expert will look at what trends are in this type of market",
+        "type": "actions"
+    }
+]

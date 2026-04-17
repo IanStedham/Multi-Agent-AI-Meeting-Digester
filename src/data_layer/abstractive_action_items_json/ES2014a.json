@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ES2014a.JacquelinePalmer.s.8",
+        "text": "The Industrial Deigner will prepare the working design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2014a.JacquelinePalmer.s.9",
+        "text": "The User Interface Designer will research technical functions.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2014a.JacquelinePalmer.s.10",
+        "text": "The Marketing Expert will prepare the user requirement specification.",
+        "type": "actions"
+    }
+]

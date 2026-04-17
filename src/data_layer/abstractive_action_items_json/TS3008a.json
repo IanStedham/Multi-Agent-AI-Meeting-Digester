@@ -1,0 +1,22 @@
+[
+    {
+        "id": "TS3008a.dharshi.s.9",
+        "text": "The industrial designer will work on the working design.",
+        "type": "actions"
+    },
+    {
+        "id": "TS3008a.dharshi.s.10",
+        "text": "The user interface designer will work on the technical functions design.",
+        "type": "actions"
+    },
+    {
+        "id": "TS3008a.dharshi.s.11",
+        "text": "The marketing expert will work on user requirements.",
+        "type": "actions"
+    },
+    {
+        "id": "TS3008a.dharshi.s.12",
+        "text": "The project manager will write up the meeting minutes and put them in the project folder.",
+        "type": "actions"
+    }
+]

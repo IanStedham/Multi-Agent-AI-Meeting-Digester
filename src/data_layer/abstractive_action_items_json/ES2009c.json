@@ -1,0 +1,22 @@
+[
+    {
+        "id": "ES2009c.JacquelinePalmer.s.12",
+        "text": "The Industrial Designer, the User Interface Designer, and the Marketing Expert were instructed to work together on making the prototype of the remote control.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2009c.JacquelinePalmer.s.13",
+        "text": "The Industrial Designer will build the look of the device using the new manufacturing constraints that were presented.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2009c.JacquelinePalmer.s.14",
+        "text": "The User Interface Designer was assigned the task of making the design layout of the device.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2009c.JacquelinePalmer.s.15",
+        "text": "The Marketing Expert was instructed to check the evaluations of the prototype.",
+        "type": "actions"
+    }
+]

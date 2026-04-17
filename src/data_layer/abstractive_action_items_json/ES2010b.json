@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ES2010b.JacquelinePalmer.s.11",
+        "text": "The Industrial Designer will prepare the components concept for the device.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2010b.JacquelinePalmer.s.12",
+        "text": "The User Interface Designer will prepare the interface concept for the device.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2010b.JacquelinePalmer.s.13",
+        "text": "The Marketing Expert will prepare a trendwatching report.",
+        "type": "actions"
+    }
+]

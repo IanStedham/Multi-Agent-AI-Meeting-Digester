@@ -1,0 +1,22 @@
+[
+    {
+        "id": "ES2006a.elana.s.8",
+        "text": "The marketing expert will work on user requirements specification.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2006a.elana.s.9",
+        "text": "The interface specialist will look at the working design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2006a.elana.s.10",
+        "text": "The industrial designer will work on the technical functions design.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2006a.elana.s.11",
+        "text": "They will get specific instructions when they get back to their workspace.",
+        "type": "actions"
+    }
+]

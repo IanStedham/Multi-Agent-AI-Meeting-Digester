@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ES2002a.rdhillon.s.4",
+        "text": "The industrial designer will work on the working design of the remote.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2002a.rdhillon.s.5",
+        "text": "The user interface designer will work on the technical functions of the remote.",
+        "type": "actions"
+    },
+    {
+        "id": "ES2002a.rdhillon.s.6",
+        "text": "The marketing executive will work on what requirements the remote has to fulfill",
+        "type": "actions"
+    }
+]

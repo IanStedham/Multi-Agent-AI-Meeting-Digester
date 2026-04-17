@@ -1,0 +1,22 @@
+[
+    {
+        "id": "TS3006a.elana.s.9",
+        "text": "The interface designer should specify technical functions.",
+        "type": "actions"
+    },
+    {
+        "id": "TS3006a.elana.s.10",
+        "text": "The marketing expert will come up with user requirements by doing internet research.",
+        "type": "actions"
+    },
+    {
+        "id": "TS3006a.elana.s.11",
+        "text": "The industrial designer should produce a working design.",
+        "type": "actions"
+    },
+    {
+        "id": "TS3006a.elana.s.12",
+        "text": "They will receive more information by email",
+        "type": "actions"
+    }
+]
