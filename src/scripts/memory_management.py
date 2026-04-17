@@ -8,7 +8,7 @@ import platform
 
 
 IS_WINDOWS = platform.system() == "Windows"
-IS_LINUX = platform.system() == "LINUX"
+IS_LINUX = platform.system() == "Linux"
 CLAUDE_FLOW = shutil.which("ruflo")
 NAMESPACE = "meeting-digester"
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -25,7 +25,8 @@ def _run_memory_command(args: list[str], input_text: str = None) -> Tuple[int, s
             capture_output=True,
             text=True,
             timeout=25,
-            cwd=PROJECT_ROOT
+            cwd=PROJECT_ROOT,
+            shell=IS_WINDOWS
         )
         return result.returncode, result.stdout.strip(), result.stderr.strip()
     except Exception as e:
@@ -54,7 +55,6 @@ def clear_workflow_memory():
         if not success:
             print("Failed to clear database. Please close any programs using the memory file.")
 
-    # Always re-init to ensure tables are ready
     _run_memory_command(["init"])
     print("Local environment initialized.")
 
@@ -81,33 +81,38 @@ def force_kill_ruflo():
     except:
         return 1, "", "Acceptable OS not found, ensure you are running on Windows or Linux"
 
-def _ensure_directories():
-    paths = [
-        os.path.expanduser("~/.ruflo"),
-        os.path.join(os.getcwd(), ".swarm")
-    ]
-    for p in paths:
-        if not os.path.exists(p):
-            try:
-                os.makedirs(p, exist_ok=True)
-            except Exception as e:
-                print("Could not create directory",  p, ":", e)
-
-
 def store_memory(key: str, value: Any, namespace: str = NAMESPACE) -> bool:
     val_str = json.dumps(value) if not isinstance(value, str) else value
-    
     _run_memory_command(["delete", "--key", key, "--namespace", namespace], input_text="Yes\n")
-    code, out, err = _run_memory_command(["store", "--key", key, "--value", val_str, "--namespace", namespace])
-    
-    if code != 0:
-        if "not initialized" in err:
-            _run_memory_command(["init"])
-            code, out, err = _run_memory_command(["store", "--key", key, "--value", val_str, "--namespace", namespace])
+
+    temp_file_path = None
+    if IS_WINDOWS:
+        temp_file_name = f"temp_store_{key.replace(':', '_')}.json"
+        temp_file_path = os.path.join(PROJECT_ROOT, ".swarm", temp_file_name)
         
-        if code != 0:
-            print("RUFLO STORE ERROR: ", key, ":", (err or out))
-            return False
+        with open(temp_file_path, "w", encoding="utf-8") as f:
+            f.write(val_str)
+        
+        args = ["store", "--key", key, "--file", temp_file_path, "--namespace", namespace]
+    else:
+        args = ["store", "--key", key, "--value", val_str, "--namespace", namespace]
+
+    code, out, err = _run_memory_command(args)
+    
+    if code != 0 and "not initialized" in err:
+        _run_memory_command(["init"])
+        code, out, err = _run_memory_command(args)
+    
+    if IS_WINDOWS and temp_file_path and os.path.exists(temp_file_path):
+        try:
+            os.remove(temp_file_path)
+        except:
+            pass 
+
+    if code != 0:
+        print(f"RUFLO STORE ERROR: {key} : {err or out}")
+        return False
+        
     return True
 
 def retrieve_memory(key: str, namespace: str = NAMESPACE) -> Optional[str]:
