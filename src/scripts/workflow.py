@@ -4,19 +4,11 @@ import subprocess
 from memory_management import store_memory, retrieve_memory, validate_memory_key
 import json
 import re
-
-
-"""
-Some current problems with this script we should talk through and fix:
-1. Parsing the result into summary and transcript in Transcript Agent correctly, can do during testing
-2. Email and Task agent currently insert their instructions into the user prompt, I do not think this is needed
-    since it is doubling the instructions already given to the agent.
-3. Validate the task format in the Task Agent.
-4. We may need to adjust token amounts per agent, I am specifically thinking of Email and Transcript Agents
-"""
-
+import requests
+import os
 
 NAMESPACE = "meeting-digester"
+GRAPH_API_BASE = "https://graph.microsoft.com/v1.0"
 
 def load_agent(agent_filename: str) -> str:
     agent_path = Path(f"src/agents_layer/{agent_filename}")
@@ -47,6 +39,54 @@ def initialise_swarm():
         print("[WARNING] Swarm init timed out. Continuing anyway.")
     except FileNotFoundError:
         print("[WARNING] Ruflo CLI not found. Continuing without swarm init.")
+
+
+def get_graph_token() -> str:
+    tenant_id     = os.environ.get("AZURE_TENANT_ID")
+    client_id     = os.environ.get("AZURE_CLIENT_ID")
+    client_secret = os.environ.get("AZURE_CLIENT_SECRET")
+
+    if not all([tenant_id, client_id, client_secret]):
+        raise EnvironmentError(
+            "Missing one or more required environment variables: "
+            "AZURE_TENANT_ID, AZURE_CLIENT_ID, AZURE_CLIENT_SECRET"
+        )
+
+    url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
+    payload = {
+        "grant_type":    "client_credentials",
+        "client_id":     client_id,
+        "client_secret": client_secret,
+        "scope":         "https://graph.microsoft.com/.default",
+    }
+
+    response = requests.post(url, data=payload)
+    response.raise_for_status()
+    return response.json()["access_token"]
+
+def create_outlook_draft(token: str, user_email: str, to: str, subject: str, body: str) -> dict:
+    url = f"{GRAPH_API_BASE}/users/{user_email}/messages"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type":  "application/json",
+    }
+    html_body = body.replace("\n", "<br>")
+    html_body = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", html_body)
+
+    payload = {
+        "subject": subject,
+        "body": {
+            "contentType": "HTML",   # changed from Text
+            "content":     html_body,
+        },
+        "toRecipients": [
+            {"emailAddress": {"address": to}}
+        ],
+    }
+
+    response = requests.post(url, headers=headers, json=payload)
+    response.raise_for_status()
+    return response.json()
 
 # kinda a wrapper for calling agents with passed in markdown file as input
 def run_planner_agent(client: anthropic.Anthropic):
@@ -213,10 +253,160 @@ def run_email_agent(client: anthropic.Anthropic):
     parsed_draft_emails = json.loads(draft_emails)
     print("Email Agent format response:\n", parsed_draft_emails)
     store_memory("email:drafts", parsed_draft_emails, NAMESPACE)
- 
 
+def run_tool_agent(client: anthropic.Anthropic):
+    instructions     = load_agent("tool_agent.md")
+    email_drafts_raw = retrieve_memory("email:drafts", NAMESPACE)
 
-# NOT YET TESTED, NEED ALL AGENTS READY BEFORE TEST
+    if not email_drafts_raw:
+        raise ValueError("Tool Agent: email:drafts not found in memory — aborting.")
+
+    email_drafts = json.loads(email_drafts_raw) if isinstance(email_drafts_raw, str) else email_drafts_raw
+
+    token          = get_graph_token()
+    sender_email   = os.environ.get("OUTLOOK_SENDER_EMAIL")
+    if not sender_email:
+        raise EnvironmentError("Missing OUTLOOK_SENDER_EMAIL environment variable")
+
+    tools = [
+        {
+            "name": "create_outlook_draft",
+            "description": (
+                "Creates a single draft email in the sender's Outlook Drafts folder "
+                "via Microsoft Graph API. Does not send the email. Call this once per email."
+            ),
+            "input_schema": {
+                "type": "object",
+                "properties": {
+                    "to": {
+                        "type": "string",
+                        "description": "Recipient email address"
+                    },
+                    "subject": {
+                        "type": "string",
+                        "description": "Email subject line"
+                    },
+                    "body": {
+                        "type": "string",
+                        "description": "Full email body text"
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": ["task_assignment", "meeting_followup"],
+                        "description": "Category of the email"
+                    }
+                },
+                "required": ["to", "subject", "body", "type"]
+            }
+        }
+    ]
+
+    messages = [
+        {
+            "role": "user",
+            "content": f"""
+                Here are the email drafts to create in Outlook:
+                {json.dumps(email_drafts, indent=2)}
+
+                Use the create_outlook_draft tool to create an Outlook draft for every
+                email in both the task_emails and meeting_emails arrays.
+                Call the tool once per email — do not batch them together.
+                After all drafts are created, provide a brief summary of what was created.
+            """
+        }
+    ]
+
+    response = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=1024,
+        system=instructions,
+        tools=tools,
+        messages=messages
+    )
+
+    results = []
+
+    while response.stop_reason == "tool_use":
+        tool_use_blocks = [
+            block for block in response.content
+            if block.type == "tool_use"
+        ]
+
+        messages.append({
+            "role": "assistant",
+            "content": response.content
+        })
+
+        tool_results = []
+        for block in tool_use_blocks:
+            try:
+                draft = create_outlook_draft(
+                    token=token,
+                    user_email=sender_email,
+                    to=block.input["to"],
+                    subject=block.input["subject"],
+                    body=block.input["body"]
+                )
+                result = {
+                    "to":               block.input["to"],
+                    "subject":          block.input["subject"],
+                    "type":             block.input.get("type"),
+                    "outlook_draft_id": draft.get("id"),
+                    "status":           "success",
+                    "error":            None
+                }
+                print(f"Draft created → {block.input['to']}")
+            except requests.HTTPError as e:
+                result = {
+                    "to":               block.input["to"],
+                    "subject":          block.input["subject"],
+                    "type":             block.input.get("type"),
+                    "outlook_draft_id": None,
+                    "status":           "failed",
+                    "error":            str(e)
+                }
+                print(f"Failed → {block.input['to']} — {e}")
+
+            results.append(result)
+
+            tool_results.append({
+                "type":        "tool_result",
+                "tool_use_id": block.id,
+                "content":     json.dumps(result)
+            })
+
+        messages.append({
+            "role": "user",
+            "content": tool_results
+        })
+
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=1024,
+            system=instructions,
+            tools=tools,
+            messages=messages
+        )
+
+    # --- Store results ---
+    report = {
+        "drafts_created":  results,
+        "total_attempted": len(results),
+        "total_succeeded": sum(1 for r in results if r["status"] == "success"),
+        "total_failed":    sum(1 for r in results if r["status"] == "failed"),
+    }
+
+    store_memory("tool:results", json.dumps(report), NAMESPACE)
+
+    final_text = next(
+        (block.text for block in response.content if hasattr(block, "text")), 
+        "No summary provided."
+    )
+    print("Tool Agent summary:", final_text)
+    print("Tool Agent report:\n", json.dumps(report, indent=2))
+
+    return report
+
 def start_workflow(
     client: anthropic.Anthropic,
 ):
@@ -261,11 +451,16 @@ def start_workflow(
         raise ValueError("email:drafts not found in memory")
     print("### Completed Email agent ###\n\n\n")
     
-    # will need this
-    # run_tools_agent()
+    # print("### Running Tool agent ###")
+    # run_tool_agent(client)
+    # if not validate_memory_key("tool:results", NAMESPACE):
+    #     raise ValueError("tool:results not found in memory")
+    # print("### Completed Tool agent ###\n\n\n")
 
-    summary = retrieve_memory("transcript:summary", NAMESPACE)
-    tasks = retrieve_memory("transcript:tasks", NAMESPACE)
-    assignments = retrieve_memory("task:assignments", NAMESPACE)
-    emails = retrieve_memory("email:drafts", NAMESPACE)
+    summary     = retrieve_memory("transcript:summary", NAMESPACE)
+    tasks       = retrieve_memory("transcript:tasks",   NAMESPACE)
+    assignments = retrieve_memory("task:assignments",   NAMESPACE)
+    emails      = retrieve_memory("email:drafts",       NAMESPACE)
+    # tool_results = retrieve_memory("tool:results",      NAMESPACE)
+    # print("tool_results: ", tool_results)
     return summary, tasks, assignments, emails
