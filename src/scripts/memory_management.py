@@ -138,5 +138,4 @@ def validate_memory_key(key: str, namespace: str = NAMESPACE) -> bool:
     value = retrieve_memory(key, namespace)
     return value is not None and value.strip() != ""
 
-# Run health check on import
 run_health_check()
