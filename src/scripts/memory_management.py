@@ -33,7 +33,7 @@ def _run_memory_command(args: list[str], input_text: str = None) -> Tuple[int, s
         return 1, "", str(e)
 
 def clear_workflow_memory():
-    print("Resetting Local Memory: ", NAMESPACE)
+    # print("Resetting Local Memory: ", NAMESPACE)
     
     local_db = os.path.join(PROJECT_ROOT, ".swarm", "memory.db")
     if os.path.exists(local_db):
@@ -41,7 +41,7 @@ def clear_workflow_memory():
         for attempt in range(3):
             try:
                 os.remove(local_db)
-                print("Physically deleted local database")
+                # print("Physically deleted local database")
                 success = True
                 break
             except PermissionError:
@@ -56,7 +56,7 @@ def clear_workflow_memory():
             print("Failed to clear database. Please close any programs using the memory file.")
 
     _run_memory_command(["init"])
-    print("Local environment initialized.")
+    # print("Local environment initialized.")
 
 def run_health_check():
     print("\n--- RUFLO BINARY HEALTH CHECK ---")

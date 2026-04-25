@@ -40,44 +40,66 @@ def initialise_swarm():
     except FileNotFoundError:
         print("[WARNING] Ruflo CLI not found. Continuing without swarm init.")
 
-
 def get_graph_token() -> str:
-    tenant_id     = os.environ.get("AZURE_TENANT_ID")
-    client_id     = os.environ.get("AZURE_CLIENT_ID")
-    client_secret = os.environ.get("AZURE_CLIENT_SECRET")
+    """
+    Acquires a token using Device Code Flow. 
+    Suitable for Personal accounts where Client Credentials flow is not allowed.
+    """
+    client_id = os.environ.get("AZURE_CLIENT_ID")
+    # For personal accounts, tenant can be 'consumers' or 'common'
+    tenant_id = os.environ.get("AZURE_TENANT_ID", "consumers") 
 
-    if not all([tenant_id, client_id, client_secret]):
-        raise EnvironmentError(
-            "Missing one or more required environment variables: "
-            "AZURE_TENANT_ID, AZURE_CLIENT_ID, AZURE_CLIENT_SECRET"
-        )
+    authority = f"https://login.microsoftonline.com/{tenant_id}"
+    scopes = ["Mail.ReadWrite", "User.Read"]
 
-    url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
-    payload = {
-        "grant_type":    "client_credentials",
-        "client_id":     client_id,
-        "client_secret": client_secret,
-        "scope":         "https://graph.microsoft.com/.default",
-    }
+    app = msal.PublicClientApplication(client_id, authority=authority)
 
-    response = requests.post(url, data=payload)
-    response.raise_for_status()
-    return response.json()["access_token"]
+    # First, try to get a token from the local cache
+    accounts = app.get_accounts()
+    if accounts:
+        result = app.acquire_token_silent(scopes, account=accounts[0])
+        if result:
+            return result['access_token']
 
-def create_outlook_draft(token: str, user_email: str, to: str, subject: str, body: str) -> dict:
-    url = f"{GRAPH_API_BASE}/users/{user_email}/messages"
+    # If no cache, start the Device Code Flow
+    flow = app.initiate_device_flow(scopes=scopes)
+    if "user_code" not in flow:
+        raise Exception("Could not initiate device flow")
+
+    # This will print a message in your terminal telling you where to go and what code to enter
+    print("\n" + "!"*50)
+    print(flow["message"])
+    print("!"*50 + "\n")
+
+    result = app.acquire_token_by_device_flow(flow)
+    
+    if "access_token" in result:
+        return result['access_token']
+    else:
+        raise Exception(f"Could not acquire token: {result.get('error_description')}")
+
+def create_outlook_draft(token: str, to: str, subject: str, body: str) -> dict:
+    """
+    Creates a draft. Note: removed user_email parameter because 
+    personal accounts use the '/me' endpoint.
+    """
+    # Personal accounts use /me instead of /users/{email}
+    url = f"{GRAPH_API_BASE}/me/messages"
+    
     headers = {
         "Authorization": f"Bearer {token}",
-        "Content-Type":  "application/json",
+        "Content-Type": "application/json",
     }
+    
+    # Simple formatting logic
     html_body = body.replace("\n", "<br>")
     html_body = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", html_body)
 
     payload = {
         "subject": subject,
         "body": {
-            "contentType": "HTML",   # changed from Text
-            "content":     html_body,
+            "contentType": "HTML",
+            "content": html_body,
         },
         "toRecipients": [
             {"emailAddress": {"address": to}}
@@ -149,7 +171,6 @@ def run_transcript_agent(client: anthropic.Anthropic):
     )
 
     # set memory in mcp
-    print("Transcript Agent raw response:\n", response)
     # response = response.content[0].text.strip()
     # parsed_response = json.loads(response)
     response = response.content[0].text.strip()
@@ -157,13 +178,12 @@ def run_transcript_agent(client: anthropic.Anthropic):
     response = re.sub(r"\s*```$", "", response)
     response = response.strip()
     parsed_response = json.loads(response)
-    print("Transcript Agent format response:\n", response)
-
+ 
     # may need to validate these are not empty and strings
     summary = parsed_response.get("summary", "")
     tasks = parsed_response.get("tasks",   [])
-    print("Transcript Agent summary: ", summary)
-    print("Transcript Agent tasks: ", tasks)
+    # print("Transcript Agent summary: \n", summary)
+    # print("Transcript Agent tasks: \n", tasks)
 
     store_memory("transcript:summary", summary, NAMESPACE)
     store_memory("transcript:tasks", tasks, NAMESPACE)
@@ -202,7 +222,6 @@ def run_task_agent(client: anthropic.Anthropic):
     )
  
     # 6. Extract and store the result
-    print("Task Agent raw response:\n", response)
     task_assignments = response.content[0].text
     task_assignments = re.sub(r"^```(?:json)?\s*", "", task_assignments)
     task_assignments = re.sub(r"\s*```$", "", task_assignments)
@@ -245,7 +264,6 @@ def run_email_agent(client: anthropic.Anthropic):
         messages=[{"role": "user", "content": prompt}]
     )
 
-    print("Email Agent raw respone:\n", response)
     draft_emails = response.content[0].text
     draft_emails = re.sub(r"^```(?:json)?\s*", "", draft_emails)
     draft_emails = re.sub(r"\s*```$", "", draft_emails)
@@ -342,7 +360,6 @@ def run_tool_agent(client: anthropic.Anthropic):
             try:
                 draft = create_outlook_draft(
                     token=token,
-                    user_email=sender_email,
                     to=block.input["to"],
                     subject=block.input["subject"],
                     body=block.input["body"]
@@ -443,7 +460,7 @@ def start_workflow(
     run_task_agent(client)
     if not validate_memory_key("task:assignments", NAMESPACE):
         raise ValueError("task:assignments not found in memory")
-    print("### Completed planner agent ###\n\n\n")
+    print("### Completed Task agent ###\n\n\n")
 
     print("### Running email agent ###")
     run_email_agent(client)
@@ -464,3 +481,22 @@ def start_workflow(
     # tool_results = retrieve_memory("tool:results",      NAMESPACE)
     # print("tool_results: ", tool_results)
     return summary, tasks, assignments, emails
+
+def run_transcript_only(
+    client: anthropic.Anthropic,
+):
+    initialise_swarm()
+    if not validate_memory_key("meeting:transcript", NAMESPACE):
+        raise ValueError("meeting:transcript not found in memory")
+    if not validate_memory_key("meeting:employees", NAMESPACE):
+        raise ValueError("meeting:employees not found in memory")
+    
+    run_transcript_agent(client)
+    if not validate_memory_key("transcript:summary", NAMESPACE):
+        raise ValueError("transcript:summary not found in memory")
+    if not validate_memory_key("transcript:tasks", NAMESPACE):
+        raise ValueError("transcript:tasks not found in memory")
+    
+    tasks = retrieve_memory("transcript:tasks",   NAMESPACE)
+    return tasks
+    
