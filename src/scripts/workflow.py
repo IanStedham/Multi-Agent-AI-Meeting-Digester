@@ -40,6 +40,24 @@ def initialise_swarm():
     except FileNotFoundError:
         print("[WARNING] Ruflo CLI not found. Continuing without swarm init.")
 
+def extract_json(raw: str):
+    text = raw.strip()
+    text = re.sub(r"^```(?:json)?\s*", "", text)
+    text = re.sub(r"```\s*$", "", text)
+    text = text.strip()
+
+    match = re.search(r"(\{.*\}|\[.*\])", text, re.DOTALL)
+    if not match:
+        raise ValueError(f"No JSON object found in response:\n{raw}")
+
+    json_str = match.group(1)
+
+    # Normalize line endings and remove control characters that break json.loads
+    json_str = json_str.replace("\r\n", "\n").replace("\r", "\n")
+    json_str = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", json_str)
+
+    return json.loads(json_str)
+
 def get_graph_token() -> str:
     """
     Acquires a token using Device Code Flow. 
@@ -133,11 +151,7 @@ def run_planner_agent(client: anthropic.Anthropic):
         messages=[{"role": "user", "content": user_message}]
     )
 
-    response = response.content[0].text.strip()
-    response = re.sub(r"^```(?:json)?\s*", "", response)
-    response = re.sub(r"\s*```$", "", response)
-    response = response.strip()
-    plan = json.loads(response)
+    plan = extract_json(response.content[0].text)
     print("Planner Agent plan:\n", plan)
     store_memory("workflow:plan", plan, NAMESPACE)
 
@@ -173,11 +187,7 @@ def run_transcript_agent(client: anthropic.Anthropic):
     # set memory in mcp
     # response = response.content[0].text.strip()
     # parsed_response = json.loads(response)
-    response = response.content[0].text.strip()
-    response = re.sub(r"^```(?:json)?\s*", "", response)
-    response = re.sub(r"\s*```$", "", response)
-    response = response.strip()
-    parsed_response = json.loads(response)
+    parsed_response = extract_json(response.content[0].text)
  
     # may need to validate these are not empty and strings
     summary = parsed_response.get("summary", "")
@@ -222,11 +232,7 @@ def run_task_agent(client: anthropic.Anthropic):
     )
  
     # 6. Extract and store the result
-    task_assignments = response.content[0].text
-    task_assignments = re.sub(r"^```(?:json)?\s*", "", task_assignments)
-    task_assignments = re.sub(r"\s*```$", "", task_assignments)
-    task_assignments = task_assignments.strip()
-    parsed_task_assignments = json.loads(task_assignments)
+    parsed_task_assignments = extract_json(response.content[0].text)
     print("Task Agent format response:\n", parsed_task_assignments)
     store_memory("task:assignments", parsed_task_assignments, NAMESPACE)
  
@@ -264,11 +270,7 @@ def run_email_agent(client: anthropic.Anthropic):
         messages=[{"role": "user", "content": prompt}]
     )
 
-    draft_emails = response.content[0].text
-    draft_emails = re.sub(r"^```(?:json)?\s*", "", draft_emails)
-    draft_emails = re.sub(r"\s*```$", "", draft_emails)
-    draft_emails = draft_emails.strip()
-    parsed_draft_emails = json.loads(draft_emails)
+    parsed_draft_emails = extract_json(response.content[0].text)
     print("Email Agent format response:\n", parsed_draft_emails)
     store_memory("email:drafts", parsed_draft_emails, NAMESPACE)
 

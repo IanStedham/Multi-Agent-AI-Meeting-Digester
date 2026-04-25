@@ -7,6 +7,7 @@ from pathlib import Path
 import anthropic
 from workflow import start_workflow
 from memory_management import store_memory, clear_workflow_memory
+import re
 
 client = anthropic.Anthropic()
 
@@ -28,6 +29,17 @@ class PrecisionResult:
     reasoning: str
     score:     float
 
+def extract_json(raw: str) -> dict:
+    text = raw.strip()
+    text = text.replace("```json", "").replace("```", "").strip()
+    # Find the outermost JSON object in case there's surrounding text
+    match = re.search(r"\{.*\}", text, re.DOTALL)
+    if not match:
+        raise ValueError(f"No JSON object found in response:\n{raw}")
+    # Sanitize control characters that break json.loads
+    cleaned = match.group(0).encode("utf-8", "replace").decode("utf-8")
+    return json.loads(cleaned)
+
 def compare_single_task(ground_truth_task: dict, system_tasks: list[dict], client: anthropic.Anthropic) -> RecallResult:
     prompt = f"""
         You are evaluating a meeting task extraction system.
@@ -42,7 +54,7 @@ def compare_single_task(ground_truth_task: dict, system_tasks: list[dict], clien
 
         Definitions:
         - "match": A system task covers the same action as the ground truth item, even if worded differently
-        - "partial": A system task is related but misses part of the scope 
+        - "partial": A system task covers only part of the scope of the ground truth 
         - "miss": No system task corresponds to this ground truth item
 
         Respond with only raw JSON in this format:
@@ -60,9 +72,7 @@ def compare_single_task(ground_truth_task: dict, system_tasks: list[dict], clien
         messages=[{"role": "user", "content": prompt}]
     )
 
-    text = response.content[0].text.strip()
-    text = text.replace("```json", "").replace("```", "").strip()
-    result = json.loads(text)
+    result = extract_json(response.content[0].text)
 
     score_map = {"match": 1.0, "partial": 0.5, "miss": 0.0}
 
@@ -89,8 +99,8 @@ def compare_single_system_task(system_task: dict, ground_truth_tasks: list[dict]
         Does this system task correspond to a real action item, or is it an invention not supported by the ground truth?
 
         Definitions:
-        - "match": This system task clearly corresponds to one of the ground truth items
-        - "partial": This system task is loosely related to a ground truth item
+        - "match": This system task corresponds to one of the ground truth items
+        - "partial": This system task is related to a ground truth item
         - "miss": This system task does not correspond to any ground truth item
 
         Respond with only raw JSON:
@@ -104,8 +114,7 @@ def compare_single_system_task(system_task: dict, ground_truth_tasks: list[dict]
         max_tokens=128,
         messages=[{"role": "user", "content": prompt}]
     )
-    text = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    result_json = json.loads(text)
+    result_json = extract_json(response.content[0].text)
     score = {"match": 1.0, "partial": 0.5, "miss": 0.0}.get(result_json["verdict"], 0.0)
     return PrecisionResult(
         task_id=system_task["task_id"],
