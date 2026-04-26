@@ -53,9 +53,13 @@ def compare_single_task(ground_truth_task: dict, system_tasks: list[dict], clien
         Determine whether any system task matches the ground truth action item.
 
         Definitions:
-        - "match": A system task covers the same action as the ground truth item, even if worded differently
-        - "partial": A system task covers only part of the scope of the ground truth 
-        - "miss": No system task corresponds to this ground truth item
+        - "match": A system task covers the same core action as the ground truth item, 
+        even if worded differently or with additional detail. If the system task 
+        captures the same assignment with more specificity, this is still a match.
+        - "partial": A system task is related but covers a meaningfully different scope.
+        - "miss": No system task corresponds to this ground truth item at all
+
+        Important: additional detail or specificity in the system task does NOT make it a partial, it is a match.
 
         Respond with only raw JSON in this format:
         {{
@@ -97,11 +101,12 @@ def compare_single_system_task(system_task: dict, ground_truth_tasks: list[dict]
         {json.dumps([t["text"] for t in ground_truth_tasks], indent=2)}
 
         Does this system task correspond to a real action item, or is it an invention not supported by the ground truth?
+        It only needs to match one ground truth item to be a match.
 
         Definitions:
-        - "match": This system task corresponds to one of the ground truth items
-        - "partial": This system task is related to a ground truth item
-        - "miss": This system task does not correspond to any ground truth item
+        - "match": This system task corresponds to one of the ground truth items, even if worded differently.
+        - "partial": This system task is related to a ground truth item but covers a meaningfully different scope.
+        - "miss": This system task does not correspond to any ground truth item.
 
         Respond with only raw JSON:
         {{
@@ -123,13 +128,18 @@ def compare_single_system_task(system_task: dict, ground_truth_tasks: list[dict]
         score=score
     )
 
-def evaluate_meeting(meeting_id, ground_truth_tasks, system_tasks, client):
+def evaluate_meeting(
+    meeting_id: str,
+    ground_truth_tasks: list[dict],
+    system_tasks: list[dict],
+    client: anthropic.Anthropic
+) -> dict:
     print(f"\nEvaluating {meeting_id}...")
     print(f"  Ground truth tasks: {len(ground_truth_tasks)}")
     print(f"  System tasks:       {len(system_tasks)}")
 
     # Recall — ground truth perspective
-    # print("Recall Results:")
+    # print("\nRecall Results:")
     recall_results = []
     for gt_task in ground_truth_tasks:
         result = compare_single_task(gt_task, system_tasks, client)
@@ -150,16 +160,40 @@ def evaluate_meeting(meeting_id, ground_truth_tasks, system_tasks, client):
 
     precision_score = sum(r.score for r in precision_results) / len(precision_results) if precision_results else 0.0
 
+    # F1
     f1 = (2 * precision_score * recall_score) / (precision_score + recall_score) if (precision_score + recall_score) > 0 else 0.0
 
+    # Accuracy — strict exact match rate, no partial credit
+    # Recall accuracy: fraction of GT tasks the system got exactly right
+    recall_exact    = sum(1 for r in recall_results    if r.verdict == "match")
+    precision_exact = sum(1 for r in precision_results if r.verdict == "match")
+
+    recall_accuracy    = recall_exact / len(recall_results)       if recall_results    else 0.0
+    precision_accuracy = precision_exact / len(precision_results) if precision_results else 0.0
+
+    # Overall accuracy: exact matches across all comparisons in both directions
+    total_comparisons  = len(recall_results) + len(precision_results)
+    total_exact        = recall_exact + precision_exact
+    overall_accuracy   = total_exact / total_comparisons if total_comparisons > 0 else 0.0
+
+    print(f"\n  Recall:             {recall_score:.3f}")
+    print(f"  Precision:          {precision_score:.3f}")
+    print(f"  F1:                 {f1:.3f}")
+    print(f"  Recall Accuracy:    {recall_accuracy:.3f}  ({recall_exact}/{len(recall_results)} exact matches)")
+    print(f"  Precision Accuracy: {precision_accuracy:.3f}  ({precision_exact}/{len(precision_results)} exact matches)")
+    print(f"  Overall Accuracy:   {overall_accuracy:.3f}  ({total_exact}/{total_comparisons} exact matches)")
+
     return {
-        "meeting_id":          meeting_id,
-        "ground_truth_count":  len(ground_truth_tasks),
-        "system_count":        len(system_tasks),
-        "quantity_delta":      len(system_tasks) - len(ground_truth_tasks),
-        "recall":              round(recall_score, 3),
-        "precision":           round(precision_score, 3),
-        "f1":                  round(f1, 3),
+        "meeting_id":           meeting_id,
+        "ground_truth_count":   len(ground_truth_tasks),
+        "system_count":         len(system_tasks),
+        "quantity_delta":       len(system_tasks) - len(ground_truth_tasks),
+        "recall":               round(recall_score,         3),
+        "precision":            round(precision_score,      3),
+        "f1":                   round(f1,                   3),
+        "recall_accuracy":      round(recall_accuracy,      3),
+        "precision_accuracy":   round(precision_accuracy,   3),
+        "overall_accuracy":     round(overall_accuracy,     3),
         "recall_breakdown": [
             {
                 "ground_truth_id":   r.ground_truth_id,

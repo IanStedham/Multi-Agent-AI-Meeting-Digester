@@ -91,11 +91,14 @@ def main(
 
                 ground_truth = [
                     item for item in raw_ground_truth
-                    if item.get("type") == "actions"
+                    if item.get("type") == "actions" 
+                    and item.get("text", "").strip() not in ("*NA*", "NA", "")
                 ]
 
                 if not ground_truth:
-                    print(f"[SKIP] {meeting_id} — no action items in ground truth")
+                    print(f"[SKIP] {meeting_id} — no action items in ground truth (NA meeting)")
+                    # But still run the system and check it returns empty tasks
+                    # to measure false positive rate separately
                     continue
 
                 clear_workflow_memory()
@@ -127,19 +130,42 @@ def main(
             print("No meetings were successfully evaluated.")
             return None
 
-        avg_recall    = sum(r["recall"]    for r in corpus_results) / len(corpus_results)
-        avg_precision = sum(r["precision"] for r in corpus_results) / len(corpus_results)
-        avg_f1        = sum(r["f1"]        for r in corpus_results) / len(corpus_results)
-        avg_delta     = sum(r["quantity_delta"] for r in corpus_results) / len(corpus_results)
+        avg_recall              = sum(r["recall"]              for r in corpus_results) / len(corpus_results)
+        avg_precision           = sum(r["precision"]           for r in corpus_results) / len(corpus_results)
+        avg_f1                  = sum(r["f1"]                  for r in corpus_results) / len(corpus_results)
+        avg_delta               = sum(r["quantity_delta"]      for r in corpus_results) / len(corpus_results)
+        avg_recall_accuracy     = sum(r["recall_accuracy"]     for r in corpus_results) / len(corpus_results)
+        avg_precision_accuracy  = sum(r["precision_accuracy"]  for r in corpus_results) / len(corpus_results)
+        avg_overall_accuracy    = sum(r["overall_accuracy"]    for r in corpus_results) / len(corpus_results)
+
+        print(f"\n{'='*60}")
+        print("CORPUS EVALUATION COMPLETE")
+        print(f"{'='*60}")
+        print(f"Meetings evaluated:       {len(corpus_results)}")
+        print(f"Meetings failed:          {len(failed_meetings)}")
+        print(f"{'─'*40}")
+        print(f"Avg Recall:               {avg_recall:.3f}")
+        print(f"Avg Precision:            {avg_precision:.3f}")
+        print(f"Avg F1:                   {avg_f1:.3f}")
+        print(f"{'─'*40}")
+        print(f"Avg Recall Accuracy:      {avg_recall_accuracy:.3f}")
+        print(f"Avg Precision Accuracy:   {avg_precision_accuracy:.3f}")
+        print(f"Avg Overall Accuracy:     {avg_overall_accuracy:.3f}")
+        print(f"{'─'*40}")
+        print(f"Avg Quantity Delta:       {avg_delta:+.2f}")
+        print(f"\nFull report saved to eval_results/corpus_report.json")
 
         corpus_report = {
-            "total_meetings":      len(corpus_results),
-            "failed_meetings":     failed_meetings,
-            "avg_recall":          round(avg_recall, 3),
-            "avg_precision":       round(avg_precision, 3),
-            "avg_f1":              round(avg_f1, 3),
-            "avg_quantity_delta":  round(avg_delta, 2),
-            "per_meeting_results": corpus_results
+            "total_meetings":          len(corpus_results),
+            "failed_meetings":         failed_meetings,
+            "avg_recall":              round(avg_recall,             3),
+            "avg_precision":           round(avg_precision,          3),
+            "avg_f1":                  round(avg_f1,                 3),
+            "avg_quantity_delta":      round(avg_delta,              2),
+            "avg_recall_accuracy":     round(avg_recall_accuracy,    3),
+            "avg_precision_accuracy":  round(avg_precision_accuracy, 3),
+            "avg_overall_accuracy":    round(avg_overall_accuracy,   3),
+            "per_meeting_results":     corpus_results
         }
 
         Path("eval_results").mkdir(exist_ok=True)
