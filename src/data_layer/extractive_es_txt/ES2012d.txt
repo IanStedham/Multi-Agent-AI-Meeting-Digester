@@ -1,0 +1,73 @@
+Meeting: ES2012d
+============================================================
+
+ProjectManager: Welcome to the what should be the last of these meetings. the th the the minutes of the last meeting I think we'll take those as read,. the th the the next thing we we we'll have a look at the th have a look at the prototypes. and look at the evaluation criteria and finance. and then just tidy up with production
+
+IndustrialDesigner: We basically have the same kinda lay-out here. you hold it like this. and it gets kinda moulded to the to the shape of your hand, basically. on the left we've got the scroll for the volume,. on the right we have buttons for the channels up and down and that kinda. so you can hold it and scroll,. or you can hold it and and push. this is the power key,. it's kinda like the biggest. that's the little menu key. This is the infra-red section. we got a microphone there which for all the voice commands. so you can you know talk to it like that. the logo is down down there. and has the cover on it. the red bit's the cover. and it kinda goes over everything. and then there's holes for the buttons to come through..
+
+UserInterface: And so we figured it would be kind of you know a light weight plastic,. just kind of a light non-descript grey. and then the covers will be that sort of rubbery material like they make iPod covers,. so they kinda just stretch over. spongy like is something that people wanted. and it just sort of stretches over
+
+IndustrialDesigner: But it's also e easier to put on versus like mobile covers
+
+UserInterface: And then the buttons come through. each one of 'em on the very end will have the logo with the yellow circle and the RR.
+
+ProjectManager: For some strange re reason I had it in my mind that they'd put them down vertically
+
+IndustrialDesigner: We could broaden the broaden it out a bit
+
+ProjectManager: But as you say you can just make the base a little bit bigger
+
+IndustrialDesigner: If we just lengthen it I guess. so it comes down to the base of the hand. The final product would actually stand up, yeah.
+
+ProjectManager: I think the the basic concept i i is is absolutely bang on. let's have a look at the finance. if I get the spreadsheet up. this is the company's costing for for various aspects of design. and I I I've treated some of these slightly liberally given the constraints placed on us,. for instance if if they require us to have it in the corporate colours, then that is not a special colour,. we're just simply on batteries,. the the one th the one decision I've had to make is that. we're we will have to find a a regular standard chip to to do this with. and I I I'm I'm I'm certain that they they are around. that I don't think is a a serious problem. The the the voice sensor is is expensive. but we we made a a basic decision that that was absolutely fundamental to the to the design. so that that has to stay. then again the the the the shape of the case means that it's it's expensive to to make 'cause of the the th the double curves. it's simply made of plastic. so th that's that's no problem. we haven't actually got a scroll wheel. we we we got push buttons and and a simple slider. I do don't know that they're special colour. the the costings come in at exactly on target at twelve point five. but I thi I think we have a a very strong case to argue that what what we've got is is so in innovative and and different. that any any slight compromise we have to make on on cost is is offset by the you know the you know the the the the concept of it being a a fashion accessory and and having the the interchangeable covers. if the management expect us to be techno again fail again technologically innovative that they they have to accept that we we can't operate absolutely within the constraints that they give,. I I think we can argue that we we have come in on on budget.. Andrew do you want what do you want to say about the yeah the evaluation
+
+MarketingExpert: Method of evaluation testing the product was to just if it met all the criteria all the conditions that we set out to set out to solve, from the point of view of the the consumer and the management. what I've been asked to do is, on the whiteboard. gauge our team response to these questions. on a scale of one to seven, one being true and seven being being false. And then at the end just take an average. look at these questions. Is the device flashy and fashionable?
+
+ProjectManager: I think most definitely.
+
+IndustrialDesigner: I'd say definitely a one yeah.
+
+MarketingExpert: And also technologically innovative?
+
+IndustrialDesigner: Yeah, defi yeah, yeah
+
+ProjectManager: The voice technology indeed.
+
+MarketingExpert: Easy to use?
+
+ProjectManager: I don't see we could've made it any easier.
+
+MarketingExpert: Suitable for the consumer?
+
+UserInterface: I think it made we met all of the consumer
+
+MarketingExpert: Is it complicated? We've built in the the speech, where are you, function.
+
+ProjectManager: Does it take long to learn to use?
+
+IndustrialDesigner: No, not at all.
+
+MarketingExpert: The RSI compares to the current standards,
+
+IndustrialDesigner: It is sorta the the handle more ergonomically correct as well.
+
+MarketingExpert: Will device appeal to all age groups?
+
+ProjectManager: I think it will. because I mean old older people who can't manage the buttons anyway will actually probably like the like like the voice bit so
+
+MarketingExpert: We had the we had the data saying that old people will be less likely to pay extra money. but the funct the increased functionality, the ease of use of the device might make up for that.
+
+IndustrialDesigner: I I I think it will tend to appeal more to younger aged groups
+
+ProjectManager: I think we can reasonably say it's another another one,. in in in in my interpretation of management's instructions is that yes it it meets the requirement. it's it's simple to use,. it's it's it's within budget,. I I think we've done an amazing job
+
+MarketingExpert: One two three four five six seven eight nine ten eleven. Eleven divided by eleven's one so equals average of one.
+
+UserInterface: I think we worked well together. and looked really at what the consumers wanted and what we were trying to make. seemed to discuss things pretty well
+
+ProjectManager: Th this this slide here I mean the satisfaction with room for creativity,. I think we've allowed ourselves as much creativity as the the the the product allows. I won't comment on leadership,. teamwork I think we've I think everybody's worked pretty well together. we've just about coped with the whiteboard and digital pens,. and new ideas found,, again gi no given relatively everyday product, I think we've very very effectively come up with a a new. a new approach. are the costs within budget? Is the project evaluated? We're we're all happy that it it meets all the criteria,. Thank you very much indeed,
+
+IndustrialDesigner: Cool, thank you,
+
+ProjectManager: So I call the meeting closed.
+

@@ -1,0 +1,47 @@
+Meeting: ES2006a
+============================================================
+
+ProjectManager: So, this is first meeting of this design project. and I like to show you the agenda for the meeting,. this is the the plan for today's meeting. is firstly just to introduce the project briefly,. Then the main purpose is to so that we get to know each other a little bit more. then we want to practice using some of the tools that we'll be using during the the course of the design project and the meetings,. specifically the whiteboard over there. then we need to go through the specifics of our project plan. come up with some preliminary ideas about it. So we've got twenty five minutes to do that,. What we're aiming to do is to create a new remote control for a television. we want it to be something original, something trendy and also something user friendly,. so it has to be quite intuitive that people are able to use this product. The method that we're going to use to complete the project, that has three components as such. There's the functional design of the the remote control. the way we'll do that I think is to to work individually initially. and then come together for meetings to to work on that. similarly with the conceptual design,. and then the detailed design will come after that. We'll pull it all together.
+
+IndustrialDesigner: I'm a bit confused about what's the difference between the functional design and conceptual design? i is it just more detail, as I understand it?
+
+ProjectManager: I think it th we're talking the the functional design is more your area of things where you'll be. we want to look at what functions we need in the remote control. but the conceptual design is perhaps bigger than that. and includes the how people are going to use it and and that kind of thing.
+
+IndustrialDesigner: It's in the conceptual design phase that we identify the components of our product?
+
+ProjectManager: I think we'll we'll start that initially with the functional design already but then. what I'd like us to do now is simultaneously introduce ourselves and start using some of the tools that we're using for for the project,. each person in turn, I'd like us to go up to the whiteboard,. and draw your favourite animal. and then tell everyone what the your favourite characteristics of that animal are. and while you're doing that tell us your name, what your role is and perhaps how your animal relates to the role that you're taking in this project.
+
+MarketingExpert: So, my name's Cat. this is a rabbit. I am the Marketing Expert. I'm gonna be doing the apparently according to the little guy in the computer that knows everything the user requirements specification of the functional design, trend watching in the conceptual design and product evad-valuation in the detailed design
+
+UserInterface: So my name is Maarika. I'm the Interface Designer in this project. but I do like dogs. so in the different stages of the design, so at first I will be responsible for for yeah, designing the technical functions of the of the remote control. then in the in the conceptual design stage I need to come up with interface concept
+
+IndustrialDesigner: My name is Gaurav. my my role in the project is the industrial designer,. so I'm supposed to design all the details of of the product. what are the various functions that have to be performed by it during the conceptual design,
+
+ProjectManager: It's a gecko. and I'm your Project Manager for today. and my role is basically to keep things going. and make sure that you all work together in a productive way, so that by the end of the day we come up with a great product. Okay, so this is the overall budget for our project. we're planning to sell the remote controls for twenty five Euros each. and with that we're aiming for a profit of fifty million Euros. And that's selling them on the international market, not just in the UK. so to do that our finance people estimate that we need production costs of maximum twelve and a half Euro so that we can reach that profit target. Does anyone have any first ideas to bounce around about what we're thinking of this remote control?
+
+UserInterface: I'm just wondering whether whether there is like any special feature that we want to have want this remote control have as opposed to the already existing ones.
+
+ProjectManager: But if we all have a think, when we go away from the meeting, what specific things could be included in this remote control that that are out of the ordinary.
+
+IndustrialDesigner: I think i in the beginning one thing was that was mentioned was that it should be trendy, user friendly and original. that we should provide some features that are quite unique to this.
+
+MarketingExpert: So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.
+
+ProjectManager: So perhaps some sort of menu-based thing, or
+
+MarketingExpert: Something that's a little less crowded than this,. like I mean you know, theoretically you can do all kinds of things with your TV, right? But what do most people do? They turn it on, they watch certain specified channels, you know, and then they turn it off again.
+
+IndustrialDesigner: There is a lot of functionality in there that is not used ninety percent of the time,
+
+ProjectManager: It could be one button for a menu or something, if you really need to go and do that.
+
+MarketingExpert: And you can do it on the screen rather than everybody else having to have those buttons, which just confuse them.
+
+IndustrialDesigner: I mean we can think about all these little things,. but we can aim for something wi that gives a high battery life,. although I don't think that it's a huge problem for remote controls anyway, battery life,
+
+UserInterface: Yeah but I mean even though it has to be re original we shouldn't go like too far away from from the usual ones,. because otherwise the new users will just have a lot of problems
+
+IndustrialDesigner: A big learning curve, yeah.
+
+ProjectManager: So we need to wrap it up now,. we've got another meeting in thirty minutes,. you'll be getting specific instructions once you go back to your workspace,. but im basically you're looking at the working design,. you're looking at the technical functions design,. and for you it's the user requirements specification,. I'll see you in half an hour.
+

@@ -1,0 +1,29 @@
+Meeting: ES2005a
+============================================================
+
+ProjectManager: Making a profit of fifty million Euros.
+
+IndustrialDesigner: So twenty five.
+
+ProjectManager: So, it's go gonna have to be be pretty damn trendy. I think the the only ones that I've seen that you buy are the sort of one for all type things
+
+UserInterface: Yeah the universal ones. Yeah.
+
+ProjectManager: So presumably that might be an idea to put into.
+
+IndustrialDesigner: But but to sell it for twenty five you need a lot of neat features. For sure.
+
+UserInterface: My first thoughts would be most remote controls are grey or black. so maybe we could think about colour? and as you say, we need to have some kind of gimmick,. so I thought maybe something like if you lose it and you can whistle,
+
+MarketingExpert: Being as a Marketing Exper Expert I will like to say like before deciding the cost of this remote control or any other things we must see the market potential for this product. like what is the competition in the market? What speciality other remote controls are having. They really want to have something good, having a good design in their hands,
+
+IndustrialDesigner: What do we think a good size would be for this?
+
+UserInterface: Kind of, maybe more like a PDA kind of, just hand held,
+
+ProjectManager: So you do the looking around at other remote controls. and you could look into basically how how it's made IE like how you make it all in one, how what sort of materials are available to you whatever.
+
+UserInterface: So you want me to look at shapes and everything you said?
+
+ProjectManager: Shapes and colours and basically how to make it attractive.
+

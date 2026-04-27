@@ -1,0 +1,251 @@
+Meeting: ES2014d
+============================================================
+
+UserInterface: Well we've made our prototype anyway.
+
+MarketingExpert: You pass it round to have a look.
+
+UserInterface: Y no, it's a slightly curved around the sides. it's almost curved like up to the main display as well. And the little line at the bottom indicates the bit the panel that you pull down. And the extra function buttons are below that panel on the little line.
+
+IndustrialDesigner: We also have a apple slash cherry design at the top.
+
+MarketingExpert: Cherry would be alright actually.
+
+UserInterface: Yeah, and cherries are fun, summery.
+
+IndustrialDesigner: For the first time, well it was hard to get the the actual labelling on the individual buttons.
+
+UserInterface: We just chose simple shapes for all them. the important ones are the volume ones. So we made them a bit bigger.
+
+IndustrialDesigner: Hum, you separate off in colour the volume related buttons from the channel related buttons,. so you've got the volume in orange on design there,. and the the channel is in blue.
+
+ProjectManager: And so when I done my thing on cost a I had assumed that the only button that would be a different colour would be the the red apple button. so but there would be a cost implication on that,
+
+UserInterface: Well the colours wouldn't like that's they wouldn't be too important,. but we didn't have any white Play-Doh.
+
+IndustrialDesigner: Yes, we'll have the slide-away.
+
+ProjectManager: And the bit after the evaluation criteria is is the finance. And the and the cost implication. So, and then the production evaluation, as to how easy that would be to to manufacture. Right, so as far as the the finance of it would be concern would be to make sure that the cost aye the production cost 'cause you may remember that was one of the first considerations was to be in under twelve fifty or two and a half twelve and a half Euros.
+
+MarketingExpert: We could do it as we go along, the production costs, looking at the prototype.
+
+ProjectManager: Okay, so, by the fact that we've got the simple chip and the kinetic energy source, we've got a single curved case. We've got a rubber case materials supplements. Okay. the button supplements. Well, originally, I thought there would just be one in there because it was the one red apple. Well, so we've got one special button form, which was the apple. We've got special material, rubber, wood, titanium, et cetera and that,. so, I was originally, I was thinking rubber wasn't special,. So you would only have the one special button that was rubber,. whereas the rest would be hard plastic.
+
+MarketingExpert: I thi I think I think the button supplement i is just a supplement for all the buttons made in a different material, rather than per button.
+
+IndustrialDesigner: So that's nine point one there
+
+ProjectManager: So, that would that would work out fine if as assuming your correction are are assuming that that one change covers all the buttons, then that would be fine.
+
+IndustrialDesigner: I switching around those th on the electronics we got the sample sensor. At the moment we've just got the simple chip, which costs one. I guess the sample sens sample speaker would be the voice recognition thing, which puts up to four? We should be slightly over our budget
+
+ProjectManager: Okay, that gives us twelve point seven
+
+IndustrialDesigner: So maybe if we got rid of like the maybe one of the special colours, kept them all the same colour, then we could have the voice recognition. Maybe we'd be giving up on the kinetic.
+
+ProjectManager: I I mean the thing is that you wanted to a appeal to people and not have to replace batteries.
+
+IndustrialDesigner: The the problem was the battery's running out and losing the losing the remote. So you gotta decide which of those is more important to them.
+
+ProjectManager: But which do you think or which do we think is the more important of the options?
+
+UserInterface: I think the voice recognition.
+
+ProjectManager: The other option if we're planning on just going for something cheap and cheerful, would be to make it originally, we're gonna make it a simple product.
+
+MarketingExpert: Shall we shall we evaluate the prototype as we've got it now first,. and then sort of make decisions about what needs to be changed after? So, we've all got a note of it's thirteen point seven, isn't it, with everything we want on.
+
+UserInterface: But I do think the voice recognition thing would be more impressive than the fact that it's got no battery.
+
+MarketingExpert: And we evaluate the prototype against some criteria that we've formulated. And do that on a scale from say true being one and false being seven,. So, I got a set of criteria just based on the marketing that we need to add in a financial one as well, at the end. so, We have to say whether it's true or false that the product looks and feels fancy. The whether the product demonstrates technical innovation. Whether it's easy to use. Whether it's incorporating sort of the fashion element to attract the buyer. And whether it's a sort of recognisable Real Reaction product. And I have to go up onto the whiteboard and do this apparently,. So the first one is, does the product look and feel fancy.
+
+IndustrialDesigner: Okay, well we have a single curve,. then we have the rubber kinda spongy feel, which was in at the time.
+
+UserInterface: Yeah, I'd maybe give it a a two.
+
+MarketingExpert: What Is one false, or is one true? So say about a two for fancy,. And I mean, how much does the product demonstrate technical innovation do you reckon?
+
+IndustrialDesigner: Deciding between the kinetic power or the speech recognition,. and if we had either of those for our budget, they both show a reasonable amount of speech recognition.
+
+MarketingExpert: We've got we've got the speech recognition on it, haven't we.
+
+ProjectManager: In thirteen point seven we do have kinetic. The problem is we have to reduce down from there to get it down to twelve point five. And one way of doing that would be to take out the kinetic. so it seems to me that if you're going for the sample sensors speaker, you're basically then having to go for the cheaper options on everything else. And and the simple way to do it would be to have a battery, to have your sample sensor speaker,
+
+UserInterface: How much of a difference would it make if we made the case in plastic? If the buttons are rubber that might be spongy enough.
+
+ProjectManager: If you have a in plastic rather than rubber, then that would enable you to get you could keep kinetic then, you could keep your sample sensor,
+
+IndustrialDesigner: So it says if we make a slightly more fancy, then we lose points innovation,. and if we make it more innovative innovative, then we lose points on it being fancy, so
+
+ProjectManager: I would go for a one on that at this point in time. incorporates elements of fashion to attract buyer.
+
+UserInterface: It's got the cherry and the sponginess.
+
+MarketingExpert: Say about a three maybe?
+
+ProjectManager: I woulda said two would seem reasonable. The product is a recognisable real reaction product?
+
+IndustrialDesigner: And it's got a fairly big label on the bottom saying where it comes from.
+
+MarketingExpert: So this is about sort of the corporate image of like new sort of sleek technology and all that sort of thing, as well as having the logo on and all that.
+
+UserInterface: But, I think the logo would definitely be recognisable.
+
+ProjectManager: So we're now on to changing it to get it to fit in with the budget requirements,
+
+UserInterface: What does what do all them numbers mean then? Do we add them up and rate or anything?
+
+MarketingExpert: I think we sort of add them up so sort of at an average is gonna be. I'm just gonna do this in my head. One point eight isn't it or something. So yeah, pretty close to a two. So it's I mean it's pretty good at the moment,. but it's gonna get worse, isn't it.
+
+IndustrialDesigner: Was it thirteen point seven was the definite price rule if has.
+
+ProjectManager: Well, you can lose one point two and still meet the requirements.
+
+IndustrialDesigner: So I guess this Is this the last stage once we sort out the finances part of it?
+
+MarketingExpert: I'm not sure.
+
+UserInterface: We'll probably have to re-rate it.
+
+ProjectManager: If you want to keep kinetic, right, you've got a choice there of going down to battery, which would save you one. You've got the sample sensor and and sample speaker, which is your big item.
+
+IndustrialDesigner: Oh actually we just have a plastic case, then we lose two points,. which gets us In right within the budget range. and then we could make sure we definitely had all the button supplements.
+
+MarketingExpert: Yeah, I was I was thinking that because maybe maybe the sort of rubber case is a bit less in sort of the corporate identity than the sort of you know sleeker plastic case.
+
+ProjectManager: So we're going for plastic, yes?
+
+MarketingExpert: Lose a little bit on the fashion, yeah, but
+
+IndustrialDesigner: Do we just have one special special forms down here?
+
+ProjectManager: You got special colour. Well originally I was assuming we had the red apple,
+
+UserInterface: Yeah, I think we should just imagine white buttons.
+
+IndustrialDesigner: We've got nought point eight left,
+
+ProjectManager: Well, we've got special form. Now that would be one button,. and the question was was that all buttons or is that just one button. 'Cause our plan really was to have one button only with a special
+
+IndustrialDesigner: I guess we'd have the ones which are blue at the moment would would just be the standard colour.
+
+ProjectManager: So, special colour, you want three in there.
+
+MarketingExpert: Well I thin I think you you you just need two for the special colour. One original colour and then sort of two supplements, I think maybe.
+
+ProjectManager: And we've got special form is the one apple. You were making these buttons down the bottom, I was presuming, bigger than the other ones,
+
+UserInterface: The volume ones should stand out a bit.
+
+IndustrialDesigner: Maybe that'll be a second supplement. Then there's a spe a second special form. So I think that should still be okay. Yeah, that's twelve point three,. So decide we've lost a little bit on the fashion. and lost a bit on the fancy kinda side of it,
+
+ProjectManager: Yeah. So you'd maybe put fash fan fashion at three rather than two.
+
+IndustrialDesigner: So that's like if that's the new age kind of inno innovative type company, then having the kinetic feature and the voice recognition is quite high up on
+
+MarketingExpert: So it's if we've if we've put in for another special form on a button, then maybe they could be a different shape. Maybe other ones could be something else shaped. And that would sort of maybe keep us close on the sort of the fashion type one.
+
+ProjectManager: Well you could argue you might do it once a year, you would change,. because at the moment you're making a red apple. So next year you could make next year's model the same, but have it as a a yeah whate whatever, a lemon.
+
+MarketingExpert: Yeah, I mean the volume buttons could be lemons or something, maybe.
+
+ProjectManager: We've the main thing we've changed really is the casing isn't it?
+
+IndustrialDesigner: So maybe in a sense not having that, maybe we've lost some maybe lost something on the innovation side?
+
+MarketingExpert: So maybe in terms of sort of fanciness and fashionability, we're pretty much the same, maybe. So, I mean we could maybe put two again on them. And what about the sort of innovation?
+
+IndustrialDesigner: Well we've still got the kinetic energy.
+
+ProjectManager: And the speech feature.
+
+MarketingExpert: Whether whether that's considered to be sort of part of the corporate identity, I don't know.
+
+IndustrialDesigner: But I think more the the features of the actual control will be more important than maybe than the the actual aesthetics, but
+
+UserInterface: Apart from maybe doing the whole thing in the kinda light shade of blue, like the casing. But then what colour would you make the R_s?
+
+ProjectManager: Well, but you've got the company logo on there,. which would effectively be a stick-on badge.
+
+MarketingExpert: Did you get told what the company colour is or
+
+IndustrialDesigner: I'm still not quite sure we've established that.
+
+ProjectManager: So long as our company's logo is framed in the same way as that with a like a black outline. So basically, even if you had a silver the same colour of silver on your display, because you've got effectively a double edging on the on the logo, it means that it splits off what your logo is from the from the product.
+
+MarketingExpert: We've got point two to play with if you really wanted to.
+
+ProjectManager: Well, in this one, you've actually got three colours of buttons. Well, we decided that the blue ones were the the standard colour. We're assuming that all the buttons on the second panel, the hidden away panel, would all be standard. Bu but but was the was there not a button that you were thinking of on the on the other opt you know, on the second page, as it were, that you were thinking of maybe having as a different colour?
+
+UserInterface: I think if they were just all small round blue buttons, it'd be fine.
+
+IndustrialDesigner: And then for the more functional buttons, we don't worry too much about that and just have that as like a. plus it's hidden away anyway,
+
+MarketingExpert: I mean it's the sort of thing that, I mean, you wanna pick up the controller and just hit a button quickly to change the channel or volume. But if you're opening the panel and you're looking and you're tuning, then you're paying a bit more attention. So it may be sort of different colour buttons isn't so important.
+
+UserInterface: Shouldn't we maybe lose a point on fashion,. go to a three?
+
+MarketingExpert: Well, but I think we said that Because you got rid of the rubber, we put an extra an extra sort of fruit shape on one of the buttons. well, we could have lemon shaped ones with the volume ones or something.
+
+UserInterface: And did we make it a cherry officially?
+
+IndustrialDesigner: As an overall product which has to be quite cheap, we've just about achieved everything.
+
+UserInterface: So do we have anything else to discuss?
+
+ProjectManager: So we've done the the finance bit and the Excel project and the We've done the redesign. So we're now on to project process. Now satisfaction with, for example, room for creativity, leadership, teamwork, means, et cetera, whiteboard, digital pens, et cetera. I suppose the easiest way of doing it is to put some notes down,. which I will do. Did you feel you got a chance to express yourselves well enough?
+
+MarketingExpert: I thought some of the divisions though between sort of the individual meetings were a bit arbitrary. Well, we were finding out various things in in be in-between the meetings,. and they didn't the one meeting didn't always follow on for the other one, you know,. sort of we had things thrown in at the second meeting where, you know, you'd looked at the remote controls and seen the curviness, but in the first one you'd also looked at some remote controls and looked at the buttons,. and I don't understand why it would be in separate meetings that you'd do that.
+
+ProjectManager: The only thing you find is in a manufacturing process, you would normally, you go to a meeting, you decide, right, you do this, you do that, you do that. Then you go away. You find out information. You then come back. You then discuss it. Whereas, this time, you're really getting it from a database source,. what do you want to put down? Creativity, seemed okay. flow of information on on any given subject given subject sometimes disjointed.
+
+UserInterface: I think it maybe could have been a slightly more creative project. I mean a remote control isn't the most kind of fancy thing that you could imagine designing.
+
+MarketingExpert: But think like it was a bit restrictive just to say that you have to design a television remote control, in a way. I mean this one seems. From the website it looks it's quite innovative,
+
+IndustrialDesigner: It was quite good with this the white board, having that and the digital pens.
+
+MarketingExpert: We did find a new idea,. I mean sort of a kinetic remote control.
+
+IndustrialDesigner: Voice recognition, especially not could
+
+ProjectManager: You've got voice recognition computers,. that's not remote controls.
+
+IndustrialDesigner: Yeah, so it's just like the same products, but just put together in a different way.
+
+ProjectManager: So how do you reckon teamwork went?
+
+MarketingExpert: That went okay, yeah.
+
+IndustrialDesigner: I guess we all had separate ideas and then discussed them.
+
+ProjectManager: To go reasonably well.
+
+MarketingExpert: I don't think sort of the budget allowed us to do anything
+
+ProjectManager: Bit bit arbitrary.
+
+MarketingExpert: Well, I mean I don't think it I just don't think it fitted in with the rest of their products.
+
+ProjectManager: So, we're we're meant to comment on leadership and the means, G whiteboard, digital pens, et cetera.
+
+UserInterface: But we can't really all fairly comment on leadership. So our experience of leadership wasn't really as much as yours.
+
+ProjectManager: I certainly didn't get this computer to work as well as I would have liked. Alright means, so whiteboard so really, it's equipment. Oh.
+
+MarketingExpert: Comput computers could be a bit difficult at times but
+
+UserInterface: But I mean, I I don't I'm not sure I see the value in these. I mean, they record what you're writing,. and then what do you do with it? Where do you get the recording?
+
+IndustrialDesigner: So it's not just for us,. it's for the experiment as a whole, so
+
+ProjectManager: New ideas found, so one or two.
+
+MarketingExpert: Kinetic powered remote control.,
+
+UserInterface: Voice recognition thing.
+
+ProjectManager: Are the costs within budget,. don't forget to complete final questionnaire and meeting summary.
+
+MarketingExpert: I think that we've got two questionnaires. and a report on the last meeting.
+

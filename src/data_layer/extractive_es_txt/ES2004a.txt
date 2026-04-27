@@ -1,0 +1,63 @@
+Meeting: ES2004a
+============================================================
+
+ProjectManager: The Project Manager. Okay, this is our agenda,. get to know each other a bit better to feel more comfortable with each other. then we'll go do tool training,. talk about the project plan,. discuss our own ideas and everything. Now, we're developing a remote control which you probably already know. we want it to be original,. appealing to a wide market,. grannies to kids, maybe even pooches should be able to use it. Okay,, first is the functional design,. this is where we all go off and do our individual work,. what needs need to be fulfilled by the product,. what effects the product has to have. and then the detailed design,. how we're actually gonna put it into practice and make it work. We're gonna practice with the pens. and draw our favourite animal on the white board,. and sum up the characteristics of that animal. I'm going to tell you that's supposed to be a tiger.
+
+UserInterface: Maybe you can guess what I'm trying to make?
+
+MarketingExpert: A kind of dog?
+
+IndustrialDesigner: Okay, now I'm gonna have to change what is was originally gonna be. Yeah, it can be a crocodile, it can be a crocodile.
+
+MarketingExpert: It's meant to be an eagle
+
+ProjectManager: Finance-wise, we've got a selling price at twenty five Euros,. which I don't actually know what that is in Pounds, at all. Okay, that's expensive.
+
+MarketingExpert: Should we be making notes of this?
+
+ProjectManager: I'll be able to pull it up,. or I could put it in the shared folder or something.
+
+IndustrialDesigner: Havi having said that though, if you wanna get one of those the the ones on the market at the moment they're they're about twenty pounds anyway.
+
+ProjectManager: Production cost's at twelve fifty, so. and profit aim is fifty million Euros,
+
+MarketingExpert: You've got market range international. and you did say earlier it's got to be a accessible and usable by sort of all age groups
+
+ProjectManager: What are your experiences with remote controls? I mean I've got we got we had three videos, a TV and a sort of amp thing all set up. so we got one of the universal remote controls, that you programme each of your things into,. but that kept losing the signals. but that was quite good, the fact that you could You didn't have six remote controls sitting in front of you.
+
+MarketingExpert: My experience has only been being given the remote control with the object I buy,. not doing any tampering with it and programming,
+
+ProjectManager: I hate I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do
+
+MarketingExpert: And symbols that you don't necessarily understand,
+
+UserInterface: So simplification of symbols you could think of.
+
+ProjectManager: And a section opens up or something to the other functions where you can do sound or options kind of recording, things like that inside it.
+
+MarketingExpert: But you know on a mobile phone, you can press a key and it gives you a menu, it's got a menu display,. I wonder if incorporating that into the design of a remote control might be useful,. so you've got a little LCD display.
+
+UserInterface: Instead of having too many buttons and make it complicated for the user, may maybe have an LCD di display or something like that,
+
+ProjectManager: What about the older generation?
+
+MarketingExpert: That's gonna be a problem anyway with the older generation perhaps,
+
+ProjectManager: I don't like the, you know the new phones that have kind of got a Windows-based running system. I find it really confusing,
+
+IndustrialDesigner: Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get,. you'd you'd have to sort of keep it down to a black and white LCD thing anyway, I'd assume.
+
+MarketingExpert: The other thing is, just ch chucking into mobile phone design features again, it could have a flip top remote control
+
+ProjectManager: I think that's a cost thing,
+
+MarketingExpert: And there's no reason we need to make it look as fashionable and stylish as a mobile phone,. it can still be lightweight plastic, you know? Something that's easily moulded and produced.
+
+ProjectManager: We've got half an hour before the next meeting,. so we're all gonna go off and do our individual things. and then we'll come back and liaise again. and I get to do another fantastic PowerPoint presentation.
+
+IndustrialDesigner: About what you're saying about the does does it need to be fashionable? I I had a quick look at the company website. and it's like the the we put the fashion into electronics,. I mean you don't you you can still have plastic
+
+MarketingExpert: We don't have to use metal,
+
+ProjectManager: I mean there's Sky remote controls and everything. They're kind of moulded. and the Telewest remote controls are silver plastic,. so yeah I guess that's stuff we can think about. Okay, so let's break it up there. So, see you in half an hour.
+
