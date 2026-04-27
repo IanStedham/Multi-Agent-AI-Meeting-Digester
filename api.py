@@ -39,7 +39,6 @@ async def run_workflow(
     employees_text = (await employees.read()).decode("utf-8")
 
     # Save to temp files so start_workflow can use them
-    # maybe not needed
     with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False, encoding="utf-8") as t:
         t.write(transcript_text)
         transcript_path = Path(t.name)
@@ -50,7 +49,10 @@ async def run_workflow(
 
     try:
         # Clear old memory and load new inputs
-        summary, tasks, assignments, emails = main.main()
+        summary, tasks, assignments, emails = main.main(
+            transcript_path=transcript_path, 
+            employee_path=employee_path
+        )
 
         return {
             "status": "complete",
