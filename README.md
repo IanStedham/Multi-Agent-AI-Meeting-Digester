@@ -7,6 +7,7 @@ A window will open on local host with dropboxes available for transcript and emp
 Next upload your transcript and employee information to the designated fields.
 Once you have uploaded the files, please click the "Run Workflow" button.
 ###
+###
 Expectations
 
 While the workflow is running, you will see the progress in the terminal as it will traversing through the five different agents.
@@ -22,4 +23,21 @@ The JSON format will contain the following:
 - The emails that were sent to the employees
 - The follow up emails that were sent to the employees
 The designated outlook draft box will be updated with the draft emails created by our system.
+###
+###
+Project Description:
+Front-end:
+- 
+Back-end:
+- 
+###
+###
+Code Contributions:
+Code was written by us with assistance from Claude and Cursor.
+Code fully AI generated:
+- compare_single_task, compare_single_system_task functions in src/scripts/evaluation.py were made by Claude to help with LLM Evaluation
+- force_kill_ruflo function in src/scripts/memory_management.py was made by Claude to help with Windows vs Linus configuration
+- start.py and api.py were made with the help of Cursor
+- Website.html was made by Claude
+- .claude folder was structured and formatted by Claude
 ###
