@@ -29,7 +29,16 @@ Project Description:
 Front-end:
 - 
 Back-end:
-- 
+- agents_layer contains all the context engineering files for our 5 agents 
+- data_lay contains all the data needed for testing the model
+  - employee_json contains the relevant sythetic emplyoee information for testing
+  - extractive_es_txt contains the ES subset of the extractive dataset from the AMI Meeting Corpus
+  - abstractive_action_items_json contains the ES subset of the abstractive dataset from the AMI Meeting Corpus, this was filtered to only contain items identified as "actions"
+- scripts 
+  - main.py is the main script used to call the workflow and structure the data for the MCP server
+  - memory_management.py is the script used to control all interactions done within the MCP server
+  - workflow.py is the script used to orchestrate our agents and call them with their respective context engineering and prompting
+  - evaluation.py is the script used to evaluate the system using LLM as a judge
 ###
 ###
 Code Contributions:
