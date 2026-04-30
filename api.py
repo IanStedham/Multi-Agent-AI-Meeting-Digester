@@ -55,10 +55,7 @@ async def run_workflow(
         )
 
         return {
-            "status": "complete",
-            "tasks": tasks,
-            "summary": summary,
-            "assignments": assignments,
+            "tasks": assignments,
             "emails": emails
         }
 

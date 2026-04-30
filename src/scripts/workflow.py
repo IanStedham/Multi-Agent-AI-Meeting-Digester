@@ -75,7 +75,6 @@ def extract_json(raw: str):
 
     json_str = match.group(1)
 
-    # Normalize line endings and remove control characters that break json.loads
     json_str = json_str.replace("\r\n", "\n").replace("\r", "\n")
     json_str = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", json_str)
 
@@ -291,13 +290,11 @@ def run_email_agent(client: anthropic.Anthropic):
     store_memory("email:drafts", parsed_draft_emails, NAMESPACE)
 
 def run_tool_agent(client: anthropic.Anthropic):
-    """Orchestrates the actual creation of drafts using Microsoft Graph tools."""
     print("### Tool Agent: Executing Outlook Drafts ###")
     instructions = load_agent("tool_agent.md")
     email_drafts_raw = retrieve_memory("email:drafts", NAMESPACE)
     email_drafts = json.loads(email_drafts_raw) if isinstance(email_drafts_raw, str) else email_drafts_raw
 
-    # Authentication step (automatically checks cache)
     token = get_graph_token()
     
     tools = [{
@@ -315,7 +312,6 @@ def run_tool_agent(client: anthropic.Anthropic):
         }
     }]
 
-    # Force Claude to skip conversation and go straight to tools
     messages = [{
         "role": "user", 
         "content": f"EXECUTE NOW. Create drafts for every email provided: {json.dumps(email_drafts)}"
@@ -331,7 +327,6 @@ def run_tool_agent(client: anthropic.Anthropic):
 
     results = []
 
-    # Loop until the agent has completed all actions (end_turn)
     while response.stop_reason != "end_turn":
         if response.stop_reason == "tool_use":
             tool_use_blocks = [b for b in response.content if b.type == "tool_use"]
@@ -375,10 +370,6 @@ def start_workflow(
     initialise_swarm()
     print("### Successfully initialized swarm ###")
 
-    # will need this when ready
-    # run_tools_agent()
- 
-    # will edit these 2 for testing to add the files to the mcp if needed on error
     print("### Validating transcript and employee information ###")
     if not validate_memory_key("meeting:transcript", NAMESPACE):
         raise ValueError("meeting:transcript not found in memory")
@@ -418,11 +409,11 @@ def start_workflow(
         raise ValueError("tool:results not found in memory")
     print("### Completed Tool agent ###\n\n")
 
-    summary     = retrieve_memory("transcript:summary", NAMESPACE)
-    tasks       = retrieve_memory("transcript:tasks",   NAMESPACE)
-    assignments = retrieve_memory("task:assignments",   NAMESPACE)
-    emails      = retrieve_memory("email:drafts",       NAMESPACE)
-    tool_results = retrieve_memory("tool:results",      NAMESPACE)
+    summary = retrieve_memory("transcript:summary", NAMESPACE)
+    tasks = retrieve_memory("transcript:tasks", NAMESPACE)
+    assignments = retrieve_memory("task:assignments", NAMESPACE)
+    emails = retrieve_memory("email:drafts", NAMESPACE)
+    tool_results = retrieve_memory("tool:results", NAMESPACE)
     print("tool_results: ", tool_results)
     return summary, tasks, assignments, emails
 

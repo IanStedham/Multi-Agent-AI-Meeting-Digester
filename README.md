@@ -18,10 +18,11 @@ Our agents will perform the following tasks for you:
 - The email and tool agent will create follow-up emails and add them to the designated outlook draft box.
 The results will be displayed in the terminal in a JSON format.
 The JSON format will contain the following:
-- The summary of the transcript
-- The tasks that were assigned to the employees
-- The emails that were sent to the employees
-- The follow up emails that were sent to the employees
+  - The summary of the transcript
+  - The tasks that were assigned to the employees
+  - The emails that were sent to the employees
+  - The follow up emails that were sent to the employees
+
 The designated outlook draft box will be updated with the draft emails created by our system.
 ###
 ###
@@ -31,7 +32,7 @@ Front-end:
 - Website.html is the frontend of the software. It is a simple HTML file that allows for the user to upload their transcript and employee information.
 - api.py is the backend of the software. It is a FastAPI application that allows for the user to upload their transcript and employee information.
 - start.py is the script used to start the software and start the workflow.
-s
+
 Back-end:
 - agents_layer contains all the context engineering files for our 5 agents
 - data_lay contains all the data needed for testing the model
@@ -51,6 +52,7 @@ Code was written by us with assistance from Claude and Cursor.
 Code fully AI generated:
 - compare_single_task, compare_single_system_task functions in src/scripts/evaluation.py were made by Claude to help with LLM Evaluation
 - force_kill_ruflo function in src/scripts/memory_management.py was made by Claude to help with Windows vs Linus configuration
+- save_cache(), load_cache(), get_graph_token(), and create_outlook_draft() were created by Claude to interact with Outlook via the Microsoft Graph API
 - start.py and api.py were made with the help of Cursor
 - Website.html was made by Claude
 - .claude folder was structured and formatted by Claude

@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
   :root {
     --bg: #0e0e0f;
     --surface: #1a1a1c;
@@ -19,7 +19,7 @@
     --mono: 'DM Mono', monospace;
     --sans: 'Syne', sans-serif;
   }
-
+ 
   body {
     background: var(--bg);
     color: var(--text);
@@ -31,17 +31,17 @@
     justify-content: center;
     padding: 2rem;
   }
-
+ 
   .grain {
     position: fixed; inset: 0; pointer-events: none; z-index: 0;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
     opacity: 0.4;
   }
-
+ 
   .wrap { position: relative; z-index: 1; width: 100%; max-width: 560px; }
-
+ 
   header { margin-bottom: 3rem; }
-
+ 
   .tag {
     font-family: var(--mono);
     font-size: 11px;
@@ -62,7 +62,7 @@
     animation: pulse 2s ease-in-out infinite;
   }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
-
+ 
   h1 {
     font-size: clamp(2rem, 6vw, 3rem);
     font-weight: 800;
@@ -70,14 +70,14 @@
     letter-spacing: -.02em;
   }
   h1 span { color: var(--accent); }
-
+ 
   .sub {
     font-family: var(--mono);
     font-size: 13px;
     color: var(--muted);
     margin-top: .75rem;
   }
-
+ 
   .card {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -85,7 +85,7 @@
     padding: 2rem;
     margin-bottom: 1rem;
   }
-
+ 
   .card-label {
     font-family: var(--mono);
     font-size: 11px;
@@ -94,7 +94,7 @@
     color: var(--muted);
     margin-bottom: 1rem;
   }
-
+ 
   .drop-zone {
     border: 1.5px dashed var(--border);
     border-radius: 8px;
@@ -111,20 +111,12 @@
   .drop-zone input[type="file"] {
     position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
   }
-
-  .drop-icon {
-    font-size: 1.5rem;
-    margin-bottom: .5rem;
-    opacity: .4;
-  }
-
-  .drop-text {
-    font-family: var(--mono);
-    font-size: 12px;
-    color: var(--muted);
-  }
+ 
+  .drop-icon { font-size: 1.5rem; margin-bottom: .5rem; opacity: .4; }
+ 
+  .drop-text { font-family: var(--mono); font-size: 12px; color: var(--muted); }
   .drop-text strong { color: var(--text); font-weight: 500; }
-
+ 
   .file-name {
     font-family: var(--mono);
     font-size: 12px;
@@ -132,7 +124,7 @@
     margin-top: .75rem;
     min-height: 18px;
   }
-
+ 
   .btn {
     width: 100%;
     padding: 1rem;
@@ -151,7 +143,7 @@
   .btn:hover { background: var(--accent-dim); }
   .btn:active { transform: scale(.99); }
   .btn:disabled { opacity: .4; cursor: not-allowed; transform: none; }
-
+ 
   .status {
     font-family: var(--mono);
     font-size: 12px;
@@ -178,10 +170,10 @@
     border: 1px solid rgba(200,240,96,.2);
     color: var(--accent);
   }
-
+ 
   .results { display: none; margin-top: 1.5rem; }
   .results.show { display: block; }
-
+ 
   .result-block {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -197,6 +189,40 @@
     color: var(--muted);
     margin-bottom: .75rem;
   }
+ 
+  /* Task cards */
+  .task-list { display: flex; flex-direction: column; gap: .75rem; }
+  .task-card {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: .875rem 1rem;
+    background: rgba(255,255,255,.02);
+  }
+  .task-card .task-title {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: .4rem;
+    line-height: 1.4;
+  }
+  .task-meta { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .task-meta span { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+  .task-meta .assignee { color: var(--accent); }
+ 
+  /* Email cards */
+  .email-list { display: flex; flex-direction: column; gap: .75rem; }
+  .email-card {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: .875rem 1rem;
+    background: rgba(255,255,255,.02);
+  }
+  .email-to { font-family: var(--mono); font-size: 11px; color: var(--accent); margin-bottom: .3rem; }
+  .email-subject { font-family: var(--sans); font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: .5rem; }
+  .email-body { font-family: var(--mono); font-size: 12px; color: var(--muted); white-space: pre-wrap; word-break: break-word; line-height: 1.6; }
+ 
+  /* Plain text fallback */
   .result-block pre {
     font-family: var(--mono);
     font-size: 12px;
@@ -205,21 +231,9 @@
     word-break: break-word;
     line-height: 1.6;
   }
-
-  .step-list {
-    display: flex;
-    flex-direction: column;
-    gap: .4rem;
-    margin-bottom: 1.5rem;
-  }
-  .step {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--muted);
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-  }
+ 
+  .step-list { display: flex; flex-direction: column; gap: .4rem; margin-bottom: 1.5rem; }
+  .step { font-family: var(--mono); font-size: 11px; color: var(--muted); display: flex; align-items: center; gap: .5rem; }
   .step.active { color: var(--accent); }
   .step.done { color: var(--muted); text-decoration: line-through; }
   .step::before { content: '—'; }
@@ -235,7 +249,7 @@
     <h1>Upload<br><span>your data.</span></h1>
     <p class="sub">transcript + employee roster → tasks + emails</p>
   </header>
-
+ 
   <div class="card">
     <div class="card-label">01 — Meeting Transcript</div>
     <div class="drop-zone" id="drop-transcript">
@@ -245,7 +259,7 @@
     </div>
     <div class="file-name" id="transcript-name"></div>
   </div>
-
+ 
   <div class="card">
     <div class="card-label">02 — Employee Roster</div>
     <div class="drop-zone" id="drop-employees">
@@ -255,9 +269,9 @@
     </div>
     <div class="file-name" id="employees-name"></div>
   </div>
-
+ 
   <button class="btn" id="run-btn" disabled>Run Workflow</button>
-
+ 
   <div class="status" id="status">
     <div class="step-list" id="steps">
       <div class="step" id="step-1">Initializing swarm</div>
@@ -268,89 +282,182 @@
       <div class="step" id="step-6">Running email agent</div>
     </div>
   </div>
-
+ 
   <div class="results" id="results">
     <div class="result-block">
       <h3>Task Assignments</h3>
-      <pre id="result-tasks"></pre>
+      <div id="result-tasks"></div>
     </div>
     <div class="result-block">
       <h3>Draft Emails</h3>
-      <pre id="result-emails"></pre>
+      <div id="result-emails"></div>
     </div>
   </div>
 </div>
-
+ 
 <script>
   const transcriptInput = document.getElementById('transcript-file');
-  const employeesInput = document.getElementById('employees-file');
-  const transcriptName = document.getElementById('transcript-name');
-  const employeesName = document.getElementById('employees-name');
-  const runBtn = document.getElementById('run-btn');
-  const status = document.getElementById('status');
-  const results = document.getElementById('results');
-
+  const employeesInput  = document.getElementById('employees-file');
+  const transcriptName  = document.getElementById('transcript-name');
+  const employeesName   = document.getElementById('employees-name');
+  const runBtn          = document.getElementById('run-btn');
+  const status          = document.getElementById('status');
+  const results         = document.getElementById('results');
+ 
   function checkReady() {
     runBtn.disabled = !(transcriptInput.files[0] && employeesInput.files[0]);
   }
-
+ 
   transcriptInput.addEventListener('change', () => {
     transcriptName.textContent = transcriptInput.files[0]?.name || '';
     checkReady();
   });
-
+ 
   employeesInput.addEventListener('change', () => {
     employeesName.textContent = employeesInput.files[0]?.name || '';
     checkReady();
   });
-
+ 
   ['drop-transcript', 'drop-employees'].forEach(id => {
     const zone = document.getElementById(id);
     zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('dragover'); });
     zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
     zone.addEventListener('drop', e => { e.preventDefault(); zone.classList.remove('dragover'); });
   });
-
+ 
   function setStep(n) {
     document.querySelectorAll('.step').forEach((s, i) => {
       s.className = 'step' + (i < n - 1 ? ' done' : i === n - 1 ? ' active' : '');
     });
   }
-
+ 
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+ 
+  function renderTasks(tasks) {
+    const el = document.getElementById('result-tasks');
+ 
+    // If it's a JSON string, parse it into an object first
+    if (typeof tasks === 'string') {
+      try { tasks = JSON.parse(tasks); }
+      catch(e) {
+        el.innerHTML = `<pre>${escHtml(tasks)}</pre>`;
+        return;
+      }
+    }
+ 
+    // Normalise: could be { tasks: [...] } or directly [...]
+    const list = Array.isArray(tasks) ? tasks
+               : Array.isArray(tasks?.tasks) ? tasks.tasks
+               : null;
+ 
+    if (!list || list.length === 0) {
+      el.innerHTML = '<pre>No tasks found.</pre>';
+      return;
+    }
+ 
+    el.innerHTML = `<div class="task-list">${
+      list.map(t => {
+        const title    = t.task || t.title || t.description || 'Untitled task';
+        const assignee = t.assignee || t.assigned_to || t.owner || '—';
+        const deadline = t.deadline || t.due_date || t.due || '';
+        const priority = t.priority || '';
+        return `
+          <div class="task-card">
+            <div class="task-title">${escHtml(title)}</div>
+            <div class="task-meta">
+              <span class="assignee">↳ ${escHtml(assignee)}</span>
+              ${deadline ? `<span>📅 ${escHtml(deadline)}</span>` : ''}
+              ${priority ? `<span>⚑ ${escHtml(priority)}</span>` : ''}
+            </div>
+          </div>`;
+      }).join('')
+    }</div>`;
+  }
+ 
+  function renderEmails(emails) {
+    const el = document.getElementById('result-emails');
+ 
+    // If it's a JSON string, parse it into an object first
+    if (typeof emails === 'string') {
+      try { emails = JSON.parse(emails); }
+      catch(e) {
+        const chunks = emails.split(/\n{2,}---+\n{0,}|\n{3,}/).filter(c => c.trim());
+        el.innerHTML = chunks.length <= 1
+          ? `<pre>${escHtml(emails)}</pre>`
+          : `<div class="email-list">${
+              chunks.map(c => `<div class="email-card"><div class="email-body">${escHtml(c.trim())}</div></div>`).join('')
+            }</div>`;
+        return;
+      }
+    }
+ 
+    // Flatten all email arrays from the object if no top-level array found
+    let list = Array.isArray(emails) ? emails
+             : Array.isArray(emails?.emails) ? emails.emails
+             : typeof emails === 'object' && emails !== null
+               ? Object.values(emails).flat().filter(e => typeof e === 'object')
+               : null;
+ 
+    if (!list || list.length === 0) {
+      el.innerHTML = '<pre>No emails generated.</pre>';
+      return;
+    }
+ 
+    el.innerHTML = `<div class="email-list">${
+      list.map(e => {
+        const to      = e.to || e.recipient || '';
+        const subject = e.subject || '';
+        const body    = e.body || e.content || e.email || JSON.stringify(e);
+        return `
+          <div class="email-card">
+            ${to      ? `<div class="email-to">To: ${escHtml(to)}</div>` : ''}
+            ${subject ? `<div class="email-subject">${escHtml(subject)}</div>` : ''}
+            <div class="email-body">${escHtml(body)}</div>
+          </div>`;
+      }).join('')
+    }</div>`;
+  }
+ 
   runBtn.addEventListener('click', async () => {
     const formData = new FormData();
     formData.append('transcript', transcriptInput.files[0]);
-    formData.append('employees', employeesInput.files[0]);
-
+    formData.append('employees',  employeesInput.files[0]);
+ 
     runBtn.disabled = true;
     status.className = 'status running';
     results.className = 'results';
     setStep(1);
-
+ 
     try {
       const response = await fetch('http://localhost:8000/run', {
         method: 'POST',
         body: formData
       });
-
+ 
       if (!response.ok) throw new Error(await response.text());
-
+ 
       const data = await response.json();
       setStep(7);
-
-      document.getElementById('result-tasks').textContent =
-        typeof data.tasks === 'string' ? data.tasks : JSON.stringify(data.tasks, null, 2);
-      document.getElementById('result-emails').textContent = data.emails || '';
-
+ 
+      renderTasks(data.tasks);
+      renderEmails(data.emails);
+ 
       status.className = 'status success';
-      status.querySelector('.step-list').innerHTML = '<div style="color:var(--accent)">✓ Workflow complete</div>';
+      status.querySelector('.step-list').innerHTML =
+        '<div style="color:var(--accent)">✓ Workflow complete</div>';
       results.className = 'results show';
-
+ 
     } catch (err) {
       status.className = 'status error';
       status.innerHTML = `Error: ${err.message}`;
     }
-
+ 
     runBtn.disabled = false;
   });
 </script>
